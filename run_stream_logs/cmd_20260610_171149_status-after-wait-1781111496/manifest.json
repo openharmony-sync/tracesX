@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2424,
+  "base64_sha256": "81132134fd6e3001ce86308d65cdd445f652d2d530474d26030340efa5469abe",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "status-after-wait-1781111496",
+  "command_sha256": "468a9af2104997025b586fa86699b4c946e24462dee105564e2130b7d58ac6fd",
+  "compressed_sha256": "0076e587fe40494f704a938baedce2596f0d44f50e02c3c732f73c40dc5b141d",
+  "created_utc": "2026-06-10 17:11:59 UTC",
+  "duration_seconds": 9.79494833946228,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260610_171149_status-after-wait-1781111496"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260610_171149_status-after-wait-1781111496/part_00001.b64"
+  ],
+  "plain_log_bytes": 5760,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260610_171149_status-after-wait-1781111496",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1816
+}
