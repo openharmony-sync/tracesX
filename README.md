@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-10 16:36:22 UTC`
+- Updated: `2026-06-10 16:37:30 UTC`
 - Status: `OK`
-- Run id: `cmd_20260610_163612_probe-build-jobs-1781109368`
+- Run id: `put_20260610_163726_put-improved-harness-1781109429`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `probe-build-jobs-1781109368`
+- Target: `phone_host`
+- Command id: `put-improved-harness-1781109429`
 - Exit code: `0`
-- Duration seconds: `7.281`
-- Encoded log manifest: [run_stream_logs/cmd_20260610_163612_probe-build-jobs-1781109368/manifest.json](run_stream_logs/cmd_20260610_163612_probe-build-jobs-1781109368/manifest.json)
+- Duration seconds: `1.481`
+- Encoded log manifest: [run_stream_logs/put_20260610_163726_put-improved-harness-1781109429/manifest.json](run_stream_logs/put_20260610_163726_put-improved-harness-1781109429/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260610_163612_probe-build-jobs-1781109368/part_00001.b64](run_stream_logs/cmd_20260610_163612_probe-build-jobs-1781109368/part_00001.b64)
+- [run_stream_logs/put_20260610_163726_put-improved-harness-1781109429/part_00001.b64](run_stream_logs/put_20260610_163726_put-improved-harness-1781109429/part_00001.b64)
