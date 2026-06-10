@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-10 17:36:37 UTC`
+- Updated: `2026-06-10 17:37:55 UTC`
 - Status: `OK`
-- Run id: `cmd_20260610_173625_c21_build_retry2_1781112966`
+- Run id: `cmd_20260610_173741_c21_sync_build_1781113040`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `c21_build_retry2_1781112966`
+- Command id: `c21_sync_build_1781113040`
 - Exit code: `0`
-- Duration seconds: `9.211`
-- Encoded log manifest: [run_stream_logs/cmd_20260610_173625_c21_build_retry2_1781112966/manifest.json](run_stream_logs/cmd_20260610_173625_c21_build_retry2_1781112966/manifest.json)
+- Duration seconds: `10.785`
+- Encoded log manifest: [run_stream_logs/cmd_20260610_173741_c21_sync_build_1781113040/manifest.json](run_stream_logs/cmd_20260610_173741_c21_sync_build_1781113040/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260610_173625_c21_build_retry2_1781112966/part_00001.b64](run_stream_logs/cmd_20260610_173625_c21_build_retry2_1781112966/part_00001.b64)
+- [run_stream_logs/cmd_20260610_173741_c21_sync_build_1781113040/part_00001.b64](run_stream_logs/cmd_20260610_173741_c21_sync_build_1781113040/part_00001.b64)
