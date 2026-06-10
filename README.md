@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-10 16:31:40 UTC`
+- Updated: `2026-06-10 16:32:24 UTC`
 - Status: `OK`
-- Run id: `cmd_20260610_163130_sanity-build-1781109083`
+- Run id: `cmd_20260610_163213_sanity-phone-1781109118`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `sanity-build-1781109083`
+- Target: `phone_host`
+- Command id: `sanity-phone-1781109118`
 - Exit code: `0`
-- Duration seconds: `7.062`
-- Encoded log manifest: [run_stream_logs/cmd_20260610_163130_sanity-build-1781109083/manifest.json](run_stream_logs/cmd_20260610_163130_sanity-build-1781109083/manifest.json)
+- Duration seconds: `8.503`
+- Encoded log manifest: [run_stream_logs/cmd_20260610_163213_sanity-phone-1781109118/manifest.json](run_stream_logs/cmd_20260610_163213_sanity-phone-1781109118/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260610_163130_sanity-build-1781109083/part_00001.b64](run_stream_logs/cmd_20260610_163130_sanity-build-1781109083/part_00001.b64)
+- [run_stream_logs/cmd_20260610_163213_sanity-phone-1781109118/part_00001.b64](run_stream_logs/cmd_20260610_163213_sanity-phone-1781109118/part_00001.b64)
