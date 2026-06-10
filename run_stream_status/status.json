@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 10.475,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 128,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260610_204056_c03_build_1781124047/live.json",
-  "note": "command_id=c03_build_1781124047 command_sha256=b4fa8db8d2d512fe59b4e0ca26e6d631670f4398784093ec3aa152504189b6fb",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260610_204138_find_remote_patches_1781124078/live.json",
+  "note": "command_id=find_remote_patches_1781124078 command_sha256=690deb433e31d2f2500d6353f087881efa1a59aa5b2988caf9a22f79f2c9917e",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260610_204056_c03_build_1781124047",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-10 20:41:06 UTC"
+  "run_id": "cmd_20260610_204138_find_remote_patches_1781124078",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-10 20:41:38 UTC"
 }
