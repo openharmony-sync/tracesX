@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-10 20:43:44 UTC`
-- Status: `OK`
-- Run id: `cmd_20260610_204334_find_c17_runtime_patches_1781124183`
+- Updated: `2026-06-10 20:44:27 UTC`
+- Status: `FAILED`
+- Run id: `cmd_20260610_204417_c03_from_c17_build_1781124238`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `find_c17_runtime_patches_1781124183`
-- Exit code: `0`
-- Duration seconds: `7.088`
-- Encoded log manifest: [run_stream_logs/cmd_20260610_204334_find_c17_runtime_patches_1781124183/manifest.json](run_stream_logs/cmd_20260610_204334_find_c17_runtime_patches_1781124183/manifest.json)
+- Command id: `c03_from_c17_build_1781124238`
+- Exit code: `1`
+- Duration seconds: `7.245`
+- Encoded log manifest: [run_stream_logs/cmd_20260610_204417_c03_from_c17_build_1781124238/manifest.json](run_stream_logs/cmd_20260610_204417_c03_from_c17_build_1781124238/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260610_204334_find_c17_runtime_patches_1781124183/part_00001.b64](run_stream_logs/cmd_20260610_204334_find_c17_runtime_patches_1781124183/part_00001.b64)
+- [run_stream_logs/cmd_20260610_204417_c03_from_c17_build_1781124238/part_00001.b64](run_stream_logs/cmd_20260610_204417_c03_from_c17_build_1781124238/part_00001.b64)
