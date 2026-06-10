@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 184,
+  "latest_base64_sha256": "57b06634c0fab9fb339e7b922a8c9d74f89bcc582a3ee64ee4b55f081e4a4865",
+  "latest_chunk": "run_stream_live/cmd_20260610_163213_sanity-phone-1781109118/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 80,
+  "latest_plain_sha256": "7b7ed77f8814934b7d69c4a4b51f94414b9c952b3006efcf4b166f3735f765b2",
+  "latest_xz_bytes": 136,
+  "latest_xz_sha256": "7578166850a8837d2c9e546aa58441f1230b2e8ae28694bec03863a9e5efecf5",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260610_163213_sanity-phone-1781109118"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260610_163213_sanity-phone-1781109118",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 14,
+  "updated_utc": "2026-06-10 16:32:14 UTC"
+}
