@@ -1,0 +1,25 @@
+{
+  "build_host": "a84448598@7.212.231.184",
+  "control_example": {
+    "action": "kill",
+    "command_id": "unique-kill-001",
+    "target_run_id": "current"
+  },
+  "control_path": "run_stream_control.json",
+  "exec_control_example": {
+    "action": "exec",
+    "command_id": "unique-exec-001",
+    "command_xz_b64": "<base64(xz(command text))>",
+    "target": "build",
+    "timeout_seconds": 0
+  },
+  "host": "lhrphis01120",
+  "note": "API GET https://api.github.com/repos/openharmony-sync/traces/releases/tags/phonetest failed: HTTP 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-a-release-by-tag-name\",\"status\":\"404\"}",
+  "phase": null,
+  "phone_dir": "/home/ayoub/runphone_dir",
+  "phone_host": "a84448598@10.123.51.179",
+  "pid": 1026529,
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-10 16:28:40 UTC"
+}
