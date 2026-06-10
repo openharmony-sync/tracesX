@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2528,
+  "base64_sha256": "45709294680ee2fe33d93c520584d6dd89119883ed3ca49dc6bd3f80079e25ec",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "abc-census-c17-1781110460",
+  "command_sha256": "a8deeae938d88620ce79f40b3a36b336d5f9e21cee6d475c3381080a6ae1e109",
+  "compressed_sha256": "e84ca60a86c8374e100099d098a9d715c96762effb8154fb863d9706b0b53144",
+  "created_utc": "2026-06-10 16:54:39 UTC",
+  "duration_seconds": 6.2677940502762794,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260610_165433_abc-census-c17-1781110460"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260610_165433_abc-census-c17-1781110460/part_00001.b64"
+  ],
+  "plain_log_bytes": 8127,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260610_165433_abc-census-c17-1781110460",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1896
+}
