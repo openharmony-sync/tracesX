@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-10 19:14:50 UTC`
+- Updated: `2026-06-10 19:16:05 UTC`
 - Status: `OK`
-- Run id: `cmd_20260610_191440_codex_build_c20_done_1781118868018244303`
+- Run id: `cmd_20260610_191554_codex_seq_poll_1781118925097594701_phone`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `codex_build_c20_done_1781118868018244303`
+- Target: `phone_host`
+- Command id: `codex_seq_poll_1781118925097594701_phone`
 - Exit code: `0`
-- Duration seconds: `6.814`
-- Encoded log manifest: [run_stream_logs/cmd_20260610_191440_codex_build_c20_done_1781118868018244303/manifest.json](run_stream_logs/cmd_20260610_191440_codex_build_c20_done_1781118868018244303/manifest.json)
+- Duration seconds: `8.785`
+- Encoded log manifest: [run_stream_logs/cmd_20260610_191554_codex_seq_poll_1781118925097594701_phone/manifest.json](run_stream_logs/cmd_20260610_191554_codex_seq_poll_1781118925097594701_phone/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260610_191440_codex_build_c20_done_1781118868018244303/part_00001.b64](run_stream_logs/cmd_20260610_191440_codex_build_c20_done_1781118868018244303/part_00001.b64)
+- [run_stream_logs/cmd_20260610_191554_codex_seq_poll_1781118925097594701_phone/part_00001.b64](run_stream_logs/cmd_20260610_191554_codex_seq_poll_1781118925097594701_phone/part_00001.b64)
