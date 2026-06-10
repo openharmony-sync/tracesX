@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 352,
+  "latest_base64_sha256": "8afec04e0f8ccaf5d9560a71d5d5ce2e08cc10b69e57bc70a355b1c83d948193",
+  "latest_chunk": "run_stream_live/cmd_20260610_171544_fix-build-c21-1781111717/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 338,
+  "latest_plain_sha256": "7ffb9be25e08c8d22024ec59e733f0eeec476983fafeaeddec22ab2b07ad18bd",
+  "latest_xz_bytes": 264,
+  "latest_xz_sha256": "5e03f8ebd9d91c6aeb92fe20fd4e74442f96a44bb494c542fd4502ca8392d621",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260610_171544_fix-build-c21-1781111717"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260610_171544_fix-build-c21-1781111717",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 216,
+  "updated_utc": "2026-06-10 17:15:57 UTC"
+}
