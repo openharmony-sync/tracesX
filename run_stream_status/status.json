@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 11.498,
+  "elapsed_seconds": 0.0,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260610_163047_sanity-jump-1781109029/live.json",
-  "note": "command_id=sanity-jump-1781109029 command_sha256=a15d5a5363f022e15a698488d9dc4e82e0de49bd895735e84aa922af24ca5a84",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260610_163130_sanity-build-1781109083/live.json",
+  "note": "command_id=sanity-build-1781109083 command_sha256=8f1d5f46ed42eeec91d4540190635b421930cb9dfd68f19a2f026fc8fdc7169d",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260610_163047_sanity-jump-1781109029",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-10 16:30:58 UTC"
+  "run_id": "cmd_20260610_163130_sanity-build-1781109083",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-10 16:31:30 UTC"
 }
