@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1096,
+  "base64_sha256": "364c09619e36a2593066df07ab7a2a4af54b95c85f3819f13f4ad7d89855754e",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "find_c17_runtime_patches_1781124183",
+  "command_sha256": "d7385af374742af549bad9b2a7b42efe5a01e60aa4708f3ca443a2cce3d75339",
+  "compressed_sha256": "5b7a108b85a1ea61092d8baf8e21cdffa229559d1c4bb210d6c78333d87de370",
+  "created_utc": "2026-06-10 20:43:41 UTC",
+  "duration_seconds": 7.087732331827283,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260610_204334_find_c17_runtime_patches_1781124183"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260610_204334_find_c17_runtime_patches_1781124183/part_00001.b64"
+  ],
+  "plain_log_bytes": 2287,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260610_204334_find_c17_runtime_patches_1781124183",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 820
+}
