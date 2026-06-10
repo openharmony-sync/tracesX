@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3756,
+  "base64_sha256": "18ae4ae14fe38199f7e35f9ac0fdadb598df86ddb3e4d72960524fcf0e5834d3",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "probe-abc-tools-1781109873",
+  "command_sha256": "19483641b2984f3593c682554da3d99e03e7b1f823229b2f9be6d016d05b3c3f",
+  "compressed_sha256": "ff10545a6748d9d36a42d566568ea3e773ade44e16b703a751dbc0805c7744cc",
+  "created_utc": "2026-06-10 16:44:54 UTC",
+  "duration_seconds": 17.38580298796296,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260610_164436_probe-abc-tools-1781109873"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260610_164436_probe-abc-tools-1781109873/part_00001.b64"
+  ],
+  "plain_log_bytes": 7066,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260610_164436_probe-abc-tools-1781109873",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 2816
+}
