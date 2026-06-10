@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 556,
+  "base64_sha256": "67beebdf257be1c29b698b833d5e3c739f872950ebe9ed4cc392d0c17e964ed3",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "put-stage-script-1781109587",
+  "command_sha256": "dae08b2f1057c5d5057fe23893e01623cf9a98c275a8aa80d25d091c13a00ba3",
+  "compressed_sha256": "56f651c7b20f06d7cbbdf252168a7df898fa1f8583b8b072e34d6d8122f7d123",
+  "created_utc": "2026-06-10 16:40:04 UTC",
+  "duration_seconds": 1.5744673144072294,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/put_20260610_164003_put-stage-script-1781109587"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/put_20260610_164003_put-stage-script-1781109587/part_00001.b64"
+  ],
+  "plain_log_bytes": 602,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "put_20260610_164003_put-stage-script-1781109587",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 416
+}
