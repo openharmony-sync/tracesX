@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 192,
+  "latest_base64_sha256": "18da1abdb5ee1792273706d8f10eac7f3d96e94ccd88ed7ccd1acb6b9cc729ea",
+  "latest_chunk": "run_stream_live/cmd_20260610_163803_probe-phone-to-build-scp-1781109469/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 87,
+  "latest_plain_sha256": "0dd8af81af28707f8235b7b88468927ac800e6be9e2ed0403f42613e9da51077",
+  "latest_xz_bytes": 144,
+  "latest_xz_sha256": "5cf4cd31df7b000110c2b502d9a3195213fdff43d59462195ebf44e637adba60",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260610_163803_probe-phone-to-build-scp-1781109469"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260610_163803_probe-phone-to-build-scp-1781109469",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 21,
+  "updated_utc": "2026-06-10 16:38:04 UTC"
+}
