@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-10 17:32:20 UTC`
+- Updated: `2026-06-10 17:34:39 UTC`
 - Status: `OK`
-- Run id: `cmd_20260610_173208_c21-errorlog-1781112707`
+- Run id: `cmd_20260610_173428_c17_status_1781112862`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `c21-errorlog-1781112707`
+- Target: `phone_host`
+- Command id: `c17_status_1781112862`
 - Exit code: `0`
-- Duration seconds: `9.868`
-- Encoded log manifest: [run_stream_logs/cmd_20260610_173208_c21-errorlog-1781112707/manifest.json](run_stream_logs/cmd_20260610_173208_c21-errorlog-1781112707/manifest.json)
+- Duration seconds: `8.135`
+- Encoded log manifest: [run_stream_logs/cmd_20260610_173428_c17_status_1781112862/manifest.json](run_stream_logs/cmd_20260610_173428_c17_status_1781112862/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260610_173208_c21-errorlog-1781112707/part_00001.b64](run_stream_logs/cmd_20260610_173208_c21-errorlog-1781112707/part_00001.b64)
+- [run_stream_logs/cmd_20260610_173428_c17_status_1781112862/part_00001.b64](run_stream_logs/cmd_20260610_173428_c17_status_1781112862/part_00001.b64)
