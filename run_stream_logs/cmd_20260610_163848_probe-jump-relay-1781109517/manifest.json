@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 760,
+  "base64_sha256": "184140944777347e2e8e1fb6a206e1a5220efe82810eff877374428779338df8",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "probe-jump-relay-1781109517",
+  "command_sha256": "1e903563c563f801060c6098a620e1bf749f61773dacc1172995ed7c389226c4",
+  "compressed_sha256": "aed7b613c3517e36d6a8a77b1cdcc60e9c0e8c15dc6ce3550e23471f01f4b578",
+  "created_utc": "2026-06-10 16:38:56 UTC",
+  "duration_seconds": 7.927471611648798,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260610_163848_probe-jump-relay-1781109517"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260610_163848_probe-jump-relay-1781109517/part_00001.b64"
+  ],
+  "plain_log_bytes": 1470,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260610_163848_probe-jump-relay-1781109517",
+  "status": "OK",
+  "target": "jump",
+  "xz_bytes": 568
+}
