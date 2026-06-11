@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 05:08:46 UTC`
+- Updated: `2026-06-11 05:09:33 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_050814_stage_c31_1781154480`
+- Run id: `cmd_20260611_050919_launch_c31_screen_1781154547`
 - Kind: `control-command`
-- Target: `jump`
-- Command id: `stage_c31_1781154480`
+- Target: `phone_host`
+- Command id: `launch_c31_screen_1781154547`
 - Exit code: `0`
-- Duration seconds: `30.022`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_050814_stage_c31_1781154480/manifest.json](run_stream_logs/cmd_20260611_050814_stage_c31_1781154480/manifest.json)
+- Duration seconds: `11.639`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_050919_launch_c31_screen_1781154547/manifest.json](run_stream_logs/cmd_20260611_050919_launch_c31_screen_1781154547/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_050814_stage_c31_1781154480/part_00001.b64](run_stream_logs/cmd_20260611_050814_stage_c31_1781154480/part_00001.b64)
+- [run_stream_logs/cmd_20260611_050919_launch_c31_screen_1781154547/part_00001.b64](run_stream_logs/cmd_20260611_050919_launch_c31_screen_1781154547/part_00001.b64)
