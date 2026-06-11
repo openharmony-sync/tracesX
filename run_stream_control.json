@@ -1,15 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c20a_object_computed_fast_props_only",
-  "command_id": "c20a-fetch-artifacts-1781213450",
-  "output_name": "c20a_object_computed_fast_props_only_artifacts.tar.xz",
-  "paths": [
-    "artifacts",
-    "logs",
-    "SHA256SUMS",
-    "build_metadata.txt",
-    "runtime_applied.patch"
-  ],
-  "target": "build",
-  "timeout_seconds": 0
+  "action": "exec",
+  "command_id": "stage-c20a-1781213558",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AgcA7JdABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lQ3TZUl2ZceJj6Bl6hCNnWZVDzMqngWTaMUuYATM8BlSIEwe/fIkPd1Bmvuyhhe5vySah3ikaO5cx7FP/9mNFrihk1uxSe7yVeZO4mPFQnSQhbt6TJJiML44BRZT1q+GLpW90VzR9X8tj7UfXTW9M7r1LVNmBTtkf1VEHUg1MbcVJL/ScBPsVBOQRmv9+APcts7hWI/Lw74lDoBowpt8YZj+Gh7+90KD3Dw7RHwhkjhouvKyQ5uFG2JrNfqnyXSut59yzMWiyTXjW/QP6qOTlvZ/2e906kCpZ6dzTntxZZwagjPzaNQHvXAll/kK2WRYsmc5eip80y4XcDiuCTVFe5Dv3DP3gd0EZV7bJ/9QC1xBHcCcHJporCaBUwVfX9HcOohaIdf5JieceoevcLCtbjdUisuxn5w0ocZZTqv7jiW18twEiFhAKBa687NZ1MrlyaHMYRtLmHmecaAPZq/wnNTJEWCtoQIdPCYT5oO2ORE4J9iMCMo2+W7YxIw7s1AD7ru2rwaifguwspgCD4hlkTTC1L1XT9v5RGtcYHCUBu5I84aNVAz2r+xuC+tY/XzAigPzW32ORy/MSjzfNhE//83fELGGjhpLpgw1XIBYbQvB1I+B8jjTXSKDsfE6WaB+AKeg8M/qBtmb4BuQBbyZ8EWINDx6MVBGYtbBiF8HH0Xu12rJVp6SJZ+162BKXQd5j7js5bR3HNTBjmjUDcR8dsYERvpiYSHKE3RBXgaFI3irnwyf9StXd0igT2gDuukxwYyFqYr5zbXvdkKt8abI4zPuZTVqp/LqxHz4MjAUYfqsqqKmjO/DWg4EfF1UJiYEkxwNi+Mujbnx0PgwlMrwV5mbDGAz7VFAXQNoggzsmOIbhAyBvjcxhUlCQJKNaO+GxQh0w02V+t7O4hS1hQRUMTMSu1Os0zooVj8KuqRBP6bNIUbwu9yd1wj8iaDmvTbnrhDhCCz2MU3zSMiZpDXYtr0sl2nboe03qS/32JwfpiCwkBC1bNepKnLN/95gzN8B329ezGeh/Ayf3Uywis5jq/DRp1AtZ7k+wiPpn1NE6ece6q+7a7aWrQUzRxn9MlLGwbwa+FytbZGsTd248pAE+4doKaO8bwcfrNFPyn1V9j91VQtgRrnUyuEPsxHrW01WVOkFVB4Y8cxG4u8MDdn1QhwdrnTMsM8kOTycWiiqSVeS54Q2K6GyXvHKwxoAAABv4BZW37UzwAABzgedEAAAAO2bCbHEZ/sCAAAAAARZWg==",
+  "target": "jump",
+  "timeout_seconds": 300
 }
