@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 02:04:12 UTC`
+- Updated: `2026-06-11 02:04:53 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_020400_c29_rebuild_start_1781143416`
+- Run id: `cmd_20260611_020444_c27_final_poll_1781143472`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `c29_rebuild_start_1781143416`
+- Target: `phone_host`
+- Command id: `c27_final_poll_1781143472`
 - Exit code: `0`
-- Duration seconds: `9.333`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_020400_c29_rebuild_start_1781143416/manifest.json](run_stream_logs/cmd_20260611_020400_c29_rebuild_start_1781143416/manifest.json)
+- Duration seconds: `6.789`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_020444_c27_final_poll_1781143472/manifest.json](run_stream_logs/cmd_20260611_020444_c27_final_poll_1781143472/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_020400_c29_rebuild_start_1781143416/part_00001.b64](run_stream_logs/cmd_20260611_020400_c29_rebuild_start_1781143416/part_00001.b64)
+- [run_stream_logs/cmd_20260611_020444_c27_final_poll_1781143472/part_00001.b64](run_stream_logs/cmd_20260611_020444_c27_final_poll_1781143472/part_00001.b64)
