@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 10.425,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260611_013530_c22_status_1781141725/live.json",
-  "note": "command_id=c22_status_1781141725 command_sha256=90ee120f6be6679a9ecbfb4a58e2766df700f9c30fb2ad8149c19a5c5b9df12f",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260611_013612_c22_summary_1781141757/live.json",
+  "note": "command_id=c22_summary_1781141757 command_sha256=1c7e87a677ed8f00c04e5618af43544ee17e59b06c67d6854bebbf7e24fb0077",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260611_013530_c22_status_1781141725",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-11 01:35:41 UTC"
+  "run_id": "cmd_20260611_013612_c22_summary_1781141757",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-11 01:36:12 UTC"
 }
