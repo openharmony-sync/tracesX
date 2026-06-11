@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 476,
+  "base64_sha256": "33919f1831ef2513d598b682e96717f44c0d5cc87b8fa84b04819bcc1134819e",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "check_phone_net_1781199202",
+  "command_sha256": "f2b8c9fe0ba0fefe3c13442e092f8c53fd7e10d41e66529e233225794f1e481d",
+  "compressed_sha256": "3bc5d5bf694d0e96ca421e1be89660b79ffa38aef10b1e83e8123ed23f9d1a07",
+  "created_utc": "2026-06-11 17:34:01 UTC",
+  "duration_seconds": 18.4274480920285,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_173342_check_phone_net_1781199202"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_173342_check_phone_net_1781199202/part_00001.b64"
+  ],
+  "plain_log_bytes": 530,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_173342_check_phone_net_1781199202",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 356
+}
