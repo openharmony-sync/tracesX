@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 248,
+  "latest_base64_sha256": "9506d52f4c5ab2274ae95d5fffa56c1124340c0c81c4d4bc194818d8d0cbe7b5",
+  "latest_chunk": "run_stream_live/cmd_20260611_014112_kill_stale_c25_1781142067/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 134,
+  "latest_plain_sha256": "571411a98e74d7ad8fd7b6df5c8fc01dc8f3365b62efc6ff9f6cfec1d13400d4",
+  "latest_xz_bytes": 184,
+  "latest_xz_sha256": "3045b12a61461eb294bae8b4d643e7161602282cc8748f5a64eb58720d2ba5c3",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_014112_kill_stale_c25_1781142067"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260611_014112_kill_stale_c25_1781142067",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 68,
+  "updated_utc": "2026-06-11 01:41:14 UTC"
+}
