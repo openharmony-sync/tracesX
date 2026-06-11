@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 184,
+  "latest_base64_sha256": "6f5da7a0e8997dd4decef8e820b55584718f8525992bfef820d61fa05a9ff3ae",
+  "latest_chunk": "run_stream_live/cmd_20260611_191425_cancel-c19-old-harness-1781205252/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 78,
+  "latest_plain_sha256": "03a2915a372a67ff54e4af5596e8347f6443d6029a09f1e70c32a981d59fce40",
+  "latest_xz_bytes": 136,
+  "latest_xz_sha256": "4e65ffdd0bba378e0b3b9da0b394c1cb77d1829d33e30416613bddd3fcf56474",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_191425_cancel-c19-old-harness-1781205252"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260611_191425_cancel-c19-old-harness-1781205252",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 12,
+  "updated_utc": "2026-06-11 19:14:27 UTC"
+}
