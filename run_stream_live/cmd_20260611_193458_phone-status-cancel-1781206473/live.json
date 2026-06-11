@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 204,
+  "latest_base64_sha256": "6ea7f32cf49cdbf8a56fb850907c70161c12a1fa8ddca6f106e859abf5492bba",
+  "latest_chunk": "run_stream_live/cmd_20260611_193458_phone-status-cancel-1781206473/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 93,
+  "latest_plain_sha256": "8578c9c2b502d5154d36a373c26ac940b328a15a88040015de0b8f538370ca6d",
+  "latest_xz_bytes": 152,
+  "latest_xz_sha256": "8aca57e0904317cd4b8994ae6042dd576b9dfecda4dae520dbc0c7a8911e6857",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_193458_phone-status-cancel-1781206473"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260611_193458_phone-status-cancel-1781206473",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 27,
+  "updated_utc": "2026-06-11 19:34:59 UTC"
+}
