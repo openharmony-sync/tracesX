@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1208,
+  "base64_sha256": "98e6490646549b43aa859575fab937befd11b0b25136ba4bdfcdde5b9f11d362",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "cancel-c19-old-harness-1781205252",
+  "command_sha256": "307f3c82620a2e4652f610f7b72ecbffc196fb651f41ccf09563a89f504de622",
+  "compressed_sha256": "f1715a2cbc15094612d1a125c3fa74c033ce8a896e76a9803b8ccf0b6916e88f",
+  "created_utc": "2026-06-11 19:14:34 UTC",
+  "duration_seconds": 8.992194794118404,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_191425_cancel-c19-old-harness-1781205252"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_191425_cancel-c19-old-harness-1781205252/part_00001.b64"
+  ],
+  "plain_log_bytes": 1818,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_191425_cancel-c19-old-harness-1781205252",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 904
+}
