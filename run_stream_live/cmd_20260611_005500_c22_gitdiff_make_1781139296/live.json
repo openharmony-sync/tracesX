@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 792,
+  "latest_base64_sha256": "82d4ed935badc2916297eb60afbfb7d47a83488bede12030dcf096a40d02b145",
+  "latest_chunk": "run_stream_live/cmd_20260611_005500_c22_gitdiff_make_1781139296/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 1544,
+  "latest_plain_sha256": "48f71a5bab4b8cd797bb66f5f73df6ee96830a2fa7358b5169248d71da15964d",
+  "latest_xz_bytes": 592,
+  "latest_xz_sha256": "c63f25e5503a171599008e97c4360509a83dd6220bbcdd125e90112122043aa6",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_005500_c22_gitdiff_make_1781139296"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260611_005500_c22_gitdiff_make_1781139296",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 1300,
+  "updated_utc": "2026-06-11 00:55:05 UTC"
+}
