@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 200,
+  "latest_base64_sha256": "26ae3377bc72acd42f06e17570880fd8c44c3e356b8b5c00ebdb4cf3cb9e6bdd",
+  "latest_chunk": "run_stream_live/cmd_20260611_172552_inspect_phone_tools_1781198727/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 92,
+  "latest_plain_sha256": "1e77a862f78b4bca28346eccb33a358021ea3355de9dcf27dd312c6d9e1aa468",
+  "latest_xz_bytes": 148,
+  "latest_xz_sha256": "1fa8f5835fab3e917e356d5317974a37e986b4172704ea79a46dea9b3d8d8fdc",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_172552_inspect_phone_tools_1781198727"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260611_172552_inspect_phone_tools_1781198727",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 26,
+  "updated_utc": "2026-06-11 17:25:53 UTC"
+}
