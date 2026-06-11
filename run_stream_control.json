@@ -1,15 +1,7 @@
 {
-  "action": "put",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_patches/custom",
-  "command_id": "put-c17-update-only-patch-1781204887",
-  "files": [
-    {
-      "bytes": 1038,
-      "content_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AQNAapdADIaSQnC/BF9UN4KT0fWe1YL1JmfsCcLvy/xxaXf7WKx2V1ZjhZ5xARQwfs1Z2BZmn9V89q419ENH8KxyED1jEsB7lXLCWSHF6Uy9hFoSPg6ibibGFYIYVzHXgUuxkd4XtaPZ7wLaoAvkTOcaotdCXPUK6Y6T5q+lOwMWlkFBBeYwJGlUXkFFDdBxwIVfHfABXywHnj5zaCWEFJKI1a5Jj0cC3C/Xv/cKlGOgIlDKjzhiH0aYhSXXSagEy0AcWdKEIbNpXFGfEoXcyAY4PuwDnPFVkNaLWZVsx66mzgytPMlwBuNRnkV9nqnHQCzLPmG7/29MoLIjC3wClv+HqmAQ0maFsjnsQ7yXkPEPVkwrqri0e58s53w9iJf+xWUJq1c2jBdqe2a3uQCMlwHRp7h2F3mMXRn14CYRBoKs4tPlKiS1poq0cOZMJVPGwJ3mVXYFEC4g7VMMup48wn8OTsKdp0w06V3TOxe47b4R4w+I0wKyP/5KINmn3+Udg+B1oRoOUocr+klx5+S7wl+nrs+0wh8L74Q+D/TXg8L7GSayHhmdUeK9YCrLEDYAAAAAEvvW7dDnQjqAAHGA44IAAAUw9FAscRn+wIAAAAABFla",
-      "path": "c17_update_unused_for_only.patch",
-      "sha256": "ff1e5358f5b29fbb9c1a8eab69165488ac1df7fdf8f324ba9a33864a3e35a9c8"
-    }
-  ],
+  "action": "exec",
+  "command_id": "c17-metadata-for-updateonly-1781204947",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AD/ALpdADmZSuojhr8q0VBn/x9yHMB1yGZ187MTRLtd9hj1SB0FyJay0K7BfmRqtC65Y0ojmxnyApqPPyvTOevB+LoZ96vArQuRCcQVf7YaDto4hEbfP0QMC3wYVreYkDuUkyDM9cBQF9aiIAsHCzg68Jf4cBDC5wWQe6V841RNsEyDFrprQ/3pHUCA1urfjUDMg4Xvzx6Ddw6UrjRdozw/7A9Tmqht5UQXeyyJt3/QC057/0zBtOo4SZQspAuNAAAAALN2mrwL4adVAAHWAYACAAAKYI/UscRn+wIAAAAABFla",
   "target": "build",
   "timeout_seconds": 120
 }
