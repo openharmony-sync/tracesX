@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 22:18:04 UTC`
+- Updated: `2026-06-11 22:19:16 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_221754_locate-c05-fetch-1781216250`
+- Run id: `cmd_20260611_221908_stage-c05-jump-1781216318`
 - Kind: `control-command`
 - Target: `jump`
-- Command id: `locate-c05-fetch-1781216250`
+- Command id: `stage-c05-jump-1781216318`
 - Exit code: `0`
-- Duration seconds: `6.506`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_221754_locate-c05-fetch-1781216250/manifest.json](run_stream_logs/cmd_20260611_221754_locate-c05-fetch-1781216250/manifest.json)
+- Duration seconds: `6.897`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_221908_stage-c05-jump-1781216318/manifest.json](run_stream_logs/cmd_20260611_221908_stage-c05-jump-1781216318/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_221754_locate-c05-fetch-1781216250/part_00001.b64](run_stream_logs/cmd_20260611_221754_locate-c05-fetch-1781216250/part_00001.b64)
+- [run_stream_logs/cmd_20260611_221908_stage-c05-jump-1781216318/part_00001.b64](run_stream_logs/cmd_20260611_221908_stage-c05-jump-1781216318/part_00001.b64)
