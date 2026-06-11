@@ -1,14 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c05_plus_c16_frontend",
-  "command_id": "c05-c16-fetch-artifacts-1781217934",
-  "output_name": "c05_plus_c16_frontend_artifacts.tar.xz",
-  "paths": [
-    "artifacts",
-    "logs",
-    "SHA256SUMS",
-    "build_metadata.txt"
-  ],
-  "target": "build",
-  "timeout_seconds": 0
+  "action": "exec",
+  "command_id": "locate-c05-c16-fetch-1781218028",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AD/AMtdADmZSuojhsA5IvQFjnwrKzHQpbZeABogRxT/x+O6nbjJ1YoO3CX5Trfs9XxP5RvypNWBBlY3sLrYq0mu2SKyRoYVfVnhVYrcWh4EQ84sH3rM3/mHrAQ053AV6Qi+5VgR+bRiZ5e7P1ecH6lK6m2c/vFOQPgE7LA1YqRem81L/uJToPxaKV43EZDTSTDAwtHzL8eRYVsxoLAI+zS6yHE9N/K6GNf64e5nNlCo1KGl84oysl0yEtYFuYvhBrDAvP2IIkVn70BVdGnFlM4TAABqJgLk494vhQAB5wGAAgAAArSpG7HEZ/sCAAAAAARZWg==",
+  "target": "jump",
+  "timeout_seconds": 180
 }
