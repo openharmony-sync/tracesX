@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 00:48:56 UTC`
+- Updated: `2026-06-11 00:50:09 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_004847_list_artifacts_tools_1781138921`
+- Run id: `cmd_20260611_005000_build_state_probe_1781138976`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `list_artifacts_tools_1781138921`
+- Target: `build`
+- Command id: `build_state_probe_1781138976`
 - Exit code: `0`
-- Duration seconds: `6.829`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_004847_list_artifacts_tools_1781138921/manifest.json](run_stream_logs/cmd_20260611_004847_list_artifacts_tools_1781138921/manifest.json)
+- Duration seconds: `7.182`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_005000_build_state_probe_1781138976/manifest.json](run_stream_logs/cmd_20260611_005000_build_state_probe_1781138976/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_004847_list_artifacts_tools_1781138921/part_00001.b64](run_stream_logs/cmd_20260611_004847_list_artifacts_tools_1781138921/part_00001.b64)
+- [run_stream_logs/cmd_20260611_005000_build_state_probe_1781138976/part_00001.b64](run_stream_logs/cmd_20260611_005000_build_state_probe_1781138976/part_00001.b64)
