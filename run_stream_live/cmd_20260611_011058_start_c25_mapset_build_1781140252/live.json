@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 680,
+  "latest_base64_sha256": "fa46743861222fda69523ad9ca9c2f735d2a09af10284c28d3002f336b23e72b",
+  "latest_chunk": "run_stream_live/cmd_20260611_011058_start_c25_mapset_build_1781140252/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 1064,
+  "latest_plain_sha256": "c8ed21048e6ab1feabfc51e93d8b670fdd5bf2271d0cd15fd10c7bed0f10a072",
+  "latest_xz_bytes": 508,
+  "latest_xz_sha256": "70135f5e19a177917b61a57bde9eb87ea06e67cf6a296b3b81a41aeedecb479a",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_011058_start_c25_mapset_build_1781140252"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260611_011058_start_c25_mapset_build_1781140252",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 759,
+  "updated_utc": "2026-06-11 01:11:06 UTC"
+}
