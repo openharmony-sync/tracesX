@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.973,
+  "elapsed_seconds": 12.453,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260611_191022_start-c35-update-only-build-1781205007/live.json",
-  "phase": "control-build",
+  "note": "command_id=start-c35-update-only-build-1781205007 command_sha256=84e65f8eb509a056e6d8b336e78e5479de8553ffa644455f1ca3bdedb571d6e0",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260611_191022_start-c35-update-only-build-1781205007",
-  "state": "running",
-  "updated_utc": "2026-06-11 19:10:24 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-11 19:10:35 UTC"
 }
