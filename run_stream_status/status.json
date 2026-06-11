@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 2.915,
+  "elapsed_seconds": 9.511,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260611_124755_probe_jump_ssh_1781182072/live.json",
-  "phase": "control-jump",
+  "note": "command_id=probe_jump_ssh_1781182072 command_sha256=611731dd3789cbb3e4b2be37b457c1dce034c0499cfc747c9827c4b8e2ba9282",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260611_124755_probe_jump_ssh_1781182072",
-  "state": "running",
-  "updated_utc": "2026-06-11 12:47:58 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-11 12:48:05 UTC"
 }
