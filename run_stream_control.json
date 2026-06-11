@@ -1,7 +1,15 @@
 {
-  "action": "exec",
-  "command_id": "inspect-build-wrapper-1781204813",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AGZAPRdADmZSuojhr8q22zNeqWtzdKDH9CA14kSf2vTARwi4u2N87AzT30QC7kXjsC1xBGf11kcOK9SGqLEO6axGPh96JBKy+tLCImaKhR46KUYrGkyMpyq8MWc/XC5gqYua58SPFHScXTyzKfozBDuXYWfle/2RDM5TzQMPipPnLYxwK6c169biWAVdeytNGtPT5zLDMIMG6Vgt1GeO5IoSgVKcPvbEzOdjV6pPqcxXxEl4TD95rCNoOmwVS4sjs7YfuaTbU5vTTwdXeCQN/j/5/q9rzsSH1y9/rhNfLdplr4ra6XbREzkmDMtJkNq/km07Jie9LyusSAAHRsIKRbJMCsAAZACmgMAAGcuSHSxxGf7AgAAAAAEWVo=",
+  "action": "put",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_patches/custom",
+  "command_id": "put-c17-update-only-patch-1781204887",
+  "files": [
+    {
+      "bytes": 1038,
+      "content_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AQNAapdADIaSQnC/BF9UN4KT0fWe1YL1JmfsCcLvy/xxaXf7WKx2V1ZjhZ5xARQwfs1Z2BZmn9V89q419ENH8KxyED1jEsB7lXLCWSHF6Uy9hFoSPg6ibibGFYIYVzHXgUuxkd4XtaPZ7wLaoAvkTOcaotdCXPUK6Y6T5q+lOwMWlkFBBeYwJGlUXkFFDdBxwIVfHfABXywHnj5zaCWEFJKI1a5Jj0cC3C/Xv/cKlGOgIlDKjzhiH0aYhSXXSagEy0AcWdKEIbNpXFGfEoXcyAY4PuwDnPFVkNaLWZVsx66mzgytPMlwBuNRnkV9nqnHQCzLPmG7/29MoLIjC3wClv+HqmAQ0maFsjnsQ7yXkPEPVkwrqri0e58s53w9iJf+xWUJq1c2jBdqe2a3uQCMlwHRp7h2F3mMXRn14CYRBoKs4tPlKiS1poq0cOZMJVPGwJ3mVXYFEC4g7VMMup48wn8OTsKdp0w06V3TOxe47b4R4w+I0wKyP/5KINmn3+Udg+B1oRoOUocr+klx5+S7wl+nrs+0wh8L74Q+D/TXg8L7GSayHhmdUeK9YCrLEDYAAAAAEvvW7dDnQjqAAHGA44IAAAUw9FAscRn+wIAAAAABFla",
+      "path": "c17_update_unused_for_only.patch",
+      "sha256": "ff1e5358f5b29fbb9c1a8eab69165488ac1df7fdf8f324ba9a33864a3e35a9c8"
+    }
+  ],
   "target": "build",
   "timeout_seconds": 120
 }
