@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 02:07:37 UTC`
+- Updated: `2026-06-11 02:08:19 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_020728_c27_final_check3_1781143624`
+- Run id: `cmd_20260611_020810_c29_status2_1781143673`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `c27_final_check3_1781143624`
+- Target: `build`
+- Command id: `c29_status2_1781143673`
 - Exit code: `0`
-- Duration seconds: `7.524`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_020728_c27_final_check3_1781143624/manifest.json](run_stream_logs/cmd_20260611_020728_c27_final_check3_1781143624/manifest.json)
+- Duration seconds: `6.548`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_020810_c29_status2_1781143673/manifest.json](run_stream_logs/cmd_20260611_020810_c29_status2_1781143673/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_020728_c27_final_check3_1781143624/part_00001.b64](run_stream_logs/cmd_20260611_020728_c27_final_check3_1781143624/part_00001.b64)
+- [run_stream_logs/cmd_20260611_020810_c29_status2_1781143673/part_00001.b64](run_stream_logs/cmd_20260611_020810_c29_status2_1781143673/part_00001.b64)
