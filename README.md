@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 00:59:30 UTC`
+- Updated: `2026-06-11 01:01:54 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_005915_c22_build_poll4_1781139537`
+- Run id: `cmd_20260611_010137_c22_status_after_compact_1781139672`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `c22_build_poll4_1781139537`
+- Command id: `c22_status_after_compact_1781139672`
 - Exit code: `0`
-- Duration seconds: `12.539`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_005915_c22_build_poll4_1781139537/manifest.json](run_stream_logs/cmd_20260611_005915_c22_build_poll4_1781139537/manifest.json)
+- Duration seconds: `14.749`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_010137_c22_status_after_compact_1781139672/manifest.json](run_stream_logs/cmd_20260611_010137_c22_status_after_compact_1781139672/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_005915_c22_build_poll4_1781139537/part_00001.b64](run_stream_logs/cmd_20260611_005915_c22_build_poll4_1781139537/part_00001.b64)
+- [run_stream_logs/cmd_20260611_010137_c22_status_after_compact_1781139672/part_00001.b64](run_stream_logs/cmd_20260611_010137_c22_status_after_compact_1781139672/part_00001.b64)
