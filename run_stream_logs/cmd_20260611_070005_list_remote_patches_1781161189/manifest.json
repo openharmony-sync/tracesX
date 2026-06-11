@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1628,
+  "base64_sha256": "496100494d614b0968e10dccabd15f9af6cec48a3c831cf6f75b343f2dae9cce",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "list_remote_patches_1781161189",
+  "command_sha256": "62567901c3a78ebe672f59e4688513463ecb53331bf21bd1213446cb50f354ff",
+  "compressed_sha256": "fb51767dd7eb7ae60fb1df5a4f19a1df7f36ce02c1777228fde4c06f8e7b3916",
+  "created_utc": "2026-06-11 07:00:12 UTC",
+  "duration_seconds": 7.062752285972238,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_070005_list_remote_patches_1781161189"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_070005_list_remote_patches_1781161189/part_00001.b64"
+  ],
+  "plain_log_bytes": 8022,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_070005_list_remote_patches_1781161189",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1220
+}
