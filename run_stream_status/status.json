@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 34.93,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260611_061351_stage_c32_qsafe_1781158402/live.json",
-  "note": "command_id=stage_c32_qsafe_1781158402 command_sha256=9a3552cbc7ff69b76c993f110e4d43653ed5253e21b462bcb648221bc076142b",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260611_061458_inspect_phone_harness_1781158485/live.json",
+  "note": "command_id=inspect_phone_harness_1781158485 command_sha256=e566839a2b3b22ca79fa513ba95def6fc6c317549c33a48d9c86856c374da567",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260611_061351_stage_c32_qsafe_1781158402",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-11 06:14:26 UTC"
+  "run_id": "cmd_20260611_061458_inspect_phone_harness_1781158485",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-11 06:14:58 UTC"
 }
