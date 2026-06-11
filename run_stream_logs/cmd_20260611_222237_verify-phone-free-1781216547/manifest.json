@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 912,
+  "base64_sha256": "776ca93f068667cb5e5f5f6b69e3c253ed0dbf8f2cf8413c46552932ad566638",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "verify-phone-free-1781216547",
+  "command_sha256": "3a2826b18be69e94855e3183ef581e0efca570ee6cbdd9c1d5e2e191db06a64e",
+  "compressed_sha256": "cbbfcc3a03e3d947fca47d45bdb3a35cab0d78b0ea74ed043efa259132f589cd",
+  "created_utc": "2026-06-11 22:22:43 UTC",
+  "duration_seconds": 5.864544877782464,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_222237_verify-phone-free-1781216547"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_222237_verify-phone-free-1781216547/part_00001.b64"
+  ],
+  "plain_log_bytes": 3903,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_222237_verify-phone-free-1781216547",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 684
+}
