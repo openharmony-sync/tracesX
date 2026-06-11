@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 04:22:45 UTC`
+- Updated: `2026-06-11 04:41:24 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_042231_launch_c20a_iso_1781151738`
+- Run id: `cmd_20260611_042317_wait_c20a_iso_1781151792`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `launch_c20a_iso_1781151738`
+- Command id: `wait_c20a_iso_1781151792`
 - Exit code: `0`
-- Duration seconds: `11.759`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_042231_launch_c20a_iso_1781151738/manifest.json](run_stream_logs/cmd_20260611_042231_launch_c20a_iso_1781151738/manifest.json)
+- Duration seconds: `1084.398`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_042317_wait_c20a_iso_1781151792/manifest.json](run_stream_logs/cmd_20260611_042317_wait_c20a_iso_1781151792/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_042231_launch_c20a_iso_1781151738/part_00001.b64](run_stream_logs/cmd_20260611_042231_launch_c20a_iso_1781151738/part_00001.b64)
+- [run_stream_logs/cmd_20260611_042317_wait_c20a_iso_1781151792/part_00001.b64](run_stream_logs/cmd_20260611_042317_wait_c20a_iso_1781151792/part_00001.b64)
