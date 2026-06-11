@@ -1,7 +1,6 @@
 {
-  "action": "exec",
-  "command_id": "run_c18_screen_1781170222",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AQoAhddADmZSuojhsA5IvQFjnwrKzHQpbZdeNBmP5EjolneoDP5/MvN7ivp3NPxxzg7qR+Bir/nzod13fxBI6byeyPPz583Gc43XJtX/pZM1aiw8rZhQQUliXILRStzTr7nZ/fQEJhvMJN6xHJHCwMuJlKY4zTyw246d4EPAwldk7rBNB1zDpoaHInFt9BAvn5h6zm/nBqbOY533wsJHvzuvNJE9GwLYnascQ4zUaorWSmGGeOlAfc5pWuie2TteQbUw0daGgGoQcBFcIMHKXzmganr5ouitcPNuSuHe87WpMpN39h3LlcA7sOdfLDtH4p21ESNLp5uU/WKjOY2k+3Z9N6SAXgir2Ar6v0vcV5/4hC2AzsVrP5V5k79HoWYOVMjRKio4pmNNuwUd9fGCzE6q5hwBzO2A/RjPB+pQORXXxy7LtG+ddV1kODOVVmX6KvVAqAoz98YWihbbyhO6gFelcwSiac6TpyM74GZfCc+dVsP3FPYNmdzC9JWyM9Se6qj73Q+5OrOrWymsZHTymFdtJqH3RFrYnXR0pmUVdnjsQNITljlCqoEICJetQms5fhjdeV+jfc7+OvVZSEzCWd+xZAjj7BWrQBLCg3mZJC+S6teVClwmwdwmJ/0m8VPh1YvKLv5Yt+g5KCWBRngKWe2qpyhO/aUOI0WtupaL91PTVojQqd2B3Vw4U9Li0MiAHwTjbNvGJdvNi+v+gAAAO1GCmhaXPyUAAGzBKkIAADxFPuUscRn+wIAAAAABFla",
-  "target": "phone_host",
-  "timeout_seconds": 7200
+  "action": "kill",
+  "command_id": "kill_c18_wsl_stall_1781172337",
+  "reason": "c18 screen final wsl entry stalled after patch sample 1/3; 36 completed rows already decisive",
+  "target_run_id": "cmd_20260611_093030_run_c18_screen_1781170222"
 }
