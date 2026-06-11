@@ -1,15 +1,15 @@
 # Run Stream
 
-- Updated: `2026-06-11 17:43:42 UTC`
+- Updated: `2026-06-11 17:44:36 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_174337_init_c17_member_phone_1781199792973`
+- Run id: `cmd_20260611_174415_pull_c17_member_000_1781199825520`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `init_c17_member_phone_1781199792973`
+- Target: `build`
+- Command id: `pull_c17_member_000_1781199825520`
 - Exit code: `0`
-- Duration seconds: `2.580`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_174337_init_c17_member_phone_1781199792973/manifest.json](run_stream_logs/cmd_20260611_174337_init_c17_member_phone_1781199792973/manifest.json)
-- Encoded log parts: `1`
+- Duration seconds: `12.818`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_174415_pull_c17_member_000_1781199825520/manifest.json](run_stream_logs/cmd_20260611_174415_pull_c17_member_000_1781199825520/manifest.json)
+- Encoded log parts: `2`
 
 ## Reconstruct Captured Output
 
@@ -19,4 +19,5 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_174337_init_c17_member_phone_1781199792973/part_00001.b64](run_stream_logs/cmd_20260611_174337_init_c17_member_phone_1781199792973/part_00001.b64)
+- [run_stream_logs/cmd_20260611_174415_pull_c17_member_000_1781199825520/part_00001.b64](run_stream_logs/cmd_20260611_174415_pull_c17_member_000_1781199825520/part_00001.b64)
+- [run_stream_logs/cmd_20260611_174415_pull_c17_member_000_1781199825520/part_00002.b64](run_stream_logs/cmd_20260611_174415_pull_c17_member_000_1781199825520/part_00002.b64)
