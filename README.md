@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 17:28:25 UTC`
+- Updated: `2026-06-11 17:29:39 UTC`
 - Status: `FAILED`
-- Run id: `cmd_20260611_172817_stage_run_c17_member_1781198870`
+- Run id: `cmd_20260611_172929_push_c17_member_to_phone_1781198943`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `stage_run_c17_member_1781198870`
-- Exit code: `2`
-- Duration seconds: `5.791`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_172817_stage_run_c17_member_1781198870/manifest.json](run_stream_logs/cmd_20260611_172817_stage_run_c17_member_1781198870/manifest.json)
+- Target: `build`
+- Command id: `push_c17_member_to_phone_1781198943`
+- Exit code: `255`
+- Duration seconds: `8.180`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_172929_push_c17_member_to_phone_1781198943/manifest.json](run_stream_logs/cmd_20260611_172929_push_c17_member_to_phone_1781198943/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_172817_stage_run_c17_member_1781198870/part_00001.b64](run_stream_logs/cmd_20260611_172817_stage_run_c17_member_1781198870/part_00001.b64)
+- [run_stream_logs/cmd_20260611_172929_push_c17_member_to_phone_1781198943/part_00001.b64](run_stream_logs/cmd_20260611_172929_push_c17_member_to_phone_1781198943/part_00001.b64)
