@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 19:39:45 UTC`
+- Updated: `2026-06-11 19:44:05 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_193938_install-paired-gen-1781206770`
+- Run id: `cmd_20260611_194049_smoke-paired-c17-member-1781206833`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `install-paired-gen-1781206770`
+- Command id: `smoke-paired-c17-member-1781206833`
 - Exit code: `0`
-- Duration seconds: `4.525`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_193938_install-paired-gen-1781206770/manifest.json](run_stream_logs/cmd_20260611_193938_install-paired-gen-1781206770/manifest.json)
+- Duration seconds: `194.525`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_194049_smoke-paired-c17-member-1781206833/manifest.json](run_stream_logs/cmd_20260611_194049_smoke-paired-c17-member-1781206833/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_193938_install-paired-gen-1781206770/part_00001.b64](run_stream_logs/cmd_20260611_193938_install-paired-gen-1781206770/part_00001.b64)
+- [run_stream_logs/cmd_20260611_194049_smoke-paired-c17-member-1781206833/part_00001.b64](run_stream_logs/cmd_20260611_194049_smoke-paired-c17-member-1781206833/part_00001.b64)
