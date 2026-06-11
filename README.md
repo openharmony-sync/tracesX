@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 00:03:24 UTC`
+- Updated: `2026-06-11 00:09:22 UTC`
 - Status: `OK`
-- Run id: `cmd_20260610_212847_c03_full_strict_1781126904`
+- Run id: `cmd_20260611_000912_list_fresheyes_results_1781136543`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `c03_full_strict_1781126904`
+- Command id: `list_fresheyes_results_1781136543`
 - Exit code: `0`
-- Duration seconds: `9273.642`
-- Encoded log manifest: [run_stream_logs/cmd_20260610_212847_c03_full_strict_1781126904/manifest.json](run_stream_logs/cmd_20260610_212847_c03_full_strict_1781126904/manifest.json)
+- Duration seconds: `7.284`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_000912_list_fresheyes_results_1781136543/manifest.json](run_stream_logs/cmd_20260611_000912_list_fresheyes_results_1781136543/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260610_212847_c03_full_strict_1781126904/part_00001.b64](run_stream_logs/cmd_20260610_212847_c03_full_strict_1781126904/part_00001.b64)
+- [run_stream_logs/cmd_20260611_000912_list_fresheyes_results_1781136543/part_00001.b64](run_stream_logs/cmd_20260611_000912_list_fresheyes_results_1781136543/part_00001.b64)
