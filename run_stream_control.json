@@ -1,7 +1,15 @@
 {
-  "action": "exec",
-  "command_id": "poll-builds-concise-1781212373",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AIUAYVdADmZSuojhsA5IvQFjnwrKzHQpbZh+/22GO2V0IrXlZN2JyHitD7S/nYgn9Bz57GgVy+aVRxe/0hVTY/SQlrsqopwNDRkGYQWD2Ht0ckTAZYaCk9WRw2R+HW4Icz3SycC4gjwP0zmVfZee3h8Da/WpfQkMNIbD5m9efGAm9kBlfCBU8qBONYRoP/zbrivBAJbfnMQd5LlQAe851R2Mb7XdTbJTLI3rYtSciYxItdIEJViw+UfLt7oXccmvlT+KNjvhpPE7EioG++3wtHyzXL8gkziJ5xutHQ0xz3mPvn7gR78Y1bgY6I7IZC+6KZtSkrx0+jAzzPJFGaelRgL+78tC6h6Sz8WcQqeeDw1or3h8zyFC8gzG8epFXJvc/TIpBLgZvYO7wVLHQr85yrk2mACMz3g6CO7AUPn1Gzw3q5z7YJw8l5IIhQ247dVhrAC3bueMmODc4MMefo8z1c4mUqKicwSK+sjh4wYedZenoOEuoMFgI8TUMuRERbELKklBn2mvEu1xX9+AAAAABJduZUZknj1AAGhA5UEAAAM1SLbscRn+wIAAAAABFla",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c16_frontend_abc_megapass_pair",
+  "command_id": "c16-fetch-artifacts-1781212423",
+  "output_name": "c16_frontend_abc_megapass_pair_artifacts.tar.xz",
+  "paths": [
+    "artifacts",
+    "logs",
+    "SHA256SUMS",
+    "build_metadata.txt",
+    "frontend_applied.patch"
+  ],
   "target": "build",
-  "timeout_seconds": 180
+  "timeout_seconds": 0
 }
