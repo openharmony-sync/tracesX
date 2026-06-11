@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260611_125258_poll_c34b_focus_01_1781182358/live.json",
+  "note": "command_id=poll_c34b_focus_01_1781182358 command_sha256=51923c7c74922073627832382b65909bf73a8f33a11a1ede1f4f82d6747086af",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-11 12:52:27 UTC"
+  "run_id": "cmd_20260611_125258_poll_c34b_focus_01_1781182358",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-11 12:52:58 UTC"
 }
