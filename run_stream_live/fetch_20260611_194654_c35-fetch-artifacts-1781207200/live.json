@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 616,
+  "latest_base64_sha256": "0e26498a35d55049f9b589fa84a9efa0e5810a02fefd6bd0cbf40eee02c4d02f",
+  "latest_chunk": "run_stream_live/fetch_20260611_194654_c35-fetch-artifacts-1781207200/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 1155,
+  "latest_plain_sha256": "a41f20065a3b18ed0f85dbf670cf44182cf0674a4d59a3c4039c7eed9f0a2e80",
+  "latest_xz_bytes": 460,
+  "latest_xz_sha256": "ce1b121aa31419189411798c9b79c15d33f1dc4e8017a99afdb4d4ac59fc6dc9",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/fetch_20260611_194654_c35-fetch-artifacts-1781207200"
+    }
+  ],
+  "phase": "fetch-preflight-build",
+  "run_id": "fetch_20260611_194654_c35-fetch-artifacts-1781207200",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 603,
+  "updated_utc": "2026-06-11 19:47:15 UTC"
+}
