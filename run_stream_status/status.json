@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.443,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260611_122508_check_build_patch_area_1781180692/live.json",
-  "note": "command_id=check_build_patch_area_1781180692 command_sha256=02424d7b90c5fe5d05594d3e2effab9b5d47acd9655d5d5b3e88ec2ca9c2dd59",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260611_122508_check_build_patch_area_1781180692",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-11 12:25:18 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-11 12:25:49 UTC"
 }
