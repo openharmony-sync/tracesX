@@ -1,22 +1,22 @@
 {
-  "chunk_count": 1,
-  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "chunk_count": 2,
+  "decode_latest": "base64 -d chunk_00002.b64 | xz -dc",
   "encoding": "base64(xz -9e bytes)",
-  "latest_base64_bytes": 3336,
-  "latest_base64_sha256": "8437207952b6821a4de1f0e05d793c77b9b9ac58ed121d8f2eab6e4ec9f89277",
-  "latest_chunk": "run_stream_live/cmd_20260611_100920_build_c20_1781172546/chunk_00001.b64",
-  "latest_chunk_index": 1,
-  "latest_plain_bytes": 30589,
-  "latest_plain_sha256": "a9a0b5e2e931cc85f157988e6496bd13d0db1e0832d1772875a30e091fd7827c",
-  "latest_xz_bytes": 2500,
-  "latest_xz_sha256": "5c34db75ceb746187fe593d71519570c8726666c15bb819c89b0808f2dd2a6eb",
+  "latest_base64_bytes": 1824,
+  "latest_base64_sha256": "8af7af7082d72d7db81d8ee709e960317a75f380c4584b69141eb5bd789a4bc1",
+  "latest_chunk": "run_stream_live/cmd_20260611_100920_build_c20_1781172546/chunk_00002.b64",
+  "latest_chunk_index": 2,
+  "latest_plain_bytes": 6915,
+  "latest_plain_sha256": "c1138b0febe30f6752d8bc1a20b434d1b826e7616b075168175331235758ae1d",
+  "latest_xz_bytes": 1368,
+  "latest_xz_sha256": "c822e82e21fab5e0250224e9c5c46a8dfee20fd446ca31d2f8e20954cd93a90f",
   "max_chunks_per_page": 950,
   "page_count": 1,
   "pages": [
     {
-      "count": 1,
+      "count": 2,
       "first_index": 1,
-      "last_index": 1,
+      "last_index": 2,
       "page": 1,
       "root": "run_stream_live/cmd_20260611_100920_build_c20_1781172546"
     }
@@ -24,6 +24,6 @@
   "phase": "control-build",
   "run_id": "cmd_20260611_100920_build_c20_1781172546",
   "total_stderr_bytes_seen": 0,
-  "total_stdout_bytes_seen": 27905,
-  "updated_utc": "2026-06-11 10:09:48 UTC"
+  "total_stdout_bytes_seen": 34759,
+  "updated_utc": "2026-06-11 10:09:52 UTC"
 }
