@@ -1,14 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/",
-  "command_id": "fetch_c17_member_es2abc_1781200165",
-  "max_upstream_bytes": "0",
-  "output_name": "c17_plus_member_update_lite_es2abc_only.tar.xz",
-  "paths": [
-    "tmp/c17_plus_member_update_lite_es2abc_only.xz"
-  ],
-  "skip_preflight": true,
-  "target": "build",
-  "timeout_seconds": 0,
-  "upstream": "none"
+  "action": "exec",
+  "command_id": "stage_c17_member_es2abc_via_jump_1781200238",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4Aa9At5dADmZSuojhsA5IvQFjnwrKzHQpbZdWFGkeoVCRHJZn3ego5D3sJTIjGcQfA8dEol2HWDTYNovirRypHe0YZr9ALQNDvst0ICMJTSGmKT1ZMpwFr9KmgyYddd21+dkd1bYqzYuJ/lyphA52Gk8wgZaCgJd4HBdzi4PwoV4hRc2DkHvyQ5RvpxlJNR+2uPK0tRY/NpuEzYIo1r+jsx6kbPY40rTohwWGY+OmCG9o7/jhYpTBkg843TPOa6uyq4qWdqpAPBTM2ydqXzEn+ktpbyl98yEzn6YtQrgM4P0liYnkcXGWEMsgYfnuxl6YjBfVe1dC3oWsl5ARxzKO4C7Zcy5bBa2rh64tAuivpNR84SqFw4AFQma+Kwm1wyyBcO8cE1Co62uPzBHMGkjexLMJzfCY5a62YUKU3+gmG1PUroDPr1vTmzQHRfw8v1QC36GxOrRybAbk9SmKSQQUwXCtimdeIJcWos3bsGw3CEVR7FHAtK3Z+aQErKKFtlR4MPbTsnEvn+C7qrzCBDhWpYFZ7P5foXeJag3S7RYQwBUVdzI08fgFJOUHzdbTKuPVQfWhCWCB/nIfwvqSDJsg6NiQd90+qa5XOP/CuFseaaHz4xuNhWF2jK9m1dnDoNgnKBdd8gpxnYTHFiqHaZOGmovbvzqkABE39m4DaWd92fUozA7UtNohtfaSWH/41A73jq2wpYlPP/AIi+rXPsYCB2CZETQlmEG87eOZESsogdXJBKJwhUd3LARFxK+2Sdv+f14ORMXrEPSBfWsFH3RVwE128ROBGEppetWQ6qQA/UT5Jx0Uuj6loklbMIFGAQ9Q5Qn5+4LxiRtNkYMAEWksd6d27YAR2GHl5sSIh4NskeEyETXLwuqaZeKFxP+rj5wQpDfHMtslSjuFLJJe6ktEx1bTorDSeq4GwhI+hGD2t71z4tIqjU9pB8dU2zzqRVixy0hEq1J5BlpDn89SS4x18oJZgAAAAAA7Og8lihTOLAAAfoFvg0AACjLyUqxxGf7AgAAAAAEWVo=",
+  "target": "jump",
+  "timeout_seconds": 300
 }
