@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 00:55:09 UTC`
+- Updated: `2026-06-11 00:55:49 UTC`
 - Status: `OK`
-- Run id: `cmd_20260611_005500_c22_gitdiff_make_1781139296`
+- Run id: `cmd_20260611_005541_c22_build_1781139322`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `c22_gitdiff_make_1781139296`
+- Command id: `c22_build_1781139322`
 - Exit code: `0`
-- Duration seconds: `6.428`
-- Encoded log manifest: [run_stream_logs/cmd_20260611_005500_c22_gitdiff_make_1781139296/manifest.json](run_stream_logs/cmd_20260611_005500_c22_gitdiff_make_1781139296/manifest.json)
+- Duration seconds: `6.184`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_005541_c22_build_1781139322/manifest.json](run_stream_logs/cmd_20260611_005541_c22_build_1781139322/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260611_005500_c22_gitdiff_make_1781139296/part_00001.b64](run_stream_logs/cmd_20260611_005500_c22_gitdiff_make_1781139296/part_00001.b64)
+- [run_stream_logs/cmd_20260611_005541_c22_build_1781139322/part_00001.b64](run_stream_logs/cmd_20260611_005541_c22_build_1781139322/part_00001.b64)
