@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1192,
+  "base64_sha256": "0fea0ba821adfe63170f6f6eeb6c45e9c7a5a3afe2aed30f6cecc43cb9ba28a6",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "kill_stale_c25_1781142067",
+  "command_sha256": "45154db859275b2665faef966f1ae180816b62c3de926627e3ac504f3218d995",
+  "compressed_sha256": "12928dfbe495c31b358729dd4fb1c50b79c8960beec64dc3e64c6e5448e8574e",
+  "created_utc": "2026-06-11 01:41:21 UTC",
+  "duration_seconds": 8.228289186954498,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_014112_kill_stale_c25_1781142067"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_014112_kill_stale_c25_1781142067/part_00001.b64"
+  ],
+  "plain_log_bytes": 1933,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_014112_kill_stale_c25_1781142067",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 892
+}
