@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3552,
+  "base64_sha256": "08330e2bf54d78e4f67bc4a402a1952b013a8e31eba5f292f0dee47cdedb7b63",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "es2abc-help-c17-1781204464",
+  "command_sha256": "8ed3a7bd583cb497a181ffdf2817f911894b8418f033d6647201fa6730e062e9",
+  "compressed_sha256": "5711676268480a6d8cf682338886467be0744aaf36bd111d6769c3af39406b7a",
+  "created_utc": "2026-06-11 19:01:26 UTC",
+  "duration_seconds": 5.98262163810432,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_190120_es2abc-help-c17-1781204464"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_190120_es2abc-help-c17-1781204464/part_00001.b64"
+  ],
+  "plain_log_bytes": 6546,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_190120_es2abc-help-c17-1781204464",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 2664
+}
