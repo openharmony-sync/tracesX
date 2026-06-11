@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-11 19:08:38 UTC`
+- Updated: `2026-06-11 19:09:19 UTC`
 - Status: `OK`
-- Run id: `put_20260611_190832_put-c17-update-only-patch-1781204887`
+- Run id: `cmd_20260611_190911_c17-metadata-for-updateonly-1781204947`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `put-c17-update-only-patch-1781204887`
+- Command id: `c17-metadata-for-updateonly-1781204947`
 - Exit code: `0`
-- Duration seconds: `4.257`
-- Encoded log manifest: [run_stream_logs/put_20260611_190832_put-c17-update-only-patch-1781204887/manifest.json](run_stream_logs/put_20260611_190832_put-c17-update-only-patch-1781204887/manifest.json)
+- Duration seconds: `6.042`
+- Encoded log manifest: [run_stream_logs/cmd_20260611_190911_c17-metadata-for-updateonly-1781204947/manifest.json](run_stream_logs/cmd_20260611_190911_c17-metadata-for-updateonly-1781204947/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/put_20260611_190832_put-c17-update-only-patch-1781204887/part_00001.b64](run_stream_logs/put_20260611_190832_put-c17-update-only-patch-1781204887/part_00001.b64)
+- [run_stream_logs/cmd_20260611_190911_c17-metadata-for-updateonly-1781204947/part_00001.b64](run_stream_logs/cmd_20260611_190911_c17-metadata-for-updateonly-1781204947/part_00001.b64)
