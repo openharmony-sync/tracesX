@@ -1,7 +1,14 @@
 {
-  "action": "exec",
-  "command_id": "pull_c17_member_003_1781200104455",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4ACjAI1dADmZSuojhsA5IvQFjnwrKzHQpbZiHyFx9eN7e+MpsEdxHpdXsE1ci8sLrCdI5zzgyhRQzBEzeS7Idxt4hFe+ZIXhTVt4gAfdWhV93z6cXSptatYhAuPi+VzJmPiiZecDUVs+AgxZ5QWB+z83Ldpb0YEDISd2VwbIYH9T0dEB3/3feZ26ppS3wo1Awr52AAAAAAC4V9Fs0nROkgABqQGkAQAALlntA7HEZ/sCAAAAAARZWg==",
+  "action": "fetch",
+  "base_dir": "/",
+  "command_id": "fetch_c17_member_es2abc_1781200165",
+  "max_upstream_bytes": "0",
+  "output_name": "c17_plus_member_update_lite_es2abc_only.tar.xz",
+  "paths": [
+    "tmp/c17_plus_member_update_lite_es2abc_only.xz"
+  ],
+  "skip_preflight": true,
   "target": "build",
-  "timeout_seconds": 240
+  "timeout_seconds": 0,
+  "upstream": "none"
 }
