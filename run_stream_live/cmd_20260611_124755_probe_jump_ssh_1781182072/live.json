@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 184,
+  "latest_base64_sha256": "4d402adf2c2f6fe3b4ba352324d0416b3dbedd6abccf4d8566492c06f3b4840a",
+  "latest_chunk": "run_stream_live/cmd_20260611_124755_probe_jump_ssh_1781182072/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 85,
+  "latest_plain_sha256": "29c059e4161b25f003fc2dc38e8ad3a62ef38d016f7165fab938b98a947a524e",
+  "latest_xz_bytes": 136,
+  "latest_xz_sha256": "bca0a09adcc0640a0a216b1188bd042985d52de0bb1af9350d51070bc8aac478",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_124755_probe_jump_ssh_1781182072"
+    }
+  ],
+  "phase": "control-jump",
+  "run_id": "cmd_20260611_124755_probe_jump_ssh_1781182072",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 25,
+  "updated_utc": "2026-06-11 12:47:56 UTC"
+}
