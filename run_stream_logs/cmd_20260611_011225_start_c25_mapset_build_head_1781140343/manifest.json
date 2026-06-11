@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 7464,
+  "base64_sha256": "a4a0e80481b3989327b3c1e6cc4c7c7ed3329d2343531a755ee5e23b6f035e83",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "start_c25_mapset_build_head_1781140343",
+  "command_sha256": "295f30abcbf28694fc85fc69dffbbc5ca5d5375007fd650fd9015924a2554dc3",
+  "compressed_sha256": "3ff3497986119943eb21db0721575b6855bbaf54aca48bcc0aa30ef225b34d29",
+  "created_utc": "2026-06-11 01:15:30 UTC",
+  "duration_seconds": 184.73640233650804,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 124,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_011225_start_c25_mapset_build_head_1781140343"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_011225_start_c25_mapset_build_head_1781140343/part_00001.b64"
+  ],
+  "plain_log_bytes": 17885,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_011225_start_c25_mapset_build_head_1781140343",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 5596
+}
