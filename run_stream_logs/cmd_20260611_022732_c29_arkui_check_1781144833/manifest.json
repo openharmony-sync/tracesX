@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2888,
+  "base64_sha256": "fca6ca5c07320dd62b596b42ff19ea6e0d7ace7b946ed8312f84a68a7833d032",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "c29_arkui_check_1781144833",
+  "command_sha256": "5bdfd879db36855e2d1844ac014d53b764da2c9b4c29a7dbaa845601a625c3bf",
+  "compressed_sha256": "52dc92f4476551c362f0e818c7073f9a2a303197b2f7f7d82ac4c480426dde74",
+  "created_utc": "2026-06-11 02:27:39 UTC",
+  "duration_seconds": 7.163965296000242,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_022732_c29_arkui_check_1781144833"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_022732_c29_arkui_check_1781144833/part_00001.b64"
+  ],
+  "plain_log_bytes": 14779,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_022732_c29_arkui_check_1781144833",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2164
+}
