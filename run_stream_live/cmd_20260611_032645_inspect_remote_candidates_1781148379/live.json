@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2128,
+  "latest_base64_sha256": "3e5c60d95edbeeeee463d13c8df289cc2fc1799f7b043bcb8d77d717026c0ee0",
+  "latest_chunk": "run_stream_live/cmd_20260611_032645_inspect_remote_candidates_1781148379/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 14081,
+  "latest_plain_sha256": "c67020d99c99dd601d8571d9bbedf00b4636c0b32680b3b4d64fbef2aa8e4f4f",
+  "latest_xz_bytes": 1596,
+  "latest_xz_sha256": "84843a097d2f478b0d7476547b2c8ede4db1d5daf8caf5bfe1c2dbef6c22f2c7",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_032645_inspect_remote_candidates_1781148379"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260611_032645_inspect_remote_candidates_1781148379",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 13532,
+  "updated_utc": "2026-06-11 03:26:49 UTC"
+}
