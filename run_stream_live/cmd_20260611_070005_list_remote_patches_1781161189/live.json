@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1432,
+  "latest_base64_sha256": "033797a2998b637c44fcfdb4390d5ddd3d39676dc78874ab39daeb678f7c358f",
+  "latest_chunk": "run_stream_live/cmd_20260611_070005_list_remote_patches_1781161189/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 7618,
+  "latest_plain_sha256": "ecb40594e05dc08b81d0b614b6054bc9ed82edff66b525dbe2db61d55e39184e",
+  "latest_xz_bytes": 1072,
+  "latest_xz_sha256": "52c8ce0ee19c0b273324aad50a12273f6cca42f87c78120d51be9359d7babec3",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260611_070005_list_remote_patches_1781161189"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260611_070005_list_remote_patches_1781161189",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 7557,
+  "updated_utc": "2026-06-11 07:00:09 UTC"
+}
