@@ -1,14 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c05_patch20_trim_ta_no_jit",
-  "command_id": "c05-fetch-artifacts-1781216151",
-  "output_name": "c05_patch20_trim_ta_no_jit_artifacts.tar.xz",
-  "paths": [
-    "artifacts",
-    "logs",
-    "SHA256SUMS",
-    "build_metadata.txt"
-  ],
-  "target": "build",
-  "timeout_seconds": 0
+  "action": "exec",
+  "command_id": "locate-c05-fetch-1781216250",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AD7AMhdADmZSuojhsA5IvQFjnwrKzHQpbZeABogRxT/x+O6nbjJ1YtTXrMogmFWvDyzoJN+CBuw2So+4Co7IYx3YlkKmcEF1jcuGyWAnnAJS91c5DZkWqm6G1YzbxUBOd9ySEsIcmvq6rXctd7QZ3QlZKNYYEvd9222u8jBS2ZLHlqZ7gp9H+xDNlyD4cfLQqo1UhxOwo6ah82yL7guaM45bDO804tdodCudpOayBzKiFhR+hq2PaPxaNzAaZVoGXcdtk3AjvBAOd5U3LcAADJJTILEG0QAAAHkAfwBAADRZ5K+scRn+wIAAAAABFla",
+  "target": "jump",
+  "timeout_seconds": 180
 }
