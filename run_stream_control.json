@@ -1,7 +1,14 @@
 {
-  "action": "exec",
-  "command_id": "poll-c05-c16-build-done-1781217896",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AHSAR1dADmZSuojhsA5IvQFjnwrKzHQpbZeh9Ye+rlCja8s5X4cy5izRxlxw/TgZrybrq0Hy8qY1rd8qKIZkfh5Gtc1e7cQYue+xvgGZkdbSEdKsxdx4+pYq7pWup8Tj11CQ085YyLaS0k3x5T6hGuhLmh3R80+FYgQkid40wb0+KKpbWhltfZ+05kI+kUBpO6O3gmyQiJpiUTls+ITNbIv/2hVwvSaOeuHcrql0s2JepMSuZQgYXx+ECZ8EtKS2ka/ah6h/PUQgT1AWTszYrF2tSLDSc6WXR5PUjHwGdcMFO8L15VHGCpPoYYjk11DkG/g7rK+Xd4lOQ6cI3DM608BenaFjQMa4fZoQfG6u01fnk9VtTmKrXc65YL9ME+a6GX45wAAAACwxTJmYC5s1AABuQLTAwAALm33srHEZ/sCAAAAAARZWg==",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c05_plus_c16_frontend",
+  "command_id": "c05-c16-fetch-artifacts-1781217934",
+  "output_name": "c05_plus_c16_frontend_artifacts.tar.xz",
+  "paths": [
+    "artifacts",
+    "logs",
+    "SHA256SUMS",
+    "build_metadata.txt"
+  ],
   "target": "build",
-  "timeout_seconds": 180
+  "timeout_seconds": 0
 }
