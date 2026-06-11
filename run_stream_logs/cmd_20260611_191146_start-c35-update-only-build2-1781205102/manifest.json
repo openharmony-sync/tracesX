@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1740,
+  "base64_sha256": "d2d3a8262aa9d3f3c2377a97e150eab8e75ffc83e094aba0ab94023f95ac7aa0",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "start-c35-update-only-build2-1781205102",
+  "command_sha256": "0a3f64ea16cf01d38140790631babe75786425ef41afea88c6aa2758ad3e7b4d",
+  "compressed_sha256": "eeb8c9c0f035e7287af2528db6b39b2b0a5d7b491ddbaca8245f7e345268ff98",
+  "created_utc": "2026-06-11 19:11:56 UTC",
+  "duration_seconds": 9.613952131941915,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260611_191146_start-c35-update-only-build2-1781205102"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260611_191146_start-c35-update-only-build2-1781205102/part_00001.b64"
+  ],
+  "plain_log_bytes": 5142,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260611_191146_start-c35-update-only-build2-1781205102",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1304
+}
