@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.855,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260611_191344_phone-harness-paths-1781205192/live.json",
-  "note": "command_id=phone-harness-paths-1781205192 command_sha256=7aa1dd1ebf8860fe3f04e0ebebbe71a1b9f4e0447e2927e8e46bff911c9755ab",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260611_191425_cancel-c19-old-harness-1781205252/live.json",
+  "note": "command_id=cancel-c19-old-harness-1781205252 command_sha256=307f3c82620a2e4652f610f7b72ecbffc196fb651f41ccf09563a89f504de622",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260611_191344_phone-harness-paths-1781205192",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-11 19:13:54 UTC"
+  "run_id": "cmd_20260611_191425_cancel-c19-old-harness-1781205252",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-11 19:14:25 UTC"
 }
