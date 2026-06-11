@@ -1,7 +1,15 @@
 {
-  "action": "exec",
-  "command_id": "poll-phone-c20-c16-solo-1781213385",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AcMA4VdADmZSuojhsA5IvQFjnwrKzHQpbZh+/22GO2V0IrXlZN1XVC3VLFfsWIvNhGU8rRyxLdV04MF3wTHZB4Mp/oQdJEzcYlV2SC1nxf57I3BDYpqYKv303FN40oJneoLowXwv6DCaF4eHeBUWiqbUclHdXFRkH+L6k7tpbvTMoD4NqBiw4BDDTryQz2f6Iqsvlk5r4QXfR4DxM9XGfapZ6C4fQk8rQR9IJ/PJNb50JyWTwxnCC3dEZJMeUG8pyurghIc5J2hFPOXreL0QQ7ru97ykv1mufVLw02Yh1mxjOCxjZMdd5zPO0hdEd4YvvkfH84osP44otgtMON1PLODmFqv+TSTJfpgGPmclf8T/vTjeopqnCyiIqTpk7FoaUWFRdWjIS/ioqCZiC+eVpqpor7CW8nnB0aNene/17AjJWoBJiAgL4oUc1W3HlTnwiflBTHW8yMO7zJMXQ2PuUqs6uvuC+GgZsNSD0GOC+MvogfHIxBbFhNaldaiOZ4BFAnVepXOpSP3oZgxwdOJvRYMg1uo8XSkxhyYiFdKe/JLbgRZ4dJNM6K/UV/gXYqXxbGlhdMciL8Ys+XkT5vAZb85z9NQwBxvcgheGz5U91xh11tSoi07XaknLMwey9gbEVWsMnobEK8v1h2YNKMAIvDtN182pHiJPuRso+3+peGRi8KAv/CZKbL0SjG6Xyxiw00th66VDRZW3NOQoYcdZfLqZDcCgVmv46bUq2f4kuIjOqluivdLw1fyh0H5E54h1jqoGsWvdf1f27pwrQ8o9GfI3vjM+q9rbPpqwazmCm7cchvBPRCjWfjIIOaPnlktpe2n4i/nmKvgdBSGELqDS7sLZNdGGGAswtkcb7brBjwxDatQsWoS0WITVUqU/+4rDkv7RrGp2vzMOlx6nlVHt0BB0Wr+LTLMd2UvZylB5dfdEwm1OxgNp56riAM+8TkO6zhTxNHtnaUZKb37oRExRTcyBAxoZmOpN6lVH5m3RzFrK8keEa9t6FH4Y3W6FcbluiZXSVgyaxhYdgFdPwyBBIgD+tMDzHKOFBNl4by72FTl1KpRqwjY8OpApdRW6tCAPqw/SiGTZTHsmRCagLB0MQLhL0BQVU55cjNfY/aXH72e7UJ7iZhgMZu2aTjHWt6MnntfMIjHXfJr9vXpKiobyY/QiuUaKswC27vAUGpS8B0K1ngvH0nr34R3w4oAAAAALI22+DxNtuUAAaEHjQ4AAGqJmLaxxGf7AgAAAAAEWVo=",
-  "target": "phone_host",
-  "timeout_seconds": 180
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c20a_object_computed_fast_props_only",
+  "command_id": "c20a-fetch-artifacts-1781213450",
+  "output_name": "c20a_object_computed_fast_props_only_artifacts.tar.xz",
+  "paths": [
+    "artifacts",
+    "logs",
+    "SHA256SUMS",
+    "build_metadata.txt",
+    "runtime_applied.patch"
+  ],
+  "target": "build",
+  "timeout_seconds": 0
 }
