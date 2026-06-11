@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 584,
+  "base64_sha256": "3974567cae2381a050447c6b4044e4aaef220c960569260b64fe81866b5477cb",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "put-c17-update-only-patch-1781204887",
+  "command_sha256": "654019073a137edbfba974c3fe5824c06ec223bb477fc1ebcc287d2569cf4a3d",
+  "compressed_sha256": "ae23d815ce53d32d7aa4d87e21f2784436d3eb1f52a2ea7a6c4ed72afffe7bf0",
+  "created_utc": "2026-06-11 19:08:37 UTC",
+  "duration_seconds": 4.257019514217973,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/put_20260611_190832_put-c17-update-only-patch-1781204887"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/put_20260611_190832_put-c17-update-only-patch-1781204887/part_00001.b64"
+  ],
+  "plain_log_bytes": 642,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "put_20260611_190832_put-c17-update-only-patch-1781204887",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 436
+}
