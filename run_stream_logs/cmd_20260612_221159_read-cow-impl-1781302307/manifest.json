@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2536,
+  "base64_sha256": "06926ef992419ece8752f716b1350fba4fd25102eea298bd3850b23732f8720f",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "read-cow-impl-1781302307",
+  "command_sha256": "b521a46327de0f13124aa8ab393eaaef5effde237190d2765e7ea77c6a14fe78",
+  "compressed_sha256": "7a6d7474e0e5be62aef5928538ec00f2b5571fa80c778ae78855723f8a51d8f8",
+  "created_utc": "2026-06-12 22:12:05 UTC",
+  "duration_seconds": 6.024682655930519,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_221159_read-cow-impl-1781302307"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_221159_read-cow-impl-1781302307/part_00001.b64"
+  ],
+  "plain_log_bytes": 7063,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_221159_read-cow-impl-1781302307",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1900
+}
