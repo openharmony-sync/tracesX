@@ -1,7 +1,14 @@
 {
-  "action": "exec",
-  "command_id": "poll-c38-compact-1781243004",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4ANOAh9dABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lQ3eKGsmwE1mu//DRyGzoV29ARFh8ueKdLLDO9uuVUQx9a0xa4d6bsyQke8sTVZUXfMExMNdKY9ag1kiB/E8WokzQa5NBVdLHqrcGkk2NUQ3tBxb7A84jri44T+ot13TicSesjNOlQ1oWjmxA2GLa3zX+CONkD0eR6bENr5kZmbzZnO3fq6ttv7fthbCiRmZf6+KDqqGKkUSUgW0AMR55NUDPVKTYbVQB/DbhXjebFTDBe9UHyuVSs82asToRrbLQRrH1bgeK+EnumqeLa3yhvPQszlhfGDrEsv9SivvVEQ7hsUiVGY7vbKW2GHvzmC5rywxZfmk6zuplpAXFmhLcBTdzQx5miFDeb+cwKQMhAzj3VAu2xB2layZTeRMF0n9HIFitzoj5j6a5uqiyWs4h8SPH6zQy24UF6y3GjxCibjoXexHWU6uzvTyedyfsPO89K1ovJrZBGn4hL8n4UFo4UbpjSHPWyymayLZgaLiwhxdFqxzqG9t/lMz+F7i7j5vu/DYdL5ITctq3HjrhSFYCH3c1TqprBiGxPvkPEerFVkQcgwM+m1UgQdRh9GzSPCKp64/dDffK3lLhbMA5SbDXWq7AKbY3+MlzWnxL97nK6u7ZoYpOPnLNhPJzyo16xWwIvrwuQ+Q1grrgEvy9XcnsvxskTjvrbr/UAAAN66odtNJ/TAAAbsEzwYAAEkTe2yxxGf7AgAAAAAEWVo=",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c38_c36_isfalse_only_boolean/artifacts",
+  "command_id": "fetch-c38-es2abc-1781243249",
+  "max_upstream_bytes": "400M",
+  "output_name": "c38_c36_isfalse_only_boolean_es2abc.tar.xz",
+  "paths": [
+    "host-tools/es2abc"
+  ],
+  "skip_preflight": true,
   "target": "build",
-  "timeout_seconds": 180
+  "timeout_seconds": 0,
+  "upstream": "none"
 }
