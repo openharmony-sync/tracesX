@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1592,
+  "latest_base64_sha256": "7c39091ff2d940bc1fb0e397b41d0b9ef0124b4bd0592bffe3da216811786137",
+  "latest_chunk": "run_stream_live/cmd_20260612_150842_compare-c36-c44-noise-1781276901/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 2703,
+  "latest_plain_sha256": "f775821fe4e0df3462f49a1f243715c5db001e0fb59623c9dc52df0877d223a9",
+  "latest_xz_bytes": 1192,
+  "latest_xz_sha256": "fe895783251b2b556357939c33876c00e62da761a70447a6c24e4b828bedc808",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_150842_compare-c36-c44-noise-1781276901"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_150842_compare-c36-c44-noise-1781276901",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 2637,
+  "updated_utc": "2026-06-12 15:08:44 UTC"
+}
