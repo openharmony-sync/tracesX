@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 18:26:53 UTC`
+- Updated: `2026-06-12 18:28:54 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_182644_poll-c48-build-1828`
+- Run id: `cmd_20260612_182828_stage-c48-to-phone`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `poll-c48-build-1828`
+- Target: `jump`
+- Command id: `stage-c48-to-phone`
 - Exit code: `0`
-- Duration seconds: `6.443`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_182644_poll-c48-build-1828/manifest.json](run_stream_logs/cmd_20260612_182644_poll-c48-build-1828/manifest.json)
+- Duration seconds: `23.231`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_182828_stage-c48-to-phone/manifest.json](run_stream_logs/cmd_20260612_182828_stage-c48-to-phone/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_182644_poll-c48-build-1828/part_00001.b64](run_stream_logs/cmd_20260612_182644_poll-c48-build-1828/part_00001.b64)
+- [run_stream_logs/cmd_20260612_182828_stage-c48-to-phone/part_00001.b64](run_stream_logs/cmd_20260612_182828_stage-c48-to-phone/part_00001.b64)
