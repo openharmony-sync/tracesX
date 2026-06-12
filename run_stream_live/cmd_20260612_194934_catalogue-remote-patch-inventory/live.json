@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2056,
+  "latest_base64_sha256": "a67b15671b8b4b10ce2e0ab2360d300d6b88bf9ada4c3ceedf35354009fd751e",
+  "latest_chunk": "run_stream_live/cmd_20260612_194934_catalogue-remote-patch-inventory/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 9511,
+  "latest_plain_sha256": "9daee6ed342f8421265230dcb9a03a89987ff6ca37329d3a7c66d5310d89860c",
+  "latest_xz_bytes": 1540,
+  "latest_xz_sha256": "adc1c07b165a45af9d8853085cdda1b01c7b6f92ed7fac7e8a85fdaff080b3b9",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_194934_catalogue-remote-patch-inventory"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_194934_catalogue-remote-patch-inventory",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 9267,
+  "updated_utc": "2026-06-12 19:49:38 UTC"
+}
