@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 912,
+  "base64_sha256": "dd98c5bc62a71638e813bc8ad01601da861f6cf35abb1fae1e25773301940b32",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "ark-disasm-help-1781257449",
+  "command_sha256": "33d5928c45a5ca4d4139c3cc2ce4b107d15c40911453bb5897233c3000a36a4c",
+  "compressed_sha256": "1f4c11a694fb5b84603347e42a5f3b10067b7d9969c24e8a303104f442d1cdc5",
+  "created_utc": "2026-06-12 09:44:23 UTC",
+  "duration_seconds": 5.526890872046351,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_094418_ark-disasm-help-1781257449"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_094418_ark-disasm-help-1781257449/part_00001.b64"
+  ],
+  "plain_log_bytes": 1143,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_094418_ark-disasm-help-1781257449",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 684
+}
