@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.403,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_104938_analyze-c42-shapes-1781261359/live.json",
-  "note": "command_id=analyze-c42-shapes-1781261359 command_sha256=60a5df0b00e91885c56be30b583cd5b4c8d7e466a30b2ecac847fea3b9b3c98c",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_104938_analyze-c42-shapes-1781261359",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 10:49:47 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-12 10:50:19 UTC"
 }
