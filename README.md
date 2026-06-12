@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 18:42:58 UTC`
+- Updated: `2026-06-12 18:43:39 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_184250_summarize-c45-final-file`
+- Run id: `cmd_20260612_184330_poll-c46-screen-start`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `summarize-c45-final-file`
+- Command id: `poll-c46-screen-start`
 - Exit code: `0`
-- Duration seconds: `6.423`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_184250_summarize-c45-final-file/manifest.json](run_stream_logs/cmd_20260612_184250_summarize-c45-final-file/manifest.json)
+- Duration seconds: `6.348`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_184330_poll-c46-screen-start/manifest.json](run_stream_logs/cmd_20260612_184330_poll-c46-screen-start/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_184250_summarize-c45-final-file/part_00001.b64](run_stream_logs/cmd_20260612_184250_summarize-c45-final-file/part_00001.b64)
+- [run_stream_logs/cmd_20260612_184330_poll-c46-screen-start/part_00001.b64](run_stream_logs/cmd_20260612_184330_poll-c46-screen-start/part_00001.b64)
