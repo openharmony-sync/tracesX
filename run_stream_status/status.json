@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 33.495,
+  "elapsed_seconds": 93.221,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260612_195358_catalogue-emit-phone-measurements/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=catalogue-emit-phone-measurements command_sha256=b110878baa9c947f26e12694092f9c3c8723bd92c018538c718dc836695e22ad",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260612_195358_catalogue-emit-phone-measurements",
-  "state": "running",
-  "updated_utc": "2026-06-12 19:54:31 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-12 19:55:31 UTC"
 }
