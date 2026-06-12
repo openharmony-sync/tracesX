@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 192,
+  "latest_base64_sha256": "a09be816a01396809d625c53d31ee1059f83249e3a9b0d31401f9574c36528a6",
+  "latest_chunk": "run_stream_live/cmd_20260612_190116_inspect-c48-hdc-offlineasm/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 95,
+  "latest_plain_sha256": "e3dcd48714b75f275d2ef27ea4b1fbaabe8cd45e890dea7302b6a849bf6bcd50",
+  "latest_xz_bytes": 144,
+  "latest_xz_sha256": "7dc41d06dab259bb8d39fa111fa8a306ad1e8175d1a7b9eb6b500644ce94d3b7",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_190116_inspect-c48-hdc-offlineasm"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_190116_inspect-c48-hdc-offlineasm",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 29,
+  "updated_utc": "2026-06-12 19:01:18 UTC"
+}
