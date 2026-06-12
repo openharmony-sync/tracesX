@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 17:32:23 UTC`
+- Updated: `2026-06-12 17:35:15 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_173211_start-c47-c22-build`
+- Run id: `fetch_20260612_173429_fetch-c46-c24-artifacts-v2`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `start-c47-c22-build`
+- Command id: `fetch-c46-c24-artifacts-v2`
 - Exit code: `0`
-- Duration seconds: `9.325`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_173211_start-c47-c22-build/manifest.json](run_stream_logs/cmd_20260612_173211_start-c47-c22-build/manifest.json)
+- Duration seconds: `43.223`
+- Encoded log manifest: [run_stream_logs/fetch_20260612_173429_fetch-c46-c24-artifacts-v2/manifest.json](run_stream_logs/fetch_20260612_173429_fetch-c46-c24-artifacts-v2/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_173211_start-c47-c22-build/part_00001.b64](run_stream_logs/cmd_20260612_173211_start-c47-c22-build/part_00001.b64)
+- [run_stream_logs/fetch_20260612_173429_fetch-c46-c24-artifacts-v2/part_00001.b64](run_stream_logs/fetch_20260612_173429_fetch-c46-c24-artifacts-v2/part_00001.b64)
