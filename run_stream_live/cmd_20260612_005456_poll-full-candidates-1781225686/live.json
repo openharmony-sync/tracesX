@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 256,
+  "latest_base64_sha256": "520f285f15a57d62fda7f5855329a0390270b19014b895de5b9a5bf0c367b33a",
+  "latest_chunk": "run_stream_live/cmd_20260612_005456_poll-full-candidates-1781225686/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 142,
+  "latest_plain_sha256": "73613142fe10193a1ef1f95d76f3ade397ae0b42159563406f64cd447da69595",
+  "latest_xz_bytes": 192,
+  "latest_xz_sha256": "1295a35a9b188f3b12b6913c0129a16e27a249b3e743152f56533e5bd2cd2d8b",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_005456_poll-full-candidates-1781225686"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_005456_poll-full-candidates-1781225686",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 76,
+  "updated_utc": "2026-06-12 00:54:57 UTC"
+}
