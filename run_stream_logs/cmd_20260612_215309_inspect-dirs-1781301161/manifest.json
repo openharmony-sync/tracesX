@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3232,
+  "base64_sha256": "e9b2a12614caa9a3c57f2455b66f6e801a27f11d5c4d44f03ba0752521bf42e2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-dirs-1781301161",
+  "command_sha256": "c7e1a45585499aa091e0a872477c0b104e694c329cbd5d3e61384fefbed306e6",
+  "compressed_sha256": "ce61acfbe1ab55fab3486c383e720fabb7abaffcf422c17847050f8677234001",
+  "created_utc": "2026-06-12 21:53:15 UTC",
+  "duration_seconds": 6.137846659868956,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 141,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_215309_inspect-dirs-1781301161"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_215309_inspect-dirs-1781301161/part_00001.b64"
+  ],
+  "plain_log_bytes": 14182,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_215309_inspect-dirs-1781301161",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 2424
+}
