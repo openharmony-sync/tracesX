@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 336,
+  "latest_base64_sha256": "e3808f62d286217ba729e76394a371e4326551954d280de40b89fa73af6a4b54",
+  "latest_chunk": "run_stream_live/cmd_20260612_190350_analyze-c36-abc-shapes-weakrows/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 262,
+  "latest_plain_sha256": "5285e9bbb0b0919d0de4fac9e60fef42b73a9527bbe0951c4254afcca6a4105d",
+  "latest_xz_bytes": 252,
+  "latest_xz_sha256": "40b94cbf3e65f8a00835e3ada4b254a1ac737a494fcd6957bcff67d375609266",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_190350_analyze-c36-abc-shapes-weakrows"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_190350_analyze-c36-abc-shapes-weakrows",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 196,
+  "updated_utc": "2026-06-12 19:03:52 UTC"
+}
