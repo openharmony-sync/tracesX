@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 2.014,
+  "elapsed_seconds": 17.581,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260612_204757_poll-c51b-build-early/live.json",
-  "phase": "control-build",
+  "note": "command_id=poll-c51b-build-early command_sha256=5d0b5de1581e42cab381bfaaed80bd57baba1d0fc97c3d77d71d01d2689f8372",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260612_204757_poll-c51b-build-early",
-  "state": "running",
-  "updated_utc": "2026-06-12 20:47:59 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-12 20:48:14 UTC"
 }
