@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 192,
+  "latest_base64_sha256": "f8c6f7440c4c1c116d1a3f4287482d33e9f8f599f558b38e407d792c8a7426ab",
+  "latest_chunk": "run_stream_live/cmd_20260612_104938_analyze-c42-shapes-1781261359/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 95,
+  "latest_plain_sha256": "3241ac7b61faba478a6c1286045d0b1b34c1e3b0dc0b5a30fac383380110a1ab",
+  "latest_xz_bytes": 144,
+  "latest_xz_sha256": "a14ed6a5152885d4f256acdf2840bbedb76a8d9475ab3d3fcb8f1a1e79702266",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_104938_analyze-c42-shapes-1781261359"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_104938_analyze-c42-shapes-1781261359",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 29,
+  "updated_utc": "2026-06-12 10:49:39 UTC"
+}
