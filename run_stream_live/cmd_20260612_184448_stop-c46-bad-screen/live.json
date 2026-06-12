@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 192,
+  "latest_base64_sha256": "6be6b8bf8a664e92bad0cf8b7e9bcc264a7734988d21a00c0f199ef8f1580050",
+  "latest_chunk": "run_stream_live/cmd_20260612_184448_stop-c46-bad-screen/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 87,
+  "latest_plain_sha256": "89b4974d6ed4d9362a979f34a42fe1aae9f4ba0402eb3cdcda3c0c1f621b819e",
+  "latest_xz_bytes": 144,
+  "latest_xz_sha256": "86931b8115dc44c1a1b92722675b1417d675734556e7a8c99c666ab66e68f4d5",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_184448_stop-c46-bad-screen"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_184448_stop-c46-bad-screen",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 21,
+  "updated_utc": "2026-06-12 18:44:50 UTC"
+}
