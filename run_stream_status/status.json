@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260612_195117_catalogue-emit-remote-patches-archive/live.json",
+  "note": "command_id=catalogue-emit-remote-patches-archive command_sha256=b637c3ffe62ed96198bfb44b9bfe178ede67e4b7fe32fca5536b55e6baa96a85",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-12 19:50:46 UTC"
+  "run_id": "cmd_20260612_195117_catalogue-emit-remote-patches-archive",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 19:51:17 UTC"
 }
