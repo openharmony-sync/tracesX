@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 10.38,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_184448_stop-c46-bad-screen/live.json",
-  "note": "command_id=stop-c46-bad-screen command_sha256=98574742e953713d0dd9b3cc28b6ba8c3ffd8357f982b935ed09d4ae024c62f9",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_184448_stop-c46-bad-screen",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 18:44:59 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-12 18:45:30 UTC"
 }
