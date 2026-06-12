@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.349,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_181414_inspect-c45-c46-c47-build-artifacts/live.json",
-  "note": "command_id=inspect-c45-c46-c47-build-artifacts command_sha256=5e8dfcf015972aefcfa4a332516ea00c7eb9ba804f9beff5585689d9858e0c22",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_181414_inspect-c45-c46-c47-build-artifacts",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 18:14:23 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-12 18:14:54 UTC"
 }
