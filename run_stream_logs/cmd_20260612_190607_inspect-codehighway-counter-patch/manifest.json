@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 744,
+  "base64_sha256": "09b0f09d83a09ef5fc3230cc31c3d9d78effa2033042ad63fa92966630ef3ef7",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-codehighway-counter-patch",
+  "command_sha256": "086d6c79670c75dd24a32c8441742d14be13add1ec14a453d92bddd14de70b4a",
+  "compressed_sha256": "9a9754d219f6108234ca7820f4a517dffe06b54fb2cca475f426b767c30cdfdb",
+  "created_utc": "2026-06-12 19:06:36 UTC",
+  "duration_seconds": 29.34516796283424,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_190607_inspect-codehighway-counter-patch"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_190607_inspect-codehighway-counter-patch/part_00001.b64"
+  ],
+  "plain_log_bytes": 1264,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_190607_inspect-codehighway-counter-patch",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 556
+}
