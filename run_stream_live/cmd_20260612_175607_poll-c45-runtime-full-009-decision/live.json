@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 184,
+  "latest_base64_sha256": "68ddb74b43bf7f77030eed827d45d327aa89cbbc832d6f1f76a860d271257e5c",
+  "latest_chunk": "run_stream_live/cmd_20260612_175607_poll-c45-runtime-full-009-decision/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 78,
+  "latest_plain_sha256": "455e8a73df4d68587d31f0440c9a00ab6ddb874e9cf20088bb23a7d0cc2cbad1",
+  "latest_xz_bytes": 136,
+  "latest_xz_sha256": "7680f331925158c252523e2d04da7db7ed0ecd7d4f1e44bdcdb816681715c4ed",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_175607_poll-c45-runtime-full-009-decision"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_175607_poll-c45-runtime-full-009-decision",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 12,
+  "updated_utc": "2026-06-12 17:56:08 UTC"
+}
