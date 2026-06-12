@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.055,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 255,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_185228_kill-stale-c46-runner-for-c48/live.json",
-  "note": "command_id=kill-stale-c46-runner-for-c48 command_sha256=ed45c4dbbe981af7df9715b33f0617abfb71f5679bf78d33a57c21267cff91d8",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_185228_kill-stale-c46-runner-for-c48",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-12 18:52:36 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-12 18:53:07 UTC"
 }
