@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 3112,
+  "latest_base64_sha256": "dac6dc8835b92b2bfbba23f0f0b6e2ce2f5455a45988bf2f0b5f8777d5d7cbd3",
+  "latest_chunk": "run_stream_live/cmd_20260612_191738_read-phone-runner-deploy-snippet/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 6677,
+  "latest_plain_sha256": "9962b57ed0eecb191809f2bb12aca27a3cd674018d8d8ba16002d1bc8e6787e5",
+  "latest_xz_bytes": 2332,
+  "latest_xz_sha256": "1dd3b0a30559ee8992651bb933757c36c7eda19ea1d28e279d1f459c7b1b03ec",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_191738_read-phone-runner-deploy-snippet"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_191738_read-phone-runner-deploy-snippet",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 6611,
+  "updated_utc": "2026-06-12 19:17:39 UTC"
+}
