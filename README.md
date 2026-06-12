@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 18:41:07 UTC`
+- Updated: `2026-06-12 18:41:46 UTC`
 - Status: `FAILED`
-- Run id: `cmd_20260612_184058_poll-c45-full-final-1840`
+- Run id: `cmd_20260612_184139_summarize-c45-final`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `poll-c45-full-final-1840`
-- Exit code: `1`
-- Duration seconds: `6.854`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_184058_poll-c45-full-final-1840/manifest.json](run_stream_logs/cmd_20260612_184058_poll-c45-full-final-1840/manifest.json)
+- Command id: `summarize-c45-final`
+- Exit code: `127`
+- Duration seconds: `4.504`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_184139_summarize-c45-final/manifest.json](run_stream_logs/cmd_20260612_184139_summarize-c45-final/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_184058_poll-c45-full-final-1840/part_00001.b64](run_stream_logs/cmd_20260612_184058_poll-c45-full-final-1840/part_00001.b64)
+- [run_stream_logs/cmd_20260612_184139_summarize-c45-final/part_00001.b64](run_stream_logs/cmd_20260612_184139_summarize-c45-final/part_00001.b64)
