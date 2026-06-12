@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 20:24:58 UTC`
+- Updated: `2026-06-12 20:25:38 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_202447_start-c50b-no-literal-array-fold-v2`
+- Run id: `cmd_20260612_202530_check-int-helper-names-resume`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `start-c50b-no-literal-array-fold-v2`
+- Command id: `check-int-helper-names-resume`
 - Exit code: `0`
-- Duration seconds: `9.324`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_202447_start-c50b-no-literal-array-fold-v2/manifest.json](run_stream_logs/cmd_20260612_202447_start-c50b-no-literal-array-fold-v2/manifest.json)
+- Duration seconds: `6.045`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/manifest.json](run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_202447_start-c50b-no-literal-array-fold-v2/part_00001.b64](run_stream_logs/cmd_20260612_202447_start-c50b-no-literal-array-fold-v2/part_00001.b64)
+- [run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/part_00001.b64](run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/part_00001.b64)
