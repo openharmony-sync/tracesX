@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 21:26:09 UTC`
+- Updated: `2026-06-12 21:26:44 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_212605_clear-c51b-stub-chunks-1781299553`
+- Run id: `put_20260612_212641_put-c51b-stub-part_000-1781299588`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `clear-c51b-stub-chunks-1781299553`
+- Command id: `put-c51b-stub-part_000-1781299588`
 - Exit code: `0`
-- Duration seconds: `2.252`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_212605_clear-c51b-stub-chunks-1781299553/manifest.json](run_stream_logs/cmd_20260612_212605_clear-c51b-stub-chunks-1781299553/manifest.json)
+- Duration seconds: `1.246`
+- Encoded log manifest: [run_stream_logs/put_20260612_212641_put-c51b-stub-part_000-1781299588/manifest.json](run_stream_logs/put_20260612_212641_put-c51b-stub-part_000-1781299588/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_212605_clear-c51b-stub-chunks-1781299553/part_00001.b64](run_stream_logs/cmd_20260612_212605_clear-c51b-stub-chunks-1781299553/part_00001.b64)
+- [run_stream_logs/put_20260612_212641_put-c51b-stub-part_000-1781299588/part_00001.b64](run_stream_logs/put_20260612_212641_put-c51b-stub-part_000-1781299588/part_00001.b64)
