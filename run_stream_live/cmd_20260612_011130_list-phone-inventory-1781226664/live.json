@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 984,
+  "latest_base64_sha256": "b4b3299668460ecb188ef765988d0bace6b2254d8576f20a8c509435ab54dc17",
+  "latest_chunk": "run_stream_live/cmd_20260612_011130_list-phone-inventory-1781226664/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 4010,
+  "latest_plain_sha256": "9a07d179c4468291da2be3879acdd5aa14f53d569c20b3e10f45dd79b5f3245d",
+  "latest_xz_bytes": 736,
+  "latest_xz_sha256": "d914131ebd28e89889a39510961c430630446f2b8a2fab4515c5d94f3e59af7a",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_011130_list-phone-inventory-1781226664"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_011130_list-phone-inventory-1781226664",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 3944,
+  "updated_utc": "2026-06-12 01:11:31 UTC"
+}
