@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.849,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_203706_start-c36-vs-c50b-no-literal-screen/live.json",
-  "note": "command_id=start-c36-vs-c50b-no-literal-screen command_sha256=a618ed33bcf5516898c831599583a542e0a35c047a94601bdccb9d08ba758a02",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260612_203747_poll-c36-vs-c50b-screen-1/live.json",
+  "note": "command_id=poll-c36-vs-c50b-screen-1 command_sha256=acab234457358f3117f9fc88957a5e4e21b37904d01f9d0b6c578bfc7d09de74",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_203706_start-c36-vs-c50b-no-literal-screen",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 20:37:16 UTC"
+  "run_id": "cmd_20260612_203747_poll-c36-vs-c50b-screen-1",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 20:37:47 UTC"
 }
