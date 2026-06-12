@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 3.236,
+  "elapsed_seconds": 7.266,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260612_191738_read-phone-runner-deploy-snippet/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=read-phone-runner-deploy-snippet command_sha256=055cd7736ee2c902ffbf537b38a76af04c12a6f7a9fa4329793626635dcefa52",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260612_191738_read-phone-runner-deploy-snippet",
-  "state": "running",
-  "updated_utc": "2026-06-12 19:17:41 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-12 19:17:45 UTC"
 }
