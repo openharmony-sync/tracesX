@@ -1,13 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c45_c36_frontend_c34b_runtime",
-  "command_id": "fetch-c45-artifacts",
-  "max_upstream_bytes": "400M",
-  "output_name": "c45_c36_frontend_c34b_runtime_artifacts.tar.xz",
-  "paths": [
-    "artifacts"
-  ],
-  "target": "build",
-  "timeout_seconds": 900,
-  "upstream": "none"
+  "action": "exec",
+  "command_id": "poll-fetch-c45-1781280554",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AJLAWFdABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lQ4kSwG01QEax1nGIcMnS+MaHcRLB+EvimMCkym2YGYUM9EHcgHvWRH9Dkf+yATyfJzheVruB1ewBnZ/9cfSR5096KVz8Mv8rgYFZ/tiOfVNpnH2shiW7EXN2TGDzcD89jpAyD8orTJIVItzwRtFdTb91ikWKZ5rp0asxHnHFqtbCXcvwc5cr7fn7TGI/oWiPS0pkeNEYFkNk4Indm8vWWeqJ0lin3RJNHeHG4BaiGwJ3SBNXwGnzbESDu6FlGG0jgyQMWrwocdyfQ1zseK1tohRcrJ8Q9CFdSGhIPYXq5WbULPb80Dl0hUfw4WB7ufeNuLwMKSU1gISWwTcz54G0MgRxGa1A1z95AXmFiB2bVAgjqQUBerdJG8WlxVT31P3jFhtQKf0teAnHwErWQCuNbRBK8CYAO9D/iQAAAAAAC8Vgpmx4NX5AAH9AswEAAAYdAsrscRn+wIAAAAABFla",
+  "target": "jump",
+  "timeout_seconds": 120
 }
