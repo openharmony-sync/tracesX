@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 976,
+  "latest_base64_sha256": "1f2da597ca9b0a68d94ace5c365310517fdbb5214bfc2c43abb8b4342bc5b3af",
+  "latest_chunk": "run_stream_live/cmd_20260612_181608_inspect-c45-runtime-applied-markers/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 2653,
+  "latest_plain_sha256": "544bf7244fa0669839b691797c9151b43e3ccd305d208b118995747d4c50c506",
+  "latest_xz_bytes": 732,
+  "latest_xz_sha256": "2104821fa96a33ae74bed60c082b141b5f21ef94660bd4b4e0fe6a3d1d0f86e9",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_181608_inspect-c45-runtime-applied-markers"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_181608_inspect-c45-runtime-applied-markers",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 2104,
+  "updated_utc": "2026-06-12 18:16:12 UTC"
+}
