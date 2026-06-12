@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 11:15:45 UTC`
+- Updated: `2026-06-12 11:17:07 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_111534_poll-c43-1781262915`
+- Run id: `fetch_20260612_111648_fetch-c43-es2abc`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `poll-c43-1781262915`
+- Command id: `fetch-c43-es2abc`
 - Exit code: `0`
-- Duration seconds: `8.087`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_111534_poll-c43-1781262915/manifest.json](run_stream_logs/cmd_20260612_111534_poll-c43-1781262915/manifest.json)
+- Duration seconds: `16.500`
+- Encoded log manifest: [run_stream_logs/fetch_20260612_111648_fetch-c43-es2abc/manifest.json](run_stream_logs/fetch_20260612_111648_fetch-c43-es2abc/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_111534_poll-c43-1781262915/part_00001.b64](run_stream_logs/cmd_20260612_111534_poll-c43-1781262915/part_00001.b64)
+- [run_stream_logs/fetch_20260612_111648_fetch-c43-es2abc/part_00001.b64](run_stream_logs/fetch_20260612_111648_fetch-c43-es2abc/part_00001.b64)
