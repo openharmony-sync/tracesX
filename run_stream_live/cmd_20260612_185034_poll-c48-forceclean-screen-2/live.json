@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 184,
+  "latest_base64_sha256": "c1ef2fde843abefa91949c878a055a806738e3e0274702bf1251b5c0fcfd5a34",
+  "latest_chunk": "run_stream_live/cmd_20260612_185034_poll-c48-forceclean-screen-2/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 78,
+  "latest_plain_sha256": "b04b944f9e9aa166ac4ed9d9e3b3ae5a99dbae0619dc9656d4403a26edef5558",
+  "latest_xz_bytes": 136,
+  "latest_xz_sha256": "95280717518331bc2b113cef99ad745eebd14298e05c0823c0223b51279e0123",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_185034_poll-c48-forceclean-screen-2"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_185034_poll-c48-forceclean-screen-2",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 12,
+  "updated_utc": "2026-06-12 18:50:35 UTC"
+}
