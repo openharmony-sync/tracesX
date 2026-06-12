@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.397,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_094937_analyze-babylon-allabc-1781257762/live.json",
-  "note": "command_id=analyze-babylon-allabc-1781257762 command_sha256=4558e3f64b3c10306efb0a30f19d548df19035e51119e64b451c5873e972d82e",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_094937_analyze-babylon-allabc-1781257762",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 09:49:46 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-12 09:50:18 UTC"
 }
