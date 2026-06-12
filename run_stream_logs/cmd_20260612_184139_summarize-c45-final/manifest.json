@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 488,
+  "base64_sha256": "e46f9d61256eabbeece2b5b80ca55cea28597a0eeebbde1d6a821d776a4ae74e",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "summarize-c45-final",
+  "command_sha256": "b39ba63027f2a7d6af6f1c2ddde4e0bb0abca8e5f1e26363fd56573c29b8996f",
+  "compressed_sha256": "b0bb2acc7bc5b3f363e3556a56430e0bac96c4fca6acfd0d2af88478b640cfa9",
+  "created_utc": "2026-06-12 18:41:44 UTC",
+  "duration_seconds": 4.503709984943271,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 127,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_184139_summarize-c45-final"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_184139_summarize-c45-final/part_00001.b64"
+  ],
+  "plain_log_bytes": 522,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_184139_summarize-c45-final",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 364
+}
