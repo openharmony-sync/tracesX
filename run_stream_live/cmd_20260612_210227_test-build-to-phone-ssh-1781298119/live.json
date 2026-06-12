@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 280,
+  "latest_base64_sha256": "062eebb4d508a830392739004a2d0d1626cf824ab6f8270d9161b877fb10c117",
+  "latest_chunk": "run_stream_live/cmd_20260612_210227_test-build-to-phone-ssh-1781298119/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 208,
+  "latest_plain_sha256": "741f94c5b976027c8f3f1cda6998baa37cfeea4457e3935e27c7c1e8d3a76c76",
+  "latest_xz_bytes": 208,
+  "latest_xz_sha256": "3ffbd125330f503bf91ff6f7f331ecbf5a14a1ee701a4895af45ceab7914e434",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_210227_test-build-to-phone-ssh-1781298119"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_210227_test-build-to-phone-ssh-1781298119",
+  "total_stderr_bytes_seen": 66,
+  "total_stdout_bytes_seen": 20,
+  "updated_utc": "2026-06-12 21:02:33 UTC"
+}
