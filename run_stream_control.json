@@ -1,7 +1,11 @@
 {
-  "action": "exec",
-  "command_id": "poll-c47-build-002",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AKTAW9dABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lQ3zlN9W6bRaK/+JByLEpk0F//bSdnbDC1BIfYuutjtDAR0nDJaFAhbte/G5N1W8H+3xrPkv+k9Zp6W3ghKj4OxGdbbPIrSxSl0EjSQIQlbCL/vp/f1EjJc+b5ReXYZrcSepqOPqg1UWic8kSJJXlKMQAurxmacqZTEIcpLXnlzLLes8lrrRXXDXmChHRJKr/WVkzjkxjm3Ttt+d3z0gaeMg4Eviu66TWHkyGgA2E6YlnbzFoPGkeaOheI03gv6vGDf3kzWBaJjhZsjf3eG2cKQe9oM/3X6nLkX1iZ2p39BkLn7I6IzQgs1DAvIU5zlCUwbgWw6OHptcRmCKqUzRSFWBXxH8vhMQn/Cey2O0zoiRdtUZ23W2NkYrkEMIFn/dN4cti6cvP0OsAutiVlKzhNyBQcNrb8PdqsAfrUpnsulLQj1Ft+S5XcYAAPAnaSavoOF7AAGLA5QFAAAO/mvEscRn+wIAAAAABFla",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c46_c36_frontend_c24_interpreter_only",
+  "command_id": "fetch-c46-c24-artifacts-v3",
+  "output_name": "c46_c36_frontend_c24_interpreter_only_artifacts.tar.xz",
+  "paths": [
+    "artifacts"
+  ],
   "target": "build",
-  "timeout_seconds": 120
+  "timeout_seconds": 900
 }
