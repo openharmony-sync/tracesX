@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2632,
+  "latest_base64_sha256": "228cc7dfef43cb411f12ebc455e983936ef06086a6e69aeed67f4562dd63e410",
+  "latest_chunk": "run_stream_live/cmd_20260612_173939_poll-c47-build-001/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 16408,
+  "latest_plain_sha256": "e1a74613908aaff31c36550fb76023d07aad0c0eacf7fc1d33d196d201f5c602",
+  "latest_xz_bytes": 1972,
+  "latest_xz_sha256": "133a85bf841a8a6da4a22ca6f2f77c7d40c2a03275ec710f582fdc072dfa27af",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_173939_poll-c47-build-001"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_173939_poll-c47-build-001",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 16042,
+  "updated_utc": "2026-06-12 17:39:44 UTC"
+}
