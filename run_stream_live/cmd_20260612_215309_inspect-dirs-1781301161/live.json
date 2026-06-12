@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 3052,
+  "latest_base64_sha256": "0aa5a7be9e5b52220360d8fc2a9fbc61693ac1c0d873c9650cd93bae8772b998",
+  "latest_chunk": "run_stream_live/cmd_20260612_215309_inspect-dirs-1781301161/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 13980,
+  "latest_plain_sha256": "c4f7a7243926f579a1dfe5b07a51f627803865450d2e0e8480127961152810cf",
+  "latest_xz_bytes": 2288,
+  "latest_xz_sha256": "e20ceb2a8dba952bb7ad0a17443ce0ed57bca8f8e447fea826b4458c9a06c876",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_215309_inspect-dirs-1781301161"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_215309_inspect-dirs-1781301161",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 13736,
+  "updated_utc": "2026-06-12 21:53:13 UTC"
+}
