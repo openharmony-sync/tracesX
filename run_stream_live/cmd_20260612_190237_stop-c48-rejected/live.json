@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 192,
+  "latest_base64_sha256": "11ecf64806f9935c43a5be4d63a3176f1767bf68888f1a275e21f628fdd5e82b",
+  "latest_chunk": "run_stream_live/cmd_20260612_190237_stop-c48-rejected/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 95,
+  "latest_plain_sha256": "5576a4c66779b9be01b6e8d00ed33e80c9034c64f9f5323d049da16854493b1d",
+  "latest_xz_bytes": 144,
+  "latest_xz_sha256": "a0598b2b3d7c1a46c3d9174b38c7aa4ef9a935db8584417fa74f2a7e54e3bea7",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_190237_stop-c48-rejected"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_190237_stop-c48-rejected",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 29,
+  "updated_utc": "2026-06-12 19:02:39 UTC"
+}
