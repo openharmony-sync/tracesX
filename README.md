@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 19:06:38 UTC`
+- Updated: `2026-06-12 19:08:25 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_190607_inspect-codehighway-counter-patch`
+- Run id: `cmd_20260612_190814_start-c49-c36-runtime-counters-build`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `inspect-codehighway-counter-patch`
+- Command id: `start-c49-c36-runtime-counters-build`
 - Exit code: `0`
-- Duration seconds: `29.345`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_190607_inspect-codehighway-counter-patch/manifest.json](run_stream_logs/cmd_20260612_190607_inspect-codehighway-counter-patch/manifest.json)
+- Duration seconds: `8.988`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_190814_start-c49-c36-runtime-counters-build/manifest.json](run_stream_logs/cmd_20260612_190814_start-c49-c36-runtime-counters-build/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_190607_inspect-codehighway-counter-patch/part_00001.b64](run_stream_logs/cmd_20260612_190607_inspect-codehighway-counter-patch/part_00001.b64)
+- [run_stream_logs/cmd_20260612_190814_start-c49-c36-runtime-counters-build/part_00001.b64](run_stream_logs/cmd_20260612_190814_start-c49-c36-runtime-counters-build/part_00001.b64)
