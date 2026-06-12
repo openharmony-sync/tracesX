@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.81,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_181608_inspect-c45-runtime-applied-markers/live.json",
-  "note": "command_id=inspect-c45-runtime-applied-markers command_sha256=ae9ed2e15c3ed59f8c80e3771505c2963c8250fb82108353543c6e89faa19a8d",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260612_181649_inspect-build-variant-cleanliness/live.json",
+  "note": "command_id=inspect-build-variant-cleanliness command_sha256=c929421b3ae94b8ada4457da046286803c95e9e90e16ca94f262af41400b6673",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_181608_inspect-c45-runtime-applied-markers",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 18:16:18 UTC"
+  "run_id": "cmd_20260612_181649_inspect-build-variant-cleanliness",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 18:16:49 UTC"
 }
