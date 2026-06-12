@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2120,
+  "base64_sha256": "92011c3eb3e5b30dc1efe26ddabb6faf58ebd7fd9cef667036e1c1f4d49bcfc1",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "mech-inv-1781278324",
+  "command_sha256": "1e89721d0483c9970afcabf60be658dc9f54cae011dbb71f6f5adb82105a55c1",
+  "compressed_sha256": "a9ceb08ecfda416df49a19b2b3532cc01fa01bb7efd40372af96a0709c2c0ec9",
+  "created_utc": "2026-06-12 15:32:27 UTC",
+  "duration_seconds": 7.150784181430936,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_153220_mech-inv-1781278324"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_153220_mech-inv-1781278324/part_00001.b64"
+  ],
+  "plain_log_bytes": 6344,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_153220_mech-inv-1781278324",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1588
+}
