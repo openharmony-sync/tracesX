@@ -1,0 +1,47 @@
+{
+  "base64_bytes": 647480,
+  "base64_sha256": "09c440349d9f4825bb16706afc203e197b4026a32aadd1385ed597b84eabc2ed",
+  "chunk_count": 14,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-array-v2-1781301223",
+  "command_sha256": "a088bf8529757915dfcbd5423bc106c0c101d86cb51c04bdef794f571b2c5c24",
+  "compressed_sha256": "4fd50585bceac931f77638646741e5238aebae5476c01e4dcb7bfb4882a8d372",
+  "created_utc": "2026-06-12 21:57:55 UTC",
+  "duration_seconds": 244.53520411625504,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 124,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 14,
+      "first_index": 1,
+      "last_index": 14,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00001.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00002.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00003.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00004.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00005.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00006.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00007.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00008.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00009.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00010.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00011.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00012.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00013.b64",
+    "run_stream_logs/cmd_20260612_215349_inspect-array-v2-1781301223/part_00014.b64"
+  ],
+  "plain_log_bytes": 2578286,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_215349_inspect-array-v2-1781301223",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 485608
+}
