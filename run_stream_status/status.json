@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.073,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_213311_assemble-c51b-artifacts-phone-1781299973/live.json",
-  "note": "command_id=assemble-c51b-artifacts-phone-1781299973 command_sha256=232d2bfe67d5285dd1630d1302232bf0b83a70d8757c616c01bea46b20825e56",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260612_213351_start-c36-vs-c51b-focus-1781300024/live.json",
+  "note": "command_id=start-c36-vs-c51b-focus-1781300024 command_sha256=9a90d8e06a996d99491f659414dc82817e33f760f1f48e64ff7d9e5bb9103585",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_213311_assemble-c51b-artifacts-phone-1781299973",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 21:33:20 UTC"
+  "run_id": "cmd_20260612_213351_start-c36-vs-c51b-focus-1781300024",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 21:33:51 UTC"
 }
