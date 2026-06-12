@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.9,
+  "elapsed_seconds": 10.647,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 255,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260612_175228_test-build-to-phone-ssh/live.json",
-  "phase": "control-build",
+  "note": "command_id=test-build-to-phone-ssh command_sha256=c47a9a1dee1e413572d2028b4accb3fcc8c2fe7dcb70354917425602c3c838d0",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260612_175228_test-build-to-phone-ssh",
-  "state": "running",
-  "updated_utc": "2026-06-12 17:52:30 UTC"
+  "state": "failed-control-command",
+  "updated_utc": "2026-06-12 17:52:39 UTC"
 }
