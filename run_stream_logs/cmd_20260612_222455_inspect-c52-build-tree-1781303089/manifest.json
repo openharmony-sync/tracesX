@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 9212,
+  "base64_sha256": "918fccf8016b3b8fab287f556c819ffc04e43346c14f2e08093b425fb8d23546",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-c52-build-tree-1781303089",
+  "command_sha256": "0fe7253d5af0b1dc716fb1cce92171a24b292bbc428345d5d852256ff373ef10",
+  "compressed_sha256": "b7d4c85ed2b451e151c2909e75961ca586f5c625ac50dd2241867ba657a541bc",
+  "created_utc": "2026-06-12 22:25:05 UTC",
+  "duration_seconds": 10.344747994095087,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_222455_inspect-c52-build-tree-1781303089"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_222455_inspect-c52-build-tree-1781303089/part_00001.b64"
+  ],
+  "plain_log_bytes": 61070,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_222455_inspect-c52-build-tree-1781303089",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 6908
+}
