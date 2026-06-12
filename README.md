@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 22:53:18 UTC`
+- Updated: `2026-06-12 22:53:54 UTC`
 - Status: `OK`
-- Run id: `put_20260612_225314_put-c52-artifacts-019-1781304764`
+- Run id: `put_20260612_225350_put-c52-artifacts-020-1781304801`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `put-c52-artifacts-019-1781304764`
+- Command id: `put-c52-artifacts-020-1781304801`
 - Exit code: `0`
-- Duration seconds: `1.269`
-- Encoded log manifest: [run_stream_logs/put_20260612_225314_put-c52-artifacts-019-1781304764/manifest.json](run_stream_logs/put_20260612_225314_put-c52-artifacts-019-1781304764/manifest.json)
+- Duration seconds: `1.357`
+- Encoded log manifest: [run_stream_logs/put_20260612_225350_put-c52-artifacts-020-1781304801/manifest.json](run_stream_logs/put_20260612_225350_put-c52-artifacts-020-1781304801/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/put_20260612_225314_put-c52-artifacts-019-1781304764/part_00001.b64](run_stream_logs/put_20260612_225314_put-c52-artifacts-019-1781304764/part_00001.b64)
+- [run_stream_logs/put_20260612_225350_put-c52-artifacts-020-1781304801/part_00001.b64](run_stream_logs/put_20260612_225350_put-c52-artifacts-020-1781304801/part_00001.b64)
