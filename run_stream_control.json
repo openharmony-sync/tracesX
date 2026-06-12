@@ -1,11 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c46_c36_frontend_c24_interpreter_only",
-  "command_id": "fetch-c46-c24-artifacts-v3",
-  "output_name": "c46_c36_frontend_c24_interpreter_only_artifacts.tar.xz",
-  "paths": [
-    "artifacts"
-  ],
+  "action": "exec",
+  "command_id": "test-build-to-phone-ssh",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jMAQBUc3NoIC1vIEJhdGNoTW9kZT15ZXMgLW8gQ29ubmVjdFRpbWVvdXQ9MTAgYTg0NDQ4NTk4QDEwLjEyMy41MS4xNzkgJ2hvc3RuYW1lOyBkYXRlIC11JwAAAACyi6rG27UbLAABbVW6BdTrH7bzfQEAAAAABFla",
   "target": "build",
-  "timeout_seconds": 900
+  "timeout_seconds": 60
 }
