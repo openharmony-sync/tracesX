@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3536,
+  "base64_sha256": "1aba8413f2f727917757d489a8e37951baf40e23ab2660ffcf1deabf5ce2a668",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "start-c49-c36-runtime-counters-build-counteronly",
+  "command_sha256": "40bd884c43ad23b3067a776bdacd7ad06320701f751d4d11d7035189c5875603",
+  "compressed_sha256": "cfdf5b59ba49f42c5242d977ab2d667d91172da4c879166c8fc94db336369091",
+  "created_utc": "2026-06-12 19:14:16 UTC",
+  "duration_seconds": 9.328048991039395,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_191406_start-c49-c36-runtime-counters-build-counteronly"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_191406_start-c49-c36-runtime-counters-build-counteronly/part_00001.b64"
+  ],
+  "plain_log_bytes": 11152,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_191406_start-c49-c36-runtime-counters-build-counteronly",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 2652
+}
