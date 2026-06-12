@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1084,
+  "latest_base64_sha256": "27b88d29d3cea06666a50edeaf8ae8a32d528929139a3c4efa9fc73747d06e03",
+  "latest_chunk": "run_stream_live/cmd_20260612_221119_check-cow-helpers-1781302276/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 7228,
+  "latest_plain_sha256": "826584b7b28908db1d3f6de9810a42c1527fac2dc7cb281a6dffb30a0280d141",
+  "latest_xz_bytes": 812,
+  "latest_xz_sha256": "5d00279d1183b4b87336576c43638d118b216517ed1c7471bf056b9b98a0188b",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_221119_check-cow-helpers-1781302276"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_221119_check-cow-helpers-1781302276",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 7167,
+  "updated_utc": "2026-06-12 22:11:23 UTC"
+}
