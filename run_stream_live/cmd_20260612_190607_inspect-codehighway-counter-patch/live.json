@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 524,
+  "latest_base64_sha256": "53d0c8bce1c5db0589fe17a1f62469708cd3fa6085debbf0f76dcec9f16239e7",
+  "latest_chunk": "run_stream_live/cmd_20260612_190607_inspect-codehighway-counter-patch/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 850,
+  "latest_plain_sha256": "34b1e87e589e2a4ee5fe6c6d653ab636bf7911114374dad4ad6224eeaa2eb318",
+  "latest_xz_bytes": 392,
+  "latest_xz_sha256": "e8f44e7c5a8cb2f569fbf11785a7747df2769a33fc75e93d278a2691f6eb65c7",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_190607_inspect-codehighway-counter-patch"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_190607_inspect-codehighway-counter-patch",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 789,
+  "updated_utc": "2026-06-12 19:06:34 UTC"
+}
