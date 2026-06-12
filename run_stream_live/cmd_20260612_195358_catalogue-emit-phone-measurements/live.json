@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 25664,
+  "latest_base64_sha256": "adb5af849131d1c87fcc6187ce284ab87b9e8723891db111525696008c2452fb",
+  "latest_chunk": "run_stream_live/cmd_20260612_195358_catalogue-emit-phone-measurements/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 24774,
+  "latest_plain_sha256": "cd6ebba27ec7b3d14c47141acab83af96f0e44701aa5f40f2d12285107f11133",
+  "latest_xz_bytes": 19248,
+  "latest_xz_sha256": "0dd14ca1488589fec2166cd3c2ea59f4e86bb7db7420d550ae8d0302d9ce7465",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_195358_catalogue-emit-phone-measurements"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_195358_catalogue-emit-phone-measurements",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 24576,
+  "updated_utc": "2026-06-12 19:54:01 UTC"
+}
