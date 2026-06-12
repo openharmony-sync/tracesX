@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260612_175228_test-build-to-phone-ssh/live.json",
+  "note": "command_id=test-build-to-phone-ssh command_sha256=c47a9a1dee1e413572d2028b4accb3fcc8c2fe7dcb70354917425602c3c838d0",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-12 17:51:57 UTC"
+  "run_id": "cmd_20260612_175228_test-build-to-phone-ssh",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 17:52:28 UTC"
 }
