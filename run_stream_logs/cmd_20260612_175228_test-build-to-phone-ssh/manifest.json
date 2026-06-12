@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 472,
+  "base64_sha256": "239431e77330fe06366456db143180fc137e5683dba9adb588454d91193e585f",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "test-build-to-phone-ssh",
+  "command_sha256": "c47a9a1dee1e413572d2028b4accb3fcc8c2fe7dcb70354917425602c3c838d0",
+  "compressed_sha256": "f5709c92194f4eaba3edc01b51ba36c38a9ecf4fd715ef26b6b1ed59ab802e9f",
+  "created_utc": "2026-06-12 17:52:36 UTC",
+  "duration_seconds": 7.613292345777154,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 255,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_175228_test-build-to-phone-ssh"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_175228_test-build-to-phone-ssh/part_00001.b64"
+  ],
+  "plain_log_bytes": 511,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_175228_test-build-to-phone-ssh",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 352
+}
