@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1072,
+  "base64_sha256": "0a45aef65e512e053962b16df5b297c3809699da94815d3ba1237d97f5b2aae3",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "fetch-c46-c24-artifacts",
+  "command_sha256": "44de09254b9f0da9f41e61f610abdd3c6e3d5e58ce4de811f828129b182efeb6",
+  "compressed_sha256": "35762daf07509a243ecf00007a01f0076bbfec118a78d44b628356d856bc762c",
+  "created_utc": "2026-06-12 17:31:05 UTC",
+  "duration_seconds": 43.82451184280217,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/fetch_20260612_173021_fetch-c46-c24-artifacts"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/fetch_20260612_173021_fetch-c46-c24-artifacts/part_00001.b64"
+  ],
+  "plain_log_bytes": 1891,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "fetch_20260612_173021_fetch-c46-c24-artifacts",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 804
+}
