@@ -1,0 +1,43 @@
+{
+  "base64_bytes": 483032,
+  "base64_sha256": "370eb8f51fba2c5ca5066012fa94b8404a488ce4d0a72b15be1c66a75018070d",
+  "chunk_count": 10,
+  "chunk_size_bytes": 49356,
+  "command_id": "catalogue-emit-phone-measurements",
+  "command_sha256": "b110878baa9c947f26e12694092f9c3c8723bd92c018538c718dc836695e22ad",
+  "compressed_sha256": "3241dffd56760910169f6848859343b8a488897b8cdbb02d1c43769793bc62d6",
+  "created_utc": "2026-06-12 19:54:45 UTC",
+  "duration_seconds": 47.24218059517443,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 10,
+      "first_index": 1,
+      "last_index": 10,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00001.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00002.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00003.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00004.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00005.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00006.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00007.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00008.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00009.b64",
+    "run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00010.b64"
+  ],
+  "plain_log_bytes": 473642,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_195358_catalogue-emit-phone-measurements",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 362272
+}
