@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 184,
+  "latest_base64_sha256": "8968583d95f0d3695360a24c653766ab438b80e39d481ec909b942c61f187bb6",
+  "latest_chunk": "run_stream_live/cmd_20260612_163959_poll-c45-runtime-smoke-brief3/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 78,
+  "latest_plain_sha256": "ebabe1fad46afebb436f6649c58621ec1b8404fe934e3d638c787394d48f98e8",
+  "latest_xz_bytes": 136,
+  "latest_xz_sha256": "4f039d0b1445193feef6f5e784781aa9afbdf91fc5115f3509b912038126befb",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_163959_poll-c45-runtime-smoke-brief3"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_163959_poll-c45-runtime-smoke-brief3",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 12,
+  "updated_utc": "2026-06-12 16:40:00 UTC"
+}
