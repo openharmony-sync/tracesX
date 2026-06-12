@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 20:54:55 UTC`
+- Updated: `2026-06-12 20:56:07 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_205446_poll-c50b-phone-resume-1781297684`
+- Run id: `cmd_20260612_205559_poll-c51b-build-direct-1781297746`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `poll-c50b-phone-resume-1781297684`
+- Target: `build`
+- Command id: `poll-c51b-build-direct-1781297746`
 - Exit code: `0`
-- Duration seconds: `6.762`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_205446_poll-c50b-phone-resume-1781297684/manifest.json](run_stream_logs/cmd_20260612_205446_poll-c50b-phone-resume-1781297684/manifest.json)
+- Duration seconds: `5.955`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_205559_poll-c51b-build-direct-1781297746/manifest.json](run_stream_logs/cmd_20260612_205559_poll-c51b-build-direct-1781297746/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_205446_poll-c50b-phone-resume-1781297684/part_00001.b64](run_stream_logs/cmd_20260612_205446_poll-c50b-phone-resume-1781297684/part_00001.b64)
+- [run_stream_logs/cmd_20260612_205559_poll-c51b-build-direct-1781297746/part_00001.b64](run_stream_logs/cmd_20260612_205559_poll-c51b-build-direct-1781297746/part_00001.b64)
