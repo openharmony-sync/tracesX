@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1456,
+  "latest_base64_sha256": "f21c952b01ca76279075647217bc32a58acaaf26967490badc37df0583121b3d",
+  "latest_chunk": "run_stream_live/cmd_20260612_054251_analyze-removed-bool-prevops-1781242958/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 5778,
+  "latest_plain_sha256": "357e3e0d22c580cef9a6fac927be26012d14e27a86a2f25e2db45d1945cc55e2",
+  "latest_xz_bytes": 1092,
+  "latest_xz_sha256": "555e9847e35a2c18f77f79eff46e64f6fd81b651d5fd3722ecfe4d6334825361",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_054251_analyze-removed-bool-prevops-1781242958"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_054251_analyze-removed-bool-prevops-1781242958",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 5712,
+  "updated_utc": "2026-06-12 05:42:52 UTC"
+}
