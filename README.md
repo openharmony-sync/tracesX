@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 19:26:52 UTC`
+- Updated: `2026-06-12 19:28:46 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_192627_stage-c49-counters-via-jump`
+- Run id: `cmd_20260612_192724_run-c49-counters-selected`
 - Kind: `control-command`
-- Target: `jump`
-- Command id: `stage-c49-counters-via-jump`
+- Target: `phone_host`
+- Command id: `run-c49-counters-selected`
 - Exit code: `0`
-- Duration seconds: `22.754`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_192627_stage-c49-counters-via-jump/manifest.json](run_stream_logs/cmd_20260612_192627_stage-c49-counters-via-jump/manifest.json)
+- Duration seconds: `79.523`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_192724_run-c49-counters-selected/manifest.json](run_stream_logs/cmd_20260612_192724_run-c49-counters-selected/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_192627_stage-c49-counters-via-jump/part_00001.b64](run_stream_logs/cmd_20260612_192627_stage-c49-counters-via-jump/part_00001.b64)
+- [run_stream_logs/cmd_20260612_192724_run-c49-counters-selected/part_00001.b64](run_stream_logs/cmd_20260612_192724_run-c49-counters-selected/part_00001.b64)
