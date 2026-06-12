@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.86,
+  "elapsed_seconds": 13.309,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260612_222455_inspect-c52-build-tree-1781303089/live.json",
-  "phase": "control-build",
+  "note": "command_id=inspect-c52-build-tree-1781303089 command_sha256=0fe7253d5af0b1dc716fb1cce92171a24b292bbc428345d5d852256ff373ef10",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260612_222455_inspect-c52-build-tree-1781303089",
-  "state": "running",
-  "updated_utc": "2026-06-12 22:24:57 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-12 22:25:08 UTC"
 }
