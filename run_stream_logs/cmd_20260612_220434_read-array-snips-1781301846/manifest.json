@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 9464,
+  "base64_sha256": "ae9da6154a5971abbeb4b727a923d77e5c5a363f3982525ea91670e9dd306da3",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "read-array-snips-1781301846",
+  "command_sha256": "6e9932fad9b90fdf63b2f313e85ca50856817669487d0e40e28af8b43e6e0bee",
+  "compressed_sha256": "beb4835728adbd660067d8ab8c13abfa160fb197bac92a7382a6f25474c509a1",
+  "created_utc": "2026-06-12 22:04:42 UTC",
+  "duration_seconds": 8.077575791627169,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_220434_read-array-snips-1781301846"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_220434_read-array-snips-1781301846/part_00001.b64"
+  ],
+  "plain_log_bytes": 31299,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_220434_read-array-snips-1781301846",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 7096
+}
