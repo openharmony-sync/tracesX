@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2924,
+  "base64_sha256": "8dfb11b88289450783e99a167b9f2b2b172563d4b16bc9d37ccdc32d882431b4",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "stop-c19-screen-1781226520",
+  "command_sha256": "9c5a2ce90e5c15961ad35e783700b507fd571b2f07d0fd7ccb6f0ece9e3a6d59",
+  "compressed_sha256": "3607993f03ab53b4664f418ed7df0f52b14b5753644f782b8b0be10787988b16",
+  "created_utc": "2026-06-12 01:09:13 UTC",
+  "duration_seconds": 6.831231178715825,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_010906_stop-c19-screen-1781226520"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_010906_stop-c19-screen-1781226520/part_00001.b64"
+  ],
+  "plain_log_bytes": 14277,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_010906_stop-c19-screen-1781226520",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2192
+}
