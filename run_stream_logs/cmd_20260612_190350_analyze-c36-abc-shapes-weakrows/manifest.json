@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3400,
+  "base64_sha256": "063ddf164f2377f57a238c5b5404b830b0afd63873d6fc21b6a3e3fc2cb75b4c",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "analyze-c36-abc-shapes-weakrows",
+  "command_sha256": "4a10765ca6927bbb2226d2c35936e44b2e8fa2d1ca2f9fae633a532d301579ad",
+  "compressed_sha256": "2f16a75318be7f630d862785b5ff5dc571e905209417d105cecfe8ee35ce0982",
+  "created_utc": "2026-06-12 19:03:58 UTC",
+  "duration_seconds": 7.3699894323945045,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_190350_analyze-c36-abc-shapes-weakrows"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_190350_analyze-c36-abc-shapes-weakrows/part_00001.b64"
+  ],
+  "plain_log_bytes": 15080,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_190350_analyze-c36-abc-shapes-weakrows",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2548
+}
