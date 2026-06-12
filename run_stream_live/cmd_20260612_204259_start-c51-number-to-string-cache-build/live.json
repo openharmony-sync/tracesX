@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 328,
+  "latest_base64_sha256": "3bcb0a5ee5056b0e8d7ff074e00fc36d90e337c87570e7ebc7df3f46588a3773",
+  "latest_chunk": "run_stream_live/cmd_20260612_204259_start-c51-number-to-string-cache-build/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 228,
+  "latest_plain_sha256": "8ba53738b611ef0bb02fc72e983a88208e20cdc183ba748323da3bf358d65940",
+  "latest_xz_bytes": 244,
+  "latest_xz_sha256": "abcb220a39afeb7f29e9cd99ba0504adbe0b700720434d2e6440ae2df21c2bc1",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_204259_start-c51-number-to-string-cache-build"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_204259_start-c51-number-to-string-cache-build",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 167,
+  "updated_utc": "2026-06-12 20:43:03 UTC"
+}
