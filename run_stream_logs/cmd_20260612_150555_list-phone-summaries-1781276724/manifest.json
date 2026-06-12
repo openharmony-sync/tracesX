@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2728,
+  "base64_sha256": "fe15ce5ff956b2d4181aa95230d8442967110184d3586601b82582e971e33e37",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "list-phone-summaries-1781276724",
+  "command_sha256": "7eaf3105a1155581c93611883408e16de8780469affc9396311e998a26ca66cb",
+  "compressed_sha256": "b6282b10fff7b1adf87966ebbb391d085e0216f50f0fe44000e789567d949799",
+  "created_utc": "2026-06-12 15:06:02 UTC",
+  "duration_seconds": 7.055838460102677,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_150555_list-phone-summaries-1781276724"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_150555_list-phone-summaries-1781276724/part_00001.b64"
+  ],
+  "plain_log_bytes": 6229,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_150555_list-phone-summaries-1781276724",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2044
+}
