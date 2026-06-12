@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 20:48:13 UTC`
+- Updated: `2026-06-12 20:49:26 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_204757_poll-c51b-build-early`
+- Run id: `cmd_20260612_204917_poll-c36-vs-c50b-screen-5`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `poll-c51b-build-early`
+- Target: `phone_host`
+- Command id: `poll-c36-vs-c50b-screen-5`
 - Exit code: `0`
-- Duration seconds: `14.557`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_204757_poll-c51b-build-early/manifest.json](run_stream_logs/cmd_20260612_204757_poll-c51b-build-early/manifest.json)
+- Duration seconds: `6.491`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_204917_poll-c36-vs-c50b-screen-5/manifest.json](run_stream_logs/cmd_20260612_204917_poll-c36-vs-c50b-screen-5/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_204757_poll-c51b-build-early/part_00001.b64](run_stream_logs/cmd_20260612_204757_poll-c51b-build-early/part_00001.b64)
+- [run_stream_logs/cmd_20260612_204917_poll-c36-vs-c50b-screen-5/part_00001.b64](run_stream_logs/cmd_20260612_204917_poll-c36-vs-c50b-screen-5/part_00001.b64)
