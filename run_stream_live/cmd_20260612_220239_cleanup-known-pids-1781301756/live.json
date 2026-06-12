@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1276,
+  "latest_base64_sha256": "71b536b5541d285e8e23395ca63fa180d40d42897c595b3aa78274085ca24af5",
+  "latest_chunk": "run_stream_live/cmd_20260612_220239_cleanup-known-pids-1781301756/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 2947,
+  "latest_plain_sha256": "230b0f1351c36db5e0eec317c7f5fbad0cdb489f3fe0b2a66d29e067a1962597",
+  "latest_xz_bytes": 956,
+  "latest_xz_sha256": "5a5ac3f206cae18ba2f54b8a36406a6e87e79f154ff306f18b530c8d6dd851a3",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_220239_cleanup-known-pids-1781301756"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_220239_cleanup-known-pids-1781301756",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 2276,
+  "updated_utc": "2026-06-12 22:02:44 UTC"
+}
