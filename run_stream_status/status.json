@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 4.837,
+  "elapsed_seconds": 0.003,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/put_20260612_225615_put-c52-artifacts-024-1781304948/live.json",
-  "note": "command_id=put-c52-artifacts-024-1781304948 descriptor_sha256=133d89588d5517b003bf66639b533854f4fdc56664055efe3c00e687906c14df",
-  "phase": "done",
+  "live_manifest": "run_stream_live/put_20260612_225652_put-c52-artifacts-025-1781304981/live.json",
+  "note": "command_id=put-c52-artifacts-025-1781304981 descriptor_sha256=b5bd1eb5ce16c1c50f55d0da025e6ebb32595a11794dca52153aa20a154461fc",
+  "phase": "put-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "put_20260612_225615_put-c52-artifacts-024-1781304948",
-  "state": "finished-control-put",
-  "updated_utc": "2026-06-12 22:56:20 UTC"
+  "run_id": "put_20260612_225652_put-c52-artifacts-025-1781304981",
+  "state": "running-control-put",
+  "updated_utc": "2026-06-12 22:56:52 UTC"
 }
