@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260612_203530_inspect-c50b-build-progress-2/live.json",
+  "note": "command_id=inspect-c50b-build-progress-2 command_sha256=a7db99cb702eaa801145bd7295cee9a3ffd4cb2407cd0ed97b98cddd083c7daa",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-12 20:34:58 UTC"
+  "run_id": "cmd_20260612_203530_inspect-c50b-build-progress-2",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 20:35:30 UTC"
 }
