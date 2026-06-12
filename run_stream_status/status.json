@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.198,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_193909_read-int-to-string-runtime/live.json",
-  "note": "command_id=read-int-to-string-runtime command_sha256=ed640a038734bee12b8a6dd838429d30907225830db3bf72560ab7578c32ce12",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260612_193949_read-int-to-string-runtime-body/live.json",
+  "note": "command_id=read-int-to-string-runtime-body command_sha256=5abeff93462d693c303df79d1f37d8b5852ffe89cb627dbb3be6588893b74b76",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_193909_read-int-to-string-runtime",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 19:39:18 UTC"
+  "run_id": "cmd_20260612_193949_read-int-to-string-runtime-body",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 19:39:49 UTC"
 }
