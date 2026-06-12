@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 240,
+  "latest_base64_sha256": "d9c70f18481edaf01d483884ddac6287cefe1ec647b2f4a2d375e30584d2ac44",
+  "latest_chunk": "run_stream_live/cmd_20260612_204717_poll-c36-vs-c50b-screen-4/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 115,
+  "latest_plain_sha256": "336e2087d2401471d4fa5e837d265f1a8586cb945ab57568b0fff5e6fb83b146",
+  "latest_xz_bytes": 180,
+  "latest_xz_sha256": "b3da1382d86961e9d145a2bb58ec8431c8e9f2bae92085ecd80d7d9512179608",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_204717_poll-c36-vs-c50b-screen-4"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_204717_poll-c36-vs-c50b-screen-4",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 49,
+  "updated_utc": "2026-06-12 20:47:18 UTC"
+}
