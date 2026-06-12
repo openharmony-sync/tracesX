@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 3928,
+  "latest_base64_sha256": "2aabb7a69f333581acccd3c7d2168a6905a1a3bf2d173b2257066e96c6e40a17",
+  "latest_chunk": "run_stream_live/cmd_20260612_171018_summarize-c45-runtime-patches/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 13961,
+  "latest_plain_sha256": "214ed4d95ad3118bff2252f71ea13344b6d4d90d654a445588423b85186e58d8",
+  "latest_xz_bytes": 2944,
+  "latest_xz_sha256": "60b9a66881f045b36de265efc4dcfb465bc2904e73f698d6b6e58945f22717d4",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_171018_summarize-c45-runtime-patches"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_171018_summarize-c45-runtime-patches",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 13351,
+  "updated_utc": "2026-06-12 17:10:22 UTC"
+}
