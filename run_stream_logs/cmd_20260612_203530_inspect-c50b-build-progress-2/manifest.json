@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3880,
+  "base64_sha256": "6ab986211283656f07888951c550b042fd667b6c7035d311967d05ec0df68f54",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-c50b-build-progress-2",
+  "command_sha256": "a7db99cb702eaa801145bd7295cee9a3ffd4cb2407cd0ed97b98cddd083c7daa",
+  "compressed_sha256": "290b5e14dc0655df555e2dce60901a682e6b0ce59da2f56c32d63bfe5661139b",
+  "created_utc": "2026-06-12 20:35:36 UTC",
+  "duration_seconds": 6.280678924173117,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_203530_inspect-c50b-build-progress-2"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_203530_inspect-c50b-build-progress-2/part_00001.b64"
+  ],
+  "plain_log_bytes": 11948,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_203530_inspect-c50b-build-progress-2",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 2908
+}
