@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 19:41:09 UTC`
+- Updated: `2026-06-12 19:49:42 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_194101_check-int-helper-names`
+- Run id: `cmd_20260612_194934_catalogue-remote-patch-inventory`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `check-int-helper-names`
+- Command id: `catalogue-remote-patch-inventory`
 - Exit code: `0`
-- Duration seconds: `6.058`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_194101_check-int-helper-names/manifest.json](run_stream_logs/cmd_20260612_194101_check-int-helper-names/manifest.json)
+- Duration seconds: `6.321`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_194934_catalogue-remote-patch-inventory/manifest.json](run_stream_logs/cmd_20260612_194934_catalogue-remote-patch-inventory/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_194101_check-int-helper-names/part_00001.b64](run_stream_logs/cmd_20260612_194101_check-int-helper-names/part_00001.b64)
+- [run_stream_logs/cmd_20260612_194934_catalogue-remote-patch-inventory/part_00001.b64](run_stream_logs/cmd_20260612_194934_catalogue-remote-patch-inventory/part_00001.b64)
