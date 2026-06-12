@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.55,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_162117_phone-lock-check-1781281257/live.json",
-  "note": "command_id=phone-lock-check-1781281257 command_sha256=55203e9148b10601de49e5629185585104328d5396ece3ad83362ee83ba83ad3",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260612_162158_c36-c45-poll-1781281298/live.json",
+  "note": "command_id=c36-c45-poll-1781281298 command_sha256=b2e55de6d040313fc22fab318495cff5304995477b0b907cc396d2e7310a9c53",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_162117_phone-lock-check-1781281257",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 16:21:27 UTC"
+  "run_id": "cmd_20260612_162158_c36-c45-poll-1781281298",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 16:21:58 UTC"
 }
