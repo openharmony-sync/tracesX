@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 16:30:45 UTC`
+- Updated: `2026-06-12 16:31:27 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_163036_poll-c45-runtime-smoke-tail2`
+- Run id: `cmd_20260612_163117_poll-c45-runtime-smoke-tail3`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `poll-c45-runtime-smoke-tail2`
+- Command id: `poll-c45-runtime-smoke-tail3`
 - Exit code: `0`
-- Duration seconds: `6.750`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_163036_poll-c45-runtime-smoke-tail2/manifest.json](run_stream_logs/cmd_20260612_163036_poll-c45-runtime-smoke-tail2/manifest.json)
+- Duration seconds: `7.042`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_163117_poll-c45-runtime-smoke-tail3/manifest.json](run_stream_logs/cmd_20260612_163117_poll-c45-runtime-smoke-tail3/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_163036_poll-c45-runtime-smoke-tail2/part_00001.b64](run_stream_logs/cmd_20260612_163036_poll-c45-runtime-smoke-tail2/part_00001.b64)
+- [run_stream_logs/cmd_20260612_163117_poll-c45-runtime-smoke-tail3/part_00001.b64](run_stream_logs/cmd_20260612_163117_poll-c45-runtime-smoke-tail3/part_00001.b64)
