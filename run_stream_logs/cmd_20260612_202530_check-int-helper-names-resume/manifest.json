@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2648,
+  "base64_sha256": "d3d47a8d41f88af784fbfe125b03f9f26e08dee7c4a8e0e08e3226b230860f18",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "check-int-helper-names-resume",
+  "command_sha256": "f0f32f8f2ad68eb106f3df5b6afcb2470b784b8a249eb2801c6c55dc9adc1977",
+  "compressed_sha256": "5b5439db027af1847749bf20150b5b3737f8805850f021f8a135408b21dc3a79",
+  "created_utc": "2026-06-12 20:25:36 UTC",
+  "duration_seconds": 6.044938623905182,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/part_00001.b64"
+  ],
+  "plain_log_bytes": 14669,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_202530_check-int-helper-names-resume",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1984
+}
