@@ -1,7 +1,13 @@
 {
-  "action": "exec",
-  "command_id": "poll-c41-build-1781252880",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AMOAcZdABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lMQ8wa60rPN7cXGwVr/ou4FJIyV3SP+AYKGBLGz4gxqhsXbiz4rR3OjsXgQddsbBowar7tU8AyZIg2w0qjjxx3r0BBZs8eK0FXDpD01N03D7GmVLVCZMOXau6jwbAiRhAKCRgVOyCSM5iSat9Dkg0QI4Ewd2AvMd0YForbIWiaqp7WYSW8LqQE4JrxZWHG8CG9edtR9vgTCC4cWuX81HpZw4Q4FmdGBeVSZJRKMxNCv6NBGjxQK++GTwesfOLdAZec9vIuQjlC53yhKq3X9Be72ophQVsw27mHst76GwTciae82OsH8MQoReB8ct1qpdN7e0/4HdID8OQ9w5p9kuhRZgCU931oRjwS3KYy1CrcqFqCNzp56C1PEaoy7wquGq27FL0Dm22J6oemB8N1PyiAFRYvvhSwtM9B51YDZGj5P5zS4Kp9+aK49v6hAXyen5J5w3CpghM5OOJJ/i6WXneXt6djDoc89FOqBjGZE+EbPA6ZmzUFY7lIBUJfltbZAlzcCMOdAUNT387R6AeAOd6TNvE6njPiqVjF6GlCF1oLwAAACCb9+BLO/G6wAB4gOPBgAAW87ObrHEZ/sCAAAAAARZWg==",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c41_boolean_totalcap16",
+  "command_id": "fetch-c41-es2abc-1781253179",
+  "max_upstream_bytes": "400M",
+  "output_name": "c41_boolean_totalcap16_es2abc.tar.xz",
+  "paths": [
+    "artifacts/host-tools/es2abc"
+  ],
   "target": "build",
-  "timeout_seconds": 180
+  "timeout_seconds": 900,
+  "upstream": "none"
 }
