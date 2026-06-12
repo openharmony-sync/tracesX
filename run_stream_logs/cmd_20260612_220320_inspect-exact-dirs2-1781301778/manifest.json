@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 7680,
+  "base64_sha256": "b04c55669c34e8300bf56bdbd4879c4dbe7d0988fdeefd61ecbac2281375c765",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-exact-dirs2-1781301778",
+  "command_sha256": "7998d6dcdabd33f9b1cb28ea797423fa5530214ca6c6ca2b5f3339b03ba9f45d",
+  "compressed_sha256": "888ab10a69b74353105cdebaf1b792d34558464483b9476ab81ade41e2fb27d4",
+  "created_utc": "2026-06-12 22:03:28 UTC",
+  "duration_seconds": 7.862608367577195,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_220320_inspect-exact-dirs2-1781301778"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_220320_inspect-exact-dirs2-1781301778/part_00001.b64"
+  ],
+  "plain_log_bytes": 43148,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_220320_inspect-exact-dirs2-1781301778",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 5760
+}
