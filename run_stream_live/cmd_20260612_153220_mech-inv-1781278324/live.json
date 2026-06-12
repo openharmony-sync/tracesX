@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 216,
+  "latest_base64_sha256": "e943a92a447c5d38b9d8b8c744ccfe2f866e4c7f927f0fe0120222003b07ec50",
+  "latest_chunk": "run_stream_live/cmd_20260612_153220_mech-inv-1781278324/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 102,
+  "latest_plain_sha256": "052c4e5352625619fc208be4f05ac8fe4c602d52005462a3367027144e6153c2",
+  "latest_xz_bytes": 160,
+  "latest_xz_sha256": "2b8fb036d63284c4e9d8b205953f2930de0c390ee67fb06862c288aaf89bc020",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_153220_mech-inv-1781278324"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_153220_mech-inv-1781278324",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 36,
+  "updated_utc": "2026-06-12 15:32:21 UTC"
+}
