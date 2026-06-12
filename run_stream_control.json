@@ -1,7 +1,13 @@
 {
-  "action": "exec",
-  "command_id": "poll-c42-build-final-1781258930",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AMZActdABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lQ3eKGsmwE1mu//DRyGzoV29ARFh8ueKdLLDO9uuVUQx9a0xa4d6bsyQke8sTpVaXN2wT1VNJNzK8Wl2EwnIzNEx3lajDn3cvbjeqOdNI6fs1e1fCA++MNnTclEJM7tjIH67trpahwQ2lf0u5WYGEiscC8R4p9cDHzxbZSrgMNIEbEhyzlYhsVFRO1BGJwzT8XwVK2uXGgss/u8gYbJ/p41lI1rIJp5P7SucC71BzRxkzTEJ8NKbx55aCseNRH9M4QQ2vGW14uuf1TZ1yoaTYcs2CvRsHgmEDDJxSQrqKILuXF/t8IRi1Xr9MJ33z1XrabjzMDq0vle2Dko0cJP52ztsl1e8UFmRqb3xI/okyN3Dd6STlgwRsoX/mMPfNHEZ1o9iuJsmaCjWLXIrPHGNuFl5fCJ1ksdI+wv5c5Ckikfw9qvH1S6xByBq+ty3+QETlQsOkqUIdC/Pnc7LcGWNXuTcG+kFSW+Ks1dWvfPUo2qvIWML1m0N81GTPVZsThYbkgSf/Px/F8jnCMNE9bofrZAfvPdvwq99hHAcg88UNIIlPVyfwAAA5pGnXvcUb08AAecDmgYAAEX4xFmxxGf7AgAAAAAEWVo=",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c42_shape_filtered_isfalse",
+  "command_id": "fetch-c42-es2abc-1781258995",
+  "max_upstream_bytes": "400M",
+  "output_name": "c42_shape_filtered_isfalse_es2abc.tar.xz",
+  "paths": [
+    "artifacts/host-tools/es2abc"
+  ],
   "target": "build",
-  "timeout_seconds": 180
+  "timeout_seconds": 900,
+  "upstream": "none"
 }
