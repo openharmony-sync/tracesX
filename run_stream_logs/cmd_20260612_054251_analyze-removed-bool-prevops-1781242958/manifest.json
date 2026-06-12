@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1676,
+  "base64_sha256": "20f61973fb55d7a7ab0ce7cdf7e8fdc8e1ff54b73c461ca8e00501076a2774f0",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "analyze-removed-bool-prevops-1781242958",
+  "command_sha256": "55653d5ea0db081bc5fe2e432b9cfe5f506e3d332027f634abf4c809e3e069d4",
+  "compressed_sha256": "28c4b333bb021e30b4b096f2ad820eb52b970b991c75b6a42c575af4a89b39c4",
+  "created_utc": "2026-06-12 05:42:56 UTC",
+  "duration_seconds": 4.889544762670994,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_054251_analyze-removed-bool-prevops-1781242958"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_054251_analyze-removed-bool-prevops-1781242958/part_00001.b64"
+  ],
+  "plain_log_bytes": 6214,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_054251_analyze-removed-bool-prevops-1781242958",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1256
+}
