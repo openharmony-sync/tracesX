@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1600,
+  "base64_sha256": "2d8f5962b0ecfc1986c86e69ca3976e47495642f4c1d5ffc36ae8cbd482624a7",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "read-int-to-string-runtime",
+  "command_sha256": "ed640a038734bee12b8a6dd838429d30907225830db3bf72560ab7578c32ce12",
+  "compressed_sha256": "58426ef6d26562adabee20afd7fa0e4e915b2ac675c6b90b5dc575d1033dcc5c",
+  "created_utc": "2026-06-12 19:39:15 UTC",
+  "duration_seconds": 6.025798533111811,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_193909_read-int-to-string-runtime"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_193909_read-int-to-string-runtime/part_00001.b64"
+  ],
+  "plain_log_bytes": 3706,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_193909_read-int-to-string-runtime",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1200
+}
