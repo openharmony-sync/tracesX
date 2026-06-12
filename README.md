@@ -1,15 +1,15 @@
 # Run Stream
 
-- Updated: `2026-06-12 19:55:30 UTC`
+- Updated: `2026-06-12 20:21:57 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_195358_catalogue-emit-phone-measurements`
+- Run id: `cmd_20260612_202149_poll-c50-build-resume`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `catalogue-emit-phone-measurements`
+- Target: `build`
+- Command id: `poll-c50-build-resume`
 - Exit code: `0`
-- Duration seconds: `47.242`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/manifest.json](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/manifest.json)
-- Encoded log parts: `10`
+- Duration seconds: `6.641`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_202149_poll-c50-build-resume/manifest.json](run_stream_logs/cmd_20260612_202149_poll-c50-build-resume/manifest.json)
+- Encoded log parts: `1`
 
 ## Reconstruct Captured Output
 
@@ -19,13 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00001.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00001.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00002.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00002.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00003.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00003.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00004.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00004.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00005.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00005.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00006.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00006.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00007.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00007.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00008.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00008.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00009.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00009.b64)
-- [run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00010.b64](run_stream_logs/cmd_20260612_195358_catalogue-emit-phone-measurements/part_00010.b64)
+- [run_stream_logs/cmd_20260612_202149_poll-c50-build-resume/part_00001.b64](run_stream_logs/cmd_20260612_202149_poll-c50-build-resume/part_00001.b64)
