@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 18:12:06 UTC`
+- Updated: `2026-06-12 18:14:22 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_181157_poll-c45-full-1813`
+- Run id: `cmd_20260612_181414_inspect-c45-c46-c47-build-artifacts`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `poll-c45-full-1813`
+- Target: `build`
+- Command id: `inspect-c45-c46-c47-build-artifacts`
 - Exit code: `0`
-- Duration seconds: `7.276`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_181157_poll-c45-full-1813/manifest.json](run_stream_logs/cmd_20260612_181157_poll-c45-full-1813/manifest.json)
+- Duration seconds: `6.341`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_181414_inspect-c45-c46-c47-build-artifacts/manifest.json](run_stream_logs/cmd_20260612_181414_inspect-c45-c46-c47-build-artifacts/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_181157_poll-c45-full-1813/part_00001.b64](run_stream_logs/cmd_20260612_181157_poll-c45-full-1813/part_00001.b64)
+- [run_stream_logs/cmd_20260612_181414_inspect-c45-c46-c47-build-artifacts/part_00001.b64](run_stream_logs/cmd_20260612_181414_inspect-c45-c46-c47-build-artifacts/part_00001.b64)
