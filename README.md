@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 21:32:07 UTC`
+- Updated: `2026-06-12 21:33:19 UTC`
 - Status: `OK`
-- Run id: `put_20260612_213204_put-c51b-stub-part_009-1781299898`
+- Run id: `cmd_20260612_213311_assemble-c51b-artifacts-phone-1781299973`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `put-c51b-stub-part_009-1781299898`
+- Command id: `assemble-c51b-artifacts-phone-1781299973`
 - Exit code: `0`
-- Duration seconds: `1.295`
-- Encoded log manifest: [run_stream_logs/put_20260612_213204_put-c51b-stub-part_009-1781299898/manifest.json](run_stream_logs/put_20260612_213204_put-c51b-stub-part_009-1781299898/manifest.json)
+- Duration seconds: `6.231`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_213311_assemble-c51b-artifacts-phone-1781299973/manifest.json](run_stream_logs/cmd_20260612_213311_assemble-c51b-artifacts-phone-1781299973/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/put_20260612_213204_put-c51b-stub-part_009-1781299898/part_00001.b64](run_stream_logs/put_20260612_213204_put-c51b-stub-part_009-1781299898/part_00001.b64)
+- [run_stream_logs/cmd_20260612_213311_assemble-c51b-artifacts-phone-1781299973/part_00001.b64](run_stream_logs/cmd_20260612_213311_assemble-c51b-artifacts-phone-1781299973/part_00001.b64)
