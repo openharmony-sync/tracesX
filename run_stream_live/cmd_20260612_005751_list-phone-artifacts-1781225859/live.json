@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 796,
+  "latest_base64_sha256": "2df764fb82aa3e94b8e831274429f8dd9718442d263edcbfa13262115a657ebc",
+  "latest_chunk": "run_stream_live/cmd_20260612_005751_list-phone-artifacts-1781225859/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 2526,
+  "latest_plain_sha256": "036594351692de8d891233d42e7b833f5469cbe2fc7cf09c16d626ffcdf8d461",
+  "latest_xz_bytes": 596,
+  "latest_xz_sha256": "22d48ca930b922b92f872673addea8d7587fe0db3d543bafd4be8cc7bbae3c55",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_005751_list-phone-artifacts-1781225859"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_005751_list-phone-artifacts-1781225859",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 2460,
+  "updated_utc": "2026-06-12 00:57:52 UTC"
+}
