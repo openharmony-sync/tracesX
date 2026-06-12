@@ -1,22 +1,22 @@
 {
-  "chunk_count": 1,
-  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "chunk_count": 2,
+  "decode_latest": "base64 -d chunk_00002.b64 | xz -dc",
   "encoding": "base64(xz -9e bytes)",
-  "latest_base64_bytes": 188,
-  "latest_base64_sha256": "2d5b77950793c5e8d1c59616d0e29f3510da14ac511769cdd22f2732be381a84",
-  "latest_chunk": "run_stream_live/cmd_20260612_230357_assemble-c52-artifacts-phone-1781305414/chunk_00001.b64",
-  "latest_chunk_index": 1,
-  "latest_plain_bytes": 82,
-  "latest_plain_sha256": "65207fcafb161d503b09bd236367f842669e43af985e05f490a56a5669afba29",
-  "latest_xz_bytes": 140,
-  "latest_xz_sha256": "a42f05674e71a7c4027588acf094469d04785235df52a0ef33c7bffd8a85c900",
+  "latest_base64_bytes": 684,
+  "latest_base64_sha256": "26f29cbabbdffcf7695bb5d80825c2bf7670fc2866636ccd1f51a600b89bde23",
+  "latest_chunk": "run_stream_live/cmd_20260612_230357_assemble-c52-artifacts-phone-1781305414/chunk_00002.b64",
+  "latest_chunk_index": 2,
+  "latest_plain_bytes": 1421,
+  "latest_plain_sha256": "0d59013356114efd4dc97e3491e561fa1f67b1402f92bd7332701c4f1e76da00",
+  "latest_xz_bytes": 512,
+  "latest_xz_sha256": "de2eb1e925288e36b525ab988d72d10939d2bbc1082b172a5ea255d25a7f562b",
   "max_chunks_per_page": 950,
   "page_count": 1,
   "pages": [
     {
-      "count": 1,
+      "count": 2,
       "first_index": 1,
-      "last_index": 1,
+      "last_index": 2,
       "page": 1,
       "root": "run_stream_live/cmd_20260612_230357_assemble-c52-artifacts-phone-1781305414"
     }
@@ -24,6 +24,6 @@
   "phase": "control-phone_host",
   "run_id": "cmd_20260612_230357_assemble-c52-artifacts-phone-1781305414",
   "total_stderr_bytes_seen": 0,
-  "total_stdout_bytes_seen": 16,
-  "updated_utc": "2026-06-12 23:03:58 UTC"
+  "total_stdout_bytes_seen": 1371,
+  "updated_utc": "2026-06-12 23:04:01 UTC"
 }
