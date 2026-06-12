@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.106,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_065446_tail-c40-smoke-1781247266/live.json",
-  "note": "command_id=tail-c40-smoke-1781247266 command_sha256=7c544405dd4d1adb258d38bf84f3cea1c7ddf2febc705ad5543d5c7e74ff4e17",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260612_065527_compare-c40-smoke-1781247321/live.json",
+  "note": "command_id=compare-c40-smoke-1781247321 command_sha256=9c7e19b88beeecdd28d58aa694f9283b1be917e33f061ca634928584abb4441a",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_065446_tail-c40-smoke-1781247266",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 06:54:55 UTC"
+  "run_id": "cmd_20260612_065527_compare-c40-smoke-1781247321",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 06:55:27 UTC"
 }
