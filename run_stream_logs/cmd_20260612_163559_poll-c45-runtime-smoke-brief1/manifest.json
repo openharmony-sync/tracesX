@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2544,
+  "base64_sha256": "e8c72d091919993ea358dbf7753f707333e9d0276dfd4f809f87c3eb8ffc8ee2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "poll-c45-runtime-smoke-brief1",
+  "command_sha256": "56da787686ccc233dafcff9d8a4c97eb5f74c4f6833a33256f30563aed7f65f9",
+  "compressed_sha256": "1585847ca336b25b67d0fd433958fb423047fc5fce2f765b4e3a9ab9d2cb417b",
+  "created_utc": "2026-06-12 16:36:06 UTC",
+  "duration_seconds": 6.757117060944438,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_163559_poll-c45-runtime-smoke-brief1"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_163559_poll-c45-runtime-smoke-brief1/part_00001.b64"
+  ],
+  "plain_log_bytes": 8262,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_163559_poll-c45-runtime-smoke-brief1",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1908
+}
