@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 21:05:29 UTC`
+- Updated: `2026-06-12 21:10:50 UTC`
 - Status: `OK`
-- Run id: `fetch_20260612_210443_fetch-c51b-artifacts-release-1781298269`
+- Run id: `fetch_20260612_210705_fetch-c51b-artifacts-chunks-1781298403`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `fetch-c51b-artifacts-release-1781298269`
+- Command id: `fetch-c51b-artifacts-chunks-1781298403`
 - Exit code: `0`
-- Duration seconds: `43.119`
-- Encoded log manifest: [run_stream_logs/fetch_20260612_210443_fetch-c51b-artifacts-release-1781298269/manifest.json](run_stream_logs/fetch_20260612_210443_fetch-c51b-artifacts-release-1781298269/manifest.json)
+- Duration seconds: `222.767`
+- Encoded log manifest: [run_stream_logs/fetch_20260612_210705_fetch-c51b-artifacts-chunks-1781298403/manifest.json](run_stream_logs/fetch_20260612_210705_fetch-c51b-artifacts-chunks-1781298403/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/fetch_20260612_210443_fetch-c51b-artifacts-release-1781298269/part_00001.b64](run_stream_logs/fetch_20260612_210443_fetch-c51b-artifacts-release-1781298269/part_00001.b64)
+- [run_stream_logs/fetch_20260612_210705_fetch-c51b-artifacts-chunks-1781298403/part_00001.b64](run_stream_logs/fetch_20260612_210705_fetch-c51b-artifacts-chunks-1781298403/part_00001.b64)
