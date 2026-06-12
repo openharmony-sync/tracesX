@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1116,
+  "base64_sha256": "1083049ef22e5e68ff06874d50b033d309adda1efc0262cdc8874bd8cf684763",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "stage-c46-via-jump",
+  "command_sha256": "9402f1a66d3a8fa6313b07a6213674a48534729c64c5e176d5c399d16d3d1a5a",
+  "compressed_sha256": "f8cd8d637e74c09ecdc0695983a17dd5c320e830af583daf6ea8e9ecc978518d",
+  "created_utc": "2026-06-12 17:54:04 UTC",
+  "duration_seconds": 22.904031172394753,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_175341_stage-c46-via-jump"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_175341_stage-c46-via-jump/part_00001.b64"
+  ],
+  "plain_log_bytes": 2244,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_175341_stage-c46-via-jump",
+  "status": "OK",
+  "target": "jump",
+  "xz_bytes": 836
+}
