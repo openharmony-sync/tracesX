@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1552,
+  "base64_sha256": "34f989aeb3ff98e52963272084e1e5e7400d2af6af4f55efb67e1212d0ca5e48",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "poll-c48-forceclean-screen-5",
+  "command_sha256": "386c850db481faa3e7995c24a26092decf9d879c5bdc69c50b4e3df4c06c9b5b",
+  "compressed_sha256": "867571374bb3fdb1a6cbafd8c7acedbf75311e70811c03447636bacf02a2720f",
+  "created_utc": "2026-06-12 18:57:23 UTC",
+  "duration_seconds": 6.3109454941004515,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_185716_poll-c48-forceclean-screen-5"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_185716_poll-c48-forceclean-screen-5/part_00001.b64"
+  ],
+  "plain_log_bytes": 7416,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_185716_poll-c48-forceclean-screen-5",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1164
+}
