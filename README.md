@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-12 20:25:38 UTC`
+- Updated: `2026-06-12 20:26:51 UTC`
 - Status: `OK`
-- Run id: `cmd_20260612_202530_check-int-helper-names-resume`
+- Run id: `cmd_20260612_202642_poll-c50b-build-mid`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `check-int-helper-names-resume`
+- Command id: `poll-c50b-build-mid`
 - Exit code: `0`
-- Duration seconds: `6.045`
-- Encoded log manifest: [run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/manifest.json](run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/manifest.json)
+- Duration seconds: `6.288`
+- Encoded log manifest: [run_stream_logs/cmd_20260612_202642_poll-c50b-build-mid/manifest.json](run_stream_logs/cmd_20260612_202642_poll-c50b-build-mid/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/part_00001.b64](run_stream_logs/cmd_20260612_202530_check-int-helper-names-resume/part_00001.b64)
+- [run_stream_logs/cmd_20260612_202642_poll-c50b-build-mid/part_00001.b64](run_stream_logs/cmd_20260612_202642_poll-c50b-build-mid/part_00001.b64)
