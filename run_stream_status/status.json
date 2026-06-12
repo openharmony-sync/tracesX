@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 11.571,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_220628_read-array-deeper2-1781301982/live.json",
-  "note": "command_id=read-array-deeper2-1781301982 command_sha256=c1898a0ed8f999c994d694122789808c44758c8da4b43a2b3cae19f308004392",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_220628_read-array-deeper2-1781301982",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 22:06:39 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-12 22:07:11 UTC"
 }
