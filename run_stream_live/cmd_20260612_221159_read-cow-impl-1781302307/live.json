@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2344,
+  "latest_base64_sha256": "3a03bc280e2b3df124588f7bc98f0235eb1420e3ae5dbe2c217ce973e19bc9f8",
+  "latest_chunk": "run_stream_live/cmd_20260612_221159_read-cow-impl-1781302307/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 6738,
+  "latest_plain_sha256": "0fe70bbe4cd45fee8cf4941cb729bf941e5e496c5b1234229c85e427ed073533",
+  "latest_xz_bytes": 1756,
+  "latest_xz_sha256": "cfd8888b27bf4653cad24e43dfab66200bf14a36fc50f86ec11fab8640275cee",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_221159_read-cow-impl-1781302307"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_221159_read-cow-impl-1781302307",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 6616,
+  "updated_utc": "2026-06-12 22:12:03 UTC"
+}
