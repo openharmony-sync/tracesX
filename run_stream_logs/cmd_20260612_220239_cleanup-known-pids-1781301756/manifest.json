@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1472,
+  "base64_sha256": "5b0e683c45f591330abb5503e77e64878bb80fa8cfcbb401a3e37856066e5b33",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "cleanup-known-pids-1781301756",
+  "command_sha256": "b4aabe2eb7eda34e733ac698e0fd657c486b4574464188b8fcc03d5d0d2eaaaa",
+  "compressed_sha256": "fd062d1bf6182805c701be9447ee687c19f6d31b2f9e369e8916a5eb5d28f7dc",
+  "created_utc": "2026-06-12 22:02:46 UTC",
+  "duration_seconds": 6.731719760224223,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_220239_cleanup-known-pids-1781301756"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_220239_cleanup-known-pids-1781301756/part_00001.b64"
+  ],
+  "plain_log_bytes": 2738,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_220239_cleanup-known-pids-1781301756",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1104
+}
