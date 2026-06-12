@@ -1,14 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c39_c36_isfalse_no_transport/artifacts",
-  "command_id": "fetch-c39-es2abc-1781244986",
-  "max_upstream_bytes": "400M",
-  "output_name": "c39_c36_isfalse_no_transport_es2abc.tar.xz",
-  "paths": [
-    "host-tools/es2abc"
-  ],
-  "skip_preflight": true,
-  "target": "build",
-  "timeout_seconds": 0,
-  "upstream": "none"
+  "action": "exec",
+  "command_id": "poll-fetch-c39-only-1781245074",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AIHAUJdABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lMvw9H7Di/p8ApD0wBMotI+gAGhEU2geZUx7lR6URI/O2F/QkudfEopamQgxXSxBrGadjwAbTpSQA0cwskF2FxVoWyiTiH0b6KkW8CW+w248GkZo7lFYt4z/VxjYoCMnKWJvk02mQfGKnZC/1oJ52w5zEzX+lhTmqFmoAq3jeaTa9JyEgrKavG9S5qHun86QImgAuDrAegRiK0iYh/u6IV+OHpwlqX0wMJVnB1cgFWf/qeBMc87MuRm2jou4Tef/D3aQS48zNAlTooKJ85kvZOZO31c5xruYG7EtQ4W8qqEAxoFWw7pMbqCcSTAa32uelcNFvT3MUxKTAGhgY/9J5TZ0Cgn6dSbFKEPehvEmjWrT6ZRzfPlDSG8+zAAAAACdEZbeFh+fhgAB3gKIBAAA6sxFvrHEZ/sCAAAAAARZWg==",
+  "target": "jump",
+  "timeout_seconds": 90
 }
