@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2480,
+  "latest_base64_sha256": "f0889013f32b70d718b3b1618f8e27097f601e755af5fcd87feb42c7a1cffb9a",
+  "latest_chunk": "run_stream_live/cmd_20260612_194101_check-int-helper-names/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 14494,
+  "latest_plain_sha256": "3b3e25cd4708ffb49a4ab4c2c013c0a970012c5316cb9ca0b5240a9b9984b9c9",
+  "latest_xz_bytes": 1860,
+  "latest_xz_sha256": "7de62d67f0402e25dc6e4f4e0add7ad6f0cc8e518bb3e8e8a38da869207c9f3a",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_194101_check-int-helper-names"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260612_194101_check-int-helper-names",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 14250,
+  "updated_utc": "2026-06-12 19:41:05 UTC"
+}
