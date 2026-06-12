@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 568,
+  "base64_sha256": "30fb442aa0a14f82634c41c5d516f03f0e4d03bf8a894100e3c23d623a2df3c4",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "put-c51b-stub-part_000-1781299588",
+  "command_sha256": "2b3a0b42c42ca755817626fa9bcc220b65dcd83d7fec4e0ff920d14ca95454d3",
+  "compressed_sha256": "b1a8b3bb0aa85bb7bc26aa9136a89f0dff304b423b4e860f324584eb0ff93383",
+  "created_utc": "2026-06-12 21:26:43 UTC",
+  "duration_seconds": 1.246202366426587,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/put_20260612_212641_put-c51b-stub-part_000-1781299588"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/put_20260612_212641_put-c51b-stub-part_000-1781299588/part_00001.b64"
+  ],
+  "plain_log_bytes": 624,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "put_20260612_212641_put-c51b-stub-part_000-1781299588",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 424
+}
