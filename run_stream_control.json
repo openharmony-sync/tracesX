@@ -1,7 +1,14 @@
 {
-  "action": "exec",
-  "command_id": "poll-fetch-c39-1781244921",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AJTAUJdABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lMvw9H7DrTeLwsuWJrLBQyrNBRsNhjlHrUHuw/XjEfkyjAQ6TMG4kMviwe0jtDfUUa1uQ0WAbxnSSGoyIr0qOVupEDRsroDGx7ZLDtUAZ6u8ekTFgVbNlQI15sEUK4z4vfy9yZDswLsOfkHWOvr2XLXaj+YCscwq1HwCzSCs/Ljck1HJ+mvnyaMOVt/7JcqQ6TUXuZl2QKfPAxjTtNL6636nXSJ43oQyon9LEOuh2oWptuMFOdmq1qzyCMzypEsvI9HIVRj1n0vBw2QHdAXUET9ve/ANJAZWqrHi4u7TAOfKInN/kkfypHniwbso72PYUnM2Qi2M+JOVt2zBmY86LuSr+sM+ejMSQsT4hVnI/UoOcsKFjDvKuYdPAgAAAAC46lMwiv0BUwAB3gLUBAAA8HyeP7HEZ/sCAAAAAARZWg==",
-  "target": "jump",
-  "timeout_seconds": 90
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c39_c36_isfalse_no_transport/artifacts",
+  "command_id": "fetch-c39-es2abc-1781244986",
+  "max_upstream_bytes": "400M",
+  "output_name": "c39_c36_isfalse_no_transport_es2abc.tar.xz",
+  "paths": [
+    "host-tools/es2abc"
+  ],
+  "skip_preflight": true,
+  "target": "build",
+  "timeout_seconds": 0,
+  "upstream": "none"
 }
