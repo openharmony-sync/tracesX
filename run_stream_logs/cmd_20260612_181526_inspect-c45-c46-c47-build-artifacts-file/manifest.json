@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3584,
+  "base64_sha256": "9c314bc07dacfc50a1c4d90d1e3cb6c09f50aa06b617ffe30966230dd37a633e",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-c45-c46-c47-build-artifacts-file",
+  "command_sha256": "6b1603d5f7f96b075b0068d44ead24c8592176df17ed5e50e38e176a3c71a995",
+  "compressed_sha256": "9686bc5f4df7dc3b8118b098d4a6487549637bc6ba7e224e62fe157156ad89de",
+  "created_utc": "2026-06-12 18:15:34 UTC",
+  "duration_seconds": 8.054574282839894,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_181526_inspect-c45-c46-c47-build-artifacts-file"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_181526_inspect-c45-c46-c47-build-artifacts-file/part_00001.b64"
+  ],
+  "plain_log_bytes": 32019,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_181526_inspect-c45-c46-c47-build-artifacts-file",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 2688
+}
