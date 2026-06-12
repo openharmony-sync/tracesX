@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2368,
+  "base64_sha256": "34b8b102891cc1ffdb8a578cd04fec3f36cb06bf9caca94e9bba763e4d280b82",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "list-phone-results-1781226022",
+  "command_sha256": "ee3f6181f9d26d2656613d52efd3715ba8bcdf2c3f84bf5991ff69857e36dfe2",
+  "compressed_sha256": "bff51ab71fd4b2561ed128dbfe185794b4314ba3649aeed8fd86c518693f4860",
+  "created_utc": "2026-06-12 01:00:58 UTC",
+  "duration_seconds": 6.918787671253085,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_010051_list-phone-results-1781226022"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_010051_list-phone-results-1781226022/part_00001.b64"
+  ],
+  "plain_log_bytes": 9611,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_010051_list-phone-results-1781226022",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1776
+}
