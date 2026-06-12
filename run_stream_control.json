@@ -1,13 +1,14 @@
 {
   "action": "fetch",
   "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c51b_c36_number_to_string_cache_fastpath_delta",
-  "command_id": "fetch-c51b-artifacts-release-1781298269",
+  "command_id": "fetch-c51b-artifacts-chunks-1781298403",
   "force_upstream": true,
   "output_name": "c51b_c36_number_to_string_cache_fastpath_delta_artifacts.tar.xz",
   "paths": [
     "artifacts"
   ],
+  "repo_chunk_root": "large_artifacts/c51b_artifacts_fetch-c51b-artifacts-chunks-1781298403",
   "target": "build",
-  "timeout_seconds": 900,
-  "upstream": "release_asset"
+  "timeout_seconds": 1200,
+  "upstream": "repo_chunks"
 }
