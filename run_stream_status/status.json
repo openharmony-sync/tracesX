@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 10.124,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_153220_mech-inv-1781278324/live.json",
-  "note": "command_id=mech-inv-1781278324 command_sha256=1e89721d0483c9970afcabf60be658dc9f54cae011dbb71f6f5adb82105a55c1",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_153220_mech-inv-1781278324",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 15:32:30 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-12 15:33:01 UTC"
 }
