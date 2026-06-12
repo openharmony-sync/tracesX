@@ -1,7 +1,13 @@
 {
-  "action": "exec",
-  "command_id": "test-build-to-phone-ssh-1781298119",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4ACmAJhdABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lM0wbinOZMb5I1gKz+ryh45OIWnmgToh2PuzTEShDyS4SFFahq8GNIjz/rsR71oYV4BtDa60R0IX9I5s0JKqm+bfKt5M3KubFgPqJlqvlqV12Fqm7j0RKDbYM9yjQQlV284bFw/5CRChwLBXQJOP0wAAAIQKuQL84HdfAAG0AacBAACF5xCuscRn+wIAAAAABFla",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c51b_c36_number_to_string_cache_fastpath_delta",
+  "command_id": "fetch-c51b-artifacts-release-1781298269",
+  "force_upstream": true,
+  "output_name": "c51b_c36_number_to_string_cache_fastpath_delta_artifacts.tar.xz",
+  "paths": [
+    "artifacts"
+  ],
   "target": "build",
-  "timeout_seconds": 60
+  "timeout_seconds": 900,
+  "upstream": "release_asset"
 }
