@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2108,
+  "base64_sha256": "d45ad8c80a48e72eab8161fe40aeb33770d9652f253a77b76acb8a004e09486a",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "find-disasm-tools-1781257393",
+  "command_sha256": "83bf04a4110704d8d6a8d36cf5168f86604af03ddd19dfd9dd58f6038cf2f14d",
+  "compressed_sha256": "d5531071a1a7e6d111caa7dc7a2ab64648cbc86b32fe81720a858b1a5af46d61",
+  "created_utc": "2026-06-12 09:43:44 UTC",
+  "duration_seconds": 6.131930539384484,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_094338_find-disasm-tools-1781257393"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_094338_find-disasm-tools-1781257393/part_00001.b64"
+  ],
+  "plain_log_bytes": 24103,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_094338_find-disasm-tools-1781257393",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1580
+}
