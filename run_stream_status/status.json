@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260612_024552_inspect-c36-dupes-1781232323/live.json",
+  "note": "command_id=inspect-c36-dupes-1781232323 command_sha256=ede157106153204cd3dfe2c15a54ef20922706f85d0fee8b4f731949d5d2a63c",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-12 02:45:21 UTC"
+  "run_id": "cmd_20260612_024552_inspect-c36-dupes-1781232323",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 02:45:52 UTC"
 }
