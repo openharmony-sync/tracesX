@@ -1,0 +1,14 @@
+{
+  "archive": "c51b_c36_number_to_string_cache_fastpath_delta_artifacts.tar.xz",
+  "archive_bytes": 9038140,
+  "archive_sha256": "0d6d7b945c1c0f8024b52a78515a165b0a10f22aaaf1cecfe3008d6f1581766a",
+  "chunk_count": 184,
+  "chunk_path_format": "large_artifacts/c51b_artifacts_fetch-c51b-artifacts-chunks-1781298403/chunks/part_%06d.bin",
+  "chunk_size_bytes": 49356,
+  "complete": false,
+  "created_utc": "2026-06-12 21:07:48 UTC",
+  "encoding": "raw archive bytes split into GitHub Contents API files",
+  "note": "chunks are committed independently; rerun upstreamer to resume missing chunks",
+  "reconstruct_python": "for i in range(chunk_count): append bytes from chunk_path_format % i, then compare archive_sha256",
+  "upstream_workers_max": 4
+}
