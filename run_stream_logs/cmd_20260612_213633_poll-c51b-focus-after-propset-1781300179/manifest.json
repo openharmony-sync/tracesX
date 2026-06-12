@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3000,
+  "base64_sha256": "14aab930e35e897f6eb9c19b960433eab91ed6cc2e308cf3e99f682c7abda432",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "poll-c51b-focus-after-propset-1781300179",
+  "command_sha256": "f97ca7c72fb10c7a4435f2147343b669839dc9a781cc07e16bc007b9c452f321",
+  "compressed_sha256": "e7fc21eee96d272fc467501c85199868c9d4d86517e73ec9491c5d74e16e0f5c",
+  "created_utc": "2026-06-12 21:36:40 UTC",
+  "duration_seconds": 6.743869984522462,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260612_213633_poll-c51b-focus-after-propset-1781300179"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260612_213633_poll-c51b-focus-after-propset-1781300179/part_00001.b64"
+  ],
+  "plain_log_bytes": 13123,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260612_213633_poll-c51b-focus-after-propset-1781300179",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2248
+}
