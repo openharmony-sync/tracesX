@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.158,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260612_134525_analyze-c44-delta-1781271909/live.json",
-  "note": "command_id=analyze-c44-delta-1781271909 command_sha256=b73326c0306073791220043741f6fc2b441d0750fbb1b01f7ba0a6f7856a557a",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260612_134605_start-c44-full-s1-1781271962/live.json",
+  "note": "command_id=start-c44-full-s1-1781271962 command_sha256=183a67a90ed5b67de1c54b8cc73b4ede7ead59538efb9ac9c0d26af78df5b14f",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260612_134525_analyze-c44-delta-1781271909",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-12 13:45:34 UTC"
+  "run_id": "cmd_20260612_134605_start-c44-full-s1-1781271962",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-12 13:46:05 UTC"
 }
