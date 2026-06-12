@@ -1,14 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c40_boolean_transport_density6/artifacts",
-  "command_id": "fetch-c40-es2abc-1781246727",
-  "max_upstream_bytes": "400M",
-  "output_name": "c40_boolean_transport_density6_es2abc.tar.xz",
-  "paths": [
-    "host-tools/es2abc"
-  ],
-  "skip_preflight": true,
-  "target": "build",
-  "timeout_seconds": 0,
-  "upstream": "none"
+  "action": "exec",
+  "command_id": "poll-fetch-c40-only-1781246815",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AHwAS5dABGIQkeKIzPDdw8z/VWX7afG1TtMjxgJS5idNUdYsJiYrFK01kr5lMvw9H7Di/p8ApD0wBMotI+gAGhEU2geZUx7lR6URI/O2F/QkudfEopamQgxXSxBrGaeTm81M79iMeewnGYx1iubcSH3YbLwN9z5d8znXAdgmNjbjk67oaoAeT5SZI/Lm11Xt54gqdNY/Cpf560R5yC3o8suPIi1lSv9ptgmu/H2y3ffWUNE8kLjk880J3Xjz8uOCrqwczGng2qC2p43FDU5S2Hv47m4iTUZBKp6yV71weJZiumZAdDzwKaqmF87fRvLb1NUkMp/YBHnqGZWfPxRuanuOWCRxWvJzPQElrcrizcZKu5RX5nhHcfoOko/E12mAxmZdiacqBzl9g5afYhPcT0herVGAAAAEH0MV474jmAAAcoC8QMAAPR1ejWxxGf7AgAAAAAEWVo=",
+  "target": "jump",
+  "timeout_seconds": 90
 }
