@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 192,
+  "latest_base64_sha256": "bd15685af3dccbc38d10839e033d7403b61fe38dfeaf589f67a0913c296851a3",
+  "latest_chunk": "run_stream_live/cmd_20260612_094825_analyze-babylon-boolean-1781257677/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 95,
+  "latest_plain_sha256": "46d0d965b0cf4ffc3bcceff59645f77a2643203b4f1bdfc939f9903027152feb",
+  "latest_xz_bytes": 144,
+  "latest_xz_sha256": "68fbec9e2b67e1f471b9aa8c42cd4462d5b83dab3f2f1a8a6aeff29c323108cf",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_094825_analyze-babylon-boolean-1781257677"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_094825_analyze-babylon-boolean-1781257677",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 29,
+  "updated_utc": "2026-06-12 09:48:26 UTC"
+}
