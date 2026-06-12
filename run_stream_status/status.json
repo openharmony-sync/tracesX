@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 46.958,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/fetch_20260612_210443_fetch-c51b-artifacts-release-1781298269/live.json",
-  "note": "command_id=fetch-c51b-artifacts-release-1781298269 descriptor_sha256=342dcc643524914335dbd51e8c47f302813fa9319e5c88df2abc5188d869a635",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "fetch_20260612_210443_fetch-c51b-artifacts-release-1781298269",
-  "state": "finished-fetch",
-  "updated_utc": "2026-06-12 21:05:30 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-12 21:06:02 UTC"
 }
