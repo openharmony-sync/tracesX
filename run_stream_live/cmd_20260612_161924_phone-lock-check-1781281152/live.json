@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 224,
+  "latest_base64_sha256": "755618f9092bbc3de2c897fbc0ccdecd2e90f29f5e2754f6d937d451ddcc87d6",
+  "latest_chunk": "run_stream_live/cmd_20260612_161924_phone-lock-check-1781281152/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 116,
+  "latest_plain_sha256": "717f6e8afa142fd6c0fc346d4b0f82bfc14b5e29ba5658984bb3ab5bb493965c",
+  "latest_xz_bytes": 168,
+  "latest_xz_sha256": "84ca0e5399947455168588c8f90a9c5180b2c708631d1d04522c01519d2031a0",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260612_161924_phone-lock-check-1781281152"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260612_161924_phone-lock-check-1781281152",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 50,
+  "updated_utc": "2026-06-12 16:19:25 UTC"
+}
