@@ -1,0 +1,35 @@
+{
+  "base64_bytes": 85804,
+  "base64_sha256": "5d98139681a9b7d1b77cbf5ed2665ee9f2b62b5a26041a15c423d131a2223ac4",
+  "chunk_count": 2,
+  "chunk_size_bytes": 49356,
+  "command_id": "read_bili_fileinfo_1781354461",
+  "command_sha256": "1da00bcdda3528c13759a30c70e3d40d2c51add42b9b5e54c7d3caaa8e912917",
+  "compressed_sha256": "85faefe4a75fbf8ce0402f0c4bab65cc3ee7ec0ea7f72dad9a7d2d9d008ba51a",
+  "created_utc": "2026-06-13 12:43:21 UTC",
+  "duration_seconds": 124.55392969585955,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 124,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 2,
+      "first_index": 1,
+      "last_index": 2,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_124115_read_bili_fileinfo_1781354461"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_124115_read_bili_fileinfo_1781354461/part_00001.b64",
+    "run_stream_logs/cmd_20260613_124115_read_bili_fileinfo_1781354461/part_00002.b64"
+  ],
+  "plain_log_bytes": 1483280,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_124115_read_bili_fileinfo_1781354461",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 64352
+}
