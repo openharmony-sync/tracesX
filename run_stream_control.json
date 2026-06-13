@@ -1,14 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c53_c36_number_to_string_small_digit_only/artifacts",
-  "command_id": "fetch-c53-stub-1781308801",
-  "force_upstream": true,
-  "output_name": "c53_c36_number_to_string_small_digit_only_stub.tar.xz",
-  "paths": [
-    "stub/stub.an"
-  ],
-  "repo_chunk_root": "large_artifacts/c53_stub_20260613_000001",
-  "target": "build",
-  "timeout_seconds": 180,
-  "upstream": "repo_chunks"
+  "action": "exec",
+  "command_id": "clear-c53-phone-chunks-1781309018",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AFIAItdADmZSuojhsA5IvQFjnwrKzHQpcJxs9fmmhILUg3/QLT93HYExHiAnLT0cmFINS7xAfhkXhjhgXEAfEGXWRL8R8Uok7XI0I8fzQJxPharbUyfYf02pcjdwMtUSDzBJQLH9w86mSaBOUAJ84Yr1edDYh6cwTunjx9U/Egp3hN6B8yBfUhNMM2WU5EJMAAAAOzlOIR8ve2UAAGnAckCAADZqe3yscRn+wIAAAAABFla",
+  "target": "phone_host",
+  "timeout_seconds": 60
 }
