@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.404,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_044335_inspect-c52n-metadata-c36-patches-1781325800/live.json",
-  "note": "command_id=inspect-c52n-metadata-c36-patches-1781325800 command_sha256=176b5281b70a4e49e583fae2d571eca308f6ca734fbd9225af99f37121a8ad04",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_044335_inspect-c52n-metadata-c36-patches-1781325800",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 04:43:43 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-13 04:44:15 UTC"
 }
