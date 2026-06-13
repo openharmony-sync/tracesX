@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.554,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_143219_make_c68_port_and_build_1781361112/live.json",
-  "note": "command_id=make_c68_port_and_build_1781361112 command_sha256=635c44988538b702124cbd578c522f7981a32c00108aa12dc8e9bf3f53a81148",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_143219_make_c68_port_and_build_1781361112",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 14:32:28 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-13 14:33:00 UTC"
 }
