@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 2.522,
+  "elapsed_seconds": 8.356,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_135956_probe_jump_state_1781359177/live.json",
-  "phase": "control-jump",
+  "note": "command_id=probe_jump_state_1781359177 command_sha256=ea0d5a4b509e2fccf5440deef23c691da38a1973d84da19aaaa9522d50cf6b67",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_135956_probe_jump_state_1781359177",
-  "state": "running",
-  "updated_utc": "2026-06-13 13:59:58 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 14:00:04 UTC"
 }
