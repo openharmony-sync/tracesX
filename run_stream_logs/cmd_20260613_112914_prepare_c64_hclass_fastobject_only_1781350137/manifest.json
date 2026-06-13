@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 412,
+  "base64_sha256": "1d7c036028b680f0c7d45cb55b7bf678b4b9ef25f12a3dbe5b810d8be4f24287",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "prepare_c64_hclass_fastobject_only_1781350137",
+  "command_sha256": "24c4e380673368f4673563332d9259be4009b5604b9665ec6a18a11b75ad2ab2",
+  "compressed_sha256": "11bbb8e13f157940097f4154c1e537dd1ed5200cff2d8d5d36d3187214fad32d",
+  "created_utc": "2026-06-13 11:29:18 UTC",
+  "duration_seconds": 4.142631018534303,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_112914_prepare_c64_hclass_fastobject_only_1781350137"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_112914_prepare_c64_hclass_fastobject_only_1781350137/part_00001.b64"
+  ],
+  "plain_log_bytes": 494,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_112914_prepare_c64_hclass_fastobject_only_1781350137",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 308
+}
