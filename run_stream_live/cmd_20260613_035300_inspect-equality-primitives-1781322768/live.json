@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 3360,
+  "latest_base64_sha256": "e3a7c988a20c533c02cc12c3381d0a2e7343ce8948886939fb6e3a5f2a35b9f4",
+  "latest_chunk": "run_stream_live/cmd_20260613_035300_inspect-equality-primitives-1781322768/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 14719,
+  "latest_plain_sha256": "93ae5d151fbae2facd902854c92bd7bdf74a123e967cff37cc11a852c4738317",
+  "latest_xz_bytes": 2520,
+  "latest_xz_sha256": "0af7ce31e00fd37908c61d58533678beea445ac9a329b95541b4e6af74191f56",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_035300_inspect-equality-primitives-1781322768"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_035300_inspect-equality-primitives-1781322768",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 14414,
+  "updated_utc": "2026-06-13 03:53:05 UTC"
+}
