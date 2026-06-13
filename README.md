@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 02:19:05 UTC`
+- Updated: `2026-06-13 02:20:48 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_021855_show-compare-src-1781317119`
+- Run id: `cmd_20260613_022040_inspect-newexploration-jobs-1781317225`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `show-compare-src-1781317119`
+- Command id: `inspect-newexploration-jobs-1781317225`
 - Exit code: `0`
-- Duration seconds: `8.095`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_021855_show-compare-src-1781317119/manifest.json](run_stream_logs/cmd_20260613_021855_show-compare-src-1781317119/manifest.json)
+- Duration seconds: `5.861`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_022040_inspect-newexploration-jobs-1781317225/manifest.json](run_stream_logs/cmd_20260613_022040_inspect-newexploration-jobs-1781317225/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_021855_show-compare-src-1781317119/part_00001.b64](run_stream_logs/cmd_20260613_021855_show-compare-src-1781317119/part_00001.b64)
+- [run_stream_logs/cmd_20260613_022040_inspect-newexploration-jobs-1781317225/part_00001.b64](run_stream_logs/cmd_20260613_022040_inspect-newexploration-jobs-1781317225/part_00001.b64)
