@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 824,
+  "base64_sha256": "31bca7fef87bd79566815c5d0a48d6d93563012b260db954aeb5c86570e7a8e2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "fresheyes_probe_baseline_ls_1781340386",
+  "command_sha256": "6a2334c656734bb29e982346ae8aa24807218833b90eca528beab12651ac3434",
+  "compressed_sha256": "d85d7c9eae5d9bf3cf76c400f050dc2e319ac45273f7fee66359640ce9c82e5a",
+  "created_utc": "2026-06-13 08:46:41 UTC",
+  "duration_seconds": 6.0684166587889194,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_084635_fresheyes_probe_baseline_ls_1781340386"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_084635_fresheyes_probe_baseline_ls_1781340386/part_00001.b64"
+  ],
+  "plain_log_bytes": 1681,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_084635_fresheyes_probe_baseline_ls_1781340386",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 616
+}
