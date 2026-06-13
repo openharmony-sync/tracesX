@@ -1,15 +1,15 @@
 # Run Stream
 
-- Updated: `2026-06-13 12:39:04 UTC`
-- Status: `FAILED`
-- Run id: `cmd_20260613_123551_inspect_loop_sources_1781354126`
+- Updated: `2026-06-13 12:40:03 UTC`
+- Status: `OK`
+- Run id: `cmd_20260613_123936_inspect_bench_sources_build_1781354351`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `inspect_loop_sources_1781354126`
-- Exit code: `124`
-- Duration seconds: `182.888`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_123551_inspect_loop_sources_1781354126/manifest.json](run_stream_logs/cmd_20260613_123551_inspect_loop_sources_1781354126/manifest.json)
-- Encoded log parts: `3`
+- Target: `build`
+- Command id: `inspect_bench_sources_build_1781354351`
+- Exit code: `0`
+- Duration seconds: `24.372`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_123936_inspect_bench_sources_build_1781354351/manifest.json](run_stream_logs/cmd_20260613_123936_inspect_bench_sources_build_1781354351/manifest.json)
+- Encoded log parts: `1`
 
 ## Reconstruct Captured Output
 
@@ -19,6 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_123551_inspect_loop_sources_1781354126/part_00001.b64](run_stream_logs/cmd_20260613_123551_inspect_loop_sources_1781354126/part_00001.b64)
-- [run_stream_logs/cmd_20260613_123551_inspect_loop_sources_1781354126/part_00002.b64](run_stream_logs/cmd_20260613_123551_inspect_loop_sources_1781354126/part_00002.b64)
-- [run_stream_logs/cmd_20260613_123551_inspect_loop_sources_1781354126/part_00003.b64](run_stream_logs/cmd_20260613_123551_inspect_loop_sources_1781354126/part_00003.b64)
+- [run_stream_logs/cmd_20260613_123936_inspect_bench_sources_build_1781354351/part_00001.b64](run_stream_logs/cmd_20260613_123936_inspect_bench_sources_build_1781354351/part_00001.b64)
