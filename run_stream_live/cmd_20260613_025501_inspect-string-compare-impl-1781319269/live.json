@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 4492,
+  "latest_base64_sha256": "3bf2362116a842e1cf1cfaf234625d80770974615168c091b0bd3c419feb80d8",
+  "latest_chunk": "run_stream_live/cmd_20260613_025501_inspect-string-compare-impl-1781319269/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 20921,
+  "latest_plain_sha256": "643c1519e1bc28903444ded57e2dc58ef43073f35aa5098bb7f56404b26aec35",
+  "latest_xz_bytes": 3368,
+  "latest_xz_sha256": "ac53f440c007840fb069b6fbb3cf21517239bcc15e723f2f3be6b1add4037fd2",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_025501_inspect-string-compare-impl-1781319269"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_025501_inspect-string-compare-impl-1781319269",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 20433,
+  "updated_utc": "2026-06-13 02:55:05 UTC"
+}
