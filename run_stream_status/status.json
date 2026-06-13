@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 44.499,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/fetch_20260613_093430_fetch_c61_artifacts_1781343260/live.json",
-  "note": "command_id=fetch_c61_artifacts_1781343260 descriptor_sha256=b97146a548d3987d9c9a1ac03cde377bfbb720806b72467341dee4e42ce0d63c",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_093546_install_c61_artifacts_phone_1781343342/live.json",
+  "note": "command_id=install_c61_artifacts_phone_1781343342 command_sha256=d63af0f664119ef0e68119e52bdb3346c8f49c0471e901d0762a3be2bcb9e336",
+  "phase": "control-jump",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "fetch_20260613_093430_fetch_c61_artifacts_1781343260",
-  "state": "finished-fetch",
-  "updated_utc": "2026-06-13 09:35:15 UTC"
+  "run_id": "cmd_20260613_093546_install_c61_artifacts_phone_1781343342",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 09:35:46 UTC"
 }
