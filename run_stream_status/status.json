@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 2.012,
+  "elapsed_seconds": 8.817,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_044628_prep-c58-regenerate-patch-1781325981/live.json",
-  "phase": "control-build",
+  "note": "command_id=prep-c58-regenerate-patch-1781325981 command_sha256=ada8c1d6b2170db3b2b446b41dc95dd2d0beae8a380445cad1105ecb4a3ae8f1",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_044628_prep-c58-regenerate-patch-1781325981",
-  "state": "running",
-  "updated_utc": "2026-06-13 04:46:30 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 04:46:37 UTC"
 }
