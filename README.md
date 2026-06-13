@@ -1,15 +1,15 @@
 # Run Stream
 
-- Updated: `2026-06-13 07:52:11 UTC`
-- Status: `FAILED`
-- Run id: `cmd_20260613_074937_inspect-c43-analysis-1781336965`
+- Updated: `2026-06-13 07:53:53 UTC`
+- Status: `OK`
+- Run id: `cmd_20260613_075346_c39-tail-poll8-1781337199`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `inspect-c43-analysis-1781336965`
-- Exit code: `124`
-- Duration seconds: `122.823`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/manifest.json](run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/manifest.json)
-- Encoded log parts: `5`
+- Command id: `c39-tail-poll8-1781337199`
+- Exit code: `0`
+- Duration seconds: `5.910`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_075346_c39-tail-poll8-1781337199/manifest.json](run_stream_logs/cmd_20260613_075346_c39-tail-poll8-1781337199/manifest.json)
+- Encoded log parts: `1`
 
 ## Reconstruct Captured Output
 
@@ -19,8 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00001.b64](run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00001.b64)
-- [run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00002.b64](run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00002.b64)
-- [run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00003.b64](run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00003.b64)
-- [run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00004.b64](run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00004.b64)
-- [run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00005.b64](run_stream_logs/cmd_20260613_074937_inspect-c43-analysis-1781336965/part_00005.b64)
+- [run_stream_logs/cmd_20260613_075346_c39-tail-poll8-1781337199/part_00001.b64](run_stream_logs/cmd_20260613_075346_c39-tail-poll8-1781337199/part_00001.b64)
