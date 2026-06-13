@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 00:10:20 UTC`
+- Updated: `2026-06-13 00:11:00 UTC`
 - Status: `OK`
-- Run id: `put_20260613_001017_put-c53-stub-011-1781309387`
+- Run id: `cmd_20260613_001052_assemble-c53-stub-1781309450`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `put-c53-stub-011-1781309387`
+- Command id: `assemble-c53-stub-1781309450`
 - Exit code: `0`
-- Duration seconds: `1.228`
-- Encoded log manifest: [run_stream_logs/put_20260613_001017_put-c53-stub-011-1781309387/manifest.json](run_stream_logs/put_20260613_001017_put-c53-stub-011-1781309387/manifest.json)
+- Duration seconds: `6.138`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_001052_assemble-c53-stub-1781309450/manifest.json](run_stream_logs/cmd_20260613_001052_assemble-c53-stub-1781309450/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/put_20260613_001017_put-c53-stub-011-1781309387/part_00001.b64](run_stream_logs/put_20260613_001017_put-c53-stub-011-1781309387/part_00001.b64)
+- [run_stream_logs/cmd_20260613_001052_assemble-c53-stub-1781309450/part_00001.b64](run_stream_logs/cmd_20260613_001052_assemble-c53-stub-1781309450/part_00001.b64)
