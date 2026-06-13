@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 188,
+  "latest_base64_sha256": "ca36689d5d009858c14a739f398487dd81121500718d32288b40f429fdd5bbf6",
+  "latest_chunk": "run_stream_live/cmd_20260613_065720_artifact-baselines-1781333823/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 81,
+  "latest_plain_sha256": "9fe44929890a5701e257057d33ae35bb6a41fdc29cda4ee9205561480c310857",
+  "latest_xz_bytes": 140,
+  "latest_xz_sha256": "ff060269e5942d4541ad92c8069d3b698af84876c70e5878d9b5410671f991ab",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_065720_artifact-baselines-1781333823"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260613_065720_artifact-baselines-1781333823",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 15,
+  "updated_utc": "2026-06-13 06:57:21 UTC"
+}
