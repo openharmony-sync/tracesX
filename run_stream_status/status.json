@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 6.916,
+  "elapsed_seconds": 0.003,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_004341_clear-c54-phone-chunks-1781311418/live.json",
-  "note": "command_id=clear-c54-phone-chunks-1781311418 command_sha256=707fa37c27d2b1e4b8318bcccdd5cfcba08d5bf075946a71676d6c19320c6edf",
-  "phase": "done",
+  "live_manifest": "run_stream_live/put_20260613_004419_put-c54-lib-001-1781311429/live.json",
+  "note": "command_id=put-c54-lib-001-1781311429 descriptor_sha256=4ce9602c5a6d271aa8be87271cfc1811f101dd2ba64cb0067a8265809b053818",
+  "phase": "put-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_004341_clear-c54-phone-chunks-1781311418",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 00:43:48 UTC"
+  "run_id": "put_20260613_004419_put-c54-lib-001-1781311429",
+  "state": "running-control-put",
+  "updated_utc": "2026-06-13 00:44:19 UTC"
 }
