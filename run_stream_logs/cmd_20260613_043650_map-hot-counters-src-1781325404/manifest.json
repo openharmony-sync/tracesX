@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 8992,
+  "base64_sha256": "43af5b17409e378f10d0a3cc2e00f6aacb8299dbf802dde3eb122028466a3c57",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "map-hot-counters-src-1781325404",
+  "command_sha256": "f7653d3349b5600be24f6088154de6096d9bfda2147daa7cd5b3ab673bfd841c",
+  "compressed_sha256": "34daa94f987aa3cf74206bdb76b6c2071b9d2cedf1ca556c22a644ff614a113b",
+  "created_utc": "2026-06-13 04:37:00 UTC",
+  "duration_seconds": 9.89755516499281,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_043650_map-hot-counters-src-1781325404"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_043650_map-hot-counters-src-1781325404/part_00001.b64"
+  ],
+  "plain_log_bytes": 56381,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_043650_map-hot-counters-src-1781325404",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 6744
+}
