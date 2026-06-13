@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 15:30:49 UTC`
+- Updated: `2026-06-13 15:31:28 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_153034_stage_c68_1781364623`
+- Run id: `cmd_20260613_153121_inspect_pair_tools_1781364671`
 - Kind: `control-command`
-- Target: `jump`
-- Command id: `stage_c68_1781364623`
+- Target: `phone_host`
+- Command id: `inspect_pair_tools_1781364671`
 - Exit code: `0`
-- Duration seconds: `13.066`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_153034_stage_c68_1781364623/manifest.json](run_stream_logs/cmd_20260613_153034_stage_c68_1781364623/manifest.json)
+- Duration seconds: `5.895`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_153121_inspect_pair_tools_1781364671/manifest.json](run_stream_logs/cmd_20260613_153121_inspect_pair_tools_1781364671/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_153034_stage_c68_1781364623/part_00001.b64](run_stream_logs/cmd_20260613_153034_stage_c68_1781364623/part_00001.b64)
+- [run_stream_logs/cmd_20260613_153121_inspect_pair_tools_1781364671/part_00001.b64](run_stream_logs/cmd_20260613_153121_inspect_pair_tools_1781364671/part_00001.b64)
