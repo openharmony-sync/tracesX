@@ -1,0 +1,35 @@
+{
+  "base64_bytes": 54492,
+  "base64_sha256": "460f762bdb48e4b82d1e7e8f875d3ab33454b08ca1e622167fe58ae6bc5a2f04",
+  "chunk_count": 2,
+  "chunk_size_bytes": 49356,
+  "command_id": "c62a_build_codehub_no_ta_stub_c36_frontend_1781345403",
+  "command_sha256": "9bb1fa686446c04851517e3280c1195b8397a84590252769b8c588cef42a628c",
+  "compressed_sha256": "545d1510200860f36615cd200cf7b383918bc5afc23b3dd338675341c5b2fbf4",
+  "created_utc": "2026-06-13 10:18:51 UTC",
+  "duration_seconds": 510.3536253273487,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 2,
+      "first_index": 1,
+      "last_index": 2,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_101020_c62a_build_codehub_no_ta_stub_c36_frontend_1781345403"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_101020_c62a_build_codehub_no_ta_stub_c36_frontend_1781345403/part_00001.b64",
+    "run_stream_logs/cmd_20260613_101020_c62a_build_codehub_no_ta_stub_c36_frontend_1781345403/part_00002.b64"
+  ],
+  "plain_log_bytes": 690755,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_101020_c62a_build_codehub_no_ta_stub_c36_frontend_1781345403",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 40868
+}
