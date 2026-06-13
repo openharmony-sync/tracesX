@@ -1,7 +1,14 @@
 {
-  "action": "exec",
-  "command_id": "probe-phone-to-build-1781311093",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4ABuAGhdADnhnEAtODnyJtBMfX3LIj+OBR5BIc13fIwqPfiNqTDMJfVJ/cMOhSH58M04rHYO851DWeLAyo49KC/zM/CxqpgWbgXUQ+2v1twuaiMOGRR7XWWA0C8aOSr/eN76cTuNe+WwrpAbQdKdAKLg25uIV4RlAAGEAW8AAAD2TFEYscRn+wIAAAAABFla",
-  "target": "phone_host",
-  "timeout_seconds": 30
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c54_c36_internal_getter_counters/artifacts",
+  "command_id": "fetch-c54-lib-1781311196",
+  "force_upstream": true,
+  "output_name": "c54_lib.tar.xz",
+  "paths": [
+    "lib/libark_jsruntime.so"
+  ],
+  "repo_chunk_root": "large_artifacts/c54_lib_20260613_003956",
+  "target": "build",
+  "timeout_seconds": 600,
+  "upstream": "repo_chunks"
 }
