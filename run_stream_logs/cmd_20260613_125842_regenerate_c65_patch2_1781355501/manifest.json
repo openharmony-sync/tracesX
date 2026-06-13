@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3088,
+  "base64_sha256": "1c2713b6e2d05e608d887284f6d723008950a7234ca42c334d0fce6b4daa17a1",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "regenerate_c65_patch2_1781355501",
+  "command_sha256": "b0cdbefe56ed9b71ce452d6b65bfb5607b8d79a9d381d21bc9ab3317f5cdec89",
+  "compressed_sha256": "42039da3b37a97a1ea84584f567dfd4adfde44d9b5c391c3f3432affb6a2ff27",
+  "created_utc": "2026-06-13 12:58:48 UTC",
+  "duration_seconds": 6.129900712519884,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_125842_regenerate_c65_patch2_1781355501"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_125842_regenerate_c65_patch2_1781355501/part_00001.b64"
+  ],
+  "plain_log_bytes": 8049,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_125842_regenerate_c65_patch2_1781355501",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 2316
+}
