@@ -1,13 +1,15 @@
 {
   "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c55_c36_function_prototype_getter_fastpath",
-  "command_id": "fetch-c55-artifacts-1781313581",
-  "max_upstream_bytes": "250m",
-  "output_name": "c55_c36_function_prototype_getter_fastpath_artifacts.tar.xz",
+  "base_dir": "/data/a84448598/ayoub/.run_stream/run_stream_state/runs/fetch_20260613_012003_fetch-c55-artifacts-1781313581",
+  "command_id": "chunk-c55-artifacts-1781313825",
+  "force_upstream": true,
+  "max_upstream_bytes": "20m",
+  "output_name": "c55_c36_function_prototype_getter_fastpath_artifacts_from_jump.tar.xz",
   "paths": [
-    "artifacts"
+    "c55_c36_function_prototype_getter_fastpath_artifacts.tar.xz"
   ],
-  "target": "build",
+  "repo_chunk_root": "large_artifacts/c55_artifacts_chunk-c55-artifacts-1781313825",
+  "target": "jump",
   "timeout_seconds": 0,
-  "upstream": "release_asset"
+  "upstream": "repo_chunks"
 }
