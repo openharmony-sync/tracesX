@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.702,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_075807_c39-tail-poll10-1781337465/live.json",
-  "note": "command_id=c39-tail-poll10-1781337465 command_sha256=f693799697ad5f8a044b49d24c17f7f857d6d437ef7bcad09d5bda1ff0ba25dd",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_075847_c36-c43-patch-counts-1781337524/live.json",
+  "note": "command_id=c36-c43-patch-counts-1781337524 command_sha256=d094590fadca66b4f55a27f27276c25e120cdc8d624b6ccf351303812ec9e86d",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_075807_c39-tail-poll10-1781337465",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 07:58:16 UTC"
+  "run_id": "cmd_20260613_075847_c36-c43-patch-counts-1781337524",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 07:58:47 UTC"
 }
