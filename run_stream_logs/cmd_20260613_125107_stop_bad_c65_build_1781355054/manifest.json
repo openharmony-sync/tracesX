@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 992,
+  "base64_sha256": "7f08a2d5b0bc50113bba42f4c879afeb8dec89133b2da27189fc573f18edfd35",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "stop_bad_c65_build_1781355054",
+  "command_sha256": "500adedadced9e3724171ee8e7e64402c927528b1db5788148a48d81727f8abb",
+  "compressed_sha256": "f8e3d7ec24dde2af7751f9e803235a3cbf02addd99efed242ca1902a8e735886",
+  "created_utc": "2026-06-13 12:51:18 UTC",
+  "duration_seconds": 10.756031405180693,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_125107_stop_bad_c65_build_1781355054"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_125107_stop_bad_c65_build_1781355054/part_00001.b64"
+  ],
+  "plain_log_bytes": 1387,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_125107_stop_bad_c65_build_1781355054",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 744
+}
