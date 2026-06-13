@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 336,
+  "latest_base64_sha256": "2b17dc0178b66293f6ec996a36718a886bf8529fe0879a515b908b64f1bab2cb",
+  "latest_chunk": "run_stream_live/cmd_20260613_223001_build_find_codehub_patch_1781389788/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 273,
+  "latest_plain_sha256": "36dff423e3409fc273f5065cf99b95645d12e790a101043359aba6d1441baa57",
+  "latest_xz_bytes": 252,
+  "latest_xz_sha256": "0881c935e8eece035bff794d11a89a11eb9e613a59c6e4c2706995f6a961e304",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_223001_build_find_codehub_patch_1781389788"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_223001_build_find_codehub_patch_1781389788",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 212,
+  "updated_utc": "2026-06-13 22:30:06 UTC"
+}
