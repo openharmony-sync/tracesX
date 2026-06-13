@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.957,
+  "elapsed_seconds": 8.773,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_025501_inspect-string-compare-impl-1781319269/live.json",
-  "phase": "control-build",
+  "note": "command_id=inspect-string-compare-impl-1781319269 command_sha256=47eb7c45cdc18e5f91f6e0dc8140a72fbe50add2d4a5167e4d5daee61df71fe0",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_025501_inspect-string-compare-impl-1781319269",
-  "state": "running",
-  "updated_utc": "2026-06-13 02:55:03 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 02:55:10 UTC"
 }
