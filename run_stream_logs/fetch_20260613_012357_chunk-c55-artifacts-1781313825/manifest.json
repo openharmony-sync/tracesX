@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1008,
+  "base64_sha256": "f3344fd822886d410010911fb8807127ffe44e74743494e86bef3f11ec89c3d2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "chunk-c55-artifacts-1781313825",
+  "command_sha256": "1d3704a56db9390781df796c4f5b54570286859a56572906c3a876e3cd257233",
+  "compressed_sha256": "4f7bdad7f31c5ca441074063aaaf80680598a22fbad10a62f2adaa19195e85f4",
+  "created_utc": "2026-06-13 01:27:16 UTC",
+  "duration_seconds": 199.1873214635998,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/fetch_20260613_012357_chunk-c55-artifacts-1781313825"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/fetch_20260613_012357_chunk-c55-artifacts-1781313825/part_00001.b64"
+  ],
+  "plain_log_bytes": 2186,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "fetch_20260613_012357_chunk-c55-artifacts-1781313825",
+  "status": "OK",
+  "target": "jump",
+  "xz_bytes": 756
+}
