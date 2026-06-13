@@ -1,0 +1,35 @@
+{
+  "base64_bytes": 87948,
+  "base64_sha256": "91458c52da73af3565b11a8752d92e1d9966f671e1b88ae47c981a237e265510",
+  "chunk_count": 2,
+  "chunk_size_bytes": 49356,
+  "command_id": "disasm-json2-1781328492",
+  "command_sha256": "d41aad36eed8c4d3f84a469c8c8269081b8a737f2b13114ad41b47d3ca067b72",
+  "compressed_sha256": "d48af92e1bcdb3e78c2a6df6d708c0c1d7ffb53ed5f0e24a26c4d0a7128fcd26",
+  "created_utc": "2026-06-13 05:30:19 UTC",
+  "duration_seconds": 123.66748356074095,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 124,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 2,
+      "first_index": 1,
+      "last_index": 2,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492/part_00001.b64",
+    "run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492/part_00002.b64"
+  ],
+  "plain_log_bytes": 1491439,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_052814_disasm-json2-1781328492",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 65960
+}
