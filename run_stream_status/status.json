@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.804,
+  "elapsed_seconds": 45.105,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/fetch_20260613_012003_fetch-c55-artifacts-1781313581/live.json",
-  "phase": "fetch-preflight-build",
+  "note": "command_id=fetch-c55-artifacts-1781313581 descriptor_sha256=6e7c7a6b94f48eaaad65de4fc3a889746703a74e0e6d341ca71509e691430c61",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "fetch_20260613_012003_fetch-c55-artifacts-1781313581",
-  "state": "running",
-  "updated_utc": "2026-06-13 01:20:05 UTC"
+  "state": "finished-fetch",
+  "updated_utc": "2026-06-13 01:20:48 UTC"
 }
