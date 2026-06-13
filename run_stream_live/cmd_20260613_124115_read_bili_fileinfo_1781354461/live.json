@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 192,
+  "latest_base64_sha256": "480ca41d9766179570536679051fd297fc927e779ce390927f6d60ebd03d4db3",
+  "latest_chunk": "run_stream_live/cmd_20260613_124115_read_bili_fileinfo_1781354461/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 86,
+  "latest_plain_sha256": "65960a1aa5101934331f8cc0fc29e0f02c5d586a283fbdfb9cf4a0e0a5c00f83",
+  "latest_xz_bytes": 144,
+  "latest_xz_sha256": "f50676ac95caf33a1bcd85c9a935751ee083441eb7e2d039546ac448adfe87cb",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_124115_read_bili_fileinfo_1781354461"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260613_124115_read_bili_fileinfo_1781354461",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 20,
+  "updated_utc": "2026-06-13 12:41:16 UTC"
+}
