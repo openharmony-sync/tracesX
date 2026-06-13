@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 712,
+  "latest_base64_sha256": "ff6a13543ef4fc734a4176b1ec14fbaff5a6f36d82b2ffaed76eb6dc8673bcaf",
+  "latest_chunk": "run_stream_live/cmd_20260613_153310_list_bench_entries_py_1781364780/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 734,
+  "latest_plain_sha256": "f35987eed3fc995ab6a867879262e1556b6fde0a943d61e9a28e1ca2d393854d",
+  "latest_xz_bytes": 532,
+  "latest_xz_sha256": "74376f515264c014e94e45d21a529b89231996f3230d5914689c48eb8bac43eb",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_153310_list_bench_entries_py_1781364780"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260613_153310_list_bench_entries_py_1781364780",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 668,
+  "updated_utc": "2026-06-13 15:33:11 UTC"
+}
