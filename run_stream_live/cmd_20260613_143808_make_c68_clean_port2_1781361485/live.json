@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1120,
+  "latest_base64_sha256": "131d0a10c42a366807f43991460ea30c9a3e43a2670a04dfdb9ff2828a1339c9",
+  "latest_chunk": "run_stream_live/cmd_20260613_143808_make_c68_clean_port2_1781361485/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 2504,
+  "latest_plain_sha256": "a343dd84aa0539d3ae1a398522f09954e721450debff798f6323fb2f78eb8dbb",
+  "latest_xz_bytes": 840,
+  "latest_xz_sha256": "ce0278bc64425fd016474fff67cdc1c586393950f03317315e8df55bad19f3e2",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_143808_make_c68_clean_port2_1781361485"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_143808_make_c68_clean_port2_1781361485",
+  "total_stderr_bytes_seen": 200,
+  "total_stdout_bytes_seen": 1694,
+  "updated_utc": "2026-06-13 14:38:13 UTC"
+}
