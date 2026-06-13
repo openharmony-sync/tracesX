@@ -1,15 +1,15 @@
 # Run Stream
 
-- Updated: `2026-06-13 05:30:27 UTC`
-- Status: `FAILED`
-- Run id: `cmd_20260613_052814_disasm-json2-1781328492`
+- Updated: `2026-06-13 05:33:12 UTC`
+- Status: `OK`
+- Run id: `cmd_20260613_053304_start-c59-numtostr-1781328761`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `disasm-json2-1781328492`
-- Exit code: `124`
-- Duration seconds: `123.667`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492/manifest.json](run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492/manifest.json)
-- Encoded log parts: `2`
+- Target: `build`
+- Command id: `start-c59-numtostr-1781328761`
+- Exit code: `0`
+- Duration seconds: `5.847`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_053304_start-c59-numtostr-1781328761/manifest.json](run_stream_logs/cmd_20260613_053304_start-c59-numtostr-1781328761/manifest.json)
+- Encoded log parts: `1`
 
 ## Reconstruct Captured Output
 
@@ -19,5 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492/part_00001.b64](run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492/part_00001.b64)
-- [run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492/part_00002.b64](run_stream_logs/cmd_20260613_052814_disasm-json2-1781328492/part_00002.b64)
+- [run_stream_logs/cmd_20260613_053304_start-c59-numtostr-1781328761/part_00001.b64](run_stream_logs/cmd_20260613_053304_start-c59-numtostr-1781328761/part_00001.b64)
