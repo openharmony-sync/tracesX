@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.77,
+  "elapsed_seconds": 8.569,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_051926_inspect-c54-patch-1781327964/live.json",
-  "phase": "control-build",
+  "note": "command_id=inspect-c54-patch-1781327964 command_sha256=fcd82b6776f0ffb30636027b90a15a5781b0b0e48238ebcc9b1d1a9f4e8c8357",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_051926_inspect-c54-patch-1781327964",
-  "state": "running",
-  "updated_utc": "2026-06-13 05:19:27 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 05:19:34 UTC"
 }
