@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260613_051926_inspect-c54-patch-1781327964/live.json",
+  "note": "command_id=inspect-c54-patch-1781327964 command_sha256=fcd82b6776f0ffb30636027b90a15a5781b0b0e48238ebcc9b1d1a9f4e8c8357",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-13 05:18:55 UTC"
+  "run_id": "cmd_20260613_051926_inspect-c54-patch-1781327964",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 05:19:26 UTC"
 }
