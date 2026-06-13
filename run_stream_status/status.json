@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 2.827,
+  "elapsed_seconds": 15.864,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_115230_c64_install_phone_1781351527/live.json",
-  "phase": "control-jump",
+  "note": "command_id=c64_install_phone_1781351527 command_sha256=39009d99e66695f6650faaf0cb96f36b044c0fb2335f63d2a7a069d85bb07b86",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_115230_c64_install_phone_1781351527",
-  "state": "running",
-  "updated_utc": "2026-06-13 11:52:33 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 11:52:46 UTC"
 }
