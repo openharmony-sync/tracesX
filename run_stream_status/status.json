@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 7.015,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 1,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_153232_list_bench_entries_1781364732/live.json",
-  "note": "command_id=list_bench_entries_1781364732 command_sha256=b6a0da87ad8f1438b55f589fde6b6c988fcb0aba97b7aacee6fede0888027fd6",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_153310_list_bench_entries_py_1781364780/live.json",
+  "note": "command_id=list_bench_entries_py_1781364780 command_sha256=5eaa6db211d7e4a68bc84a4a1cd46f3e316b3b37b67bc18dadbfeab6cefe79f0",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_153232_list_bench_entries_1781364732",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-13 15:32:39 UTC"
+  "run_id": "cmd_20260613_153310_list_bench_entries_py_1781364780",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 15:33:10 UTC"
 }
