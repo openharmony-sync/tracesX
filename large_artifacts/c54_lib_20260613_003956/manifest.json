@@ -1,0 +1,16 @@
+{
+  "archive": "c54_lib.tar.xz",
+  "archive_bytes": 3453380,
+  "archive_sha256": "9c61cb36ec5cdba068607c4d2d64d2a5519fdaf7e760ec925a3a31b439a5a7f8",
+  "chunk_count": 70,
+  "chunk_path_format": "large_artifacts/c54_lib_20260613_003956/chunks/part_%06d.bin",
+  "chunk_size_bytes": 49356,
+  "complete": true,
+  "completed_utc": "2026-06-13 00:41:32 UTC",
+  "created_utc": "2026-06-13 00:40:33 UTC",
+  "encoding": "raw archive bytes split into GitHub Contents API files",
+  "reconstruct_python": "for i in range(chunk_count): append bytes from chunk_path_format % i, then compare archive_sha256",
+  "skipped_count": 0,
+  "upstream_workers_max": 4,
+  "upstreamed_count": 70
+}
