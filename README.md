@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 09:17:23 UTC`
+- Updated: `2026-06-13 09:18:03 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_091715_inspect_build_wrapper_1781342214`
+- Run id: `cmd_20260613_091755_inspect_update_sites_benchsrc_1781342268`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `inspect_build_wrapper_1781342214`
+- Target: `phone_host`
+- Command id: `inspect_update_sites_benchsrc_1781342268`
 - Exit code: `0`
-- Duration seconds: `5.836`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_091715_inspect_build_wrapper_1781342214/manifest.json](run_stream_logs/cmd_20260613_091715_inspect_build_wrapper_1781342214/manifest.json)
+- Duration seconds: `5.833`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_091755_inspect_update_sites_benchsrc_1781342268/manifest.json](run_stream_logs/cmd_20260613_091755_inspect_update_sites_benchsrc_1781342268/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_091715_inspect_build_wrapper_1781342214/part_00001.b64](run_stream_logs/cmd_20260613_091715_inspect_build_wrapper_1781342214/part_00001.b64)
+- [run_stream_logs/cmd_20260613_091755_inspect_update_sites_benchsrc_1781342268/part_00001.b64](run_stream_logs/cmd_20260613_091755_inspect_update_sites_benchsrc_1781342268/part_00001.b64)
