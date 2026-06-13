@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 125.955,
+  "elapsed_seconds": 153.506,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_010000_c54-getter-counter-probe-1781312370/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=c54-getter-counter-probe-1781312370 command_sha256=401a55b5c6d2ea717548da9baf6665b7fc8f5fdabecb36275d5fdfaf92e6dce3",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_010000_c54-getter-counter-probe-1781312370",
-  "state": "running",
-  "updated_utc": "2026-06-13 01:02:06 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 01:02:34 UTC"
 }
