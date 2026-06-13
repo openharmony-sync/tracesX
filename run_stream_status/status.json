@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.415,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_202931_c75_label_api_1781382565/live.json",
-  "note": "command_id=c75_label_api_1781382565 command_sha256=df387d739cf29a39e05ec16236ecd8d930a82278b99ee4e90f12d97e900db6a5",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_203011_c75_labelins_ctor_1781382597/live.json",
+  "note": "command_id=c75_labelins_ctor_1781382597 command_sha256=7c658219e4bd2d01df903a2ce29452b7fb0a0c98a5cac0ad6c587b69b4f89c56",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_202931_c75_label_api_1781382565",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 20:29:40 UTC"
+  "run_id": "cmd_20260613_203011_c75_labelins_ctor_1781382597",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 20:30:11 UTC"
 }
