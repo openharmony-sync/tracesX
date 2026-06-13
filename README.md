@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 06:56:48 UTC`
+- Updated: `2026-06-13 06:57:28 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_065639_c39-artifacts-check-1781333774`
+- Run id: `cmd_20260613_065720_artifact-baselines-1781333823`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `c39-artifacts-check-1781333774`
+- Command id: `artifact-baselines-1781333823`
 - Exit code: `0`
-- Duration seconds: `6.523`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_065639_c39-artifacts-check-1781333774/manifest.json](run_stream_logs/cmd_20260613_065639_c39-artifacts-check-1781333774/manifest.json)
+- Duration seconds: `5.985`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_065720_artifact-baselines-1781333823/manifest.json](run_stream_logs/cmd_20260613_065720_artifact-baselines-1781333823/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_065639_c39-artifacts-check-1781333774/part_00001.b64](run_stream_logs/cmd_20260613_065639_c39-artifacts-check-1781333774/part_00001.b64)
+- [run_stream_logs/cmd_20260613_065720_artifact-baselines-1781333823/part_00001.b64](run_stream_logs/cmd_20260613_065720_artifact-baselines-1781333823/part_00001.b64)
