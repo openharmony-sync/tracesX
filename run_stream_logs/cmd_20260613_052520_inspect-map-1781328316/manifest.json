@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 4808,
+  "base64_sha256": "c1c3cc48a20b905ebbfb357c4f436616cc101e032109c712bc359942192034d9",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-map-1781328316",
+  "command_sha256": "b968f35a11e039430dd84aeb97fff89415add81fba3996b307f3d3621f14791a",
+  "compressed_sha256": "a4f6245b44792afb20c1156d31c7fb904762ae7409ce7015570563f44b31fc58",
+  "created_utc": "2026-06-13 05:25:28 UTC",
+  "duration_seconds": 7.816783841699362,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_052520_inspect-map-1781328316"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_052520_inspect-map-1781328316/part_00001.b64"
+  ],
+  "plain_log_bytes": 25724,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_052520_inspect-map-1781328316",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 3604
+}
