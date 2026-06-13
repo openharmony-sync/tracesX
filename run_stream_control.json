@@ -1,17 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c52n_c36_checkandcopyarray_site1",
-  "command_id": "fetch-c52n-artifacts-1781324380",
-  "force_upstream": true,
-  "max_upstream_bytes": "400m",
-  "output_name": "c52n_c36_checkandcopyarray_site1.tar.xz",
-  "paths": [
-    "artifacts",
-    "SHA256SUMS",
-    "runtime_applied.patch",
-    "frontend_applied.patch"
-  ],
-  "skip_preflight": true,
-  "target": "build",
-  "timeout_seconds": 0
+  "action": "exec",
+  "command_id": "stage-c52n-phone-1781324531",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AdsA2ddAAUdyXRLOm9YBKk6vUvyQ2CPvF1iEHS7LX2nRn7f1rRcUI2agBdTu3GZvO+LUpBhlZ+EBsZZhNXDbSp6WLP8YNGurffRMX5QYrT7gQK6WowvBLvacg98HIMgo1cIe73tJ5GqnKF9o4JlPv6Uome69fHivMEJ1ynqbzA/GZhMyUQmgMdG5npPdPKgR4nxPCl+hwYt+UOij69eDpUQ5zUz/zdK7EKIE8S4nAMa8bG2D5F+mPiv6m1ltM4vFiHnmCGqOcXPwHxFoUrs4FWxmWwqUZRFNkd1zsKa5NAjD2pyxWYrcW4z28qLWZAIGhYw70wuhS231nGliVRuEer1wFYyd6YUDWqIwY2qZJ4jKVeG3BmnU19jXE41PlAVoK/nqaHtxqo5PNljn65ytB0pdqhSlNk/E3k6IofIaX4VLS+1Na+b5RDIfnAlxIbt2Ovyujc+sJWH4VfH3DVE6c/AhmSr3a+ADLjjCGpzrkNh8rUcB0eqbbCEtzEzCpq+G9EvpQZm236JWzQw/T/SltUNEUbJPO1WxLYpBRAsXUChnbMeL9op3+Koau2nCwaP4sJQyR2juJ1WCTGYjUySvk0OWIdJauFBdPbWcyFjggS3qWZ6rjv8Au5udZQMRUzBig14e2nJhzFeH2xuW6NrzRTlHAeSjZov2mmFD+4rmlNbURWf0L49W0LexCZLg0Ug9toXHwwE5xvXmLri73maICtkDjc1fnccSkyknE/5/Urw+Thtsjw5idaxETG81V6/a9FUT/yDvQTf8PFWNEEUwDABjroZwSAGmhHYVPp+a1xzrw1C+bSBdjggybRIhdLBaBcPK8O30R52Yad37Jpr4bC6A44vIlxn0Amsa4Y46Uz2MYnVoVIytXkx5KVSZ23Nnh3oQwsqZdh4FUWtpfUx5+MQV+PvbsrCrb8qegjRkcUeQPCUQhqp7PhHd0ZijlB4A0/CJdXAnueIoqmFTqAwLMe9T8qZ4cDlM4yq66/spLh1Q2h+H2Kmax8evunrF6FTuyypEmoP2oyiLH78CIUanFplelL7udbemv9oXZboIniS9WtrRzczHXWfoqP8C7d4JrT6bVLDcMR+FJuGKeXRbgZ7USRVU9nUOMsGjUzve/xgH+PQh6s0rYF00mrwtEOLUb6c96QsNs34iVpEEoAAAH/vgnztTEgjAAGDB+0OAABU2trHscRn+wIAAAAABFla",
+  "target": "jump",
+  "timeout_seconds": 300
 }
