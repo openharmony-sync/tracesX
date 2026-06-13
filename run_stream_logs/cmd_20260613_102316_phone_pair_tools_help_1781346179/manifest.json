@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 5336,
+  "base64_sha256": "1096f0f7f5f8e65fae245f7696b57719e2a0996d72181643a643b3871bdc16fd",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "phone_pair_tools_help_1781346179",
+  "command_sha256": "de960e29f239c4f4e33074fe32c9ef6248d2f33cb15252b902f8633dd92f53f9",
+  "compressed_sha256": "9d11f8cdc9025c977e22d1892a655777f8e2125f40f200bf9cfec0ebb864d898",
+  "created_utc": "2026-06-13 10:23:22 UTC",
+  "duration_seconds": 5.966834627091885,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_102316_phone_pair_tools_help_1781346179"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_102316_phone_pair_tools_help_1781346179/part_00001.b64"
+  ],
+  "plain_log_bytes": 12845,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_102316_phone_pair_tools_help_1781346179",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 4000
+}
