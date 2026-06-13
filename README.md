@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 17:35:27 UTC`
+- Updated: `2026-06-13 17:37:09 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_173519_poll_c70b_build_1781372098`
+- Run id: `cmd_20260613_173701_poll_c70b_done_1781372200`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `poll_c70b_build_1781372098`
+- Command id: `poll_c70b_done_1781372200`
 - Exit code: `0`
-- Duration seconds: `5.974`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_173519_poll_c70b_build_1781372098/manifest.json](run_stream_logs/cmd_20260613_173519_poll_c70b_build_1781372098/manifest.json)
+- Duration seconds: `5.873`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_173701_poll_c70b_done_1781372200/manifest.json](run_stream_logs/cmd_20260613_173701_poll_c70b_done_1781372200/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_173519_poll_c70b_build_1781372098/part_00001.b64](run_stream_logs/cmd_20260613_173519_poll_c70b_build_1781372098/part_00001.b64)
+- [run_stream_logs/cmd_20260613_173701_poll_c70b_done_1781372200/part_00001.b64](run_stream_logs/cmd_20260613_173701_poll_c70b_done_1781372200/part_00001.b64)
