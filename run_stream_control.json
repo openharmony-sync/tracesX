@@ -1,7 +1,15 @@
 {
-  "action": "exec",
-  "command_id": "poll-c59g-1781329748",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AJCAW5dADmZSuojhr+ju1D/hHM1OEAbG1dWRKWOx312rfVTw8k4RF7/B+M4j7bEWzzakF8t9MMgTz75v1sM4EJufPImI5mj0wMakSSPXEmyqGI3vCntNXPiMbbgpBMhZMSRaYmQ2TS91kWSVVs6ae3lYm+70LWBH2PBH+M1YHL8e9AzM/0ZKqOR8waen1gTKlcNKKWa086gv1RXBa6u53DYlP6W5stxRXo5YH1PUUyw8J/K5R+OF+r9JI+5XCahQY/vsQobdSUxHLh0LmVDoZIjLmYh1MN26sAml8Na6C8F1yd4z8wqPsOPrrkhXwtQ/Tfd+xMTflk/w9L74oH6498Valp0OgIfS/AsjZ1Z7pticnNJnEZPJPMPUFjr/EcGqyif+gWnfNZ68+wiZr0BMKsPpSO9+Em+DdXDwbu6LQRf/VB2/XtslZGpnDf2qhcA+G1qhVpxU9MP89Dm+6lD2Y5rDx7U/TeQqlL3fjeXIVLOV9n6EAAAAAti57B28K12AAGKA8MEAACHcC9YscRn+wIAAAAABFla",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c59_c36_numtostr_attribution",
+  "command_id": "fetch-c59-artifacts-1781329967",
+  "max_upstream_bytes": "250m",
+  "output_name": "c59_c36_numtostr_attribution_artifacts.tar.xz",
+  "paths": [
+    "artifacts",
+    "SHA256SUMS",
+    "build_metadata.txt"
+  ],
   "target": "build",
-  "timeout_seconds": 180
+  "timeout_seconds": 900,
+  "upstream": "release_asset"
 }
