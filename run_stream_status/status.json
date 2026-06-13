@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 3.19,
+  "elapsed_seconds": 8.9,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_061031_disasm-json-abc-phone-1781331021/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=disasm-json-abc-phone-1781331021 command_sha256=f68f24a822824f85a47e419a8797945d709df6b18e0a193ea3ee95ca6093d6a5",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_061031_disasm-json-abc-phone-1781331021",
-  "state": "running",
-  "updated_utc": "2026-06-13 06:10:34 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 06:10:39 UTC"
 }
