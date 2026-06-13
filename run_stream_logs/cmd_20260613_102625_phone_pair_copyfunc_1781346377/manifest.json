@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1724,
+  "base64_sha256": "e8b3cb2cf400e14c24eddad75d687521ac3d0a4081ef8dc56b26bf7a3e32271e",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "phone_pair_copyfunc_1781346377",
+  "command_sha256": "58696f672bf236c283d0954c4a76b360f71850dd42661bb2b9254e37a48a464e",
+  "compressed_sha256": "c9341c5db4735a2f610a350e680ffd4e8bc3e9d6bf11a09422e54b8367043127",
+  "created_utc": "2026-06-13 10:26:31 UTC",
+  "duration_seconds": 5.881755268201232,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_102625_phone_pair_copyfunc_1781346377"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_102625_phone_pair_copyfunc_1781346377/part_00001.b64"
+  ],
+  "plain_log_bytes": 3184,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_102625_phone_pair_copyfunc_1781346377",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1292
+}
