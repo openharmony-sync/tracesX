@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 792,
+  "latest_base64_sha256": "41e9f74abe0162af8e85eb7efa2235c0c969000120ff358f4149503e3e5db417",
+  "latest_chunk": "run_stream_live/cmd_20260613_103905_c63_prepare_codehub_delta_on_c36rt_1781347130/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 1596,
+  "latest_plain_sha256": "e14839100c28a8b337e76264a4153c4cebd0bc40d3de6aaa023d82fb50d95e71",
+  "latest_xz_bytes": 592,
+  "latest_xz_sha256": "ca444293930fb969628b9ee58c566d0912bc43c274e6ea86aeb8c6ae71042e8b",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_103905_c63_prepare_codehub_delta_on_c36rt_1781347130"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_103905_c63_prepare_codehub_delta_on_c36rt_1781347130",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 864,
+  "updated_utc": "2026-06-13 10:39:10 UTC"
+}
