@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 10840,
+  "base64_sha256": "cf94b0b557689a74d57ea08de793cc69c80e585cbfbf3379e258c2cbf424ef48",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "c75b_fetch_catalogue_1781385292",
+  "command_sha256": "b9dd76f2fa470f1913de09f47cbbff8f8bf24ea8305e6ec058f7db7424f92ec3",
+  "compressed_sha256": "ef19aa8256394bdea1eefcaa47b701accf9a7ae051cab357255e8cf0df5c5e7d",
+  "created_utc": "2026-06-13 21:15:29 UTC",
+  "duration_seconds": 9.078165862709284,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_211520_c75b_fetch_catalogue_1781385292"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_211520_c75b_fetch_catalogue_1781385292/part_00001.b64"
+  ],
+  "plain_log_bytes": 28073,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_211520_c75b_fetch_catalogue_1781385292",
+  "status": "OK",
+  "target": "jump",
+  "xz_bytes": 8128
+}
