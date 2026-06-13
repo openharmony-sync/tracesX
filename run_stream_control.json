@@ -1,21 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c65_c36_number_annotated_update_tonumeric",
-  "command_id": "fetch_c65_artifacts_release_1781356386",
-  "force_upstream": true,
-  "max_upstream_bytes": "400MB",
-  "output_name": "c65_c36_number_annotated_update_tonumeric_artifacts.tar.xz",
-  "paths": [
-    "artifacts",
-    "SHA256SUMS",
-    "build_metadata.txt",
-    "runtime_applied.patch",
-    "frontend_applied.patch",
-    "logs/build.log",
-    "logs/runtime_diffstat.txt",
-    "logs/frontend_diffstat.txt"
-  ],
-  "target": "build",
-  "timeout_seconds": 0,
-  "upstream": "release_asset"
+  "action": "exec",
+  "command_id": "jump_copy_c65_to_phone_1781356549",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AOPAcldADmZSuojhsA5IvQFjnwrKzHQpbZdWFGkeoVZReYXnKKpvkG0TSZz4C5Bwp26I9EIeMIi2k66I1pK5fOTZNMSkiQCIpUbgGF2Q8Tl5VKVD9AeP32vdBESqHzqcAXrwMuUATWHBXdR1WOzq6z9Hf1PvaocXFiRdjzep3rztRSP/SZ/929y4CSrL0+5dJ2aeKlwlkoYnfppwcd3xEllIKaTdYYYtSjVglAtFzuqtQnJpUiHQ7t1l9ETZnHLBIMpV2God8ccJMytc/Wb2j+CLY5sz3kWD1MEg9LSY0fbsKtirS04/vkcj74AzpJ5M72toQGenmkXmoEFk+/byBH7BfcHfA5Lm02lCD5nmre2O6B3mJ523CvyX/cSQUbUPylcLHPhfHtCpDuVz3EHUQF8cSX3oWnis6x0shgp4MuFDVu/Fx+bS8EuFT3cu5Qb4GbcjPfafGtKnodE8L8IXVcDxfb9K5q4Q3QpnCDnPTmvS0roWx/sOWhSr+AJDUFb8cGjth6UBIuCidPs9nRSlE8lpmYUSRFq3gXIHbLRZsCf825kp5IAVH4+Xoa8rNC4ATcbw64iTRpGc2QEkv9sloy48xn+rNkkk4+9FJ9Jv7cAAAAAoaXtFwR1Us0AAeUDkAcAAB3Tc3qxxGf7AgAAAAAEWVo=",
+  "target": "jump",
+  "timeout_seconds": 600
 }
