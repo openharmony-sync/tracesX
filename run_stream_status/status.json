@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 3.225,
+  "elapsed_seconds": 9.088,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_102316_phone_pair_tools_help_1781346179/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=phone_pair_tools_help_1781346179 command_sha256=de960e29f239c4f4e33074fe32c9ef6248d2f33cb15252b902f8633dd92f53f9",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_102316_phone_pair_tools_help_1781346179",
-  "state": "running",
-  "updated_utc": "2026-06-13 10:23:19 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 10:23:25 UTC"
 }
