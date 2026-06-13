@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.659,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_035221_poll-c51b-full-3-1781322734/live.json",
-  "note": "command_id=poll-c51b-full-3-1781322734 command_sha256=a44a4109a04e7c208090f00555f96505860c7f2f93d9754eb566b06bf4e3e6a1",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_035300_inspect-equality-primitives-1781322768/live.json",
+  "note": "command_id=inspect-equality-primitives-1781322768 command_sha256=ccca0a53325399e372d231401bf00f9a8e5593f00b0fcb34f7eba20fb43542eb",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_035221_poll-c51b-full-3-1781322734",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 03:52:29 UTC"
+  "run_id": "cmd_20260613_035300_inspect-equality-primitives-1781322768",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 03:53:00 UTC"
 }
