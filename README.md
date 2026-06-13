@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 00:49:06 UTC`
+- Updated: `2026-06-13 00:49:42 UTC`
 - Status: `OK`
-- Run id: `put_20260613_004903_put-c54-lib-009-1781311716`
+- Run id: `put_20260613_004938_put-c54-lib-010-1781311749`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `put-c54-lib-009-1781311716`
+- Command id: `put-c54-lib-010-1781311749`
 - Exit code: `0`
-- Duration seconds: `1.372`
-- Encoded log manifest: [run_stream_logs/put_20260613_004903_put-c54-lib-009-1781311716/manifest.json](run_stream_logs/put_20260613_004903_put-c54-lib-009-1781311716/manifest.json)
+- Duration seconds: `1.356`
+- Encoded log manifest: [run_stream_logs/put_20260613_004938_put-c54-lib-010-1781311749/manifest.json](run_stream_logs/put_20260613_004938_put-c54-lib-010-1781311749/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/put_20260613_004903_put-c54-lib-009-1781311716/part_00001.b64](run_stream_logs/put_20260613_004903_put-c54-lib-009-1781311716/part_00001.b64)
+- [run_stream_logs/put_20260613_004938_put-c54-lib-010-1781311749/part_00001.b64](run_stream_logs/put_20260613_004938_put-c54-lib-010-1781311749/part_00001.b64)
