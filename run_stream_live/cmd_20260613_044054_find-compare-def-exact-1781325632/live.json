@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 3104,
+  "latest_base64_sha256": "24d570f5bd2d863aa9935c9b75cde930c0d6f3e80be8548954a7ddafbd6c00e3",
+  "latest_chunk": "run_stream_live/cmd_20260613_044054_find-compare-def-exact-1781325632/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 24759,
+  "latest_plain_sha256": "6562f17786ff564c5989fd1e7370e17d6d821429c28efe4d1024a5756f006ba4",
+  "latest_xz_bytes": 2328,
+  "latest_xz_sha256": "8702fa723767da1a7f00d3862cac50464a60c30cf3eae6b01ee2431383d528ca",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_044054_find-compare-def-exact-1781325632"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_044054_find-compare-def-exact-1781325632",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 24576,
+  "updated_utc": "2026-06-13 04:40:59 UTC"
+}
