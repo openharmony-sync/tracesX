@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.605,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_030433_poll-c57-build-2-1781319867/live.json",
-  "note": "command_id=poll-c57-build-2-1781319867 command_sha256=280962c7a5881c51c5f27dc0ed53ca5f006f8a29a51856c790aaf0f7beb7bd9f",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_030513_inspect-c57-compile-error-1781319893/live.json",
+  "note": "command_id=inspect-c57-compile-error-1781319893 command_sha256=6cc3cbab4ee568ea8134380e339af742a94888c884f9a2deaf4407946e72dda2",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_030433_poll-c57-build-2-1781319867",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 03:04:42 UTC"
+  "run_id": "cmd_20260613_030513_inspect-c57-compile-error-1781319893",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 03:05:13 UTC"
 }
