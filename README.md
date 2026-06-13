@@ -1,15 +1,15 @@
 # Run Stream
 
-- Updated: `2026-06-13 22:30:09 UTC`
+- Updated: `2026-06-13 22:39:18 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_223001_build_find_codehub_patch_1781389788`
+- Run id: `cmd_20260613_223112_build_c77_jshclass_1781389860`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `build_find_codehub_patch_1781389788`
+- Command id: `build_c77_jshclass_1781389860`
 - Exit code: `0`
-- Duration seconds: `6.581`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_223001_build_find_codehub_patch_1781389788/manifest.json](run_stream_logs/cmd_20260613_223001_build_find_codehub_patch_1781389788/manifest.json)
-- Encoded log parts: `1`
+- Duration seconds: `476.886`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_223112_build_c77_jshclass_1781389860/manifest.json](run_stream_logs/cmd_20260613_223112_build_c77_jshclass_1781389860/manifest.json)
+- Encoded log parts: `2`
 
 ## Reconstruct Captured Output
 
@@ -19,4 +19,5 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_223001_build_find_codehub_patch_1781389788/part_00001.b64](run_stream_logs/cmd_20260613_223001_build_find_codehub_patch_1781389788/part_00001.b64)
+- [run_stream_logs/cmd_20260613_223112_build_c77_jshclass_1781389860/part_00001.b64](run_stream_logs/cmd_20260613_223112_build_c77_jshclass_1781389860/part_00001.b64)
+- [run_stream_logs/cmd_20260613_223112_build_c77_jshclass_1781389860/part_00002.b64](run_stream_logs/cmd_20260613_223112_build_c77_jshclass_1781389860/part_00002.b64)
