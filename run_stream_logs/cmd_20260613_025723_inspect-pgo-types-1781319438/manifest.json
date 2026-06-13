@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 4560,
+  "base64_sha256": "9373c4882aedfa715174297b2a4f87ef5d82a92a2081fd0dd69a2f911368951c",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-pgo-types-1781319438",
+  "command_sha256": "a75ddd92c79145b596f1e0e554ad673beaf5bcb776d18ba20ce7e858d0504a49",
+  "compressed_sha256": "9670ff08681efbef09046e16dbb9ce886ef74488171a6de3e245fa662ecbdaa8",
+  "created_utc": "2026-06-13 02:57:29 UTC",
+  "duration_seconds": 5.900114182382822,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_025723_inspect-pgo-types-1781319438"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_025723_inspect-pgo-types-1781319438/part_00001.b64"
+  ],
+  "plain_log_bytes": 22711,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_025723_inspect-pgo-types-1781319438",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 3420
+}
