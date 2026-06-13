@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.83,
+  "elapsed_seconds": 8.889,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_143808_make_c68_clean_port2_1781361485/live.json",
-  "phase": "control-build",
+  "note": "command_id=make_c68_clean_port2_1781361485 command_sha256=6e4384889589d715e6a599aa8cf03f5e8c3bd32b7e616cb01c90363a57063b54",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_143808_make_c68_clean_port2_1781361485",
-  "state": "running",
-  "updated_utc": "2026-06-13 14:38:10 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 14:38:17 UTC"
 }
