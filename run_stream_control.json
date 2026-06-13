@@ -1,7 +1,17 @@
 {
-  "action": "exec",
-  "command_id": "du-c52n-artifacts-1781324320",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AEAAM1dADmZSuojhsA5IvQFjnwrKzHQpcJxsliKNDVwByUh8O/kJwxt1z008irYOCvMfOIi+GqE91VcshHVyuB+/RXzGeim61ondg0bic4mrVGlSf3/kZa4Yn7vLlWR05cSBrpxuCvWrowM3oC28OIhjS53IscyJGSO0r+TUdF5OnO049MUvaJLgb8RRLNKrf5hL3YGz6hwe6Ut0I+BGXjR/TiKyav6iHwxFreB81r/sp18zC6/XVfpBejb3Z9h5R5BgcQbgmkrSPWdizgTiugUxQgAAAAA8l8KcuR1ywUAAekBgQIAABeyH5mxxGf7AgAAAAAEWVo=",
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c52n_c36_checkandcopyarray_site1",
+  "command_id": "fetch-c52n-artifacts-1781324380",
+  "force_upstream": true,
+  "max_upstream_bytes": "400m",
+  "output_name": "c52n_c36_checkandcopyarray_site1.tar.xz",
+  "paths": [
+    "artifacts",
+    "SHA256SUMS",
+    "runtime_applied.patch",
+    "frontend_applied.patch"
+  ],
+  "skip_preflight": true,
   "target": "build",
-  "timeout_seconds": 120
+  "timeout_seconds": 0
 }
