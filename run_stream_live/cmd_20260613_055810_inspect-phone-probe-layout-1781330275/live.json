@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 172,
+  "latest_base64_sha256": "6d4377f965072dad7b504c7864f01f63f35713cd50c41e5f5aa9260e87d6086d",
+  "latest_chunk": "run_stream_live/cmd_20260613_055810_inspect-phone-probe-layout-1781330275/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 72,
+  "latest_plain_sha256": "1924259ff5c708af9eb3706949855a765820d4f473b044b3fe44117d5e98218e",
+  "latest_xz_bytes": 128,
+  "latest_xz_sha256": "30e49c09a609c5165b334831f0c88ab877236c361fbfb22238e7ec7bf797b03d",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_055810_inspect-phone-probe-layout-1781330275"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260613_055810_inspect-phone-probe-layout-1781330275",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 6,
+  "updated_utc": "2026-06-13 05:58:11 UTC"
+}
