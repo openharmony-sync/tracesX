@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.776,
+  "elapsed_seconds": 8.611,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_112652_check_c36_contains_codehub_stub_rejects_1781350005/live.json",
-  "phase": "control-build",
+  "note": "command_id=check_c36_contains_codehub_stub_rejects_1781350005 command_sha256=63a46aa92a8a7833ce057509917fda9943a70d6fc174b56a24bea83d23cf3155",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_112652_check_c36_contains_codehub_stub_rejects_1781350005",
-  "state": "running",
-  "updated_utc": "2026-06-13 11:26:53 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 11:27:00 UTC"
 }
