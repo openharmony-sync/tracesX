@@ -1,15 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/data/a84448598/ayoub/.run_stream/run_stream_state/runs/fetch_20260613_012003_fetch-c55-artifacts-1781313581",
-  "command_id": "chunk-c55-artifacts-1781313825",
-  "force_upstream": true,
-  "max_upstream_bytes": "20m",
-  "output_name": "c55_c36_function_prototype_getter_fastpath_artifacts_from_jump.tar.xz",
-  "paths": [
-    "c55_c36_function_prototype_getter_fastpath_artifacts.tar.xz"
-  ],
-  "repo_chunk_root": "large_artifacts/c55_artifacts_chunk-c55-artifacts-1781313825",
-  "target": "jump",
-  "timeout_seconds": 0,
-  "upstream": "repo_chunks"
+  "action": "exec",
+  "command_id": "clear-c55-phone-chunks-1781314256",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AFXAI5dADmZSuojhsA5IvQFjnwrKzHQpcJxs9fmmhILUg3/QLT93HYExHiAnLT0cmFINS7xAfhkXhjhgXEAfEGXWRL8R8Uou6g+ON2oeucfAoE3pofnL3AxXQbv3aPvHY3WPQ8y6jHozBk5oUV2OKUNNmPn5XWKI6JpkOhMo8cWlMcAdHyfyjvsu206g62f1HyA5AAAAADwDNbKRaMvYQABqgHYAgAA/YrWprHEZ/sCAAAAAARZWg==",
+  "target": "phone_host",
+  "timeout_seconds": 60
 }
