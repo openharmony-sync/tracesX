@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 704,
+  "base64_sha256": "9b4857fae16b0b9af43358f139c98108bbd6b6e97ded44ccefd998dca530e1ea",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "test_build_to_phone_ssh_1781378456",
+  "command_sha256": "a80f386006c5f158f125aa3708f038a803e937bbb91c06ac8d6d5bffadf55fb1",
+  "compressed_sha256": "1a6d6f9307c79161e19095654ebead29206b168345367d8ca516f5d6ab1aabde",
+  "created_utc": "2026-06-13 19:21:12 UTC",
+  "duration_seconds": 7.323639523237944,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 255,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_192104_test_build_to_phone_ssh_1781378456"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_192104_test_build_to_phone_ssh_1781378456/part_00001.b64"
+  ],
+  "plain_log_bytes": 1073,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_192104_test_build_to_phone_ssh_1781378456",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 528
+}
