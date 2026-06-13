@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 188,
+  "latest_base64_sha256": "9209960481d6af48ed4e9f41785328e79967bc11ad7975f3e1c7e627ba3e97e3",
+  "latest_chunk": "run_stream_live/cmd_20260613_001052_assemble-c53-stub-1781309450/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 81,
+  "latest_plain_sha256": "cffcb2986764b2dee1797a984b158c3bbf8f75e9d5aded32f1aa939c45952a16",
+  "latest_xz_bytes": 140,
+  "latest_xz_sha256": "3a4b3bfadff0696681eda47fc9cf097f2e27db769b53afd650f06005e2b40d95",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_001052_assemble-c53-stub-1781309450"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260613_001052_assemble-c53-stub-1781309450",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 15,
+  "updated_utc": "2026-06-13 00:10:53 UTC"
+}
