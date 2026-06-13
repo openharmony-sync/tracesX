@@ -1,0 +1,35 @@
+{
+  "base64_bytes": 54672,
+  "base64_sha256": "8897b0e13ad4e788303352415b0203942aee52fb73d6861e553b254ce2e3dfc8",
+  "chunk_count": 2,
+  "chunk_size_bytes": 49356,
+  "command_id": "c75_find_instr_1781381060",
+  "command_sha256": "dd33e3a6e9381d56107b9550515034b5724db91b2b7e8124b82e40131656d065",
+  "compressed_sha256": "bc34e701e6d31a99314e6c3c87e1d4e47e779473ad8ae378b293e021c156c463",
+  "created_utc": "2026-06-13 20:06:26 UTC",
+  "duration_seconds": 123.019206892699,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 124,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 2,
+      "first_index": 1,
+      "last_index": 2,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_200422_c75_find_instr_1781381060"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_200422_c75_find_instr_1781381060/part_00001.b64",
+    "run_stream_logs/cmd_20260613_200422_c75_find_instr_1781381060/part_00002.b64"
+  ],
+  "plain_log_bytes": 1275557,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_200422_c75_find_instr_1781381060",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 41004
+}
