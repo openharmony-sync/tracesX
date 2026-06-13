@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1224,
+  "latest_base64_sha256": "e947a5bb0c86197aa7e43f106b14726fae8cc01242ac0f7a8979ca1def7e39d3",
+  "latest_chunk": "run_stream_live/cmd_20260613_044628_prep-c58-regenerate-patch-1781325981/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 2522,
+  "latest_plain_sha256": "2099e6481e1b8f222fbbbd106876ca8bda65119e71464cfa4d4d3c49f70608e7",
+  "latest_xz_bytes": 916,
+  "latest_xz_sha256": "d20312fa4945d547a3c104109de1258b3122123a517e1a576d837f1f015c4670",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_044628_prep-c58-regenerate-patch-1781325981"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_044628_prep-c58-regenerate-patch-1781325981",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 2278,
+  "updated_utc": "2026-06-13 04:46:33 UTC"
+}
