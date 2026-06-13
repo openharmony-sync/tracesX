@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 4264,
+  "base64_sha256": "7acb8d3a2be31aa50ae6799a55d555b96196d4b468ad6a8e8e9b81557dd57b7b",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-c49-stage-files-1781330356",
+  "command_sha256": "9329ecbc9773e65299026a1dadedb4439ecda92d934dcbd96f424bae48111973",
+  "compressed_sha256": "4b76d69c74abb0f49cb38052dcc1d8638fa465c09959ff7787c86089ffc1e8ff",
+  "created_utc": "2026-06-13 05:59:42 UTC",
+  "duration_seconds": 9.945878392085433,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_055932_inspect-c49-stage-files-1781330356"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_055932_inspect-c49-stage-files-1781330356/part_00001.b64"
+  ],
+  "plain_log_bytes": 54839,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_055932_inspect-c49-stage-files-1781330356",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 3196
+}
