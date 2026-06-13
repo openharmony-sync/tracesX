@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 476,
+  "base64_sha256": "97b9ef8c28e6250afedc5a9451b119257a7071c1ce4c90fa66d8563256d5b0f7",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "probe-build-to-phone-1781311064",
+  "command_sha256": "f508c10bbc7047f9af5ccfb95f114d43c4a3327d760d53c5c05c6bd14b364250",
+  "compressed_sha256": "7e7b069e62f194516f84c888ee2455ff0e88e388bd00696e3a6cc3c1e85a7565",
+  "created_utc": "2026-06-13 00:37:58 UTC",
+  "duration_seconds": 7.429676355794072,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 255,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_003750_probe-build-to-phone-1781311064"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_003750_probe-build-to-phone-1781311064/part_00001.b64"
+  ],
+  "plain_log_bytes": 535,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_003750_probe-build-to-phone-1781311064",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 356
+}
