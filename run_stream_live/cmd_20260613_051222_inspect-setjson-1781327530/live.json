@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 7112,
+  "latest_base64_sha256": "8c6597bfbaff9362433feac827552cc1ef207b7c39dba1207dc4383129bbd220",
+  "latest_chunk": "run_stream_live/cmd_20260613_051222_inspect-setjson-1781327530/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 29419,
+  "latest_plain_sha256": "54160c6c810e91ac186cfc46cbdc2015a87a043f311aa3256a4a4bdc6304440f",
+  "latest_xz_bytes": 5332,
+  "latest_xz_sha256": "f3b54d9a231ab12ae2ca4868510079fcc00cbecd128bdd2856d20445598494c1",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_051222_inspect-setjson-1781327530"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_051222_inspect-setjson-1781327530",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 29053,
+  "updated_utc": "2026-06-13 05:12:26 UTC"
+}
