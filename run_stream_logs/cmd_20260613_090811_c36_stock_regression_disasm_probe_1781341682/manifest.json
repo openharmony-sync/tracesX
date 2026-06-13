@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1260,
+  "base64_sha256": "be13c9eb08f5cc831a7ac664cb788ae49743c4adaa7e1874c20fbabffe7d2a71",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "c36_stock_regression_disasm_probe_1781341682",
+  "command_sha256": "b8c27ea8245e3ce74b31c08e7e30f001aaa739dbb7e9cb20dc1090d683de1deb",
+  "compressed_sha256": "8c310b4c88e35f4363039f3cc74f2dc08f87a98b101f018c54f6c41a58665870",
+  "created_utc": "2026-06-13 09:08:18 UTC",
+  "duration_seconds": 6.4628066178411245,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_090811_c36_stock_regression_disasm_probe_1781341682"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_090811_c36_stock_regression_disasm_probe_1781341682/part_00001.b64"
+  ],
+  "plain_log_bytes": 3706,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_090811_c36_stock_regression_disasm_probe_1781341682",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 944
+}
