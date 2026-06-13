@@ -1,0 +1,44 @@
+{
+  "base64_bytes": 526924,
+  "base64_sha256": "1ff5927ed418772563954b7f9d79570765554a229451c31dbfb9289b2f2174f9",
+  "chunk_count": 11,
+  "chunk_size_bytes": 49356,
+  "command_id": "src-array-paths2-1781339469",
+  "command_sha256": "d630daf81fd799ba2b68a97375992dbdaa538bf8ca874540502736e0f1e995da",
+  "compressed_sha256": "2bb10de6cc7c993c2706b7b7b675153f54cd48fe9b242665538482c6c1efab05",
+  "created_utc": "2026-06-13 08:34:26 UTC",
+  "duration_seconds": 183.4729845430702,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 124,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 11,
+      "first_index": 1,
+      "last_index": 11,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00001.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00002.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00003.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00004.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00005.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00006.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00007.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00008.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00009.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00010.b64",
+    "run_stream_logs/cmd_20260613_083122_src-array-paths2-1781339469/part_00011.b64"
+  ],
+  "plain_log_bytes": 2093553,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_083122_src-array-paths2-1781339469",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 395192
+}
