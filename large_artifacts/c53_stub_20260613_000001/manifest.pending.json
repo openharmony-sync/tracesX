@@ -1,0 +1,14 @@
+{
+  "archive": "c53_c36_number_to_string_small_digit_only_stub.tar.xz",
+  "archive_bytes": 2850492,
+  "archive_sha256": "df3d4d0d839208f74a2c5af59e3e2f8e571c9d40e1f3dd04980d58f3e12699b6",
+  "chunk_count": 58,
+  "chunk_path_format": "large_artifacts/c53_stub_20260613_000001/chunks/part_%06d.bin",
+  "chunk_size_bytes": 49356,
+  "complete": false,
+  "created_utc": "2026-06-13 00:01:00 UTC",
+  "encoding": "raw archive bytes split into GitHub Contents API files",
+  "note": "chunks are committed independently; rerun upstreamer to resume missing chunks",
+  "reconstruct_python": "for i in range(chunk_count): append bytes from chunk_path_format % i, then compare archive_sha256",
+  "upstream_workers_max": 4
+}
