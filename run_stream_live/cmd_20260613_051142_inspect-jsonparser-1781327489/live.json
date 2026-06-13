@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 5056,
+  "latest_base64_sha256": "6a8e0f9a32166f743fce52425b6b66553bd98b52cc4168794113fc1edf0b77b0",
+  "latest_chunk": "run_stream_live/cmd_20260613_051142_inspect-jsonparser-1781327489/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 20462,
+  "latest_plain_sha256": "2c6f62f35d8027b6d6c03e98a4849c7998b24ec9c2d344af34a0078f967651a4",
+  "latest_xz_bytes": 3792,
+  "latest_xz_sha256": "da5d77e668789f7e2de337a11664e97bff18d8a21d268b1fe7b793e8c5bc926c",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_051142_inspect-jsonparser-1781327489"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_051142_inspect-jsonparser-1781327489",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 20157,
+  "updated_utc": "2026-06-13 05:11:46 UTC"
+}
