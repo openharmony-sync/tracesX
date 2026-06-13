@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 02:27:46 UTC`
+- Updated: `2026-06-13 02:28:28 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_022739_start-c56-compare-counters-retry-1781317657`
+- Run id: `cmd_20260613_022818_tail-c55-focus-5-1781317680`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `start-c56-compare-counters-retry-1781317657`
+- Target: `phone_host`
+- Command id: `tail-c55-focus-5-1781317680`
 - Exit code: `0`
-- Duration seconds: `5.741`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_022739_start-c56-compare-counters-retry-1781317657/manifest.json](run_stream_logs/cmd_20260613_022739_start-c56-compare-counters-retry-1781317657/manifest.json)
+- Duration seconds: `8.192`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_022818_tail-c55-focus-5-1781317680/manifest.json](run_stream_logs/cmd_20260613_022818_tail-c55-focus-5-1781317680/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_022739_start-c56-compare-counters-retry-1781317657/part_00001.b64](run_stream_logs/cmd_20260613_022739_start-c56-compare-counters-retry-1781317657/part_00001.b64)
+- [run_stream_logs/cmd_20260613_022818_tail-c55-focus-5-1781317680/part_00001.b64](run_stream_logs/cmd_20260613_022818_tail-c55-focus-5-1781317680/part_00001.b64)
