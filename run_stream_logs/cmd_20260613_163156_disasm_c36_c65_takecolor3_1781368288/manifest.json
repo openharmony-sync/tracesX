@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 760,
+  "base64_sha256": "138429186fe311571cf238f479ceeea90f4c162fb25c2abf49a30d672ea3d977",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "disasm_c36_c65_takecolor3_1781368288",
+  "command_sha256": "2f815550c97a1cdb571b6ae4c45aa1ad2e85af6634b06affc07f3b2c1fc9b6b1",
+  "compressed_sha256": "26bd001e99de886188717a269393ad9ceb18229fe991679ec44e5c88a0047f20",
+  "created_utc": "2026-06-13 16:32:02 UTC",
+  "duration_seconds": 6.318417431786656,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_163156_disasm_c36_c65_takecolor3_1781368288"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_163156_disasm_c36_c65_takecolor3_1781368288/part_00001.b64"
+  ],
+  "plain_log_bytes": 1234,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_163156_disasm_c36_c65_takecolor3_1781368288",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 568
+}
