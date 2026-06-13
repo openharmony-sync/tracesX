@@ -1,0 +1,35 @@
+{
+  "base64_bytes": 55176,
+  "base64_sha256": "85ad2e082c220f2a63fe349fabbfd2b7442770ddc8d2f9bea45c0d165712c512",
+  "chunk_count": 2,
+  "chunk_size_bytes": 49356,
+  "command_id": "c62_build_codehub_partial_c36_frontend_1781344884",
+  "command_sha256": "3912f71223324a844bcb3dd8edfa251dc8737c455d4b764b301e57820850bb28",
+  "compressed_sha256": "3fdc274128cf6d02d163163cefbf5f954c6fc53943baf3c20d34932bde922771",
+  "created_utc": "2026-06-13 10:08:28 UTC",
+  "duration_seconds": 401.6254530865699,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 2,
+      "first_index": 1,
+      "last_index": 2,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_100146_c62_build_codehub_partial_c36_frontend_1781344884"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_100146_c62_build_codehub_partial_c36_frontend_1781344884/part_00001.b64",
+    "run_stream_logs/cmd_20260613_100146_c62_build_codehub_partial_c36_frontend_1781344884/part_00002.b64"
+  ],
+  "plain_log_bytes": 685799,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_100146_c62_build_codehub_partial_c36_frontend_1781344884",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 41380
+}
