@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 13:14:19 UTC`
+- Updated: `2026-06-13 13:16:02 UTC`
 - Status: `OK`
-- Run id: `fetch_20260613_131334_fetch_c65_artifacts_release_1781356386`
+- Run id: `cmd_20260613_131554_jump_copy_c65_to_phone_1781356549`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `fetch_c65_artifacts_release_1781356386`
+- Target: `jump`
+- Command id: `jump_copy_c65_to_phone_1781356549`
 - Exit code: `0`
-- Duration seconds: `42.920`
-- Encoded log manifest: [run_stream_logs/fetch_20260613_131334_fetch_c65_artifacts_release_1781356386/manifest.json](run_stream_logs/fetch_20260613_131334_fetch_c65_artifacts_release_1781356386/manifest.json)
+- Duration seconds: `6.156`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_131554_jump_copy_c65_to_phone_1781356549/manifest.json](run_stream_logs/cmd_20260613_131554_jump_copy_c65_to_phone_1781356549/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/fetch_20260613_131334_fetch_c65_artifacts_release_1781356386/part_00001.b64](run_stream_logs/fetch_20260613_131334_fetch_c65_artifacts_release_1781356386/part_00001.b64)
+- [run_stream_logs/cmd_20260613_131554_jump_copy_c65_to_phone_1781356549/part_00001.b64](run_stream_logs/cmd_20260613_131554_jump_copy_c65_to_phone_1781356549/part_00001.b64)
