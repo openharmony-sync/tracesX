@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 188,
+  "latest_base64_sha256": "fffb920d5a6e6f7cdb0ac686951b94044fe68c31eb56a4608f84de465e1d633a",
+  "latest_chunk": "run_stream_live/cmd_20260613_070112_find-bench-root-1781334042/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 82,
+  "latest_plain_sha256": "f267f76d146855f4c5f7eeef4abb8c3779d139d0c6540b5994d5178fa698c903",
+  "latest_xz_bytes": 140,
+  "latest_xz_sha256": "8c334a401fe6eb1f43f50376e18df66cf3218c49fd7b5872653fa112eda3bf86",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_070112_find-bench-root-1781334042"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260613_070112_find-bench-root-1781334042",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 16,
+  "updated_utc": "2026-06-13 07:01:13 UTC"
+}
