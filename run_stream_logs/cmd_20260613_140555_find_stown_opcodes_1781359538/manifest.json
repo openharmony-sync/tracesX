@@ -1,0 +1,40 @@
+{
+  "base64_bytes": 334380,
+  "base64_sha256": "67e9b1ae67c3162446113410f829dcaf2c9ef4b284e847a3ade3e091e4d22340",
+  "chunk_count": 7,
+  "chunk_size_bytes": 49356,
+  "command_id": "find_stown_opcodes_1781359538",
+  "command_sha256": "8736cf734355b3f78693099d5b67a865b74e53b5d3513723e6a987976ac8dec1",
+  "compressed_sha256": "69debdba6a47ac289b667db073f699c50014304094639fbc58092fbab75deb3d",
+  "created_utc": "2026-06-13 14:08:00 UTC",
+  "duration_seconds": 124.38241791166365,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 124,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 7,
+      "first_index": 1,
+      "last_index": 7,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_140555_find_stown_opcodes_1781359538"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_140555_find_stown_opcodes_1781359538/part_00001.b64",
+    "run_stream_logs/cmd_20260613_140555_find_stown_opcodes_1781359538/part_00002.b64",
+    "run_stream_logs/cmd_20260613_140555_find_stown_opcodes_1781359538/part_00003.b64",
+    "run_stream_logs/cmd_20260613_140555_find_stown_opcodes_1781359538/part_00004.b64",
+    "run_stream_logs/cmd_20260613_140555_find_stown_opcodes_1781359538/part_00005.b64",
+    "run_stream_logs/cmd_20260613_140555_find_stown_opcodes_1781359538/part_00006.b64",
+    "run_stream_logs/cmd_20260613_140555_find_stown_opcodes_1781359538/part_00007.b64"
+  ],
+  "plain_log_bytes": 1434103,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_140555_find_stown_opcodes_1781359538",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 250784
+}
