@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 3928,
+  "latest_base64_sha256": "8e52d9d655d5fea9bf8e5bc25343c7ffebae61e768d0c3f9d3a46c628cb1beec",
+  "latest_chunk": "run_stream_live/cmd_20260613_124726_read_binder_decl_api_1781354834/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 13480,
+  "latest_plain_sha256": "1fdec1c85f2ee25d187c33979aebca6ef9b38da860fc612eb7a152e7fb61288c",
+  "latest_xz_bytes": 2944,
+  "latest_xz_sha256": "c9ae4fdfe034599517e1451097867745b9363e232193a49e70d8ed2959bc7fd7",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_124726_read_binder_decl_api_1781354834"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_124726_read_binder_decl_api_1781354834",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 13175,
+  "updated_utc": "2026-06-13 12:47:30 UTC"
+}
