@@ -1,12 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c64_c36_runtime_hclass_fastobject_c36_frontend",
-  "command_id": "c64_fetch_artifacts_fixed_1781351390",
-  "output_name": "c64_c36_runtime_hclass_fastobject_c36_frontend_artifacts.tar.xz",
-  "paths": [
-    "artifacts"
-  ],
-  "target": "build",
-  "timeout_seconds": 240,
-  "upstream": "none"
+  "action": "exec",
+  "command_id": "c64_locate_fetch_1781351462",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AFwAOpdADmZSuojhr+ju2M+F2EtMwXY4rZxGW/tiHx5wWbmrDkK3ec7v4SS0Lode9tS1IytIAjbNrCjHACSzvzI9dHsY6pXUSqjgmEEaZYbQAW1bm1nDFHQyia6XJkpVkhideUTB9/MVRB72f43kgfT4unMvo7e76wDYEQjQbf/vEr90gQ6KpGK36aPUfqkGEh4j3v+7QE9jeizjsNHaYXU3MLYiZV5K/GrnI0GjIaeW+0Ta/JpLzi0n8XWPaJhGeE5wg5lR+i7xbHJ1+XbRQgmcrCUCT1Dd6Wd8eXqeVAiXjDZTKYBo2TWLiRCzF7CAAAAAF4ycYflF3ewAAGGAvECAADU1SJMscRn+wIAAAAABFla",
+  "target": "jump",
+  "timeout_seconds": 120
 }
