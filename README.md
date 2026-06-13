@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 05:49:42 UTC`
+- Updated: `2026-06-13 05:53:35 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_054933_poll-c59g-1781329748`
+- Run id: `fetch_20260613_055251_fetch-c59-artifacts-1781329967`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `poll-c59g-1781329748`
+- Command id: `fetch-c59-artifacts-1781329967`
 - Exit code: `0`
-- Duration seconds: `6.179`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_054933_poll-c59g-1781329748/manifest.json](run_stream_logs/cmd_20260613_054933_poll-c59g-1781329748/manifest.json)
+- Duration seconds: `42.900`
+- Encoded log manifest: [run_stream_logs/fetch_20260613_055251_fetch-c59-artifacts-1781329967/manifest.json](run_stream_logs/fetch_20260613_055251_fetch-c59-artifacts-1781329967/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_054933_poll-c59g-1781329748/part_00001.b64](run_stream_logs/cmd_20260613_054933_poll-c59g-1781329748/part_00001.b64)
+- [run_stream_logs/fetch_20260613_055251_fetch-c59-artifacts-1781329967/part_00001.b64](run_stream_logs/fetch_20260613_055251_fetch-c59-artifacts-1781329967/part_00001.b64)
