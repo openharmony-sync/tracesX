@@ -1,15 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c59_c36_numtostr_attribution",
-  "command_id": "fetch-c59-artifacts-1781329967",
-  "max_upstream_bytes": "250m",
-  "output_name": "c59_c36_numtostr_attribution_artifacts.tar.xz",
-  "paths": [
-    "artifacts",
-    "SHA256SUMS",
-    "build_metadata.txt"
-  ],
-  "target": "build",
-  "timeout_seconds": 900,
-  "upstream": "release_asset"
+  "action": "exec",
+  "command_id": "stage-c59-from-runner-1781330142",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4ANlAbJdADmZSuojhsA5IvQFjnwrKzHQpbZdWFGkeoVZReYXnKKpvkG0TSZz4C5Bwp26I9EIeMIi2k66I1pK5fOTZNMSkiQCIpUbgGF2Q8Tl5VKVD9AeP3cEtKxrvnW+Sv0TL4jz8/90IeaEgvb9Tc2HTM+3ATep4G5arT53w0iDSkwmcMnglKGaK5faA7tS7yCUO6VFYR4lCrcgQ2nmnjqfaJxCGsC7DT9E5l05bZBtpwntrnaz3ueQTOU8ai7+6dm6acPEd2AzHhLinrInXxRjTKRqSz5elBYaZMiK2d0qWJeDkurviqSCc62ECHr+HzFDEpgQw2BGWa97yxFKSs1BiSxemAlntbUn4Tlhm6+sHvuII6E0AvGrtXVBthmV03QAF5h2DZqqxJA0EDa+fv18+BHGMA5aJFdIMi+JLT3rGu5l+eanyKVq/rcAU5fAw1s+cKXomUyo8qhhoD/Y5j9DaoTS5HNVcMJtYYiIb7q0h+5vJ4q+z4ByG+8prJ92Y1sLlbiblIzgmJPnbAwHl4T4fpCYH4fcYtYAoJ+Kes3SRiFNdOVa8vADXoikYy/wnp/Hs0ydOwcAAAAAbMQ5BAbMhicAAc4D5gYAAJ+zjlixxGf7AgAAAAAEWVo=",
+  "target": "jump",
+  "timeout_seconds": 300
 }
