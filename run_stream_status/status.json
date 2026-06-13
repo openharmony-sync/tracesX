@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.795,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_124035_read_takecolor_oneitems_1781354420/live.json",
-  "note": "command_id=read_takecolor_oneitems_1781354420 command_sha256=0f0043d891bbc70b16f3bdd60f940df4e209c71d97949b2528ddd19035db7267",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_124115_read_bili_fileinfo_1781354461/live.json",
+  "note": "command_id=read_bili_fileinfo_1781354461 command_sha256=1da00bcdda3528c13759a30c70e3d40d2c51add42b9b5e54c7d3caaa8e912917",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_124035_read_takecolor_oneitems_1781354420",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 12:40:44 UTC"
+  "run_id": "cmd_20260613_124115_read_bili_fileinfo_1781354461",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 12:41:15 UTC"
 }
