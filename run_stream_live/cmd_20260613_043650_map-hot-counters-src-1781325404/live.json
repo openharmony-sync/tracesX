@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 4336,
+  "latest_base64_sha256": "1fd9b393e8533619f1b09cedb9fc88151928c24361dba18e45e526740ffa954e",
+  "latest_chunk": "run_stream_live/cmd_20260613_043650_map-hot-counters-src-1781325404/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 25789,
+  "latest_plain_sha256": "0ba6d981b00541003c34f53d23a266f44bb50a146015011d98997f33d813e93b",
+  "latest_xz_bytes": 3252,
+  "latest_xz_sha256": "3eae7993ef78f9215dc4f1b57692aa63fd2dddaf8368d7fac27453ef1bc8887d",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_043650_map-hot-counters-src-1781325404"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_043650_map-hot-counters-src-1781325404",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 25240,
+  "updated_utc": "2026-06-13 04:36:54 UTC"
+}
