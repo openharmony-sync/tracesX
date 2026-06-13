@@ -1,7 +1,15 @@
 {
-  "action": "exec",
-  "command_id": "probe_jump_state_1781359177",
-  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4ACbAG5dADgdyKjcK8Jk0BPJemJrwhm5X/EjL/wAdQ24RMDeVAjRcJ6cZ0E9oOpLN3M/Y3AQbogTeMoDhNtFdWJebDZrvCY44U7qAbTP1CQ6Xq9I2clMoPhmDHa/BsA1EA1ITR3QYtnPiJFPZCXRmVQrCf0AAAAA2x4oqHJ2Qn8AAYoBnAEAAPj+SrexxGf7AgAAAAAEWVo=",
-  "target": "jump",
-  "timeout_seconds": 60
+  "action": "fetch",
+  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c66_c36_c65_plus_c51b_number_to_string",
+  "command_id": "fetch_c66_artifacts_1781359238",
+  "output_name": "c66_c36_c65_plus_c51b_artifacts.tar.xz",
+  "paths": [
+    "artifacts",
+    "SHA256SUMS",
+    "build_metadata.txt"
+  ],
+  "skip_preflight": true,
+  "target": "build",
+  "timeout_seconds": 600,
+  "upstream": "none"
 }
