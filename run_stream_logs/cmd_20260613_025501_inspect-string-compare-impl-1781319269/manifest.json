@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 4696,
+  "base64_sha256": "31744384a16bbd0eb36abedbb24c47ffcf1bda81edd46183cd3074fef44cd216",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-string-compare-impl-1781319269",
+  "command_sha256": "47eb7c45cdc18e5f91f6e0dc8140a72fbe50add2d4a5167e4d5daee61df71fe0",
+  "compressed_sha256": "410963b297afae7ee37bab67b9f2b000f5b9c86d437d077583def477a5a63bd2",
+  "created_utc": "2026-06-13 02:55:07 UTC",
+  "duration_seconds": 6.0248894188553095,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_025501_inspect-string-compare-impl-1781319269"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_025501_inspect-string-compare-impl-1781319269/part_00001.b64"
+  ],
+  "plain_log_bytes": 20922,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_025501_inspect-string-compare-impl-1781319269",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 3520
+}
