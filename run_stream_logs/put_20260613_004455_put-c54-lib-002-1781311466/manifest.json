@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 760,
+  "base64_sha256": "d7f7565000906c4b1d52f70e8523bc4b72d28f4b5c4ea82edfe03f6f040ec930",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "put-c54-lib-002-1781311466",
+  "command_sha256": "4a1008830c9e95e2851344aa858f05479f21638ed8be88d25c34ee4febf6f4a7",
+  "compressed_sha256": "e770c5762ca941237994d25f47c5f5fa862d579da901cf3f761a2aab10d063a0",
+  "created_utc": "2026-06-13 00:44:57 UTC",
+  "duration_seconds": 1.3726601414382458,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/put_20260613_004455_put-c54-lib-002-1781311466"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/put_20260613_004455_put-c54-lib-002-1781311466/part_00001.b64"
+  ],
+  "plain_log_bytes": 870,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "put_20260613_004455_put-c54-lib-002-1781311466",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 568
+}
