@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.905,
+  "elapsed_seconds": 9.039,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 1,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_035300_inspect-equality-primitives-1781322768/live.json",
-  "phase": "control-build",
+  "note": "command_id=inspect-equality-primitives-1781322768 command_sha256=ccca0a53325399e372d231401bf00f9a8e5593f00b0fcb34f7eba20fb43542eb",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_035300_inspect-equality-primitives-1781322768",
-  "state": "running",
-  "updated_utc": "2026-06-13 03:53:02 UTC"
+  "state": "failed-control-command",
+  "updated_utc": "2026-06-13 03:53:09 UTC"
 }
