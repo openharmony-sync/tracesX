@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.631,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_043853_inspect-c56-patch-1781325531/live.json",
-  "note": "command_id=inspect-c56-patch-1781325531 command_sha256=1c81d0437ca20d355cb366d6b37d824530b6ec9f1e5ca30dfc412d9efb2ce817",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_043933_inspect-ecmastring-compare-1781325568/live.json",
+  "note": "command_id=inspect-ecmastring-compare-1781325568 command_sha256=17bdbdf0276fc5f1d3e230a5d9917880ac221bda1d3491de530c65e9316e91d9",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_043853_inspect-c56-patch-1781325531",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 04:39:02 UTC"
+  "run_id": "cmd_20260613_043933_inspect-ecmastring-compare-1781325568",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 04:39:33 UTC"
 }
