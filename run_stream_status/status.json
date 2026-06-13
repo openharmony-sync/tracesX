@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.0,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/fetch_20260613_012357_chunk-c55-artifacts-1781313825/live.json",
+  "note": "command_id=chunk-c55-artifacts-1781313825 descriptor_sha256=1d3704a56db9390781df796c4f5b54570286859a56572906c3a876e3cd257233",
+  "phase": "fetch-jump",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-13 01:23:25 UTC"
+  "run_id": "fetch_20260613_012357_chunk-c55-artifacts-1781313825",
+  "state": "running-fetch",
+  "updated_utc": "2026-06-13 01:23:57 UTC"
 }
