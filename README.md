@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 13:16:02 UTC`
+- Updated: `2026-06-13 13:17:45 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_131554_jump_copy_c65_to_phone_1781356549`
+- Run id: `cmd_20260613_131737_launch_c36_vs_c65_focus_1781356633`
 - Kind: `control-command`
-- Target: `jump`
-- Command id: `jump_copy_c65_to_phone_1781356549`
+- Target: `phone_host`
+- Command id: `launch_c36_vs_c65_focus_1781356633`
 - Exit code: `0`
-- Duration seconds: `6.156`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_131554_jump_copy_c65_to_phone_1781356549/manifest.json](run_stream_logs/cmd_20260613_131554_jump_copy_c65_to_phone_1781356549/manifest.json)
+- Duration seconds: `5.848`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_131737_launch_c36_vs_c65_focus_1781356633/manifest.json](run_stream_logs/cmd_20260613_131737_launch_c36_vs_c65_focus_1781356633/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_131554_jump_copy_c65_to_phone_1781356549/part_00001.b64](run_stream_logs/cmd_20260613_131554_jump_copy_c65_to_phone_1781356549/part_00001.b64)
+- [run_stream_logs/cmd_20260613_131737_launch_c36_vs_c65_focus_1781356633/part_00001.b64](run_stream_logs/cmd_20260613_131737_launch_c36_vs_c65_focus_1781356633/part_00001.b64)
