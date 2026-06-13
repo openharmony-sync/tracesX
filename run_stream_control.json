@@ -1,15 +1,7 @@
 {
-  "action": "fetch",
-  "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c66_c36_c65_plus_c51b_number_to_string",
-  "command_id": "fetch_c66_artifacts_1781359238",
-  "output_name": "c66_c36_c65_plus_c51b_artifacts.tar.xz",
-  "paths": [
-    "artifacts",
-    "SHA256SUMS",
-    "build_metadata.txt"
-  ],
-  "skip_preflight": true,
-  "target": "build",
-  "timeout_seconds": 600,
-  "upstream": "none"
+  "action": "exec",
+  "command_id": "verify_c66_fetch_1781359317",
+  "command_xz_b64": "/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4AElAN1dACkVRd4CmJZhx/wHZfQn0h7KCAv971fh2zBLxICPDjmD2aNqabl9XmoUrv3r2m2PZJkxAsy5768fLZGuLgBXEZvuY1ud9HMgMKPoWJmeIVlv7A/m38NYLBxoC+hhbCv/7ohWwxwKfaUymIDX2iNDFFkZtqHEn91b8DIo/ous2hCQkKpB0Ej0x7SQFzEP2bMhV6OCrSxT8HZ4VVlQt57bd2xZhB2fFVkHHmuQd9Y2BmNXtSxDQQDIasPW7/XfOts9Nww73D+aN4c6juw/u9DSYOONVVmb2gh4E4u6CCPzAAAAAKOwLXXPqul5AAH5AaYCAAALJyynscRn+wIAAAAABFla",
+  "target": "jump",
+  "timeout_seconds": 60
 }
