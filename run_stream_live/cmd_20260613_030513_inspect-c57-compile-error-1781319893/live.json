@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 5152,
+  "latest_base64_sha256": "efda5d9747896bf9f7b17abe2b815aa660f4798959a63a5efe0cecbab0b62dcf",
+  "latest_chunk": "run_stream_live/cmd_20260613_030513_inspect-c57-compile-error-1781319893/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 28991,
+  "latest_plain_sha256": "ab7e8e54cc40567d1fde55058d1a96cc3af632379ed4c04ac3a0dc1cae38e678",
+  "latest_xz_bytes": 3864,
+  "latest_xz_sha256": "a6441f73916db084a0530931d101ada4f54190a4977e7f9c6271643d7fddfd98",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_030513_inspect-c57-compile-error-1781319893"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_030513_inspect-c57-compile-error-1781319893",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 28686,
+  "updated_utc": "2026-06-13 03:05:17 UTC"
+}
