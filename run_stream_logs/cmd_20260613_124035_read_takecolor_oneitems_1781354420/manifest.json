@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2432,
+  "base64_sha256": "5e789fbf56e8eecc6da16bb30099d4ffe425f4ae5024dfa50630b069537a2867",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "read_takecolor_oneitems_1781354420",
+  "command_sha256": "0f0043d891bbc70b16f3bdd60f940df4e209c71d97949b2528ddd19035db7267",
+  "compressed_sha256": "7614b041a36cf36490724285923ea892555862877d297bb599681c1bae65ee13",
+  "created_utc": "2026-06-13 12:40:41 UTC",
+  "duration_seconds": 5.996122224256396,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_124035_read_takecolor_oneitems_1781354420"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_124035_read_takecolor_oneitems_1781354420/part_00001.b64"
+  ],
+  "plain_log_bytes": 5512,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_124035_read_takecolor_oneitems_1781354420",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1824
+}
