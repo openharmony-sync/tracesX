@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.796,
+  "elapsed_seconds": 8.174,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_195545_fetch_c74_patch_decode_1781380538/live.json",
-  "phase": "control-build",
+  "note": "command_id=fetch_c74_patch_decode_1781380538 command_sha256=75487d2433d5c6184c7a3df1e23117d5b62ef0191a5d08bdc617d6ad48e90987",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_195545_fetch_c74_patch_decode_1781380538",
-  "state": "running",
-  "updated_utc": "2026-06-13 19:55:46 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 19:55:53 UTC"
 }
