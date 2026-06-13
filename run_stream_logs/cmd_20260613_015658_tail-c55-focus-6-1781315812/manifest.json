@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2872,
+  "base64_sha256": "620476b9dfb389724f2bd5c2b8d25befbb8977aefde26a8c2bc70112a05cc9d2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "tail-c55-focus-6-1781315812",
+  "command_sha256": "52b189c81877f2f90bdff956bf3f9d92dbcb58e8dda774bd2c1bbf70f508f31b",
+  "compressed_sha256": "e08e17ea00537cc67af402c1006677c2b9bd3bd20ebb8b80527d88fb240ffbb0",
+  "created_utc": "2026-06-13 01:57:04 UTC",
+  "duration_seconds": 6.2075366377830505,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_015658_tail-c55-focus-6-1781315812"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_015658_tail-c55-focus-6-1781315812/part_00001.b64"
+  ],
+  "plain_log_bytes": 12016,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_015658_tail-c55-focus-6-1781315812",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2152
+}
