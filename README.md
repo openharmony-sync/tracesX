@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 00:11:00 UTC`
+- Updated: `2026-06-13 00:12:43 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_001052_assemble-c53-stub-1781309450`
+- Run id: `cmd_20260613_001235_start-c36-vs-c53-focus-1781309535`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `assemble-c53-stub-1781309450`
+- Command id: `start-c36-vs-c53-focus-1781309535`
 - Exit code: `0`
-- Duration seconds: `6.138`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_001052_assemble-c53-stub-1781309450/manifest.json](run_stream_logs/cmd_20260613_001052_assemble-c53-stub-1781309450/manifest.json)
+- Duration seconds: `6.368`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_001235_start-c36-vs-c53-focus-1781309535/manifest.json](run_stream_logs/cmd_20260613_001235_start-c36-vs-c53-focus-1781309535/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_001052_assemble-c53-stub-1781309450/part_00001.b64](run_stream_logs/cmd_20260613_001052_assemble-c53-stub-1781309450/part_00001.b64)
+- [run_stream_logs/cmd_20260613_001235_start-c36-vs-c53-focus-1781309535/part_00001.b64](run_stream_logs/cmd_20260613_001235_start-c36-vs-c53-focus-1781309535/part_00001.b64)
