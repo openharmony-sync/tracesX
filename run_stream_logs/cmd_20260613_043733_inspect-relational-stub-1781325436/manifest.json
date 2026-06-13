@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 5868,
+  "base64_sha256": "59b8aad4de34f8afdf32a9de952f60cce0db8e3e2b0b7c380d49f9ef086686b6",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-relational-stub-1781325436",
+  "command_sha256": "8e4489589e2d2709d6ddf6f74ec5d86acfe9dd656cc22766837091a72dbf160e",
+  "compressed_sha256": "8b9b5d558986ca43b69a39b412e47677fedb33f5ad7915ba395955ce547addca",
+  "created_utc": "2026-06-13 04:37:40 UTC",
+  "duration_seconds": 6.116868935525417,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_043733_inspect-relational-stub-1781325436"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_043733_inspect-relational-stub-1781325436/part_00001.b64"
+  ],
+  "plain_log_bytes": 27980,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_043733_inspect-relational-stub-1781325436",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 4400
+}
