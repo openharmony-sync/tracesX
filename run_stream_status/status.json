@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 3.143,
+  "elapsed_seconds": 8.737,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_082923_poll-c36-vs-c43-focus3-1781339357/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=poll-c36-vs-c43-focus3-1781339357 command_sha256=53441c35bc1636898990db56dbbe6ff346fd4f7c0264a9c2eb08ca12270ce037",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_082923_poll-c36-vs-c43-focus3-1781339357",
-  "state": "running",
-  "updated_utc": "2026-06-13 08:29:26 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 08:29:31 UTC"
 }
