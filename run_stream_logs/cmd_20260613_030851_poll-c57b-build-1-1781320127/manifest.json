@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2736,
+  "base64_sha256": "883fdf1457210d16f88d1869624178476fa914bd74b815512544144b07f58942",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "poll-c57b-build-1-1781320127",
+  "command_sha256": "b20e29bb98d02e2258bdfaf0d5aa9199eaaca7305c8ebd2baaff6a738faadc37",
+  "compressed_sha256": "39a0db1641674d9f4ffd4ca6aace65b49fb6e792c8f9f98a7624c8711e2c7e43",
+  "created_utc": "2026-06-13 03:08:57 UTC",
+  "duration_seconds": 6.017809893935919,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_030851_poll-c57b-build-1-1781320127"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_030851_poll-c57b-build-1-1781320127/part_00001.b64"
+  ],
+  "plain_log_bytes": 15725,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_030851_poll-c57b-build-1-1781320127",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 2052
+}
