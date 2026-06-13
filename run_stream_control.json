@@ -1,7 +1,7 @@
 {
   "action": "fetch",
   "base_dir": "/srv/workspace/newexploration/fresheyes_jobs/c65_c36_number_annotated_update_tonumeric",
-  "command_id": "fetch_c65_artifacts_1781356247",
+  "command_id": "fetch_c65_artifacts_release_1781356386",
   "force_upstream": true,
   "max_upstream_bytes": "400MB",
   "output_name": "c65_c36_number_annotated_update_tonumeric_artifacts.tar.xz",
@@ -16,5 +16,6 @@
     "logs/frontend_diffstat.txt"
   ],
   "target": "build",
-  "timeout_seconds": 0
+  "timeout_seconds": 0,
+  "upstream": "release_asset"
 }
