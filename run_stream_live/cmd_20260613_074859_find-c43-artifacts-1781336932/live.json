@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 444,
+  "latest_base64_sha256": "927d99c6f8b78e891693ca2b09eef1485b56df5832c7c58346cae4f11bbe5c62",
+  "latest_chunk": "run_stream_live/cmd_20260613_074859_find-c43-artifacts-1781336932/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 1521,
+  "latest_plain_sha256": "0e304d1fee1d315ae4c0952c6735847b6838aa171010407d8e0b520b411a1cf9",
+  "latest_xz_bytes": 332,
+  "latest_xz_sha256": "2f9a2e154c5210fc74f7475fc09e4a30f7ee23a440b6572c43a0a4abaee6a12f",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_074859_find-c43-artifacts-1781336932"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260613_074859_find-c43-artifacts-1781336932",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 1455,
+  "updated_utc": "2026-06-13 07:49:00 UTC"
+}
