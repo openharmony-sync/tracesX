@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.856,
+  "elapsed_seconds": 24.475,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_060935_find-disasm-tools-build-1781330966/live.json",
-  "phase": "control-build",
+  "note": "command_id=find-disasm-tools-build-1781330966 command_sha256=daf02d2dd8a00f3c5203107f2958b4f41cfacc90c454c9af9b74167df966630d",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_060935_find-disasm-tools-build-1781330966",
-  "state": "running",
-  "updated_utc": "2026-06-13 06:09:37 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 06:09:59 UTC"
 }
