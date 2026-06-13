@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2752,
+  "base64_sha256": "87149ec9f1a8fbf847836a26615a2dfc00526ff0aa8601902be402ec1e7a2fc2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "poll_c74_phone_5_1781379732",
+  "command_sha256": "7c1f333bb5dd6d627f10c2e0ea031802d26642582a0ab67fee547ee40c294be9",
+  "compressed_sha256": "24769ff45ac194e363b46d3d690cf576c939c3812bd7a785f18294c589f34eda",
+  "created_utc": "2026-06-13 19:42:40 UTC",
+  "duration_seconds": 6.727976322174072,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_194233_poll_c74_phone_5_1781379732"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_194233_poll_c74_phone_5_1781379732/part_00001.b64"
+  ],
+  "plain_log_bytes": 15682,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_194233_poll_c74_phone_5_1781379732",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2064
+}
