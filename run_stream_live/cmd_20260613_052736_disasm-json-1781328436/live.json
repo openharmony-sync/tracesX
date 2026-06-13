@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 220,
+  "latest_base64_sha256": "2004066e7f733362629c6a657636c4f00ebf8d93b91fe5ae3e1d6bdb91830e83",
+  "latest_chunk": "run_stream_live/cmd_20260613_052736_disasm-json-1781328436/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 102,
+  "latest_plain_sha256": "458ba2e11cee024dcab54486e8d310cbd6f8957e88a8b7b3690a8a4788024ab7",
+  "latest_xz_bytes": 164,
+  "latest_xz_sha256": "5391a678dff58503e1675d6383e7d685f7181cba08c3806f7df8da8aae6ef404",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_052736_disasm-json-1781328436"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260613_052736_disasm-json-1781328436",
+  "total_stderr_bytes_seen": 36,
+  "total_stdout_bytes_seen": 0,
+  "updated_utc": "2026-06-13 05:27:37 UTC"
+}
