@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 3.238,
+  "elapsed_seconds": 7.027,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260613_090852_ark_disasm_help_1781341718/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=ark_disasm_help_1781341718 command_sha256=8cebf74bb4e6ffb6055f538d618f0c7fdcf8a371b81a04a0ed08d2efe50c8088",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260613_090852_ark_disasm_help_1781341718",
-  "state": "running",
-  "updated_utc": "2026-06-13 09:08:55 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-13 09:08:59 UTC"
 }
