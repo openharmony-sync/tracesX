@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 924,
+  "base64_sha256": "07a037da6770fbeb14d86c3a4f91929874317840cbc391a38329688a1de7cf4f",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "c43-disasm-selected-1781337342",
+  "command_sha256": "b120257ec34d4359012513a9fc7f88aec34b33896388dbdc9380f38abeaf8915",
+  "compressed_sha256": "c557150a1ecd61733f77d20162bf7f83f75c969b983ba55a220e2b46e5c7c785",
+  "created_utc": "2026-06-13 07:55:51 UTC",
+  "duration_seconds": 5.991351654753089,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_075545_c43-disasm-selected-1781337342"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_075545_c43-disasm-selected-1781337342/part_00001.b64"
+  ],
+  "plain_log_bytes": 1185,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_075545_c43-disasm-selected-1781337342",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 692
+}
