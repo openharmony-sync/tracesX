@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2748,
+  "latest_base64_sha256": "58f0962163e92d8c54444f30d344f1bc5fdc0cab291dd462340cfa2e25c85813",
+  "latest_chunk": "run_stream_live/cmd_20260613_201607_c75_genisa_snips_1781381735/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 10938,
+  "latest_plain_sha256": "8ee02c90279feed5712c4cbbbc696fabf05be8705358340049c68470acb26fc2",
+  "latest_xz_bytes": 2060,
+  "latest_xz_sha256": "230ce5e20d1953173029474806277ae67bb1527dda8f55fe86b9fdd8a978ab0a",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_201607_c75_genisa_snips_1781381735"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260613_201607_c75_genisa_snips_1781381735",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 10816,
+  "updated_utc": "2026-06-13 20:16:11 UTC"
+}
