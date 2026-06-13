@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1400,
+  "base64_sha256": "882115fcd58f032f848ab4f7c78ad4bdc42df6a3c69f1de806097626b1123446",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-ecma-string-compare-fn-1781325680",
+  "command_sha256": "aea58522525594fc46c858d213f406c7d2c93c51329e44deeab18b4b878c8cd2",
+  "compressed_sha256": "35a31651072bf7115c5736a7b60d36fcb9cbc27e350b9e024d610fa540683b6e",
+  "created_utc": "2026-06-13 04:41:42 UTC",
+  "duration_seconds": 5.661826582625508,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_044136_inspect-ecma-string-compare-fn-1781325680"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_044136_inspect-ecma-string-compare-fn-1781325680/part_00001.b64"
+  ],
+  "plain_log_bytes": 3388,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_044136_inspect-ecma-string-compare-fn-1781325680",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1048
+}
