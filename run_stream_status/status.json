@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.912,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260613_043355_stop-c52n-focus-1781325211/live.json",
-  "note": "command_id=stop-c52n-focus-1781325211 command_sha256=8df935b8b52a2dbc190f0244e01edd2a33bcd468167fb24f1cf2851b9e41d6c9",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260613_043435_stop-c52n-orphans-1781325270/live.json",
+  "note": "command_id=stop-c52n-orphans-1781325270 command_sha256=14cc0758dae2aa6b49a8ca5e332fd294dba8ecb362e6ee2b7372b234a18ad4aa",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260613_043355_stop-c52n-focus-1781325211",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-13 04:34:04 UTC"
+  "run_id": "cmd_20260613_043435_stop-c52n-orphans-1781325270",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 04:34:35 UTC"
 }
