@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 10:31:06 UTC`
+- Updated: `2026-06-13 10:31:44 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_103016_c36_vs_c62a_progress2_1781346606`
+- Run id: `cmd_20260613_103138_c36_vs_c62a_partial_table1_1781346688`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `c36_vs_c62a_progress2_1781346606`
+- Command id: `c36_vs_c62a_partial_table1_1781346688`
 - Exit code: `0`
-- Duration seconds: `48.485`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_103016_c36_vs_c62a_progress2_1781346606/manifest.json](run_stream_logs/cmd_20260613_103016_c36_vs_c62a_progress2_1781346606/manifest.json)
+- Duration seconds: `4.131`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_103138_c36_vs_c62a_partial_table1_1781346688/manifest.json](run_stream_logs/cmd_20260613_103138_c36_vs_c62a_partial_table1_1781346688/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_103016_c36_vs_c62a_progress2_1781346606/part_00001.b64](run_stream_logs/cmd_20260613_103016_c36_vs_c62a_progress2_1781346606/part_00001.b64)
+- [run_stream_logs/cmd_20260613_103138_c36_vs_c62a_partial_table1_1781346688/part_00001.b64](run_stream_logs/cmd_20260613_103138_c36_vs_c62a_partial_table1_1781346688/part_00001.b64)
