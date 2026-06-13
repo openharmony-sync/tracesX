@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1344,
+  "base64_sha256": "f16deb0fa131510f224eb9fd6a00ec7cb4cd5bba4485a5cf60e966e45fe079f2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "check_c36_contains_codehub_stub_rejects_1781350005",
+  "command_sha256": "63a46aa92a8a7833ce057509917fda9943a70d6fc174b56a24bea83d23cf3155",
+  "compressed_sha256": "7a761254c8cff97a4323f0810c0b4a40494cc96a2eccc7a4dcf6d87a47cc16e7",
+  "created_utc": "2026-06-13 11:26:57 UTC",
+  "duration_seconds": 5.868380820378661,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_112652_check_c36_contains_codehub_stub_rejects_1781350005"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_112652_check_c36_contains_codehub_stub_rejects_1781350005/part_00001.b64"
+  ],
+  "plain_log_bytes": 3399,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_112652_check_c36_contains_codehub_stub_rejects_1781350005",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1008
+}
