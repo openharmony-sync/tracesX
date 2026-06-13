@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1872,
+  "base64_sha256": "6aa72a76a9d8cc20cec688018d74f7996b454d281d7e9bfaaf9631e193604ee1",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-c49-probe-invocation-1781330312",
+  "command_sha256": "3deade30dd6e97a7a0b7f29913cd0234975fbe415957020643ced32ef5144b31",
+  "compressed_sha256": "c591478ec4af5a201915dcea9fe20624ed3f82bfe8933ac75f2e89439d354235",
+  "created_utc": "2026-06-13 05:58:58 UTC",
+  "duration_seconds": 5.790225330740213,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_055852_inspect-c49-probe-invocation-1781330312"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_055852_inspect-c49-probe-invocation-1781330312/part_00001.b64"
+  ],
+  "plain_log_bytes": 5575,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_055852_inspect-c49-probe-invocation-1781330312",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1404
+}
