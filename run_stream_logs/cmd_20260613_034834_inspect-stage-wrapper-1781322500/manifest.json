@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 4336,
+  "base64_sha256": "ab1f11e7874328804e76af6dedd3101a814fe93c87a310bec17f411faa8c11b2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-stage-wrapper-1781322500",
+  "command_sha256": "5c87f58fbdd178f13362cdd241b6bbdfc1fec8dec679bfbf8f50aa7005f126a5",
+  "compressed_sha256": "5315b6e40538e1267e3239be5f564b4de8f4c6a499b527dc96bc7d48eacb180b",
+  "created_utc": "2026-06-13 03:48:38 UTC",
+  "duration_seconds": 3.97169291600585,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_034834_inspect-stage-wrapper-1781322500"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_034834_inspect-stage-wrapper-1781322500/part_00001.b64"
+  ],
+  "plain_log_bytes": 8000,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_034834_inspect-stage-wrapper-1781322500",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 3252
+}
