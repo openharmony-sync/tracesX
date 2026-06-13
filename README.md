@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 14:41:24 UTC`
+- Updated: `2026-06-13 14:42:35 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_144116_poll_c68_build3_1781361660`
+- Run id: `cmd_20260613_144228_quick_c65_full_1781361727`
 - Kind: `control-command`
-- Target: `build`
-- Command id: `poll_c68_build3_1781361660`
+- Target: `phone_host`
+- Command id: `quick_c65_full_1781361727`
 - Exit code: `0`
-- Duration seconds: `6.224`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_144116_poll_c68_build3_1781361660/manifest.json](run_stream_logs/cmd_20260613_144116_poll_c68_build3_1781361660/manifest.json)
+- Duration seconds: `5.983`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_144228_quick_c65_full_1781361727/manifest.json](run_stream_logs/cmd_20260613_144228_quick_c65_full_1781361727/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_144116_poll_c68_build3_1781361660/part_00001.b64](run_stream_logs/cmd_20260613_144116_poll_c68_build3_1781361660/part_00001.b64)
+- [run_stream_logs/cmd_20260613_144228_quick_c65_full_1781361727/part_00001.b64](run_stream_logs/cmd_20260613_144228_quick_c65_full_1781361727/part_00001.b64)
