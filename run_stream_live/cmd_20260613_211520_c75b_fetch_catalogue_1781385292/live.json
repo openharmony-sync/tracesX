@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 10168,
+  "latest_base64_sha256": "e2ff05bbbf3086abcba6ca3f6b0d75bc99d5b8d43ea0490381b0ba6e653920eb",
+  "latest_chunk": "run_stream_live/cmd_20260613_211520_c75b_fetch_catalogue_1781385292/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 25847,
+  "latest_plain_sha256": "721c7f5c45512e801600097698aa7040ef2925dfaae37d11bda2214aca9ad4bd",
+  "latest_xz_bytes": 7624,
+  "latest_xz_sha256": "1eb59d3488d0701d50d6702a6ea92efe23942997d3206a789508c165f4325ebd",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260613_211520_c75b_fetch_catalogue_1781385292"
+    }
+  ],
+  "phase": "control-jump",
+  "run_id": "cmd_20260613_211520_c75b_fetch_catalogue_1781385292",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 25367,
+  "updated_utc": "2026-06-13 21:15:26 UTC"
+}
