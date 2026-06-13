@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 12:48:45 UTC`
+- Updated: `2026-06-13 12:49:56 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_124837_inspect_build_wrapper_1781354916`
+- Run id: `cmd_20260613_124948_launch_c65_build_1781354985`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `inspect_build_wrapper_1781354916`
+- Command id: `launch_c65_build_1781354985`
 - Exit code: `0`
-- Duration seconds: `5.832`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_124837_inspect_build_wrapper_1781354916/manifest.json](run_stream_logs/cmd_20260613_124837_inspect_build_wrapper_1781354916/manifest.json)
+- Duration seconds: `5.770`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_124948_launch_c65_build_1781354985/manifest.json](run_stream_logs/cmd_20260613_124948_launch_c65_build_1781354985/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_124837_inspect_build_wrapper_1781354916/part_00001.b64](run_stream_logs/cmd_20260613_124837_inspect_build_wrapper_1781354916/part_00001.b64)
+- [run_stream_logs/cmd_20260613_124948_launch_c65_build_1781354985/part_00001.b64](run_stream_logs/cmd_20260613_124948_launch_c65_build_1781354985/part_00001.b64)
