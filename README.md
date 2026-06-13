@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 03:51:11 UTC`
+- Updated: `2026-06-13 03:51:49 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_035103_poll-c51b-full-2-1781322657`
+- Run id: `cmd_20260613_035143_inspect-runner-help-1781322687`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `poll-c51b-full-2-1781322657`
+- Command id: `inspect-runner-help-1781322687`
 - Exit code: `0`
-- Duration seconds: `6.426`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_035103_poll-c51b-full-2-1781322657/manifest.json](run_stream_logs/cmd_20260613_035103_poll-c51b-full-2-1781322657/manifest.json)
+- Duration seconds: `4.131`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_035143_inspect-runner-help-1781322687/manifest.json](run_stream_logs/cmd_20260613_035143_inspect-runner-help-1781322687/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_035103_poll-c51b-full-2-1781322657/part_00001.b64](run_stream_logs/cmd_20260613_035103_poll-c51b-full-2-1781322657/part_00001.b64)
+- [run_stream_logs/cmd_20260613_035143_inspect-runner-help-1781322687/part_00001.b64](run_stream_logs/cmd_20260613_035143_inspect-runner-help-1781322687/part_00001.b64)
