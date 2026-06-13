@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 600,
+  "base64_sha256": "e94595e733609a14e51f281f2a8281b0ce6612249d44810fcf9f5aef3b1b0cda",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "c75_find_genisa_1781381646",
+  "command_sha256": "9a99af38bb4a70e4571f1fa28169c771984c2e4f8eb5dee96bae129f22c0eaed",
+  "compressed_sha256": "559e902126861c4e9f6ab722f6c7c93af811eb8b1ea400c76e132549ccbfe46b",
+  "created_utc": "2026-06-13 20:14:22 UTC",
+  "duration_seconds": 7.003746010363102,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260613_201415_c75_find_genisa_1781381646"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260613_201415_c75_find_genisa_1781381646/part_00001.b64"
+  ],
+  "plain_log_bytes": 1077,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260613_201415_c75_find_genisa_1781381646",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 448
+}
