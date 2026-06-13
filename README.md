@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 01:27:18 UTC`
+- Updated: `2026-06-13 01:31:04 UTC`
 - Status: `OK`
-- Run id: `fetch_20260613_012357_chunk-c55-artifacts-1781313825`
+- Run id: `cmd_20260613_013059_clear-c55-phone-chunks-1781314256`
 - Kind: `control-command`
-- Target: `jump`
-- Command id: `chunk-c55-artifacts-1781313825`
+- Target: `phone_host`
+- Command id: `clear-c55-phone-chunks-1781314256`
 - Exit code: `0`
-- Duration seconds: `199.187`
-- Encoded log manifest: [run_stream_logs/fetch_20260613_012357_chunk-c55-artifacts-1781313825/manifest.json](run_stream_logs/fetch_20260613_012357_chunk-c55-artifacts-1781313825/manifest.json)
+- Duration seconds: `4.172`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_013059_clear-c55-phone-chunks-1781314256/manifest.json](run_stream_logs/cmd_20260613_013059_clear-c55-phone-chunks-1781314256/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/fetch_20260613_012357_chunk-c55-artifacts-1781313825/part_00001.b64](run_stream_logs/fetch_20260613_012357_chunk-c55-artifacts-1781313825/part_00001.b64)
+- [run_stream_logs/cmd_20260613_013059_clear-c55-phone-chunks-1781314256/part_00001.b64](run_stream_logs/cmd_20260613_013059_clear-c55-phone-chunks-1781314256/part_00001.b64)
