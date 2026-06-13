@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260613_060935_find-disasm-tools-build-1781330966/live.json",
+  "note": "command_id=find-disasm-tools-build-1781330966 command_sha256=daf02d2dd8a00f3c5203107f2958b4f41cfacc90c454c9af9b74167df966630d",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-13 06:09:04 UTC"
+  "run_id": "cmd_20260613_060935_find-disasm-tools-build-1781330966",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-13 06:09:35 UTC"
 }
