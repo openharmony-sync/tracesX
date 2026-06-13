@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-13 21:21:19 UTC`
+- Updated: `2026-06-13 21:24:37 UTC`
 - Status: `OK`
-- Run id: `cmd_20260613_212111_phone_artifact_hash_nested_1781385657`
+- Run id: `cmd_20260613_212428_build_inspect_wrapper_1781385854`
 - Kind: `control-command`
-- Target: `phone_host`
-- Command id: `phone_artifact_hash_nested_1781385657`
+- Target: `build`
+- Command id: `build_inspect_wrapper_1781385854`
 - Exit code: `0`
-- Duration seconds: `6.204`
-- Encoded log manifest: [run_stream_logs/cmd_20260613_212111_phone_artifact_hash_nested_1781385657/manifest.json](run_stream_logs/cmd_20260613_212111_phone_artifact_hash_nested_1781385657/manifest.json)
+- Duration seconds: `6.505`
+- Encoded log manifest: [run_stream_logs/cmd_20260613_212428_build_inspect_wrapper_1781385854/manifest.json](run_stream_logs/cmd_20260613_212428_build_inspect_wrapper_1781385854/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260613_212111_phone_artifact_hash_nested_1781385657/part_00001.b64](run_stream_logs/cmd_20260613_212111_phone_artifact_hash_nested_1781385657/part_00001.b64)
+- [run_stream_logs/cmd_20260613_212428_build_inspect_wrapper_1781385854/part_00001.b64](run_stream_logs/cmd_20260613_212428_build_inspect_wrapper_1781385854/part_00001.b64)
