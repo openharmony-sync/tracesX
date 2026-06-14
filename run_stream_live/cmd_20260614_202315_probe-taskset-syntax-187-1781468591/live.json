@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 188,
+  "latest_base64_sha256": "b32aaaf16b76a2eecdde05be8504a50605256429e1c20c9c26ac0cec72fbce3e",
+  "latest_chunk": "run_stream_live/cmd_20260614_202315_probe-taskset-syntax-187-1781468591/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 91,
+  "latest_plain_sha256": "1d502752c960a21e7633933dfbd332b495400504e5766402a6b91e8900e30c71",
+  "latest_xz_bytes": 140,
+  "latest_xz_sha256": "bf3a3673dbc0bc0b3530b1523aebc8969a61656b650f253ca2cfb16f0f29e0b5",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_202315_probe-taskset-syntax-187-1781468591"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_202315_probe-taskset-syntax-187-1781468591",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 25,
+  "updated_utc": "2026-06-14 20:23:16 UTC"
+}
