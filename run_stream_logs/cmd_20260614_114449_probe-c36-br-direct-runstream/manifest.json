@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1248,
+  "base64_sha256": "99c12ca5d6ee06c7dcaa4693a486a57d68b2a661030860c347fa01e7718b3393",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "probe-c36-br-direct-runstream",
+  "command_sha256": "b0f2dcb851d5914016b5f5d407682960b17f51fe3a44cf8580638fc248d92591",
+  "compressed_sha256": "923c6f38f282a732a6e46e2976e89e93ba50453b4d338b097056a597b96cbb93",
+  "created_utc": "2026-06-14 11:44:55 UTC",
+  "duration_seconds": 6.087090216577053,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_114449_probe-c36-br-direct-runstream"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_114449_probe-c36-br-direct-runstream/part_00001.b64"
+  ],
+  "plain_log_bytes": 2462,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_114449_probe-c36-br-direct-runstream",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 936
+}
