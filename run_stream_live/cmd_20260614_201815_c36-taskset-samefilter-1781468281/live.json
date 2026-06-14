@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 620,
+  "latest_base64_sha256": "895f8c2523ce23057a05cb011d940ae1f30f083ada678e83949b5725afb72add",
+  "latest_chunk": "run_stream_live/cmd_20260614_201815_c36-taskset-samefilter-1781468281/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 724,
+  "latest_plain_sha256": "578470b710b7afe2d55e116a52258f747d76cc673a2c0e532074daa702f55449",
+  "latest_xz_bytes": 464,
+  "latest_xz_sha256": "ad073b324aa68b6786fa37dd3bdb6e1c09ce668273c6af2c3d29195f4569f748",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_201815_c36-taskset-samefilter-1781468281"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_201815_c36-taskset-samefilter-1781468281",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 658,
+  "updated_utc": "2026-06-14 20:18:16 UTC"
+}
