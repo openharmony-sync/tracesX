@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 10.29,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260614_194904_phone-clean-parent-194851/live.json",
-  "note": "command_id=phone-clean-parent-194851 command_sha256=40d408370e888561953e03ecf51b9cd20dfa0d62bbcea98c27dbb13b26a1cf8d",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_194945_phone-hdc-recover-194937/live.json",
+  "note": "command_id=phone-hdc-recover-194937 command_sha256=f9a85d7993e40fde053f8717faa910845fd6f173312f0a9db5003c777fac5a32",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260614_194904_phone-clean-parent-194851",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-14 19:49:14 UTC"
+  "run_id": "cmd_20260614_194945_phone-hdc-recover-194937",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 19:49:45 UTC"
 }
