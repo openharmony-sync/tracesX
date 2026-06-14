@@ -1,29 +1,29 @@
 {
-  "chunk_count": 3,
-  "decode_latest": "base64 -d chunk_00003.b64 | xz -dc",
+  "chunk_count": 4,
+  "decode_latest": "base64 -d chunk_00004.b64 | xz -dc",
   "encoding": "base64(xz -9e bytes)",
-  "latest_base64_bytes": 684,
-  "latest_base64_sha256": "26c6dfae0d7b6b621fb7f0837cbe814501fce7fbbbf94570f9b445a576f400c1",
-  "latest_chunk": "run_stream_live/cmd_20260614_110850_phone-install-cam-20260614-110841/chunk_00003.b64",
-  "latest_chunk_index": 3,
-  "latest_plain_bytes": 1897,
-  "latest_plain_sha256": "e1058c570b8d8c825ec6e3205edb0140850747f6b68b23e430b7bb628d7d6d4e",
-  "latest_xz_bytes": 512,
-  "latest_xz_sha256": "1e6e4917c86cc8a1ae0d26f4bf3e9eeeb0e9e0a61550fa0fd457e32bb4a56b0d",
+  "latest_base64_bytes": 700,
+  "latest_base64_sha256": "00181428c9a70fd6007bf3557bec4ec8b99c61a636c43e311048db8b464f31f3",
+  "latest_chunk": "run_stream_live/cmd_20260614_110850_phone-install-cam-20260614-110841/chunk_00004.b64",
+  "latest_chunk_index": 4,
+  "latest_plain_bytes": 1671,
+  "latest_plain_sha256": "6cf3501205d819fd77be28084107ef8efc64f5176da7e341dc37899dcd2be494",
+  "latest_xz_bytes": 524,
+  "latest_xz_sha256": "cebb85c151d0a002436164c5e271ec6afbc4daa28fc349ffeed1b0b3cf89041a",
   "max_chunks_per_page": 950,
   "page_count": 1,
   "pages": [
     {
-      "count": 3,
+      "count": 4,
       "first_index": 1,
-      "last_index": 3,
+      "last_index": 4,
       "page": 1,
       "root": "run_stream_live/cmd_20260614_110850_phone-install-cam-20260614-110841"
     }
   ],
   "phase": "control-phone_host",
   "run_id": "cmd_20260614_110850_phone-install-cam-20260614-110841",
-  "total_stderr_bytes_seen": 0,
-  "total_stdout_bytes_seen": 5949,
-  "updated_utc": "2026-06-14 11:10:24 UTC"
+  "total_stderr_bytes_seen": 1189,
+  "total_stdout_bytes_seen": 6233,
+  "updated_utc": "2026-06-14 11:10:27 UTC"
 }
