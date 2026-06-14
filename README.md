@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-14 11:07:37 UTC`
-- Status: `FAILED`
-- Run id: `cmd_20260614_110629_realapp-c36-smoke-20260614-110622`
+- Updated: `2026-06-14 11:08:18 UTC`
+- Status: `OK`
+- Run id: `cmd_20260614_110809_phone-pyenv-20260614-110759`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `realapp-c36-smoke-20260614-110622`
-- Exit code: `1`
-- Duration seconds: `66.761`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_110629_realapp-c36-smoke-20260614-110622/manifest.json](run_stream_logs/cmd_20260614_110629_realapp-c36-smoke-20260614-110622/manifest.json)
+- Command id: `phone-pyenv-20260614-110759`
+- Exit code: `0`
+- Duration seconds: `6.365`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_110809_phone-pyenv-20260614-110759/manifest.json](run_stream_logs/cmd_20260614_110809_phone-pyenv-20260614-110759/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_110629_realapp-c36-smoke-20260614-110622/part_00001.b64](run_stream_logs/cmd_20260614_110629_realapp-c36-smoke-20260614-110622/part_00001.b64)
+- [run_stream_logs/cmd_20260614_110809_phone-pyenv-20260614-110759/part_00001.b64](run_stream_logs/cmd_20260614_110809_phone-pyenv-20260614-110759/part_00001.b64)
