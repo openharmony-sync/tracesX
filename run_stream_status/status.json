@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1.801,
+  "elapsed_seconds": 8.405,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260614_215519_start-hq-fullcorpus-tmux-20260614215500/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=start-hq-fullcorpus-tmux-20260614215500 command_sha256=7d87bd7769b34aefcac5b3bc3326f9df9a50e2cccf27c838964a8f9838217d64",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260614_215519_start-hq-fullcorpus-tmux-20260614215500",
-  "state": "running",
-  "updated_utc": "2026-06-14 21:55:21 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-14 21:55:27 UTC"
 }
