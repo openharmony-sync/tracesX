@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 226.28,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 141,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260614_201815_c36-taskset-samefilter-1781468281/live.json",
-  "note": "command_id=c36-taskset-samefilter-1781468281 command_sha256=1138ba17f610e90ea6e6970f38c282dfd030ea9d9f1c9dfaf8e4bab3724da011",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_202232_fetch-c36-taskset-failed-log-1781468549/live.json",
+  "note": "command_id=fetch-c36-taskset-failed-log-1781468549 command_sha256=73917ae23984295ed16be8d2e23331411a3753987bfafd70931c5a59ff7c2e3d",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260614_201815_c36-taskset-samefilter-1781468281",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-14 20:22:01 UTC"
+  "run_id": "cmd_20260614_202232_fetch-c36-taskset-failed-log-1781468549",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 20:22:32 UTC"
 }
