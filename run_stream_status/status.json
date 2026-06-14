@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 5.362,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 255,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260614_210306_setup-hq-harness-fixed-artifacts-20260614210304/live.json",
-  "note": "command_id=setup-hq-harness-fixed-artifacts-20260614210304 command_sha256=86ad505648d5e61939745bbb0d677314912e859ccfd31459da67fb9b46e69b25",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_210342_setup-hq-harness-fixed-artifacts2-20260614210326/live.json",
+  "note": "command_id=setup-hq-harness-fixed-artifacts2-20260614210326 command_sha256=b3615ff48cb31013d7abc02756483a87953d593d4a387e5eb10f8ef56f6aa217",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260614_210306_setup-hq-harness-fixed-artifacts-20260614210304",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-14 21:03:11 UTC"
+  "run_id": "cmd_20260614_210342_setup-hq-harness-fixed-artifacts2-20260614210326",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 21:03:42 UTC"
 }
