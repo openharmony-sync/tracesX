@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.546,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260614_110809_phone-pyenv-20260614-110759/live.json",
-  "note": "command_id=phone-pyenv-20260614-110759 command_sha256=1ed2c06664f9605470ee1c7b982a2cdb19214fab164ce30529eb832947714ff4",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_110850_phone-install-cam-20260614-110841/live.json",
+  "note": "command_id=phone-install-cam-20260614-110841 command_sha256=9663d404645f8f242789dc9ba0c3fd0d5c56aac226a7d462bd802d402a1c805a",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260614_110809_phone-pyenv-20260614-110759",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-14 11:08:19 UTC"
+  "run_id": "cmd_20260614_110850_phone-install-cam-20260614-110841",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 11:08:50 UTC"
 }
