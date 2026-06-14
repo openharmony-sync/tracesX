@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-14 04:10:14 UTC`
+- Updated: `2026-06-14 07:24:38 UTC`
 - Status: `OK`
-- Run id: `cmd_20260614_041005_add_incomplete_evidence_1781410181`
+- Run id: `cmd_20260614_072429_inspect_old_vs_new_paths_1781421839`
 - Kind: `control-command`
-- Target: `jump`
-- Command id: `add_incomplete_evidence_1781410181`
+- Target: `phone_host`
+- Command id: `inspect_old_vs_new_paths_1781421839`
 - Exit code: `0`
-- Duration seconds: `6.254`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_041005_add_incomplete_evidence_1781410181/manifest.json](run_stream_logs/cmd_20260614_041005_add_incomplete_evidence_1781410181/manifest.json)
+- Duration seconds: `6.266`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_072429_inspect_old_vs_new_paths_1781421839/manifest.json](run_stream_logs/cmd_20260614_072429_inspect_old_vs_new_paths_1781421839/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_041005_add_incomplete_evidence_1781410181/part_00001.b64](run_stream_logs/cmd_20260614_041005_add_incomplete_evidence_1781410181/part_00001.b64)
+- [run_stream_logs/cmd_20260614_072429_inspect_old_vs_new_paths_1781421839/part_00001.b64](run_stream_logs/cmd_20260614_072429_inspect_old_vs_new_paths_1781421839/part_00001.b64)
