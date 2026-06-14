@@ -1,15 +1,15 @@
 # Run Stream
 
-- Updated: `2026-06-14 07:25:59 UTC`
+- Updated: `2026-06-14 07:27:09 UTC`
 - Status: `OK`
-- Run id: `cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920`
+- Run id: `cmd_20260614_072703_compare_c36_old_new_rows_1781422019`
 - Kind: `control-command`
-- Target: `jump`
-- Command id: `fetch_fixed8_csv_b64_1781421920`
+- Target: `phone_host`
+- Command id: `compare_c36_old_new_rows_1781422019`
 - Exit code: `0`
-- Duration seconds: `9.817`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920/manifest.json](run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920/manifest.json)
-- Encoded log parts: `2`
+- Duration seconds: `4.076`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_072703_compare_c36_old_new_rows_1781422019/manifest.json](run_stream_logs/cmd_20260614_072703_compare_c36_old_new_rows_1781422019/manifest.json)
+- Encoded log parts: `1`
 
 ## Reconstruct Captured Output
 
@@ -19,5 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920/part_00001.b64](run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920/part_00001.b64)
-- [run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920/part_00002.b64](run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920/part_00002.b64)
+- [run_stream_logs/cmd_20260614_072703_compare_c36_old_new_rows_1781422019/part_00001.b64](run_stream_logs/cmd_20260614_072703_compare_c36_old_new_rows_1781422019/part_00001.b64)
