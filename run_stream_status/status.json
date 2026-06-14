@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 9.057,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260614_115819_applycheck-br-interp-modes-115802/live.json",
-  "note": "command_id=applycheck-br-interp-modes-115802 command_sha256=df098d2fd1e54d16e3932fd5ef5fdad847fcb5bd7dfefa60dfb7b0ef14019e10",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_115859_applycheck-br-ta-modes-115842/live.json",
+  "note": "command_id=applycheck-br-ta-modes-115842 command_sha256=f1461beb766cd688945b210eb08bd2f92df08e3051cceb5d863f0675d545aa4b",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260614_115819_applycheck-br-interp-modes-115802",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-14 11:58:28 UTC"
+  "run_id": "cmd_20260614_115859_applycheck-br-ta-modes-115842",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 11:58:59 UTC"
 }
