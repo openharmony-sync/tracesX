@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.761,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 1,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260614_115056_probe-codehighway-ro-c36-symmetry/live.json",
-  "note": "command_id=probe-codehighway-ro-c36-symmetry command_sha256=5e5447a9858d9077b943ef36eef4eececa276626364ccf9db8b878cd2895b32b",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_115136_probe-codehighway-ro2-c36-symmetry/live.json",
+  "note": "command_id=probe-codehighway-ro2-c36-symmetry command_sha256=95e8d5a79fdb663be9e67486f583b629a49f8e64af881e6cd3c347e9dc8e70e9",
+  "phase": "control-build",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260614_115056_probe-codehighway-ro-c36-symmetry",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-14 11:51:05 UTC"
+  "run_id": "cmd_20260614_115136_probe-codehighway-ro2-c36-symmetry",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 11:51:36 UTC"
 }
