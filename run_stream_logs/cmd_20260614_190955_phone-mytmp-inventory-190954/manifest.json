@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 476,
+  "base64_sha256": "94bef74c5702f63f06e557effd2dcf0384e5306ef70752dcd282213b59ba9bc1",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "phone-mytmp-inventory-190954",
+  "command_sha256": "537d1cf878e1226600784cd645bd2bf148abb7f9c6917abb20da96ad671a4a7d",
+  "compressed_sha256": "0b348d894bc4e691c438e84f667574844b7498527772ed56dba5ffba5031199f",
+  "created_utc": "2026-06-14 19:12:07 UTC",
+  "duration_seconds": 132.27677975874394,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 255,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_190955_phone-mytmp-inventory-190954"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_190955_phone-mytmp-inventory-190954/part_00001.b64"
+  ],
+  "plain_log_bytes": 538,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_190955_phone-mytmp-inventory-190954",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 356
+}
