@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1656,
+  "base64_sha256": "4b3ecfd861064f4f4a8cafde0ea645c1fca6f9a0d31c45667641f83be69c94b6",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "probe-codehighway-ro2-c36-symmetry",
+  "command_sha256": "95e8d5a79fdb663be9e67486f583b629a49f8e64af881e6cd3c347e9dc8e70e9",
+  "compressed_sha256": "319bfe475730cb7f33d285f213722eaa08d14d50c32d67de29d6d8a0a13593b5",
+  "created_utc": "2026-06-14 11:51:45 UTC",
+  "duration_seconds": 8.933032039552927,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_115136_probe-codehighway-ro2-c36-symmetry"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_115136_probe-codehighway-ro2-c36-symmetry/part_00001.b64"
+  ],
+  "plain_log_bytes": 5725,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_115136_probe-codehighway-ro2-c36-symmetry",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 1240
+}
