@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 200,
+  "latest_base64_sha256": "db7d7a90d5c4ae51fc366bbba2d2e9c04075b93b91b654eea7d3bffbabfcadf6",
+  "latest_chunk": "run_stream_live/cmd_20260614_194945_phone-hdc-recover-194937/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 89,
+  "latest_plain_sha256": "5bc6626f1d5f4abfd03aed396995e33d792f7ae28c3fd0e5f517b0be44f4005c",
+  "latest_xz_bytes": 148,
+  "latest_xz_sha256": "b1c0f295a14b03040b5b33d961cba171305a1e272a535c4a5f29e881b966fce5",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_194945_phone-hdc-recover-194937"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_194945_phone-hdc-recover-194937",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 23,
+  "updated_utc": "2026-06-14 19:49:47 UTC"
+}
