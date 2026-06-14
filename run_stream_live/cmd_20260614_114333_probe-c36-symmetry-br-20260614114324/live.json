@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1208,
+  "latest_base64_sha256": "fe2825d246da64818cae9efdc2673884b7113b543cf8c77a365bdf42ba852032",
+  "latest_chunk": "run_stream_live/cmd_20260614_114333_probe-c36-symmetry-br-20260614114324/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 3198,
+  "latest_plain_sha256": "87f91f3a163d5a6ba6828a0ca813162d7f6fa761dbaf577ac269e386afee59f5",
+  "latest_xz_bytes": 904,
+  "latest_xz_sha256": "119d7ea87db0a742335f03aff7c1612add3603d1c48a0710355fc5002bdaabfe",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_114333_probe-c36-symmetry-br-20260614114324"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260614_114333_probe-c36-symmetry-br-20260614114324",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 2344,
+  "updated_utc": "2026-06-14 11:43:41 UTC"
+}
