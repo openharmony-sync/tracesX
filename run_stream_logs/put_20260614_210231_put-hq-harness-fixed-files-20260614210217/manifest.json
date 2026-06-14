@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1788,
+  "base64_sha256": "981b99e5d402b7216933fa3109bd57eb4391f6cac3c2cc542744bb96c7239ae0",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "put-hq-harness-fixed-files-20260614210217",
+  "command_sha256": "9feab45d4d925ee4554b71fddc77b1d7bf44f7503ddcd3bf5ddba6248f30445b",
+  "compressed_sha256": "dd8ba3409af7997459c359d414862d9a32f23a4cbdfa34f9f8bc11cd804edd6c",
+  "created_utc": "2026-06-14 21:02:32 UTC",
+  "duration_seconds": 1.3244528099894524,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/put_20260614_210231_put-hq-harness-fixed-files-20260614210217"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/put_20260614_210231_put-hq-harness-fixed-files-20260614210217/part_00001.b64"
+  ],
+  "plain_log_bytes": 3294,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "put_20260614_210231_put-hq-harness-fixed-files-20260614210217",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1340
+}
