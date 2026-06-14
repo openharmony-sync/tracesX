@@ -1,0 +1,14 @@
+{
+  "archive": "arkts_top4_patch_benchmark_bundle_20260614_fetch.tar.xz",
+  "archive_bytes": 69236360,
+  "archive_sha256": "77af1bdd89f4cff156b9d53079d6d1c2cdbe34a133e7c45042def394cbe43c7a",
+  "chunk_count": 1403,
+  "chunk_path_format": "large_artifacts/arkts_top4_patch_benchmark_bundle_20260614_fetch/chunks/part_%06d.bin",
+  "chunk_size_bytes": 49356,
+  "complete": false,
+  "created_utc": "2026-06-14 09:52:46 UTC",
+  "encoding": "raw archive bytes split into GitHub Contents API files",
+  "note": "chunks are committed independently; rerun upstreamer to resume missing chunks",
+  "reconstruct_python": "for i in range(chunk_count): append bytes from chunk_path_format % i, then compare archive_sha256",
+  "upstream_workers_max": 4
+}
