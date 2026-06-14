@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1184,
+  "latest_base64_sha256": "414b3c348815e18dc4ff715c7dda3b38aca39cf3a8cbf7333028e85d0402aca6",
+  "latest_chunk": "run_stream_live/cmd_20260614_215519_start-hq-fullcorpus-tmux-20260614215500/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 2365,
+  "latest_plain_sha256": "12855dac4292eba2e5db7b638d1b72517127b4daffb583187a8077eb92ad52b8",
+  "latest_xz_bytes": 888,
+  "latest_xz_sha256": "e0e8a671dcd98091d8cd492688db40495b04f0ce772767cc88aa1afbfdce5a4a",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_215519_start-hq-fullcorpus-tmux-20260614215500"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_215519_start-hq-fullcorpus-tmux-20260614215500",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 2101,
+  "updated_utc": "2026-06-14 21:55:22 UTC"
+}
