@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 3.414,
+  "elapsed_seconds": 9.398,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260614_211053_verify-hq-harness-renamed-20260614211035/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=verify-hq-harness-renamed-20260614211035 command_sha256=1d1250fd70c21856517c9454b95157ac6227aa56350f6e27c7c3016c7ab64c85",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260614_211053_verify-hq-harness-renamed-20260614211035",
-  "state": "running",
-  "updated_utc": "2026-06-14 21:10:56 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-14 21:11:02 UTC"
 }
