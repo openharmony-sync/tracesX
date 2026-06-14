@@ -1,0 +1,35 @@
+{
+  "base64_bytes": 69992,
+  "base64_sha256": "5d399058012a785a42e495c4a507ebdbd7763fccf50a89a9c7ce9b7c69bb5a8a",
+  "chunk_count": 2,
+  "chunk_size_bytes": 49356,
+  "command_id": "fetch_fixed8_csv_b64_1781421920",
+  "command_sha256": "2bc685af9493adc4b716e05c3c3e28640da4607e7b9b51dc7fe8edd445b5dd2f",
+  "compressed_sha256": "25a271d557cb393499a4c7b09afde57471aacc0ebede25d2b1d0466de10d0341",
+  "created_utc": "2026-06-14 07:25:51 UTC",
+  "duration_seconds": 9.817258523777127,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 2,
+      "first_index": 1,
+      "last_index": 2,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920/part_00001.b64",
+    "run_stream_logs/cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920/part_00002.b64"
+  ],
+  "plain_log_bytes": 68631,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_072541_fetch_fixed8_csv_b64_1781421920",
+  "status": "OK",
+  "target": "jump",
+  "xz_bytes": 52492
+}
