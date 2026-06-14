@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 252,
+  "latest_base64_sha256": "abbefca343e1a0f886848960b89639a5cc5daa8a67a8749893c228d86d66a8fe",
+  "latest_chunk": "run_stream_live/cmd_20260614_190955_phone-mytmp-inventory-190954/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 132,
+  "latest_plain_sha256": "175ff80792972d8397f3ff103880ce7f523752b051cffebbca8c3d9e51b03ce4",
+  "latest_xz_bytes": 188,
+  "latest_xz_sha256": "5d9741a0ac8887fbbfb80a3bc17e89cb1159cf7992da072c3157b37a59f8dfc0",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_190955_phone-mytmp-inventory-190954"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_190955_phone-mytmp-inventory-190954",
+  "total_stderr_bytes_seen": 66,
+  "total_stdout_bytes_seen": 0,
+  "updated_utc": "2026-06-14 19:12:06 UTC"
+}
