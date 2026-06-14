@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 3.983,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/put_20260614_212941_put-hq-harness-readme-update-20260614212935/live.json",
-  "note": "command_id=put-hq-harness-readme-update-20260614212935 descriptor_sha256=2e4ef92a6bef228f5f8934c2f4097b490816ce949039ae183956dcc29cda3a5c",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_213016_verify-readme-update-20260614212955/live.json",
+  "note": "command_id=verify-readme-update-20260614212955 command_sha256=701c328ce0f7ece5c2f217435e68e2197f78bfb9616ddfbc5d97f0251ecc3162",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "put_20260614_212941_put-hq-harness-readme-update-20260614212935",
-  "state": "finished-control-put",
-  "updated_utc": "2026-06-14 21:29:45 UTC"
+  "run_id": "cmd_20260614_213016_verify-readme-update-20260614212955",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 21:30:16 UTC"
 }
