@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2480,
+  "base64_sha256": "36f1b829ef9c0cfd1502da3b071856a6aa025a170085529db3fab763bd4c0e7d",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "phone-3dcube-pair-192352",
+  "command_sha256": "ea4680c355b2deb45db575954439f9822b7e0437b1fc1d1934288103f875722a",
+  "compressed_sha256": "04c68b675f0ce88f6c968dab9f0a3c92f11b114cfe3f73587de34f15dfbb3137",
+  "created_utc": "2026-06-14 19:26:15 UTC",
+  "duration_seconds": 111.65011143311858,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_192423_phone-3dcube-pair-192352"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_192423_phone-3dcube-pair-192352/part_00001.b64"
+  ],
+  "plain_log_bytes": 11585,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_192423_phone-3dcube-pair-192352",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1860
+}
