@@ -1,15 +1,1 @@
-{
-  "action": "fetch",
-  "base_dir": "/home/a84448598/runphone_dir",
-  "command_id": "fetch_top4_bundle_1781430684",
-  "force_upstream": true,
-  "output_name": "arkts_top4_patch_benchmark_bundle_20260614_fetch.tar.xz",
-  "paths": [
-    "arkts_top4_patch_benchmark_bundle_20260614.tar.gz",
-    "arkts_top4_patch_benchmark_bundle_20260614.tar.gz.sha256"
-  ],
-  "repo_chunk_root": "large_artifacts/arkts_top4_patch_benchmark_bundle_20260614_fetch",
-  "target": "phone_host",
-  "timeout_seconds": 1800,
-  "upstream": "contents_chunks"
-}
+{"command_id":"kill_fetch_top4_bundle_20260614_01","action":"kill","target_run_id":"fetch_20260614_095142_fetch_top4_bundle_1781430684"}
