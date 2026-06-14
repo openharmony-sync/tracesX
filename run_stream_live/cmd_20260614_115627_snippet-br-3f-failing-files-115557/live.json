@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2680,
+  "latest_base64_sha256": "f86bc73de2ae10a51f6969af8072c6415fd0fc7c20b39558532d1d8db6464e42",
+  "latest_chunk": "run_stream_live/cmd_20260614_115627_snippet-br-3f-failing-files-115557/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 9361,
+  "latest_plain_sha256": "9d81bbde65f2f58bcbe0e409dd19a903037e4f1660c8ae6c32c962c9a84b528c",
+  "latest_xz_bytes": 2008,
+  "latest_xz_sha256": "55f790495155de185f5ce3727382f68eff2166439fa49703222cf811997bf091",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_115627_snippet-br-3f-failing-files-115557"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260614_115627_snippet-br-3f-failing-files-115557",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 8995,
+  "updated_utc": "2026-06-14 11:56:31 UTC"
+}
