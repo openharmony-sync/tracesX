@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1040,
+  "base64_sha256": "6cd9bcd0f9a969856a4d28023fda2ec2cd7bd9323ca4f5c6b11a1259c749a14d",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "phone-clean-leftover-vm3-194813",
+  "command_sha256": "e6c261af7aae8e516566bbbae5de60c948659426f4a78e69f0ead933bed72309",
+  "compressed_sha256": "4610013bd502240bcb92668c59a51f5501ffb4dece211adc4329282c71e4536e",
+  "created_utc": "2026-06-14 19:48:30 UTC",
+  "duration_seconds": 16.10152363963425,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_194814_phone-clean-leftover-vm3-194813"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_194814_phone-clean-leftover-vm3-194813/part_00001.b64"
+  ],
+  "plain_log_bytes": 4990,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_194814_phone-clean-leftover-vm3-194813",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 780
+}
