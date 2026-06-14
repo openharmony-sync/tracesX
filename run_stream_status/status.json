@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 8.831,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 1,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260614_202315_probe-taskset-syntax-187-1781468591/live.json",
-  "note": "command_id=probe-taskset-syntax-187-1781468591 command_sha256=f90ab68e4e21a173a836355e39fc3c080198eec0eeb51f3bcc5998396e6cfd8a",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_202355_probe-taskset-syntax-187b-1781468620/live.json",
+  "note": "command_id=probe-taskset-syntax-187b-1781468620 command_sha256=2042a51ab47a0acca143a2d9aeec4c739bc635b8263ae9c6671a1b5af32a507b",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260614_202315_probe-taskset-syntax-187-1781468591",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-14 20:23:23 UTC"
+  "run_id": "cmd_20260614_202355_probe-taskset-syntax-187b-1781468620",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 20:23:55 UTC"
 }
