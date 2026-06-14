@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2332,
+  "base64_sha256": "9b5dacdb6fd35251f471e7b6278f09281ac88bc263ed84f3d8e8013dfac00799",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "check-hq-fullcorpus-bench-progress-20260614215624",
+  "command_sha256": "cf29c4f4b57b76e3fc135008837af166b8abaa3c22214a562416d27907f15886",
+  "compressed_sha256": "48c480f84266c610a348f18600ee125067dfcf4096fd9b37e13de2c542e61a5e",
+  "created_utc": "2026-06-14 21:56:44 UTC",
+  "duration_seconds": 5.989792477339506,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_215638_check-hq-fullcorpus-bench-progress-20260614215624"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_215638_check-hq-fullcorpus-bench-progress-20260614215624/part_00001.b64"
+  ],
+  "plain_log_bytes": 10973,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_215638_check-hq-fullcorpus-bench-progress-20260614215624",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1748
+}
