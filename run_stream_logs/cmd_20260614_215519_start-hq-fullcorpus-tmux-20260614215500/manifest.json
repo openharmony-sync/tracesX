@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1344,
+  "base64_sha256": "e7cf877a04789cf305b2564317a72db982e5826d94feb429ced64c45d7f088f2",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "start-hq-fullcorpus-tmux-20260614215500",
+  "command_sha256": "7d87bd7769b34aefcac5b3bc3326f9df9a50e2cccf27c838964a8f9838217d64",
+  "compressed_sha256": "b1e7745d5600d75d76d60ce81650677191ad34944ca7f6c30497e3ca8390fcf8",
+  "created_utc": "2026-06-14 21:55:24 UTC",
+  "duration_seconds": 5.199512865394354,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_215519_start-hq-fullcorpus-tmux-20260614215500"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_215519_start-hq-fullcorpus-tmux-20260614215500/part_00001.b64"
+  ],
+  "plain_log_bytes": 2603,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_215519_start-hq-fullcorpus-tmux-20260614215500",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1008
+}
