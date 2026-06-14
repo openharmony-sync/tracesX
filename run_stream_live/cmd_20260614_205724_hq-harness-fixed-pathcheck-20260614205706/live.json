@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 472,
+  "latest_base64_sha256": "11279a8a18ca58a8345847a3097e9b497d06abe289ab280545a311c60a2df5e9",
+  "latest_chunk": "run_stream_live/cmd_20260614_205724_hq-harness-fixed-pathcheck-20260614205706/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 855,
+  "latest_plain_sha256": "1989b5342526ef554714f3acb856a232419a9d72316ea2d16bcedb5ddde9c471",
+  "latest_xz_bytes": 352,
+  "latest_xz_sha256": "82ddbbd4eed574b94537f3679d874e958d39cce7e8cbc901b1030901f1026ed6",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_205724_hq-harness-fixed-pathcheck-20260614205706"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_205724_hq-harness-fixed-pathcheck-20260614205706",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 789,
+  "updated_utc": "2026-06-14 20:57:26 UTC"
+}
