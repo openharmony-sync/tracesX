@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260614_214710_update-harness-clean-layout-20260614214656/live.json",
+  "note": "command_id=update-harness-clean-layout-20260614214656 command_sha256=2a5067eea3c483c0e013386ea0b15ce8feb0076160a8e4a7cc8863dc93a34727",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-14 21:46:39 UTC"
+  "run_id": "cmd_20260614_214710_update-harness-clean-layout-20260614214656",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 21:47:10 UTC"
 }
