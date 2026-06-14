@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 800,
+  "base64_sha256": "3e5b26eb016d56a3475654b2d55aa6d62c4d236f56abd473a871c970b33b816d",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "applycheck-br-c36-3f-pair-115247",
+  "command_sha256": "7db689e2c7acf41292f46f0d0958a1ac00c050fc3eeffd14bd43399f40b51667",
+  "compressed_sha256": "cbc2ce674efbeda98459c52453d39d0210b5205cf044cf8451605e87c8a782b5",
+  "created_utc": "2026-06-14 11:52:57 UTC",
+  "duration_seconds": 6.693699035793543,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_115250_applycheck-br-c36-3f-pair-115247"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_115250_applycheck-br-c36-3f-pair-115247/part_00001.b64"
+  ],
+  "plain_log_bytes": 1224,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_115250_applycheck-br-c36-3f-pair-115247",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 600
+}
