@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260614_210118_deploy-hq-harness-fixed-20260614210045/live.json",
+  "note": "command_id=deploy-hq-harness-fixed-20260614210045 command_sha256=73b2835e0b4c6c48e996ced4de553eab0cdd7fde0604b4672dec128f8ad324a6",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-14 21:00:46 UTC"
+  "run_id": "cmd_20260614_210118_deploy-hq-harness-fixed-20260614210045",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 21:01:18 UTC"
 }
