@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 7852,
+  "base64_sha256": "e84d28de30b43e45c691d206f438aeb293da43f7bbbfad845309aa65eaed76fc",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "find_prior_phone_serial_1781434920",
+  "command_sha256": "9e6139e6793dbddb9765f0d7e27cf314ea6dd6f58e4a720d16998315e7c450a6",
+  "compressed_sha256": "5ea313aa54690f32b331886c882d98f835b55b0098dffe39124c8b74c535dbf4",
+  "created_utc": "2026-06-14 11:02:28 UTC",
+  "duration_seconds": 15.700330533087254,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_110212_find_prior_phone_serial_1781434920"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_110212_find_prior_phone_serial_1781434920/part_00001.b64"
+  ],
+  "plain_log_bytes": 139863,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_110212_find_prior_phone_serial_1781434920",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 5888
+}
