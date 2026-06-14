@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2784,
+  "base64_sha256": "bf77e8cd23f1fd32978a45d6f78d93bcb499fcfbe44821e595104acd507509b9",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "ark41-smoke-20260614211906",
+  "command_sha256": "8428b8def6e02ac26abec9d1cbf1a298be6d73f0fd837e6c9f9650f0e495355b",
+  "compressed_sha256": "b5ddfed0ef0b71815fcc0af7ddd2b50720b53623067955d662b49c791ed7d6fb",
+  "created_utc": "2026-06-14 21:21:07 UTC",
+  "duration_seconds": 103.13453892804682,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_211924_ark41-smoke-20260614211906"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_211924_ark41-smoke-20260614211906/part_00001.b64"
+  ],
+  "plain_log_bytes": 32673,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_211924_ark41-smoke-20260614211906",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 2088
+}
