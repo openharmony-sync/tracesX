@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 936,
+  "base64_sha256": "b63a0f4d73c83c73f6808f24b5178018a97dbe1b8e35c09b4d75af1e1b782b64",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "runner_help_1781422305",
+  "command_sha256": "7ace1e7b9ddbe92c997d65cd844523cf1edd8f3c7d3cd3eea3e30559ab327b70",
+  "compressed_sha256": "df09a69f11ffa500efe1b92d1131e17c89e752e878176fa00d4908ea3cb51211",
+  "created_utc": "2026-06-14 07:32:06 UTC",
+  "duration_seconds": 4.673339998349547,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_073201_runner_help_1781422305"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_073201_runner_help_1781422305/part_00001.b64"
+  ],
+  "plain_log_bytes": 1539,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_073201_runner_help_1781422305",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 700
+}
