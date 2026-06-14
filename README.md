@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-14 11:46:44 UTC`
+- Updated: `2026-06-14 11:51:04 UTC`
 - Status: `FAILED`
-- Run id: `cmd_20260614_114631_c36-apply-probe-3f`
+- Run id: `cmd_20260614_115056_probe-codehighway-ro-c36-symmetry`
 - Kind: `control-command`
 - Target: `build`
-- Command id: `c36-apply-probe-3f`
+- Command id: `probe-codehighway-ro-c36-symmetry`
 - Exit code: `1`
-- Duration seconds: `10.437`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_114631_c36-apply-probe-3f/manifest.json](run_stream_logs/cmd_20260614_114631_c36-apply-probe-3f/manifest.json)
+- Duration seconds: `5.880`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_115056_probe-codehighway-ro-c36-symmetry/manifest.json](run_stream_logs/cmd_20260614_115056_probe-codehighway-ro-c36-symmetry/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_114631_c36-apply-probe-3f/part_00001.b64](run_stream_logs/cmd_20260614_114631_c36-apply-probe-3f/part_00001.b64)
+- [run_stream_logs/cmd_20260614_115056_probe-codehighway-ro-c36-symmetry/part_00001.b64](run_stream_logs/cmd_20260614_115056_probe-codehighway-ro-c36-symmetry/part_00001.b64)
