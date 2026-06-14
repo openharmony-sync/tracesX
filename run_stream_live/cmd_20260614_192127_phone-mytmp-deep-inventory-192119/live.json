@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 336,
+  "latest_base64_sha256": "3ece22919c624145b3bdf09c3f8080b3dbba3453dd678ce48a01f6a0b7d50c42",
+  "latest_chunk": "run_stream_live/cmd_20260614_192127_phone-mytmp-deep-inventory-192119/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 224,
+  "latest_plain_sha256": "61434091a20dd4fa41573896475624d8bd270b8ccaff508af64b305b7f70cc83",
+  "latest_xz_bytes": 252,
+  "latest_xz_sha256": "6fdc04d561b86514f3864df4657dda1fd8356d13fd1fca77149fdad931bc051a",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_192127_phone-mytmp-deep-inventory-192119"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_192127_phone-mytmp-deep-inventory-192119",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 158,
+  "updated_utc": "2026-06-14 19:21:28 UTC"
+}
