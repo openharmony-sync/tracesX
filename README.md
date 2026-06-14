@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-14 07:31:29 UTC`
+- Updated: `2026-06-14 07:32:08 UTC`
 - Status: `OK`
-- Run id: `cmd_20260614_073121_chk_phone_c36_1781422263`
+- Run id: `cmd_20260614_073201_runner_help_1781422305`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `chk_phone_c36_1781422263`
+- Command id: `runner_help_1781422305`
 - Exit code: `0`
-- Duration seconds: `6.007`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_073121_chk_phone_c36_1781422263/manifest.json](run_stream_logs/cmd_20260614_073121_chk_phone_c36_1781422263/manifest.json)
+- Duration seconds: `4.673`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_073201_runner_help_1781422305/manifest.json](run_stream_logs/cmd_20260614_073201_runner_help_1781422305/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_073121_chk_phone_c36_1781422263/part_00001.b64](run_stream_logs/cmd_20260614_073121_chk_phone_c36_1781422263/part_00001.b64)
+- [run_stream_logs/cmd_20260614_073201_runner_help_1781422305/part_00001.b64](run_stream_logs/cmd_20260614_073201_runner_help_1781422305/part_00001.b64)
