@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 348,
+  "latest_base64_sha256": "5ff806c7872fc857e9a0501c25f04a1680d6fb35b62392eebb23916186628901",
+  "latest_chunk": "run_stream_live/cmd_20260614_202232_fetch-c36-taskset-failed-log-1781468549/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 228,
+  "latest_plain_sha256": "68ec0319568a7bc2810472d4149628b62899791f35660d8145c934a65e18c409",
+  "latest_xz_bytes": 260,
+  "latest_xz_sha256": "bac06f6bd8d84078cc239e5139b540e98b3d39943299702c488ebfd38b4af178",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_202232_fetch-c36-taskset-failed-log-1781468549"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_202232_fetch-c36-taskset-failed-log-1781468549",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 162,
+  "updated_utc": "2026-06-14 20:22:34 UTC"
+}
