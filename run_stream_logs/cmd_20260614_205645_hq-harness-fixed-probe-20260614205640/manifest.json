@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1804,
+  "base64_sha256": "898a771b8b1edb8ee51c0c41cebfaf73492cd86c6af9a0ee91959cf2b1957e50",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "hq-harness-fixed-probe-20260614205640",
+  "command_sha256": "405b1b5cb4f6ca48218beb509fbdd26b30ac64b363dada307cf4d00f038b7386",
+  "compressed_sha256": "8bbdb1656590dbc4cf9608c2eed1ca40c3843edad994dfdda87b17aeff9bc19e",
+  "created_utc": "2026-06-14 20:56:51 UTC",
+  "duration_seconds": 5.947381019592285,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_205645_hq-harness-fixed-probe-20260614205640"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_205645_hq-harness-fixed-probe-20260614205640/part_00001.b64"
+  ],
+  "plain_log_bytes": 6864,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_205645_hq-harness-fixed-probe-20260614205640",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1352
+}
