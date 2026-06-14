@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-14 11:01:40 UTC`
+- Updated: `2026-06-14 11:02:30 UTC`
 - Status: `OK`
-- Run id: `cmd_20260614_110132_check_hdc_sdk_phone_1781434879`
+- Run id: `cmd_20260614_110212_find_prior_phone_serial_1781434920`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `check_hdc_sdk_phone_1781434879`
+- Command id: `find_prior_phone_serial_1781434920`
 - Exit code: `0`
-- Duration seconds: `6.043`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_110132_check_hdc_sdk_phone_1781434879/manifest.json](run_stream_logs/cmd_20260614_110132_check_hdc_sdk_phone_1781434879/manifest.json)
+- Duration seconds: `15.700`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_110212_find_prior_phone_serial_1781434920/manifest.json](run_stream_logs/cmd_20260614_110212_find_prior_phone_serial_1781434920/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_110132_check_hdc_sdk_phone_1781434879/part_00001.b64](run_stream_logs/cmd_20260614_110132_check_hdc_sdk_phone_1781434879/part_00001.b64)
+- [run_stream_logs/cmd_20260614_110212_find_prior_phone_serial_1781434920/part_00001.b64](run_stream_logs/cmd_20260614_110212_find_prior_phone_serial_1781434920/part_00001.b64)
