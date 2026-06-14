@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2860,
+  "base64_sha256": "e9b97477435081bd9b981f914ff6082588d23ff542dbad1bd8597f5a664f4f15",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "snippet-br-3f-failing-files-115557",
+  "command_sha256": "fa0bd635bcaa28f9999fb29bb5397216ee282a916b4be9031cf06824bdc695c1",
+  "compressed_sha256": "084bd3137c8a63b471e31e07950f8d522fa68a8fbf65b82e9a9e4a063b462a82",
+  "created_utc": "2026-06-14 11:56:33 UTC",
+  "duration_seconds": 6.07574263215065,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_115627_snippet-br-3f-failing-files-115557"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_115627_snippet-br-3f-failing-files-115557/part_00001.b64"
+  ],
+  "plain_log_bytes": 9295,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_115627_snippet-br-3f-failing-files-115557",
+  "status": "FAILED",
+  "target": "build",
+  "xz_bytes": 2144
+}
