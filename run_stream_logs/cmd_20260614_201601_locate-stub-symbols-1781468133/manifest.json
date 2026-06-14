@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 652,
+  "base64_sha256": "b56974e72dadd1d114fc061befa2163e3342bcc71e53f31e2f48026e38cdc48f",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "locate-stub-symbols-1781468133",
+  "command_sha256": "cf675288c36dc874284fa19cf5ddd951e8931774e9850783201ae317101b9660",
+  "compressed_sha256": "3176cbc7c49735259b4c0a1d1fa980c38b4fa5eff9531c8b83abd007df6bf4d8",
+  "created_utc": "2026-06-14 20:16:07 UTC",
+  "duration_seconds": 6.101671539247036,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_201601_locate-stub-symbols-1781468133"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_201601_locate-stub-symbols-1781468133/part_00001.b64"
+  ],
+  "plain_log_bytes": 1167,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_201601_locate-stub-symbols-1781468133",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 488
+}
