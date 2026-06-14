@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 192,
+  "latest_base64_sha256": "27ca0ed947484b1cf65d9f36cc5df98f00253cae601b6888f8c579a20cd23931",
+  "latest_chunk": "run_stream_live/cmd_20260614_192720_phone-3dcube-sanity-192702/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 86,
+  "latest_plain_sha256": "f421c4aae8dd24b789de615383292ec08675320630ce107a16e1fde840e3e3b9",
+  "latest_xz_bytes": 144,
+  "latest_xz_sha256": "c98518d3651f89ebb74673d847e7f2b896f64e9ff8d9e36aa8ed69b4e953d947",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_192720_phone-3dcube-sanity-192702"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_192720_phone-3dcube-sanity-192702",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 20,
+  "updated_utc": "2026-06-14 19:27:22 UTC"
+}
