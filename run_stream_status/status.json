@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 3.626,
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 1,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260614_210118_deploy-hq-harness-fixed-20260614210045/live.json",
-  "note": "command_id=deploy-hq-harness-fixed-20260614210045 command_sha256=73b2835e0b4c6c48e996ced4de553eab0cdd7fde0604b4672dec128f8ad324a6",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260614_210153_clean-hq-harness-fixed-20260614210140/live.json",
+  "note": "command_id=clean-hq-harness-fixed-20260614210140 command_sha256=3e9de5091f5a7bdef0972dd36a5353ffa95976a9d1af1d706bfbb47dbabf9289",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": "cmd_20260614_210118_deploy-hq-harness-fixed-20260614210045",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-14 21:01:21 UTC"
+  "run_id": "cmd_20260614_210153_clean-hq-harness-fixed-20260614210140",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 21:01:53 UTC"
 }
