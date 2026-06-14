@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1216,
+  "latest_base64_sha256": "1b42e2bfc4acaf72bec58b75d5b50b2c0bd7736a055002ae0cce6412ec25ee3d",
+  "latest_chunk": "run_stream_live/cmd_20260614_195756_phone-rt-abc-matrix-195753/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 6069,
+  "latest_plain_sha256": "cebe9dbd09f4baccf1f71e0291b87c4e3937c377f2901988c58d37cfd7242095",
+  "latest_xz_bytes": 912,
+  "latest_xz_sha256": "d21792abe81fb31b4b34d74297282be9649fcddf18bcaef5a9d0064d55447342",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_195756_phone-rt-abc-matrix-195753"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_195756_phone-rt-abc-matrix-195753",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 4947,
+  "updated_utc": "2026-06-14 19:58:28 UTC"
+}
