@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 492,
+  "base64_sha256": "25ae5f07745aa66efd407e2bd496e588304f601ea15aa882de422dfbc93480d1",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "build-ping2-140313",
+  "command_sha256": "020fe780b685bd03e4d4091c14beadc708a22bb43a4a278baf95ecff4a07b8a8",
+  "compressed_sha256": "73a1cf8c0228d70ca7edf6306baa350ed299b89f5777788c8e286bacf28e1248",
+  "created_utc": "2026-06-14 14:03:25 UTC",
+  "duration_seconds": 5.772564128041267,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_140320_build-ping2-140313"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_140320_build-ping2-140313/part_00001.b64"
+  ],
+  "plain_log_bytes": 535,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_140320_build-ping2-140313",
+  "status": "OK",
+  "target": "build",
+  "xz_bytes": 368
+}
