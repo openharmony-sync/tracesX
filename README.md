@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-14 07:32:48 UTC`
+- Updated: `2026-06-14 07:33:28 UTC`
 - Status: `OK`
-- Run id: `cmd_20260614_073240_gen_help_1781422355`
+- Run id: `cmd_20260614_073320_find_c36_stage_1781422378`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `gen_help_1781422355`
+- Command id: `find_c36_stage_1781422378`
 - Exit code: `0`
-- Duration seconds: `6.006`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_073240_gen_help_1781422355/manifest.json](run_stream_logs/cmd_20260614_073240_gen_help_1781422355/manifest.json)
+- Duration seconds: `6.108`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_073320_find_c36_stage_1781422378/manifest.json](run_stream_logs/cmd_20260614_073320_find_c36_stage_1781422378/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_073240_gen_help_1781422355/part_00001.b64](run_stream_logs/cmd_20260614_073240_gen_help_1781422355/part_00001.b64)
+- [run_stream_logs/cmd_20260614_073320_find_c36_stage_1781422378/part_00001.b64](run_stream_logs/cmd_20260614_073320_find_c36_stage_1781422378/part_00001.b64)
