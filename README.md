@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-14 21:11:01 UTC`
-- Status: `OK`
-- Run id: `cmd_20260614_211053_verify-hq-harness-renamed-20260614211035`
+- Updated: `2026-06-14 21:21:09 UTC`
+- Status: `FAILED`
+- Run id: `cmd_20260614_211924_ark41-smoke-20260614211906`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `verify-hq-harness-renamed-20260614211035`
-- Exit code: `0`
-- Duration seconds: `6.575`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_211053_verify-hq-harness-renamed-20260614211035/manifest.json](run_stream_logs/cmd_20260614_211053_verify-hq-harness-renamed-20260614211035/manifest.json)
+- Command id: `ark41-smoke-20260614211906`
+- Exit code: `1`
+- Duration seconds: `103.135`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_211924_ark41-smoke-20260614211906/manifest.json](run_stream_logs/cmd_20260614_211924_ark41-smoke-20260614211906/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_211053_verify-hq-harness-renamed-20260614211035/part_00001.b64](run_stream_logs/cmd_20260614_211053_verify-hq-harness-renamed-20260614211035/part_00001.b64)
+- [run_stream_logs/cmd_20260614_211924_ark41-smoke-20260614211906/part_00001.b64](run_stream_logs/cmd_20260614_211924_ark41-smoke-20260614211906/part_00001.b64)
