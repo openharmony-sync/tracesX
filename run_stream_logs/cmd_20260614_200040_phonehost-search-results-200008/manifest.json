@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 524,
+  "base64_sha256": "22cad5d21da02750fb59460837fdb7676a0fc104c5af28911ecc6ab15ec80b36",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "phonehost-search-results-200008",
+  "command_sha256": "2eb6e853db3f3c26aa856685b4ddf8761740460551e4bd82b86346a2649e0bb7",
+  "compressed_sha256": "255975d142df79d7400be0a87ee995eb7898eb0a1af866e8e8f61f776c41a481",
+  "created_utc": "2026-06-14 20:00:46 UTC",
+  "duration_seconds": 6.36549261584878,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_200040_phonehost-search-results-200008"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_200040_phonehost-search-results-200008/part_00001.b64"
+  ],
+  "plain_log_bytes": 613,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_200040_phonehost-search-results-200008",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 392
+}
