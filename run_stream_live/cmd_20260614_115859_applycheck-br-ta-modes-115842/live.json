@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 408,
+  "latest_base64_sha256": "2523cd090970711581d60f788a2ad192f66610b61ebee8514ec6e8a69ae91807",
+  "latest_chunk": "run_stream_live/cmd_20260614_115859_applycheck-br-ta-modes-115842/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 865,
+  "latest_plain_sha256": "26d38ffdb5a15ad746107fd98dcdf850c5b24964b7b156bb0af6030f122fb4af",
+  "latest_xz_bytes": 304,
+  "latest_xz_sha256": "e7521a7027c48861ca51e8490277aa7265caf5d836acdb86d3eca80c965072fe",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_115859_applycheck-br-ta-modes-115842"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260614_115859_applycheck-br-ta-modes-115842",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 377,
+  "updated_utc": "2026-06-14 11:59:04 UTC"
+}
