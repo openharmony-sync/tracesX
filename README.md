@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-14 19:12:09 UTC`
-- Status: `FAILED`
-- Run id: `cmd_20260614_190955_phone-mytmp-inventory-190954`
+- Updated: `2026-06-14 19:20:55 UTC`
+- Status: `OK`
+- Run id: `cmd_20260614_192043_phone-mytmp-inventory-jump-192039`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `phone-mytmp-inventory-190954`
-- Exit code: `255`
-- Duration seconds: `132.277`
-- Encoded log manifest: [run_stream_logs/cmd_20260614_190955_phone-mytmp-inventory-190954/manifest.json](run_stream_logs/cmd_20260614_190955_phone-mytmp-inventory-190954/manifest.json)
+- Command id: `phone-mytmp-inventory-jump-192039`
+- Exit code: `0`
+- Duration seconds: `10.295`
+- Encoded log manifest: [run_stream_logs/cmd_20260614_192043_phone-mytmp-inventory-jump-192039/manifest.json](run_stream_logs/cmd_20260614_192043_phone-mytmp-inventory-jump-192039/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260614_190955_phone-mytmp-inventory-190954/part_00001.b64](run_stream_logs/cmd_20260614_190955_phone-mytmp-inventory-190954/part_00001.b64)
+- [run_stream_logs/cmd_20260614_192043_phone-mytmp-inventory-jump-192039/part_00001.b64](run_stream_logs/cmd_20260614_192043_phone-mytmp-inventory-jump-192039/part_00001.b64)
