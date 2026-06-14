@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 217.002,
+  "elapsed_seconds": 240.957,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260614_194218_phone-math-short-194152/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=phone-math-short-194152 command_sha256=cf8d216e546c0938d4e1cc5cb40c1c846f4a8d9bea3c6d624f76644ba7bfb6bc",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260614_194218_phone-math-short-194152",
-  "state": "running",
-  "updated_utc": "2026-06-14 19:45:55 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-14 19:46:19 UTC"
 }
