@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 94.305,
+  "elapsed_seconds": 106.017,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 1,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260614_211924_ark41-smoke-20260614211906/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=ark41-smoke-20260614211906 command_sha256=8428b8def6e02ac26abec9d1cbf1a298be6d73f0fd837e6c9f9650f0e495355b",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260614_211924_ark41-smoke-20260614211906",
-  "state": "running",
-  "updated_utc": "2026-06-14 21:20:58 UTC"
+  "state": "failed-control-command",
+  "updated_utc": "2026-06-14 21:21:10 UTC"
 }
