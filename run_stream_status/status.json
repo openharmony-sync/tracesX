@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 1289.599,
+  "elapsed_seconds": 1295.255,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,14 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 130,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260614_202442_c36-tasksetF-samefilter-1781468679/live.json",
-  "note": "control command kill-wrong-c36-taskset-samefilter-20260614",
-  "phase": "control-phone_host",
+  "note": "command_id=c36-tasksetF-samefilter-1781468679 command_sha256=363f38708d4fe5587356737c9b6f91b35f2359c76678efca96d88711d02795d6",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260614_202442_c36-tasksetF-samefilter-1781468679",
-  "state": "killing",
-  "updated_utc": "2026-06-14 20:46:11 UTC"
+  "state": "failed-control-command",
+  "updated_utc": "2026-06-14 20:46:17 UTC"
 }
