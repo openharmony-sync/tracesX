@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.002,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260614_105625_smoke_arkbench_phonehost_import_1781434556/live.json",
+  "note": "command_id=smoke_arkbench_phonehost_import_1781434556 command_sha256=1e701c55f4e569c67e6ee06bac655cf68854d4c30587122c56dd4a0ac9f14125",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-14 10:55:54 UTC"
+  "run_id": "cmd_20260614_105625_smoke_arkbench_phonehost_import_1781434556",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-14 10:56:25 UTC"
 }
