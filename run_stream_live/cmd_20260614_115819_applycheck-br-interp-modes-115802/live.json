@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 392,
+  "latest_base64_sha256": "ebb5c952fffb2e7f7c370cc383a28594b0afb6fc5803eba1aee7a4250f1a952e",
+  "latest_chunk": "run_stream_live/cmd_20260614_115819_applycheck-br-interp-modes-115802/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 816,
+  "latest_plain_sha256": "3621bec4c1d052b318d310084d94af09a6a2261fb77768c7867ebc80635d87e1",
+  "latest_xz_bytes": 292,
+  "latest_xz_sha256": "f51542f771d06f73c1ef882a362eddef1893e081f18b1591708420d4a0bce14b",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_115819_applycheck-br-interp-modes-115802"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260614_115819_applycheck-br-interp-modes-115802",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 328,
+  "updated_utc": "2026-06-14 11:58:24 UTC"
+}
