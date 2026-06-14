@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 540,
+  "base64_sha256": "aba72c9d741a81370e51db8c0f9179146642e91baecf77ff2b57ca26c8f1dcdc",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "patch_and_copy_arkbench_to_phone_1781434458",
+  "command_sha256": "ce4b44a4c0743d0cef7d9189a2b3dbc2c66886654ebae3ba696b7c7095e0e4de",
+  "compressed_sha256": "a28c59a938f952f98b6f40a411a47ffc9380ae786e578bfdd0b4c3a664480c31",
+  "created_utc": "2026-06-14 10:54:48 UTC",
+  "duration_seconds": 5.765147842466831,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_105442_patch_and_copy_arkbench_to_phone_1781434458"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_105442_patch_and_copy_arkbench_to_phone_1781434458/part_00001.b64"
+  ],
+  "plain_log_bytes": 707,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_105442_patch_and_copy_arkbench_to_phone_1781434458",
+  "status": "OK",
+  "target": "jump",
+  "xz_bytes": 404
+}
