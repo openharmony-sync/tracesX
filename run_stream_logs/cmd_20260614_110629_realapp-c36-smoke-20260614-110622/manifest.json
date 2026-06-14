@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2400,
+  "base64_sha256": "e82c75364642fc26996074100cabd5547ea3288f95b76b9e21f82f9a45698248",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "realapp-c36-smoke-20260614-110622",
+  "command_sha256": "b0e50463f81646e330adad81413be3613e890b5143f6c083562358bbb33253a1",
+  "compressed_sha256": "42ae93cb3844e7c49a3e928dfe2b5007c7e9a216df41e3ff8066f36335977d7e",
+  "created_utc": "2026-06-14 11:07:36 UTC",
+  "duration_seconds": 66.76122133247554,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_110629_realapp-c36-smoke-20260614-110622"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_110629_realapp-c36-smoke-20260614-110622/part_00001.b64"
+  ],
+  "plain_log_bytes": 6818,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_110629_realapp-c36-smoke-20260614-110622",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 1800
+}
