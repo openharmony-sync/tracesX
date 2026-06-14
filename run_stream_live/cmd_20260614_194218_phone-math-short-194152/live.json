@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 688,
+  "latest_base64_sha256": "8861e29613d0c425d5f5bdaefef19a442c3e10e0f917b58525f5f895fcf4beac",
+  "latest_chunk": "run_stream_live/cmd_20260614_194218_phone-math-short-194152/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 1889,
+  "latest_plain_sha256": "fd5b77cb5c033159df1beb8313737af2265d19ea95c706d9210e672baf73fc61",
+  "latest_xz_bytes": 516,
+  "latest_xz_sha256": "06f98b7e49670182a73e60ecfce00fcedb8428db658db4d8456aea8d73f17e3d",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_194218_phone-math-short-194152"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260614_194218_phone-math-short-194152",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 1427,
+  "updated_utc": "2026-06-14 19:42:51 UTC"
+}
