@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 508,
+  "base64_sha256": "6e082ff67e35512f20205f30f2eaaac18670062b519a93499adf6bc9f2d0a651",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "fetch_c36_adaptive_csv_1781427479",
+  "command_sha256": "96969bcd91e6ec8366889b260c0c3fa90ff8dfb1a2483b5ddbb1c3be005f9d51",
+  "compressed_sha256": "756d53925c7ec25770564ac438090964e81c230ceae35a83dc32298bd891f064",
+  "created_utc": "2026-06-14 08:58:05 UTC",
+  "duration_seconds": 4.215943982824683,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 2,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_085801_fetch_c36_adaptive_csv_1781427479"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_085801_fetch_c36_adaptive_csv_1781427479/part_00001.b64"
+  ],
+  "plain_log_bytes": 575,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_085801_fetch_c36_adaptive_csv_1781427479",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 380
+}
