@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 700,
+  "base64_sha256": "aa36eb9f34df13b3a2b29abd9b78b43f7de56ae0d7968d7fb3ce7f00748fbdd8",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "check_phone_host_for_arkbench_1781434363",
+  "command_sha256": "1a0e8b9770153f2116b2a330000c7cbf2cc5179b259f35a224449bf252c13d20",
+  "compressed_sha256": "7dfb0cc1dae591656499f538b66121fd2882c578b709642872388bd997c993b9",
+  "created_utc": "2026-06-14 10:53:05 UTC",
+  "duration_seconds": 6.191447241231799,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260614_105259_check_phone_host_for_arkbench_1781434363"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260614_105259_check_phone_host_for_arkbench_1781434363/part_00001.b64"
+  ],
+  "plain_log_bytes": 889,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260614_105259_check_phone_host_for_arkbench_1781434363",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 524
+}
