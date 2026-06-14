@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 2.026,
+  "elapsed_seconds": 9.7,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 1,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260614_115434_applycheck-br-c36like-3patch-115405/live.json",
-  "phase": "control-build",
+  "note": "command_id=applycheck-br-c36like-3patch-115405 command_sha256=2c7fc359dfe73fecbccec7a4e6b70091da6a6381fc3706b9616495abda604a81",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 1026529,
   "run_id": "cmd_20260614_115434_applycheck-br-c36like-3patch-115405",
-  "state": "running",
-  "updated_utc": "2026-06-14 11:54:36 UTC"
+  "state": "failed-control-command",
+  "updated_utc": "2026-06-14 11:54:44 UTC"
 }
