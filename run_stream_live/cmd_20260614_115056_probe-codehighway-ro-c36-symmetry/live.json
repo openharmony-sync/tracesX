@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 280,
+  "latest_base64_sha256": "1b198610a4dd19a4f74345fc4ea09dc75dc205a93aada22ae5f9dd53304e8809",
+  "latest_chunk": "run_stream_live/cmd_20260614_115056_probe-codehighway-ro-c36-symmetry/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 206,
+  "latest_plain_sha256": "b08e4b409c77c5a0833fdff65263b688b3f7466a883d5fad43f4fef766bdc953",
+  "latest_xz_bytes": 208,
+  "latest_xz_sha256": "b4c1ba1ba80d739b4f65fe49da0cc87ff1ec120925b07b587fca6953d4a21358",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260614_115056_probe-codehighway-ro-c36-symmetry"
+    }
+  ],
+  "phase": "control-build",
+  "run_id": "cmd_20260614_115056_probe-codehighway-ro-c36-symmetry",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 145,
+  "updated_utc": "2026-06-14 11:51:00 UTC"
+}
