@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-15 13:29:27 UTC`
+- Updated: `2026-06-15 13:35:34 UTC`
 - Status: `OK`
-- Run id: `cmd_20260615_132916_update-hq-harness-alternating-20260615132857`
+- Run id: `cmd_20260615_133519_start-fullcorpus-alt-s5-20260615133459`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `update-hq-harness-alternating-20260615132857`
+- Command id: `start-fullcorpus-alt-s5-20260615133459`
 - Exit code: `0`
-- Duration seconds: `8.665`
-- Encoded log manifest: [run_stream_logs/cmd_20260615_132916_update-hq-harness-alternating-20260615132857/manifest.json](run_stream_logs/cmd_20260615_132916_update-hq-harness-alternating-20260615132857/manifest.json)
+- Duration seconds: `12.248`
+- Encoded log manifest: [run_stream_logs/cmd_20260615_133519_start-fullcorpus-alt-s5-20260615133459/manifest.json](run_stream_logs/cmd_20260615_133519_start-fullcorpus-alt-s5-20260615133459/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260615_132916_update-hq-harness-alternating-20260615132857/part_00001.b64](run_stream_logs/cmd_20260615_132916_update-hq-harness-alternating-20260615132857/part_00001.b64)
+- [run_stream_logs/cmd_20260615_133519_start-fullcorpus-alt-s5-20260615133459/part_00001.b64](run_stream_logs/cmd_20260615_133519_start-fullcorpus-alt-s5-20260615133459/part_00001.b64)
