@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.0,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260615_122148_probe-bili-kntr-finalcombo-20260615122120/live.json",
+  "note": "command_id=probe-bili-kntr-finalcombo-20260615122120 command_sha256=4205c54341a51c7767da06756ff2f6b88f510a965da36f5caa050662066cb68c",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-15 12:21:17 UTC"
+  "run_id": "cmd_20260615_122148_probe-bili-kntr-finalcombo-20260615122120",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-15 12:21:48 UTC"
 }
