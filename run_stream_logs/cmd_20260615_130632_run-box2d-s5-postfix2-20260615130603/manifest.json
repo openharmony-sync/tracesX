@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1996,
+  "base64_sha256": "3cc8f40da93c8c15b038628150db825f3d35c399f2af8603eae1874d9d781872",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "run-box2d-s5-postfix2-20260615130603",
+  "command_sha256": "4d9f12b49e1e6574c377f1f705f261920307cf8dbf48de5289fa5ea50551a9de",
+  "compressed_sha256": "8526864d87e05b0b66959042753966ec518b65184fff58df35ce0c6681891c39",
+  "created_utc": "2026-06-15 13:08:05 UTC",
+  "duration_seconds": 92.92089975252748,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_130632_run-box2d-s5-postfix2-20260615130603"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_130632_run-box2d-s5-postfix2-20260615130603/part_00001.b64"
+  ],
+  "plain_log_bytes": 5270,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_130632_run-box2d-s5-postfix2-20260615130603",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1496
+}
