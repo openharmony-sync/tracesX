@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3016,
+  "base64_sha256": "87df582665a1faead8dff397cf001f53c3eb59904a0b0696329b5833e6c36ae9",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "progress-alt-vs-fixed-now-20260615171054",
+  "command_sha256": "1c3e08bf958ad6a1c29455dd482742f76bb368321730b3d88583b4a4c032327e",
+  "compressed_sha256": "5fc9e1a012f2242ba7935109aecf26c2734f91c44e341fec88dc9a4d664381f7",
+  "created_utc": "2026-06-15 17:11:09 UTC",
+  "duration_seconds": 6.260513665154576,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_171102_progress-alt-vs-fixed-now-20260615171054"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_171102_progress-alt-vs-fixed-now-20260615171054/part_00001.b64"
+  ],
+  "plain_log_bytes": 8171,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_171102_progress-alt-vs-fixed-now-20260615171054",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2260
+}
