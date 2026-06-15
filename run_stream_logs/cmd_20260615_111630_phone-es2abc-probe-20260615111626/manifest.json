@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2472,
+  "base64_sha256": "d7fd80869724b705fe6d5f03bccc347849fe2818b8753ac8a9ab1d86ad003c58",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "phone-es2abc-probe-20260615111626",
+  "command_sha256": "28e8ca08dec42c7b342ebc1beff643fc473a4abc15ad92852264ac9f237ee4a8",
+  "compressed_sha256": "123504aaf6e874863e2fb096f5200440d884a09f5a667e03cf35e32c32e10e80",
+  "created_utc": "2026-06-15 11:16:38 UTC",
+  "duration_seconds": 8.028750266879797,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_111630_phone-es2abc-probe-20260615111626"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_111630_phone-es2abc-probe-20260615111626/part_00001.b64"
+  ],
+  "plain_log_bytes": 4079,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_111630_phone-es2abc-probe-20260615111626",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1852
+}
