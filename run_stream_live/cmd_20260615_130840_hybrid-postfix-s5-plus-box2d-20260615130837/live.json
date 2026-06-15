@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1464,
+  "latest_base64_sha256": "f1312b2b5be44a8a9c5dbed8dd3098eddbef31c921c6d7a12e2ba1f8bcd8b58f",
+  "latest_chunk": "run_stream_live/cmd_20260615_130840_hybrid-postfix-s5-plus-box2d-20260615130837/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 4230,
+  "latest_plain_sha256": "2680891c34cc9d7c31e36f6f17cf37faf0fc2296761ba37b0f8e2ad4215006d9",
+  "latest_xz_bytes": 1096,
+  "latest_xz_sha256": "511e0ee8a8f1c18aabb6139628b0a6852f00f2ca0c69f7a00b40fb89d092d1b8",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_130840_hybrid-postfix-s5-plus-box2d-20260615130837"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_130840_hybrid-postfix-s5-plus-box2d-20260615130837",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 4164,
+  "updated_utc": "2026-06-15 13:08:42 UTC"
+}
