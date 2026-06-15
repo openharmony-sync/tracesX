@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 616,
+  "base64_sha256": "4e75fe5e825cec20aa28fb4bae0d42782fe40372c83554d604c6f39818e56461",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "parse-box2d-alt-order-existing-20260615131756",
+  "command_sha256": "c7d0eefcc2e8e063780f6afd9a456f220fbd823d7a1a7ba339f830ffe46f0e02",
+  "compressed_sha256": "ee8a8853cef921e833a003461152e658e474dab4e1af575887520af27b87f2a4",
+  "created_utc": "2026-06-15 13:18:05 UTC",
+  "duration_seconds": 5.599787663668394,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 1,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_131800_parse-box2d-alt-order-existing-20260615131756"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_131800_parse-box2d-alt-order-existing-20260615131756/part_00001.b64"
+  ],
+  "plain_log_bytes": 765,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_131800_parse-box2d-alt-order-existing-20260615131756",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 460
+}
