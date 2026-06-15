@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3708,
+  "base64_sha256": "4a5aeb70d95ef024c1287b0bf046acb34b0094332a9f10c556007b829e24468a",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "check-alt-appsubset-20260615195100",
+  "command_sha256": "7d98b91bb908944f5ac0c232535105872e76a5a979d215dceb1c9f5dcbe9ffa0",
+  "compressed_sha256": "c49795829c2a9c1609ec4bd9999a61ca8dbe1323bc78a4a230e585022033db8b",
+  "created_utc": "2026-06-15 19:51:16 UTC",
+  "duration_seconds": 8.448748836293817,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_195108_check-alt-appsubset-20260615195100"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_195108_check-alt-appsubset-20260615195100/part_00001.b64"
+  ],
+  "plain_log_bytes": 15617,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_195108_check-alt-appsubset-20260615195100",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2780
+}
