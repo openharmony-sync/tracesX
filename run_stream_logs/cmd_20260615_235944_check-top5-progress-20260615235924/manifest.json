@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 3212,
+  "base64_sha256": "54fe6ee8816d571394f707059d720dd06de7b89c0820955d9e2bce4696e6d88c",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "check-top5-progress-20260615235924",
+  "command_sha256": "724d68fa79f37406ef1583c867e152fbfb2f321fafed00e8fff3872e5012da4d",
+  "compressed_sha256": "a5ad680d8367744e62324491e4b2c93ce0632de28a95120ecf51f023bab1c2e3",
+  "created_utc": "2026-06-15 23:59:51 UTC",
+  "duration_seconds": 7.10963430814445,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_235944_check-top5-progress-20260615235924"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_235944_check-top5-progress-20260615235924/part_00001.b64"
+  ],
+  "plain_log_bytes": 10595,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_235944_check-top5-progress-20260615235924",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 2408
+}
