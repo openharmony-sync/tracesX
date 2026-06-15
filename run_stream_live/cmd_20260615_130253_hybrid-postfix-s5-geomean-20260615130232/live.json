@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1480,
+  "latest_base64_sha256": "577f6488064be8cc3abe127a3867bf07e4262dceaf57c2bbf5901e80fed91d41",
+  "latest_chunk": "run_stream_live/cmd_20260615_130253_hybrid-postfix-s5-geomean-20260615130232/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 3548,
+  "latest_plain_sha256": "f9a1da29831ae691ea7e5adbb21ae5d266ff07ae75da0e8b0c3f34bdb09b1d9d",
+  "latest_xz_bytes": 1108,
+  "latest_xz_sha256": "62b8698cb9f2b21d27290748387ce847bcdbdaecd2a9cce1df4b93e4a5a92d48",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_130253_hybrid-postfix-s5-geomean-20260615130232"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_130253_hybrid-postfix-s5-geomean-20260615130232",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 3482,
+  "updated_utc": "2026-06-15 13:02:55 UTC"
+}
