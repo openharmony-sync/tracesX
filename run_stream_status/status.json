@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 22.867,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260615_104506_test-box2d-shimo-funcmain-entry-20260615104458/live.json",
-  "note": "command_id=test-box2d-shimo-funcmain-entry-20260615104458 command_sha256=e6ebd68ab591ea2afd778494d1729c625bd57ebefc0548195972d3fead60ce13",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
-  "run_id": "cmd_20260615_104506_test-box2d-shimo-funcmain-entry-20260615104458",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-15 10:45:29 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-15 10:46:00 UTC"
 }
