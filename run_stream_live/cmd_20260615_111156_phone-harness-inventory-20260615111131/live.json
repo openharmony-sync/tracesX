@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 944,
+  "latest_base64_sha256": "5b281a6459cfe94747150b787743349dfbff5a0cbaf97ad5b765c7ecf06feea9",
+  "latest_chunk": "run_stream_live/cmd_20260615_111156_phone-harness-inventory-20260615111131/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 3027,
+  "latest_plain_sha256": "67d971e934726c37e3c44995ab0bf579816b2976cb8925ef971899e0e2000f5b",
+  "latest_xz_bytes": 708,
+  "latest_xz_sha256": "b986c8ac9787206e4460d745711ff19bd157424a0288f68ad1f79202a86254f3",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_111156_phone-harness-inventory-20260615111131"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_111156_phone-harness-inventory-20260615111131",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 2961,
+  "updated_utc": "2026-06-15 11:11:57 UTC"
+}
