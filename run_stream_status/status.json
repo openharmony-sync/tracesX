@@ -6,6 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.0,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,12 +15,13 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "live_manifest": "run_stream_live/cmd_20260615_122622_push-bili-kntr-final-fix-20260615122555/live.json",
+  "note": "command_id=push-bili-kntr-final-fix-20260615122555 command_sha256=3da708db2b560913bb1f4d3f7f4bd28c8e0744c986bfbdddff2ffb0a6b817abb",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-15 12:25:50 UTC"
+  "run_id": "cmd_20260615_122622_push-bili-kntr-final-fix-20260615122555",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-15 12:26:22 UTC"
 }
