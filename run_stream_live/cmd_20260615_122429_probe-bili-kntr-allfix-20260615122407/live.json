@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 240,
+  "latest_base64_sha256": "96e457673805a7e05b0fb750ac9228bba3e3a0eecd9c8c92c2e02845dbf1b9bb",
+  "latest_chunk": "run_stream_live/cmd_20260615_122429_probe-bili-kntr-allfix-20260615122407/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 118,
+  "latest_plain_sha256": "bc7f0890d340ba4e7cbc32492c7271e79938ea7d64c0050e79974dac917a1329",
+  "latest_xz_bytes": 180,
+  "latest_xz_sha256": "e4a0b9782b973d0515609071b99b9a36452363facaf0ab6860b47c2a3ac2cead",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_122429_probe-bili-kntr-allfix-20260615122407"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_122429_probe-bili-kntr-allfix-20260615122407",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 52,
+  "updated_utc": "2026-06-15 12:24:31 UTC"
+}
