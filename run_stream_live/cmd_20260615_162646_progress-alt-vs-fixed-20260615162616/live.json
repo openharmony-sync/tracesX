@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2928,
+  "latest_base64_sha256": "1b3c39b66454c9fb03d45629dd54dfeb79d4e685eba978f0d866b21cf510949a",
+  "latest_chunk": "run_stream_live/cmd_20260615_162646_progress-alt-vs-fixed-20260615162616/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 8258,
+  "latest_plain_sha256": "afcadafe93a3405d0e94cbe076359c5853cd6ac2ca57c1b883dbf65a05b2cf25",
+  "latest_xz_bytes": 2196,
+  "latest_xz_sha256": "081fffffb05ede5c606f67eb70393f9b05d97b385b149e7a3277488fea547b8e",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_162646_progress-alt-vs-fixed-20260615162616"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_162646_progress-alt-vs-fixed-20260615162616",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 8192,
+  "updated_utc": "2026-06-15 16:26:48 UTC"
+}
