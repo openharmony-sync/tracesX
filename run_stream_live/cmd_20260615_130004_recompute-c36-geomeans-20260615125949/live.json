@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1488,
+  "latest_base64_sha256": "b365f18ecf4b1b096f952c6c24419e5b1cbda2cc30d0ea09b30fd3ab871a9815",
+  "latest_chunk": "run_stream_live/cmd_20260615_130004_recompute-c36-geomeans-20260615125949/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 4074,
+  "latest_plain_sha256": "5dd407bf39691e77bd88af4f75a641f99988475a86203febbbcd7ddf1b0f86a7",
+  "latest_xz_bytes": 1116,
+  "latest_xz_sha256": "7544f40bca94756298cbb97dc23b66c35fe09bb8ad527edfa5f287b31d3220b5",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_130004_recompute-c36-geomeans-20260615125949"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_130004_recompute-c36-geomeans-20260615125949",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 4008,
+  "updated_utc": "2026-06-15 13:00:05 UTC"
+}
