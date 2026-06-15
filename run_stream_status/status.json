@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 4.014,
+  "elapsed_seconds": 12.061,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 1,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260615_103714_dump-harness-raw-error-samples-20260615103710/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=dump-harness-raw-error-samples-20260615103710 command_sha256=0550ca3b1e2cb6ef5095979ab8010e38f1ae4d4b0178d34fff7f3145a60c197d",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
   "run_id": "cmd_20260615_103714_dump-harness-raw-error-samples-20260615103710",
-  "state": "running",
-  "updated_utc": "2026-06-15 10:37:18 UTC"
+  "state": "failed-control-command",
+  "updated_utc": "2026-06-15 10:37:26 UTC"
 }
