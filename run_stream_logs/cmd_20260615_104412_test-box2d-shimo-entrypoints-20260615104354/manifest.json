@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 4412,
+  "base64_sha256": "28ac4fca4f4e85f2cf01b1946b1dfc6c52236083f34c48cbc7b562938ec56032",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "test-box2d-shimo-entrypoints-20260615104354",
+  "command_sha256": "4a8302d4a2c12b93703bdad5ad5102c403281e489c866102a4dc7de98e07c892",
+  "compressed_sha256": "0747d87b7eb696bb0f6d3e3b80ec5a251f7730e5e2015771a16518eb20df2177",
+  "created_utc": "2026-06-15 10:44:31 UTC",
+  "duration_seconds": 18.199718350544572,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_104412_test-box2d-shimo-entrypoints-20260615104354"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_104412_test-box2d-shimo-entrypoints-20260615104354/part_00001.b64"
+  ],
+  "plain_log_bytes": 13823,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_104412_test-box2d-shimo-entrypoints-20260615104354",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 3308
+}
