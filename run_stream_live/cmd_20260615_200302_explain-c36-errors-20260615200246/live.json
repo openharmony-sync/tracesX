@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 760,
+  "latest_base64_sha256": "fb63877ea2b4a92bdd419aed178d17992d915ca842c9bf38c944cfeef04d09a4",
+  "latest_chunk": "run_stream_live/cmd_20260615_200302_explain-c36-errors-20260615200246/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 1436,
+  "latest_plain_sha256": "835189f66ebec39a781d1ceda9991320f3ba545a4339c248b71a92665139099c",
+  "latest_xz_bytes": 568,
+  "latest_xz_sha256": "af77ba06cd14ff5a24a2df6df7e1f458a02a84556ea603a0fe81df1aac0ac615",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_200302_explain-c36-errors-20260615200246"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_200302_explain-c36-errors-20260615200246",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 1370,
+  "updated_utc": "2026-06-15 20:03:03 UTC"
+}
