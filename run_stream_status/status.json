@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 17.484,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260615_121835_probe-bili-kntr-catch-20260615121831/live.json",
-  "note": "command_id=probe-bili-kntr-catch-20260615121831 command_sha256=1d677165f9b500a8af36e2a8c23d171076f8ff0f9788b8b870570578fc38b3e5",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
-  "run_id": "cmd_20260615_121835_probe-bili-kntr-catch-20260615121831",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-15 12:18:53 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-15 12:19:25 UTC"
 }
