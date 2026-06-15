@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 368,
+  "latest_base64_sha256": "6a8667f27650b4095ec8d80adafff9664b704c2a9443ac3f027bd59ec3f12e5b",
+  "latest_chunk": "run_stream_live/cmd_20260615_112254_phone-bare-record-probe-20260615112230/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 280,
+  "latest_plain_sha256": "76ecd3b9e65e1f9c44508ae5c88a56f9b9046ddb099cb560d44de6580dc704cb",
+  "latest_xz_bytes": 276,
+  "latest_xz_sha256": "89f5006cb211f1b19341578487640e04c1f7079b39eec81cb28c356dcb86f6fb",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_112254_phone-bare-record-probe-20260615112230"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_112254_phone-bare-record-probe-20260615112230",
+  "total_stderr_bytes_seen": 214,
+  "total_stdout_bytes_seen": 0,
+  "updated_utc": "2026-06-15 11:22:56 UTC"
+}
