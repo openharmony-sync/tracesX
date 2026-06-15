@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-15 13:18:53 UTC`
+- Updated: `2026-06-15 13:21:17 UTC`
 - Status: `OK`
-- Run id: `cmd_20260615_131841_inspect-box2d-manifest-logs-20260615131826`
+- Run id: `cmd_20260615_131957_box2d-alt-order-s5-correct-20260615131939`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `inspect-box2d-manifest-logs-20260615131826`
+- Command id: `box2d-alt-order-s5-correct-20260615131939`
 - Exit code: `0`
-- Duration seconds: `8.642`
-- Encoded log manifest: [run_stream_logs/cmd_20260615_131841_inspect-box2d-manifest-logs-20260615131826/manifest.json](run_stream_logs/cmd_20260615_131841_inspect-box2d-manifest-logs-20260615131826/manifest.json)
+- Duration seconds: `77.169`
+- Encoded log manifest: [run_stream_logs/cmd_20260615_131957_box2d-alt-order-s5-correct-20260615131939/manifest.json](run_stream_logs/cmd_20260615_131957_box2d-alt-order-s5-correct-20260615131939/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260615_131841_inspect-box2d-manifest-logs-20260615131826/part_00001.b64](run_stream_logs/cmd_20260615_131841_inspect-box2d-manifest-logs-20260615131826/part_00001.b64)
+- [run_stream_logs/cmd_20260615_131957_box2d-alt-order-s5-correct-20260615131939/part_00001.b64](run_stream_logs/cmd_20260615_131957_box2d-alt-order-s5-correct-20260615131939/part_00001.b64)
