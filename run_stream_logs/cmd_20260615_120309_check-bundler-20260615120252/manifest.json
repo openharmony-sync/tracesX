@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 600,
+  "base64_sha256": "09de42d6518c8607290ce4798bc37b666f70ac239a0b44d0f43f17e9055efc29",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "check-bundler-20260615120252",
+  "command_sha256": "d9e8524bb3381778b0a0ff4a2780593e16433fd92d9bb87d015ac7e425441fdf",
+  "compressed_sha256": "9bc63bf13e684565e7d8c12f0a35996fb949f3d510c7dbe1710eb86e6a2b3f99",
+  "created_utc": "2026-06-15 12:03:18 UTC",
+  "duration_seconds": 8.198453886434436,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_120309_check-bundler-20260615120252"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_120309_check-bundler-20260615120252/part_00001.b64"
+  ],
+  "plain_log_bytes": 750,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_120309_check-bundler-20260615120252",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 448
+}
