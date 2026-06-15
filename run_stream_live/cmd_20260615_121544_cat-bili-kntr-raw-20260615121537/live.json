@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 272,
+  "latest_base64_sha256": "6040a48b809c02b55893e6fd43a99afde1b9b92075dfb2bc8645e75e6e73066b",
+  "latest_chunk": "run_stream_live/cmd_20260615_121544_cat-bili-kntr-raw-20260615121537/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 156,
+  "latest_plain_sha256": "b6de17e04895a707a3aa0c59ef9924adc67f042eb47ac3d1f0666e1e3e8ce724",
+  "latest_xz_bytes": 204,
+  "latest_xz_sha256": "71155c01dba1d8f94b219880560889b439bc07e2c7961a6d22ee3e00a182e74b",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_121544_cat-bili-kntr-raw-20260615121537"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_121544_cat-bili-kntr-raw-20260615121537",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 90,
+  "updated_utc": "2026-06-15 12:15:46 UTC"
+}
