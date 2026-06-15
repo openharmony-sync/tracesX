@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-15 13:11:41 UTC`
-- Status: `OK`
-- Run id: `cmd_20260615_131129_analyze-old-full-sample-evolution-20260615131113`
+- Updated: `2026-06-15 13:17:27 UTC`
+- Status: `FAILED`
+- Run id: `cmd_20260615_131701_box2d-alt-order-s5-20260615131649`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `analyze-old-full-sample-evolution-20260615131113`
-- Exit code: `0`
-- Duration seconds: `8.960`
-- Encoded log manifest: [run_stream_logs/cmd_20260615_131129_analyze-old-full-sample-evolution-20260615131113/manifest.json](run_stream_logs/cmd_20260615_131129_analyze-old-full-sample-evolution-20260615131113/manifest.json)
+- Command id: `box2d-alt-order-s5-20260615131649`
+- Exit code: `1`
+- Duration seconds: `23.406`
+- Encoded log manifest: [run_stream_logs/cmd_20260615_131701_box2d-alt-order-s5-20260615131649/manifest.json](run_stream_logs/cmd_20260615_131701_box2d-alt-order-s5-20260615131649/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260615_131129_analyze-old-full-sample-evolution-20260615131113/part_00001.b64](run_stream_logs/cmd_20260615_131129_analyze-old-full-sample-evolution-20260615131113/part_00001.b64)
+- [run_stream_logs/cmd_20260615_131701_box2d-alt-order-s5-20260615131649/part_00001.b64](run_stream_logs/cmd_20260615_131701_box2d-alt-order-s5-20260615131649/part_00001.b64)
