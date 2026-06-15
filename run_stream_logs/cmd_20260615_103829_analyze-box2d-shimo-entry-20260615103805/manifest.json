@@ -1,0 +1,37 @@
+{
+  "base64_bytes": 172912,
+  "base64_sha256": "bdf5921ce09bee00c568e73797520a79b64f4a9b114c26f752e4092de32c5976",
+  "chunk_count": 4,
+  "chunk_size_bytes": 49356,
+  "command_id": "analyze-box2d-shimo-entry-20260615103805",
+  "command_sha256": "fda9ac564b1730d600d12e362a4e821ccf20140295db05b80758a6ecf585c177",
+  "compressed_sha256": "581a5915e79e312231fac4af886d6d51d5697382e947ee9441d39555cf9cda80",
+  "created_utc": "2026-06-15 10:42:37 UTC",
+  "duration_seconds": 245.0783150140196,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 124,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 4,
+      "first_index": 1,
+      "last_index": 4,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_103829_analyze-box2d-shimo-entry-20260615103805"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_103829_analyze-box2d-shimo-entry-20260615103805/part_00001.b64",
+    "run_stream_logs/cmd_20260615_103829_analyze-box2d-shimo-entry-20260615103805/part_00002.b64",
+    "run_stream_logs/cmd_20260615_103829_analyze-box2d-shimo-entry-20260615103805/part_00003.b64",
+    "run_stream_logs/cmd_20260615_103829_analyze-box2d-shimo-entry-20260615103805/part_00004.b64"
+  ],
+  "plain_log_bytes": 2130535,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_103829_analyze-box2d-shimo-entry-20260615103805",
+  "status": "FAILED",
+  "target": "phone_host",
+  "xz_bytes": 129684
+}
