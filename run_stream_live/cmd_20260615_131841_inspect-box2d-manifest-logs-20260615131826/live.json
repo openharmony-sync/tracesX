@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 188,
+  "latest_base64_sha256": "9c1912691929be4c5fe520f45abb89d15a1f498e83c3fa52bb34f9b44fe9905f",
+  "latest_chunk": "run_stream_live/cmd_20260615_131841_inspect-box2d-manifest-logs-20260615131826/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 81,
+  "latest_plain_sha256": "9bf5d85df541f30760f6f6209d7125f4803906dd793b4002c9f5de34b437a643",
+  "latest_xz_bytes": 140,
+  "latest_xz_sha256": "5978c96c7b971802ec211d4adf3fb5bed64fbcf15a8e3248a7816094380210b2",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_131841_inspect-box2d-manifest-logs-20260615131826"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_131841_inspect-box2d-manifest-logs-20260615131826",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 15,
+  "updated_utc": "2026-06-15 13:18:43 UTC"
+}
