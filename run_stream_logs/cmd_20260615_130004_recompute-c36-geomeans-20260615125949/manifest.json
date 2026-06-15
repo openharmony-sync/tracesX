@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 1688,
+  "base64_sha256": "6f21e6ec3f40d194145ffe926cefa4afe1c5be0dc9517300b2da834787a09700",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "recompute-c36-geomeans-20260615125949",
+  "command_sha256": "51275ee04d0798baf5aa5006fbc1fd14456927d3524f0fae5fc8e74ade20f46c",
+  "compressed_sha256": "5494d1d3dbc394ac6b9a900bdc4071bfcca093753c40ae34170a5dfe0a0836b9",
+  "created_utc": "2026-06-15 13:00:10 UTC",
+  "duration_seconds": 6.000764979049563,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_130004_recompute-c36-geomeans-20260615125949"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_130004_recompute-c36-geomeans-20260615125949/part_00001.b64"
+  ],
+  "plain_log_bytes": 4504,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_130004_recompute-c36-geomeans-20260615125949",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1264
+}
