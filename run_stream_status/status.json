@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 4.377,
+  "elapsed_seconds": 27.402,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 1,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260615_131701_box2d-alt-order-s5-20260615131649/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=box2d-alt-order-s5-20260615131649 command_sha256=5de137e7aeaf57f59d900a2fb6e671e12acc087847b974660ed77a3a515de9f5",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
   "run_id": "cmd_20260615_131701_box2d-alt-order-s5-20260615131649",
-  "state": "running",
-  "updated_utc": "2026-06-15 13:17:05 UTC"
+  "state": "failed-control-command",
+  "updated_utc": "2026-06-15 13:17:28 UTC"
 }
