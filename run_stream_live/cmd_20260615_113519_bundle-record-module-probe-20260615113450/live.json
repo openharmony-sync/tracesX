@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 1288,
+  "latest_base64_sha256": "e804c73cd7d7764950e18782b744c410c528f8d93ce311ab46985e79502b6ce0",
+  "latest_chunk": "run_stream_live/cmd_20260615_113519_bundle-record-module-probe-20260615113450/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 4990,
+  "latest_plain_sha256": "b7c1dbf786811be03b2aa563af583e7e89831b04873dd514a35e29e3fadfe48f",
+  "latest_xz_bytes": 964,
+  "latest_xz_sha256": "52656b23e4b222e3c1a23a8ea3b2f974217a3ed9d064f9cc21a0a4217160bf14",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260615_113519_bundle-record-module-probe-20260615113450"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260615_113519_bundle-record-module-probe-20260615113450",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 3934,
+  "updated_utc": "2026-06-15 11:35:39 UTC"
+}
