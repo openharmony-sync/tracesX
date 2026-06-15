@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 968,
+  "base64_sha256": "1e56a82c413b26afb788f595500924408887424bfe4b045f3794a1c4e1a377bb",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "explain-c36-errors-20260615200246",
+  "command_sha256": "7aa7309b3f5fe9548e1f9949799186841404d941d21bed26d925152e91a12608",
+  "compressed_sha256": "85dbe3b2397dd4fb1424f055fc752731630fdfa9c5dcf00950f7dcbae1644deb",
+  "created_utc": "2026-06-15 20:03:07 UTC",
+  "duration_seconds": 5.679278315976262,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_200302_explain-c36-errors-20260615200246"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_200302_explain-c36-errors-20260615200246/part_00001.b64"
+  ],
+  "plain_log_bytes": 1854,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_200302_explain-c36-errors-20260615200246",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 724
+}
