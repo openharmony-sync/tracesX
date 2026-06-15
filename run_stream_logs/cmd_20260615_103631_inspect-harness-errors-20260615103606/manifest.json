@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 2176,
+  "base64_sha256": "1ed970463559a64b5fc42cca48d644cfb9bfbd62e330bac88fc9d4b9cd4c63be",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-harness-errors-20260615103606",
+  "command_sha256": "e1b562ec507c190399bf38bde825808d962991c8c25aad97a62c0dfe0472a909",
+  "compressed_sha256": "0c66edd7d8e3ba22eea40b424529c263cad8ca801f1ce6ccd624050956bf420c",
+  "created_utc": "2026-06-15 10:36:39 UTC",
+  "duration_seconds": 7.9979520589113235,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_103631_inspect-harness-errors-20260615103606"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_103631_inspect-harness-errors-20260615103606/part_00001.b64"
+  ],
+  "plain_log_bytes": 24877,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_103631_inspect-harness-errors-20260615103606",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 1632
+}
