@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 4332,
+  "base64_sha256": "c85028e4040e8a31b3e601845665224a4add6553b59b290221a59d4e4dc27535",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "run-c36-c17-app-no-bili-kntr-20260615124504",
+  "command_sha256": "40148999ba88dcc193a1ab1111eb1b8144d1095136c45403b3fae3fbd91044f1",
+  "compressed_sha256": "4570453ccf0951af8f7353c28db8878604830425829b11fc04d6d7781fe27800",
+  "created_utc": "2026-06-15 12:50:05 UTC",
+  "duration_seconds": 270.80829944089055,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_124534_run-c36-c17-app-no-bili-kntr-20260615124504"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_124534_run-c36-c17-app-no-bili-kntr-20260615124504/part_00001.b64"
+  ],
+  "plain_log_bytes": 17991,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_124534_run-c36-c17-app-no-bili-kntr-20260615124504",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 3248
+}
