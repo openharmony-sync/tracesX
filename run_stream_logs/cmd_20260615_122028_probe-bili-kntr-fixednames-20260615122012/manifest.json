@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 844,
+  "base64_sha256": "7827ad595d81584816e963750f01ceb46be7056b7e95fb1686fd65b2bd317a4f",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "probe-bili-kntr-fixednames-20260615122012",
+  "command_sha256": "e0db19e9c54221f38dc96d0039f588b6cdac8780736398eb11b8d5aa787e0644",
+  "compressed_sha256": "2061900973ff2ec9dc5740ccb1ba80de01fb86ab4d0dcf24ed9d684926cd85d5",
+  "created_utc": "2026-06-15 12:20:41 UTC",
+  "duration_seconds": 13.371732883155346,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260615_122028_probe-bili-kntr-fixednames-20260615122012"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260615_122028_probe-bili-kntr-fixednames-20260615122012/part_00001.b64"
+  ],
+  "plain_log_bytes": 1283,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260615_122028_probe-bili-kntr-fixednames-20260615122012",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 632
+}
