@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-16 15:11:35 UTC`
+- Updated: `2026-06-16 15:13:24 UTC`
 - Status: `OK`
-- Run id: `cmd_20260616_151119_inspect-adjusted-harness-files`
+- Run id: `cmd_20260616_151312_remove-frontend-only-adjusted-harness`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `inspect-adjusted-harness-files`
+- Command id: `remove-frontend-only-adjusted-harness`
 - Exit code: `0`
-- Duration seconds: `12.312`
-- Encoded log manifest: [run_stream_logs/cmd_20260616_151119_inspect-adjusted-harness-files/manifest.json](run_stream_logs/cmd_20260616_151119_inspect-adjusted-harness-files/manifest.json)
+- Duration seconds: `9.413`
+- Encoded log manifest: [run_stream_logs/cmd_20260616_151312_remove-frontend-only-adjusted-harness/manifest.json](run_stream_logs/cmd_20260616_151312_remove-frontend-only-adjusted-harness/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260616_151119_inspect-adjusted-harness-files/part_00001.b64](run_stream_logs/cmd_20260616_151119_inspect-adjusted-harness-files/part_00001.b64)
+- [run_stream_logs/cmd_20260616_151312_remove-frontend-only-adjusted-harness/part_00001.b64](run_stream_logs/cmd_20260616_151312_remove-frontend-only-adjusted-harness/part_00001.b64)
