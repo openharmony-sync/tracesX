@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 188,
+  "latest_base64_sha256": "5f3d5ced49b0e2f175f0d822adca07e15d4a49205c4fa084e476680b76c88d62",
+  "latest_chunk": "run_stream_live/cmd_20260616_162521_jump-phone-probe-162511/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 91,
+  "latest_plain_sha256": "ac79cd83c459960a9bf2fb5eaaddab57bb7f50218a23aaa1e0a0e1771031d591",
+  "latest_xz_bytes": 140,
+  "latest_xz_sha256": "6c455aad53c97952398282519ef9f1576593672bc09650db49a7298feeb6e29c",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260616_162521_jump-phone-probe-162511"
+    }
+  ],
+  "phase": "control-jump",
+  "run_id": "cmd_20260616_162521_jump-phone-probe-162511",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 31,
+  "updated_utc": "2026-06-16 16:25:22 UTC"
+}
