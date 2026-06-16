@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 97.456,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 1,
-  "host": "arkresearch-1",
-  "live_manifest": "run_stream_live/cmd_20260616_162514_jump-phone-probe-162511/live.json",
-  "note": "command_id=jump-phone-probe-162511 command_sha256=2a1c7c21d621470ca5e388410e9ccbbc3e6a2eba0d3ebe8709f8b91eb757eb17",
-  "phase": "done",
+  "host": "lhrphis01120",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
-  "pid": 443969,
-  "run_id": "cmd_20260616_162514_jump-phone-probe-162511",
-  "state": "failed-control-command",
-  "updated_utc": "2026-06-16 16:26:51 UTC"
+  "pid": 2391193,
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-16 16:27:10 UTC"
 }
