@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 184,
+  "latest_base64_sha256": "0137386c13acc8ef0cfa23ff1aac1645ee58ce255e4edae9b15538d9ee3aeb99",
+  "latest_chunk": "run_stream_live/cmd_20260616_153322_phone-progress-153259/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 77,
+  "latest_plain_sha256": "1f5e3bc74cfd987e9f915508113cad36f7844f62423156bf83a3454b57516bec",
+  "latest_xz_bytes": 136,
+  "latest_xz_sha256": "8dc97891380f9e65d58b062907d1e12c7dee5e2b77b0eedf6ed233faf3ad1e59",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260616_153322_phone-progress-153259"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260616_153322_phone-progress-153259",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 11,
+  "updated_utc": "2026-06-16 15:33:24 UTC"
+}
