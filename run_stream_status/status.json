@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 4.345,
+  "elapsed_seconds": 13.814,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260616_151034_inspect-adjusted-harness/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=inspect-adjusted-harness command_sha256=07f142df0b329becda0193d63a8aa851198da2024da331a937b0556b722dda83",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
   "run_id": "cmd_20260616_151034_inspect-adjusted-harness",
-  "state": "running",
-  "updated_utc": "2026-06-16 15:10:38 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-16 15:10:48 UTC"
 }
