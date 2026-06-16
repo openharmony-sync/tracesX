@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 13.799,
+  "elapsed_seconds": 0.001,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +14,14 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260616_151312_remove-frontend-only-adjusted-harness/live.json",
-  "note": "command_id=remove-frontend-only-adjusted-harness command_sha256=db4a7f775acb60bfbd4025b9feb64ee5e8e0fdabe2dd2a0dce798bdd87783726",
-  "phase": "done",
+  "live_manifest": "run_stream_live/cmd_20260616_151358_verify-adjusted-harness-top4/live.json",
+  "note": "command_id=verify-adjusted-harness-top4 command_sha256=8ca43c660634ce4afbc4eb6ed92940b90c06772c3cf1fbe24cd54cdd8eeef737",
+  "phase": "control-phone_host",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
-  "run_id": "cmd_20260616_151312_remove-frontend-only-adjusted-harness",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-16 15:13:26 UTC"
+  "run_id": "cmd_20260616_151358_verify-adjusted-harness-top4",
+  "state": "running-control-command",
+  "updated_utc": "2026-06-16 15:13:58 UTC"
 }
