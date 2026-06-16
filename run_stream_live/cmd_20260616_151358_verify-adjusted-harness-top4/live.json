@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 188,
+  "latest_base64_sha256": "208948d3c6b1c3c3f6415de25ca0b5beef4d92d1e1157228cb2240b304d8fa57",
+  "latest_chunk": "run_stream_live/cmd_20260616_151358_verify-adjusted-harness-top4/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 82,
+  "latest_plain_sha256": "8390676ce51e73f3acc9d0d3502a53db9e97f865e61b2cfcafa9929b0e1ac682",
+  "latest_xz_bytes": 140,
+  "latest_xz_sha256": "d2b72e04dac51e34ebab1f3c80bd4591a3404767a3c8706eacbdc93303e12843",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260616_151358_verify-adjusted-harness-top4"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260616_151358_verify-adjusted-harness-top4",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 16,
+  "updated_utc": "2026-06-16 15:13:59 UTC"
+}
