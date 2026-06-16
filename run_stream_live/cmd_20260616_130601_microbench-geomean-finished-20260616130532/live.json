@@ -1,22 +1,22 @@
 {
-  "chunk_count": 1,
-  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "chunk_count": 2,
+  "decode_latest": "base64 -d chunk_00002.b64 | xz -dc",
   "encoding": "base64(xz -9e bytes)",
-  "latest_base64_bytes": 2112,
-  "latest_base64_sha256": "6c4a96660371ccc9204351639c1b19d38d9571c7a3be3c1cfa76869ba06a9702",
-  "latest_chunk": "run_stream_live/cmd_20260616_130601_microbench-geomean-finished-20260616130532/chunk_00001.b64",
-  "latest_chunk_index": 1,
-  "latest_plain_bytes": 8258,
-  "latest_plain_sha256": "7e6ed7cfb5b7ff2e2b32479db32103cca1566696bcc43964ef7a782f087dfddc",
-  "latest_xz_bytes": 1584,
-  "latest_xz_sha256": "37b66edcda3fcafead5cb8abf68073ea038fa6b9456c3de59e159c987d8bebb7",
+  "latest_base64_bytes": 2888,
+  "latest_base64_sha256": "9a6e511d6ff2f36e198cb13ba0428311de3cc70b42fed588956a3906130de8bd",
+  "latest_chunk": "run_stream_live/cmd_20260616_130601_microbench-geomean-finished-20260616130532/chunk_00002.b64",
+  "latest_chunk_index": 2,
+  "latest_plain_bytes": 13893,
+  "latest_plain_sha256": "3385da75179fb2c26e1f768c7921a467699a27b3e5f8709816e4d36434bf2a79",
+  "latest_xz_bytes": 2164,
+  "latest_xz_sha256": "a4f610a21943ed1c3230ce553dc3ea9deaf863bdc52303989f5eff22ec98ed2c",
   "max_chunks_per_page": 950,
   "page_count": 1,
   "pages": [
     {
-      "count": 1,
+      "count": 2,
       "first_index": 1,
-      "last_index": 1,
+      "last_index": 2,
       "page": 1,
       "root": "run_stream_live/cmd_20260616_130601_microbench-geomean-finished-20260616130532"
     }
@@ -24,6 +24,6 @@
   "phase": "control-phone_host",
   "run_id": "cmd_20260616_130601_microbench-geomean-finished-20260616130532",
   "total_stderr_bytes_seen": 0,
-  "total_stdout_bytes_seen": 8192,
-  "updated_utc": "2026-06-16 13:06:03 UTC"
+  "total_stdout_bytes_seen": 21953,
+  "updated_utc": "2026-06-16 13:06:09 UTC"
 }
