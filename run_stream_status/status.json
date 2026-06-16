@@ -6,7 +6,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 4.522,
+  "elapsed_seconds": 11.533,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,13 +14,15 @@
     "target": "build",
     "timeout_seconds": 0
   },
+  "exit_code": 0,
   "host": "lhrphis01120",
   "live_manifest": "run_stream_live/cmd_20260616_011600_check-top5-progress-20260616011554/live.json",
-  "phase": "control-phone_host",
+  "note": "command_id=check-top5-progress-20260616011554 command_sha256=d49755bb3314f4b89717b991a7e9d4c79a5852ff21b7bf80d1352e16b96fb55e",
+  "phase": "done",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
   "run_id": "cmd_20260616_011600_check-top5-progress-20260616011554",
-  "state": "running",
-  "updated_utc": "2026-06-16 01:16:05 UTC"
+  "state": "finished-control-command",
+  "updated_utc": "2026-06-16 01:16:12 UTC"
 }
