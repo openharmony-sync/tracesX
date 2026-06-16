@@ -1,15 +1,15 @@
 # Run Stream
 
-- Updated: `2026-06-16 16:23:12 UTC`
+- Updated: `2026-06-16 16:23:46 UTC`
 - Status: `FAILED`
-- Run id: `cmd_20260616_161756_top4-measurements-161748`
+- Run id: `cmd_20260616_162207_phone-reachable-162205`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `top4-measurements-161748`
+- Command id: `phone-reachable-162205`
 - Exit code: `124`
-- Duration seconds: `304.988`
-- Encoded log manifest: [run_stream_logs/cmd_20260616_161756_top4-measurements-161748/manifest.json](run_stream_logs/cmd_20260616_161756_top4-measurements-161748/manifest.json)
-- Encoded log parts: `2`
+- Duration seconds: `95.629`
+- Encoded log manifest: [run_stream_logs/cmd_20260616_162207_phone-reachable-162205/manifest.json](run_stream_logs/cmd_20260616_162207_phone-reachable-162205/manifest.json)
+- Encoded log parts: `1`
 
 ## Reconstruct Captured Output
 
@@ -19,5 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260616_161756_top4-measurements-161748/part_00001.b64](run_stream_logs/cmd_20260616_161756_top4-measurements-161748/part_00001.b64)
-- [run_stream_logs/cmd_20260616_161756_top4-measurements-161748/part_00002.b64](run_stream_logs/cmd_20260616_161756_top4-measurements-161748/part_00002.b64)
+- [run_stream_logs/cmd_20260616_162207_phone-reachable-162205/part_00001.b64](run_stream_logs/cmd_20260616_162207_phone-reachable-162205/part_00001.b64)
