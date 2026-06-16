@@ -1,4 +1,11 @@
 {
+  "asset": {
+    "browser_download_url": "https://github.com/openharmony-sync/traces/releases/download/runner_init/run_stream_clean_for_new_repo.tar.gz",
+    "id": 443855286,
+    "name": "run_stream_clean_for_new_repo.tar.gz",
+    "size": 25793,
+    "updated_at": "2026-06-10T16:26:37Z"
+  },
   "build_host": "a84448598@7.212.231.184",
   "control_example": {
     "action": "kill",
@@ -6,6 +13,7 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
+  "elapsed_seconds": 0.0,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -13,13 +21,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "host": "lhrphis01120",
-  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
-  "phase": null,
+  "host": "arkresearch-1",
+  "live_manifest": "run_stream_live/20260616_161655/live.json",
+  "phase": "download",
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
-  "pid": 2391193,
-  "run_id": null,
-  "state": "error",
-  "updated_utc": "2026-06-16 16:16:52 UTC"
+  "pid": 442836,
+  "run_id": "20260616_161655",
+  "state": "downloading",
+  "updated_utc": "2026-06-16 16:16:55 UTC"
 }
