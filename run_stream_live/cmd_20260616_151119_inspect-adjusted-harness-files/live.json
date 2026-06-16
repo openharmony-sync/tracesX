@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 208,
+  "latest_base64_sha256": "e5cee7e894a1bc0c171ab2bcd717e62a26e5b4eb88b4831a4600fd0a3e9e51fe",
+  "latest_chunk": "run_stream_live/cmd_20260616_151119_inspect-adjusted-harness-files/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 96,
+  "latest_plain_sha256": "d7e2db2051077ee6502aac4d46a5692a1b097d75fecdb34a79a4052afe430305",
+  "latest_xz_bytes": 156,
+  "latest_xz_sha256": "f782251b86a6f045db0611d7dc74ce90e32a0f1ee9fa7476a3d378d40c4aa016",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260616_151119_inspect-adjusted-harness-files"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260616_151119_inspect-adjusted-harness-files",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 30,
+  "updated_utc": "2026-06-16 15:11:21 UTC"
+}
