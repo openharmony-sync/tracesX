@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 15.501,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -14,15 +13,13 @@
     "target": "build",
     "timeout_seconds": 0
   },
-  "exit_code": 0,
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260616_130601_microbench-geomean-finished-20260616130532/live.json",
-  "note": "command_id=microbench-geomean-finished-20260616130532 command_sha256=3f8c60fdd6a106eb95e53734fafe865357a621a5246eda4af7b68b0e9eb0d42f",
-  "phase": "done",
+  "note": "asset 'run.tar.gz' not found on tag 'phonetest'; available: ",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
-  "run_id": "cmd_20260616_130601_microbench-geomean-finished-20260616130532",
-  "state": "finished-control-command",
-  "updated_utc": "2026-06-16 13:06:16 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-16 13:06:48 UTC"
 }
