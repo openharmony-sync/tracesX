@@ -1,0 +1,34 @@
+{
+  "base64_bytes": 9544,
+  "base64_sha256": "b8e0e180f14d3a31853072a99b2b6d646c12a73df199940642055906a2753c40",
+  "chunk_count": 1,
+  "chunk_size_bytes": 49356,
+  "command_id": "inspect-adjusted-harness-files",
+  "command_sha256": "6aea5142d4fe3a632bbd3235aafb38bd3837b35af06e97702ee3481595b54c6d",
+  "compressed_sha256": "4f23d8e7f94b539fa2d1172db34647438afa214c2ede1b4805fb31da9facf5f9",
+  "created_utc": "2026-06-16 15:11:32 UTC",
+  "duration_seconds": 12.31185021623969,
+  "encoding": "base64(xz -9e utf-8 text)",
+  "exit_code": 0,
+  "kind": "control-command",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_logs/cmd_20260616_151119_inspect-adjusted-harness-files"
+    }
+  ],
+  "parts": [
+    "run_stream_logs/cmd_20260616_151119_inspect-adjusted-harness-files/part_00001.b64"
+  ],
+  "plain_log_bytes": 42327,
+  "reconstruct": "cat part_*.b64 | base64 -d | xz -dc > combined.log",
+  "run_id": "cmd_20260616_151119_inspect-adjusted-harness-files",
+  "status": "OK",
+  "target": "phone_host",
+  "xz_bytes": 7156
+}
