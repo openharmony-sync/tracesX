@@ -1,0 +1,29 @@
+{
+  "chunk_count": 1,
+  "decode_latest": "base64 -d chunk_00001.b64 | xz -dc",
+  "encoding": "base64(xz -9e bytes)",
+  "latest_base64_bytes": 2328,
+  "latest_base64_sha256": "27ac45a44ecce9e4cf39b06151a910eb4d2bbe6b55d387b88ac794878c7a10ba",
+  "latest_chunk": "run_stream_live/cmd_20260616_130228_check-top5-progress-20260616130209/chunk_00001.b64",
+  "latest_chunk_index": 1,
+  "latest_plain_bytes": 8258,
+  "latest_plain_sha256": "ee73e931bba71991dc91215f845b88f2a7d397a9d3894053c0a463f403496dd3",
+  "latest_xz_bytes": 1744,
+  "latest_xz_sha256": "d23a7b9fe265b217df8f03bdbc060d9f4de40a63b93955786027095732185ebe",
+  "max_chunks_per_page": 950,
+  "page_count": 1,
+  "pages": [
+    {
+      "count": 1,
+      "first_index": 1,
+      "last_index": 1,
+      "page": 1,
+      "root": "run_stream_live/cmd_20260616_130228_check-top5-progress-20260616130209"
+    }
+  ],
+  "phase": "control-phone_host",
+  "run_id": "cmd_20260616_130228_check-top5-progress-20260616130209",
+  "total_stderr_bytes_seen": 0,
+  "total_stdout_bytes_seen": 8192,
+  "updated_utc": "2026-06-16 13:02:31 UTC"
+}
