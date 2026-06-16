@@ -1,14 +1,14 @@
 # Run Stream
 
-- Updated: `2026-06-16 13:02:44 UTC`
+- Updated: `2026-06-16 13:06:14 UTC`
 - Status: `OK`
-- Run id: `cmd_20260616_130228_check-top5-progress-20260616130209`
+- Run id: `cmd_20260616_130601_microbench-geomean-finished-20260616130532`
 - Kind: `control-command`
 - Target: `phone_host`
-- Command id: `check-top5-progress-20260616130209`
+- Command id: `microbench-geomean-finished-20260616130532`
 - Exit code: `0`
-- Duration seconds: `11.912`
-- Encoded log manifest: [run_stream_logs/cmd_20260616_130228_check-top5-progress-20260616130209/manifest.json](run_stream_logs/cmd_20260616_130228_check-top5-progress-20260616130209/manifest.json)
+- Duration seconds: `10.883`
+- Encoded log manifest: [run_stream_logs/cmd_20260616_130601_microbench-geomean-finished-20260616130532/manifest.json](run_stream_logs/cmd_20260616_130601_microbench-geomean-finished-20260616130532/manifest.json)
 - Encoded log parts: `1`
 
 ## Reconstruct Captured Output
@@ -19,4 +19,4 @@ cat part_*.b64 | base64 -d | xz -dc > combined.log
 
 ## Parts
 
-- [run_stream_logs/cmd_20260616_130228_check-top5-progress-20260616130209/part_00001.b64](run_stream_logs/cmd_20260616_130228_check-top5-progress-20260616130209/part_00001.b64)
+- [run_stream_logs/cmd_20260616_130601_microbench-geomean-finished-20260616130532/part_00001.b64](run_stream_logs/cmd_20260616_130601_microbench-geomean-finished-20260616130532/part_00001.b64)
