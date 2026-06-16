@@ -6,7 +6,6 @@
     "target_run_id": "current"
   },
   "control_path": "run_stream_control.json",
-  "elapsed_seconds": 289.589,
   "exec_control_example": {
     "action": "exec",
     "command_id": "unique-exec-001",
@@ -15,12 +14,12 @@
     "timeout_seconds": 0
   },
   "host": "lhrphis01120",
-  "live_manifest": "run_stream_live/cmd_20260616_162813_top4-measurements-ext-162759/live.json",
-  "phase": "control-phone_host",
+  "note": "API GET https://api.github.com/repos/openharmony-sync/traces/contents/run_stream_logs/cmd_20260616_162813_top4-measurements-ext-162759/part_00001.b64?ref=main failed: HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
+  "phase": null,
   "phone_dir": "/home/ayoub/runphone_dir",
   "phone_host": "a84448598@10.123.51.179",
   "pid": 2391193,
-  "run_id": "cmd_20260616_162813_top4-measurements-ext-162759",
-  "state": "running",
-  "updated_utc": "2026-06-16 16:33:03 UTC"
+  "run_id": null,
+  "state": "error",
+  "updated_utc": "2026-06-16 16:33:37 UTC"
 }
